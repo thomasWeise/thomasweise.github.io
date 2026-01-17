@@ -16,11 +16,7 @@ author:
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "A researcher at Hefei University."
   location: "Hefei Anhui China"
-  email: "tweise@hfuu.edu.cn"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:tweise@hfuu.edu.cn"
+  email: "tweise@hfuu.edu.cn""
 
 # Site Footer
 footer:
