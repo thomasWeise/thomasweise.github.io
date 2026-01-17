@@ -1,5 +1,6 @@
 ---
 title: Contact
+permalink: /contact/
 ---
 
 # Address in English
