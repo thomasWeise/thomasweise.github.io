@@ -3,7 +3,7 @@ minimal_mistakes_skin: "default"
 
 # Site Settings
 locale: "en-US"
-title: "Thomas Weise"
+title: "Academic Website of Thomas Weise (汤卫思)"
 title_separator: "-"
 name: "Thomas Weise"
 description: "The website of Thomas Weise."
@@ -14,8 +14,8 @@ baseurl: ""
 author:
   name: "Thomas Weise (汤卫思)"
   avatar: /assets/images/avatar.png
-  bio: "A professor at Hefei University (合肥大学)."
-  location: "Hefei, Anhui, China (合肥市安徽省中国)"
+  bio: "A professor at Hefei University."
+  location: "Hefei, Anhui, China"
   email: "tweise@hfuu.edu.cn"
 
 # Site Footer
