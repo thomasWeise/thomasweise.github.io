@@ -1,12 +1,24 @@
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+# Site Settings
+locale: "en-US"
 title: Thomas Weise
-
-author:
-  name: Thomas Weise
-  email: tweise@hfuu.edu.cn
-
+name: Thomas Weise
 description: "The personal homepage of Prof. Dr. Thomas Weise."
+url: https://thomasweise.github.io
 
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: contrast
+# Site Author
+author:
+  name: "Thomas Weise"
+  location: "Hefei, Anhui, China"
+  email: tweise@hfuu.edu.cn
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tweise@hfuu.edu.cn"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tweise@ustc.edu.cn"
 
-date_format: "%Y-%m-%d"
+timezone: CST
