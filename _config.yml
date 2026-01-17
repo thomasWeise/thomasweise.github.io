@@ -7,6 +7,7 @@ title: Thomas Weise
 name: Thomas Weise
 description: "The personal homepage of Prof. Dr. Thomas Weise."
 url: https://thomasweise.github.io
+baseurl: ""
 
 # Site Author
 author:
