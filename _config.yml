@@ -209,5 +209,3 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-    order:
-      - python

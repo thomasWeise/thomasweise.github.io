@@ -1,6 +1,6 @@
 ---
-title: Programming with Python
-permalink: /contact/
+title: "Programming with Python"
+permalink: /teaching/python
 read_time: false
 ---
 
