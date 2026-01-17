@@ -1,8 +1,12 @@
-title: Thomas Weise (汤卫思) | Academic Homepage
-author: Thomas Weise (汤卫思)
-description: "The personal homepage of Prof. Dr. Thomas Weise (汤卫思)."
+title: Thomas Weise
 
-theme: minima
+author:
+  name: Thomas Weise
+  email: tweise@hfuu.edu.cn
 
-permalink: pretty
-show_downloads: false
+description: "The personal homepage of Prof. Dr. Thomas Weise."
+
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: contrast
+
+date_format: "%Y-%m-%d"
