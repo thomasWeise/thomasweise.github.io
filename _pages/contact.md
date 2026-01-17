@@ -1,5 +1,6 @@
 ---
 title: Contact
+layout: single
 permalink: /contact/
 author_profile: true
 read_time: false
