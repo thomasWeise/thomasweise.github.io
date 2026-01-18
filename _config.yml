@@ -91,7 +91,9 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 timezone: CST
+date_format: "%Y-%m-%d"
 
+enable_copy_code_button: true
 
 # Pagination with jekyll-paginate
 paginate: 5 # amount of posts to show
