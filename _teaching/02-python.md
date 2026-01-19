@@ -2,6 +2,7 @@
 title: "Course: Programming with Python"
 permalink: /teaching/python
 read_time: false
+author_profile: true
 ---
 
 [Programming with Python](/programmingWithPython) (Python程序设计) is a course on Python programming.

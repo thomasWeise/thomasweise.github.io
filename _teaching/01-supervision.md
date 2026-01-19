@@ -3,6 +3,7 @@ title: "Supervised Students"
 permalink: /teaching/supervision
 read_time: false
 toc: true
+author_profile: true
 ---
 
 Here you can find a list of the students that I have supervised or co-supervised.
@@ -11,7 +12,7 @@ Here you can find a list of the students that I have supervised or co-supervised
 ### Master's Students at Hefei University
 - Ms. Yunfei DING (丁芸菲)
     + Topic: Material Flow Control
-    + Supervisor: Thomas Weise 
+    + Supervisor: {{site.data.people.self}}
     + Duration: 2025-2028
 - Mr. Jiazheng ZENG (曾嘉政)
     + Topic: Frequency Fitness Assignment, Discrete Problem Domains, Low-Autocorrelation Binary Sequences
