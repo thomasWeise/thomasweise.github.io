@@ -1,9 +1,7 @@
 ---
 title: "Supervised Students"
 permalink: /teaching/supervision
-read_time: false
 toc: true
-author_profile: true
 ---
 
 Here you can find a list of the students that I have supervised or co-supervised.
