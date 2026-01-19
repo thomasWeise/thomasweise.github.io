@@ -31,7 +31,7 @@ Here you can find a list of the students that I have supervised or co-supervised
 ## Alumni
 ### At Hefei University
 #### Master's Students at Hefei University
-- Mr. {{site.data.people.zhao_rui}
+- Mr. {{site.data.people.zhao_rui}}
     + Type: Master's Student
     + Topic: Two-Dimensional Bin Packing Problem
     + Supervisors: {{site.data.people.tan_ming}}, {{site.data.people.self}}
