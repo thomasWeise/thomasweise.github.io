@@ -8,6 +8,9 @@ author_profile: true
 
 <ol>
 {% for paper in site.data.publications %}
-  <li>{{ paper.authors | join: ", " }}. {{paper.citation}}. {{paper.links}}.</li>
+  <li>
+  {% for author in paper.authors %}{{site.data.people[author] | markdownify}}{% unless forloop.last %}, {% endunless %}{% endfor %}.
+  {{paper.citation | markdownify}}.
+  {{paper.links | markdownify}}.</li>
 {% endfor %}
 </ol>
