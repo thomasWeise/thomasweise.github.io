@@ -102,7 +102,7 @@ Here you can find a list of the students that I have supervised or co-supervised
     + Topic: Extremal-Dynamics based Local Search Algorithms for the Traveling Salesperson Problem
     + Duration: 2015
     + Supervisor: {{site.data.people.weise_thomas}}
-- Ms. {{site.data.people.shan_lin}}
+- Ms. {{site.data.people.lin_shan}}
     + Topic: Crossover for the Traveling Salesperson Problem
     + Duration: 2014
     + Supervisor: {{site.data.people.weise_thomas}}
