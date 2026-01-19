@@ -12,7 +12,7 @@ baseurl: ""
 
 liquid:
   error_mode: strict
-  strict_variables: true
+#  strict_variables: true
   strict_filters: true
 
 # Site Author
