@@ -1,6 +1,5 @@
 {%- capture pubtext -%}
-{%- for author in include.paper.authors -%}{%- assign person=site.data.people[author] -%}{%- include person.liquid person=person -%}{%- unless forloop.last -%}, {% endunless -%}{% endfor -%}.
-{{ include.paper.title -}}.
+{%- for author in include.paper.authors -%}{%- assign person=site.data.people[author] -%}{%- include person.liquid person=person -%}{%- unless forloop.last -%}, {% endunless -%}{% endfor -%}:&nbsp;{{- include.paper.title -}}.
 {{ include.paper.citation -}}.
 {%- if include.paper.isbn %} ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/{{- include.paper.isbn -}}">{{- include.paper.isbn -}}</a>.{%- endif -%}
 {%- if include.paper.issn %} ISSN:&nbsp;<a href="https://portal.issn.org/api/search?search[]=MUST=allissnbis={- include.paper.issn -}}">{{- include.paper.issn -}}</a>.{%- endif -%}
@@ -8,4 +7,4 @@
 {%- if include.paper.rg %} [<a href="https://www.researchgate.net/publication/{{- include.paper.rg -}}">RG</a>]{%- endif -%}
 {%- if include.paper.arxiv %} [<a href="https://arxiv.org/abs/{{- include.paper.arxiv -}}">arXiv</a>]{%- endif -%}
 {%- endcapture -%}
-{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," | replace: " .", "." | replace: "..", "." | replace: "?.", "?" | replace: "!.", "!" | append: "öäü@" | remove: ".öäü@" | remove: "öäü@" | strip | append: "." -}}
+{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," | replace: " .", "." | replace: "..", "." | replace: "?.", "?" | replace: "!.", "!" | append: "öäü@" | remove: ".öäü@" | remove: "öäü@" | strip | append: "." | replace: "?.", "?" | replace: "!.", "!" -}}
