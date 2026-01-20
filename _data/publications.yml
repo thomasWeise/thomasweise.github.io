@@ -90,7 +90,7 @@
   year: 2024
   month: 4
 - key: "WWLCL2023FFAOWBFGSCBE"
-  author: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan", "lassig_jorg"]
+  authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan", "lassig_jorg"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization without Bias for Good Solutions can be Efficient"
   citation: "<em>IEEE Transactions on Evolutionary Computation&nbsp;(TEVC)</em>. 27(4):980-992. August 2023"
   doi: "10.1109/TEVC.2022.3191698"
