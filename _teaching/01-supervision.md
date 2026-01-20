@@ -40,6 +40,7 @@ Here you can find a list of the students that I have supervised or co-supervised
     + Topic: Traveling Salesperson Problem, Frequency Fitness Assignment
     + Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2021-2024
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'liang_tianyu'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.sun_pengpeng %}
     + Type: Master's Student
     + Topic: Deep Learning
