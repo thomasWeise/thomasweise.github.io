@@ -15,6 +15,8 @@ ding_yunfei:
 doerr_carola:
   name: "Carola Doerr"
   url: "https://doerr.perso.lip6.fr"
+elias_jocelyne:
+  name: "Jocelyne Elias"
 jiang_yan:
   name: "Yan JIANG"
   name_cn: "江炎"
@@ -34,12 +36,17 @@ liu_zhiyang:
 ma_lu:
   name: "Lu MA"
   name_cn: "马璐"
+martignon_fabio:
+  name: "Fabio Martignon"
+  url: "https://cs.unibg.it/martignon"
 niemczyk_stefan:
   name: "Stefan Niemczyk"
   url: "https://www.linkedin.cn/incareer/in/dr-stefan-niemczyk-135527248"
 ouyang_jin:
   name: "Jin OUYANG"
   name_cn: "欧阳晋"
+pimpinella_andrea:
+  name: "Andrea Pimpinella"
 podlich_alexander:
   name: "Alexander Podlich"
   url: "https://de.linkedin.com/in/alexander-podlich"
@@ -47,6 +54,10 @@ qi_qi:
   name: "Qi QI"
   url: "https://qiqi-helloworld.github.io"
   name_cn: "齐琪"
+raayatpanah_mohammad_ali:
+  name: "Mohammad Ali Raayatpanah"
+  name_cn: "محمدعلی رعایت پناه"
+  url: "https://gs.khu.ac.ir/cv/220/english"
 ran_shuoyi:
   name: "Shuoyi RAN"
   name_cn: "冉烁依"
@@ -96,3 +107,23 @@ zeng_jiazheng:
 zhao_rui:
   name: "Rui ZHAO"
   name_cn: "赵睿"
+
+du_changjiang:
+  name: "Chang-Jiang DU"
+  name_cn: "杜长江"
+wang_xinqi:
+  name: "Xin-Qi WANG"
+  name_cn: "汪新琪"
+zou_le:
+  name: "Le ZOU"
+  name_cn: 邹乐
+cheng_fan:
+  name: "Fan CHENG"
+li_teng:
+  name: "Teng LI"
+nian_fudong:
+  name: "Fudong NIAN"
+wang_xiaofeng:
+  name: "Xiao-Feng WANG"
+  name_cn: "王晓峰"
+  url: "https://baike.baidu.com/item/%E7%8E%8B%E6%99%93%E5%B3%B0/116547"
