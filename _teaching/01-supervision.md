@@ -32,29 +32,24 @@ Here you can find a list of the students that I have supervised or co-supervised
 ### At Hefei University
 #### Master's Students at Hefei University
 - Mr. {% include person.liquid person=site.data.people.zhao_rui %}
-    + Type: Master's Student
     + Topic: Two-Dimensional Bin Packing Problem
     + Supervisors: {% include person.liquid person=site.data.people.tan_ming %}, {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2022-2025
     + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'zhao_rui'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.liang_tianyu %}
-    + Type: Master's Student
     + Topic: Traveling Salesperson Problem, Frequency Fitness Assignment
     + Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2021-2024
     + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'liang_tianyu'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.sun_pengpeng %}
-    + Type: Master's Student
     + Topic: Deep Learning
     + Supervisors: {% include person.liquid person=site.data.people.wu_zhize %}, {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2021-2024
 - Mr. {% include person.liquid person=site.data.people.liu_zhiyang %}
-    + Type: Master's Student
     + Topic: Deep Learning, Detection of Personal Protective Equipment
     + Supervisors: {% include person.liquid person=site.data.people.wu_zhize %}, {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2020-2023
 - Ms. {% include person.liquid person=site.data.people.ran_shuoyi %}
-    + Type: Master's Student
     + Topic: Deep Learning, Detection of Chemical Safety Signs
     + Supervisors: {% include person.liquid person=site.data.people.wu_zhize %}, {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2020-2023

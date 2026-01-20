@@ -33,9 +33,13 @@ horn_ruben:
 jansen_reitze:
   name: "Reitze Jansen"
   url: "https://github.com/rlhjansen"
+jiang_wenxiang:
+  name: "Wenxiang JIANG"
 jiang_yan:
   name: "Yan JIANG"
   name_cn: "江炎"
+kang_menglei:
+  name: "Menglei KANG"
 lassig_jorg:
   name: "Jörg Lässig"
   url: "https://www.enterprise-application-development.org/group/core-team/joerg-laessig"
@@ -129,6 +133,8 @@ voigtmann_christian:
 wagner_markus:
   name: "Markus Wagner"
   url: "https://research.monash.edu/en/persons/markus-wagner"
+wang_mengyuan:
+  name: "Mengyuan WANG"
 wan_mingxu:
   name: "Mingxu WAN"
   name_cn: "万明绪"
@@ -158,11 +164,15 @@ wu_zhize:
 xu_dan:
   name: "Dan XU"
   name_cn: "许丹"
+xu_lixiang:
+  name: "Lixiang XU"
 xu_tong:
   name: "Tong XU"
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"
+zhang_chen:
+  name: "Chen ZHANG"
 zhao_rui:
   name: "Rui ZHAO"
   name_cn: "赵睿"

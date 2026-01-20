@@ -103,3 +103,21 @@
   doi: "10.1007/s10878-023-01065-y"
   year: 2023
   month: 8
+- key: "WW2023RSDEWASSAA"
+  authors: ["weise_thomas", "wu_zhize"]
+  title: "Replicable Self-Documenting Experiments with Arbitrary Search Spaces and Algorithms"
+  citation: "<em>Genetic and Evolutionary Computation Conference Companion&nbsp;(GECCO'2023) Companion,</em> July 15–19, 2023, Lisbon, Portugal, pages 1891-1899. New York, NY, USA: ACM"
+  doi: "10.1145/3583133.3596306"
+  year: 2023
+  month: 7
+- key: "WKCJWWTXLZZ2023ALCCVPAMFSSORSI"
+  authors: ["wang_xiaofeng", "kang_menglei", "chen_yan", "jiang_wenxiang", "wang_mengyuan", "weise_thomas", "tan_ming", "xu_lixiang", "li_xinlu", "zou_le", "zhang_chen"]
+  title: "Adaptive Local Cross-Channel Vector Pooling Attention Module for Semantic Segmentation of Remote Sensing Imagery"
+  citation: "<em>Remote Sensing</em>&nbsp;15(8):1980. April 2023"
+  doi: "10.3390/rs15081980"
+- key: "VWvdB2023WITTTONSWGA"
+  authors: ["verduin_kristian", "weise_thomas", "van_den_berg_daan"]
+  title: "Why is the Traveling Tournament Problem not Solved with Genetic Algorithms?"
+  citation: "Antonio M. Mora and Anna Isabel Esparcia-Alcázar, editors, <em>Late-Breaking Abstracts of EvoStar'2023,</em> April 12-14, 2023, Brno, Czech Republic"
+  rg: "370060659"
+  arxiv: "2403.13950"
