@@ -1,6 +1,6 @@
 - key: "ZWvdBTLTW2024RLSFTDBPAANRFFA"
   authors: ["zhao_rui", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "liang_tianyu", "tan_ming", "weise_thomas"]
   citation: "Randomized Local Search for Two-Dimensional Bin Packing and a Negative Result for Frequency Fitness Assignment. In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>Proceedings of the International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>Proceedings of the 16th International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;15-26. ISBN:&nbsp;978-989-758-721-4. ISSN:&nbsp;2184-3236. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
-  links: "doi:[10.5220/0012888500003837](https://doi.org/10.5220/0012888500003837)"
+  doi: "10.5220/0012888500003837"
   year: 2024
   month: 11

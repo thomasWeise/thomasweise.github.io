@@ -1,1 +1,4 @@
+{%- if include.person.url -%}<a href="{{- include.person.url -}}">{%- endif -%}
 {{- include.person.name -}}
+{%- if include.person.url -%}</a>{%- endif -%}
+{%- if include.person.name_cn -%}&nbsp;({%- if include.person.url_cn -%}<a href="{{- include.person.url_cn -}}">{%- endif -%}{{- include.person.name_cn -}}{%- if include.person.url_cn -%}</a>{%- endif -%}){%- endif -%}
