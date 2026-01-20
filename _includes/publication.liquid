@@ -1,6 +1,6 @@
 {%- capture pubtext -%}
-{%- for author in include.paper.authors -%}{%- assign person=site.data.people[author] -%}{%- include person.liquid person=person -%}{%- unless forloop.last -%}, {%- endunless -%}{%- endfor -%}.
-{{- include.paper.citation -}}.
-{{- include.paper.links -}}
+{%- for author in include.paper.authors -%}{%- assign person=site.data.people[author] -%}{%- include person.liquid person=person -%}{%- unless forloop.last -%}, {% endunless -%}{% endfor -%}.
+{{ include.paper.citation -}}.
+{{ include.paper.links -}}.
 {%- endcapture -%}
-{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: ',', ', ' | replace: ' ,', ',' | replace: ' .', '.' | normalize_whitespace -}}
+{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -}}
