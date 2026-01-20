@@ -19,9 +19,11 @@ jobs:
       - name: Installing minifier
         run: sudo apt-get install minify
       - name: Minifying files
-        run: minify --recursive --all --html-keep-document-tags ./_site/ -o ./_site/
+        run: minify --recursive --all --html-keep-document-tags ./_site/ -o ./_site_mini/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site_mini/
   deploy:
     runs-on: ubuntu-latest
     needs: build
