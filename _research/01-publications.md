@@ -6,4 +6,4 @@ toc: false
 author_profile: true
 ---
 
-{%- include publications.liquid paper=site.data.publications -%}
+{%- include publications.liquid papers=site.data.publications -%}
