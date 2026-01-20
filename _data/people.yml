@@ -84,6 +84,9 @@ tang_ke:
   name: "Ke TANG"
   url: "https://faculty.sustech.edu.cn/?cat=3&tagid=tangk3"
   name_cn: "唐珂"
+thomson_sarah_louise:
+  name: "Sarah Louise Thomson"
+  url: "https://napier-repository.worktribe.com/person/3168833"
 thurer_matthias:
   name: "Matthias Thürer"
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
@@ -92,6 +95,9 @@ van_den_berg_daan:
   url: "https://research.vu.nl/en/persons/daan-van-den-berg"
 voigtmann_christian:
   name: "Christian Voigtmann"
+wagner_markus:
+  name: "Markus Wagner"
+  url: "https://research.monash.edu/en/persons/markus-wagner"
 wan_mingxu:
   name: "Mingxu WAN"
   name_cn: "万明绪"

@@ -20,3 +20,27 @@
   isbn: "978-989-758-721-4"
   year: 2024
   month: 11
+- key: "CWTW2024FFAOWBFGSORLSOTQAP"
+  authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
+  citation: "Frequency Fitness Assignment: Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem. In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;27-37. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
+  doi: "10.5220/0012888600003837"
+  issn: "2184-3236"
+  isbn: "978-989-758-721-4"
+  year: 2024
+  month: 11
+- key: "LWTWW2024GSIWIFFTTSP"
+  authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
+  citation: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem. In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;173-180. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
+  doi: "10.5220/0012888800003837"
+  issn: "2184-3236"
+  isbn: "978-989-758-721-4"
+  year: 2024
+  month: 11
+- key: "XWvdBW2024RLSVNVFFAOTTTP"
+  authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas"]
+  citation: "GRandomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem. In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;38-49. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
+  doi: "10.5220/0012891500003837"
+  issn: "2184-3236"
+  isbn: "978-989-758-721-4"
+  year: 2024
+  month: 11
