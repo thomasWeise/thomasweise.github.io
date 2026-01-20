@@ -3,4 +3,4 @@
 <li>{%- include publication.liquid paper=paper -%}</li>
 {%- endfor -%}
 {%- endcapture -%}
-<ol markdown="0">{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," -}}</ol>
+<ol>{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," -}}</ol>
