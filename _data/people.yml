@@ -7,6 +7,12 @@ chen_jiayang:
 chen_wenxiang:
   name: "Wenxiang CHEN"
   name_cn: "陈文祥"
+chen_yan:
+  name: "Yan CHEN"
+  name_cn: "陈岩"
+chen_xin:
+  name: "Xin CHEN"
+  name_cn: "陈鑫"
 cheng_fan:
   name: "Fan CHENG"
 cosson_raphael:
@@ -22,15 +28,26 @@ du_changjiang:
   name_cn: "杜长江"
 elias_jocelyne:
   name: "Jocelyne Elias"
+horn_ruben:
+  name: "Ruben Horn"
+jansen_reitze:
+  name: "Reitze Jansen"
+  url: "https://github.com/rlhjansen"
 jiang_yan:
   name: "Yan JIANG"
   name_cn: "江炎"
+lassig_jorg:
+  name: "Jörg Lässig"
+  url: "https://www.enterprise-application-development.org/group/core-team/joerg-laessig"
 liang_tianyu:
   name: "Tianyu LIANG"
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
   name_cn: "梁天宇"
 li_teng:
   name: "Teng LI"
+li_xinlu:
+  name: "Xinlu LI"
+  name_cn: "李新路"
 lin_shan:
   name: "Shan LIN"
   name_cn: "林杉"
@@ -51,9 +68,15 @@ nian_fudong:
 niemczyk_stefan:
   name: "Stefan Niemczyk"
   url: "https://www.linkedin.cn/incareer/in/dr-stefan-niemczyk-135527248"
+ochoa_gabriela:
+  name: "Gabriela Ochoa"
+  url: "https://www.stir.ac.uk/people/257336"
 ouyang_jin:
   name: "Jin OUYANG"
   name_cn: "欧阳晋"
+pardalos_panos_miltiades:
+  name: "Panos Miltiades Pardalos"
+  url: "https://iot.institute.ufl.edu/faculty/panos-m-pardalos"
 pimpinella_andrea:
   name: "Andrea Pimpinella"
 podlich_alexander:
@@ -84,6 +107,8 @@ tang_ke:
   name: "Ke TANG"
   url: "https://faculty.sustech.edu.cn/?cat=3&tagid=tangk3"
   name_cn: "唐珂"
+tang_keke:
+  name: "Keke TANG"
 thomson_sarah_louise:
   name: "Sarah Louise Thomson"
   url: "https://napier-repository.worktribe.com/person/3168833"
@@ -93,6 +118,12 @@ thurer_matthias:
 van_den_berg_daan:
   name: "Daan van den Berg"
   url: "https://research.vu.nl/en/persons/daan-van-den-berg"
+van_eck_okke:
+  name: "Okke van Eck"
+  url: "https://research.vu.nl/en/persons/okke-van-eck"
+verduin_kristian:
+  name: "Kristian Verduin"
+  url: "https://github.com/kristianverduin"
 voigtmann_christian:
   name: "Christian Voigtmann"
 wagner_markus:
@@ -112,6 +143,10 @@ weise_thomas:
   name: "Thomas Weise"
   url: "https://thomasweise.github.io"
   name_cn: "汤卫思"
+wu_jinsong:
+  name: "Jinsong WU"
+  name_cn: "吴劲松"
+  url: "https://www.guet.edu.cn/sai/2023/0310/c5238a64804/page.htm"
 wu_yuezhong:
   name: "Yuezhong WU"
   url: "https://yuezhongwu.github.io"
@@ -123,6 +158,8 @@ wu_zhize:
 xu_dan:
   name: "Dan XU"
   name_cn: "许丹"
+xu_tong:
+  name: "Tong XU"
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"

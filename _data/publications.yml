@@ -1,6 +1,7 @@
 - key: "RWEMP2025AMILPAFCAOND"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "elias_jocelyne", "martignon_fabio", "pimpinella_andrea"]
-  citation: "A Mixed-Integer Linear Programming Approach for Congestion-Aware Optimized NFV Deployment. <em>23rd&nbsp;International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks&nbsp;(WiOpt'2025),</em> May 26-29, 2025, Linköping, Sweden. IEEE"
+  title: "A Mixed-Integer Linear Programming Approach for Congestion-Aware Optimized NFV Deployment"
+  citation: "<em>23rd&nbsp;International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks&nbsp;(WiOpt'2025),</em> May 26-29, 2025, Linköping, Sweden. IEEE"
   issn: "2690-3342"
   isbn: "979-8-3315-9816-7"
   doi: "10.23919/WiOpt66569.2025.11123231"
@@ -8,13 +9,15 @@
   month: 5
 - key: "WDWZCLNWW2025DAVFDFCDIC"
   authors: ["wu_zhize", "du_changjiang", "wang_xinqi", "zou_le", "cheng_fan", "li_teng", "nian_fudong", "weise_thomas", "wang_xiaofeng"]
-  citation: "Domain Adaptation via Feature Disentanglement for Cross-Domain Image Classification. Applied Soft Computing Journal&nbsp;(ASOC). 172:112868. March 2025"
+  title: "Domain Adaptation via Feature Disentanglement for Cross-Domain Image Classification"
+  citation: "Applied Soft Computing Journal&nbsp;(ASOC). 172:112868. March 2025"
   doi: "10.1016/j.asoc.2025.112868"
   year: 2025
   month: 3
 - key: "ZWvdBTLTW2024RLSFTDBPAANRFFA"
   authors: ["zhao_rui", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "liang_tianyu", "tan_ming", "weise_thomas"]
-  citation: "Randomized Local Search for Two-Dimensional Bin Packing and a Negative Result for Frequency Fitness Assignment. In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;15-26. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
+  title: "Randomized Local Search for Two-Dimensional Bin Packing and a Negative Result for Frequency Fitness Assignment"
+  citation: "In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;15-26. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
   doi: "10.5220/0012888500003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -22,7 +25,8 @@
   month: 11
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
-  citation: "Frequency Fitness Assignment: Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem. In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;27-37. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
+  title: "Frequency Fitness Assignment: Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
+  citation: "In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;27-37. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
   doi: "10.5220/0012888600003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -30,7 +34,8 @@
   month: 11
 - key: "LWTWW2024GSIWIFFTTSP"
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
-  citation: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem. In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;173-180. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
+  title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
+  citation: "In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;173-180. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
   doi: "10.5220/0012888800003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -38,9 +43,63 @@
   month: 11
 - key: "XWvdBW2024RLSVNVFFAOTTTP"
   authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas"]
-  citation: "GRandomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem. In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;38-49. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
+  title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
+  citation: "In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;38-49. Setúbal, Portugal: SciTePress &ndash; Science and Technology Publications, Lda"
   doi: "10.5220/0012891500003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
   year: 2024
   month: 11
+- key: "TOvdBLW2024ESTAEFFFA"
+  authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
+  title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
+  citation: "In Michael Affenzeller, Stephan M. Winkler, Anna V. Kononova, Heike Trautmann, Tea Tušar, Penousal Machado, Thomas Bäck, editors, <em>18th&nbsp;International Conference on Parallel Problem Solving From Nature&nbsp;(PPSN&nbsp;XVIII),</em> September 14-18, 2024, Hagenberg, Austria, pages 377–392. Lecture Notes in Computer Science&nbsp;(LNCS), volume 15148"
+  doi: "10.1007/978-3-031-70055-2_23"
+  isbn: "978-3-031-70054-5"
+  year: 2024
+  month: 9
+- key: "LWLvdBTW2024ATTSPWFFAAHA"
+  authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
+  title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"
+  citation: "<em>Soft Computing</em> 28(17-18):9495-9508. September 2024"
+  doi: "10.1007/s00500-024-09718-8"
+  year: 2024
+  month: 9
+- key: "WSCTXZWTCW2024SGCNWSAFSBAR"
+  authors: "[wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
+  title: "SelfGCN:&nbsp;Graph Convolution Network With Self-Attention for Skeleton-Based Action Recognition"
+  citation: "<em>IEEE Transactions on Image Processing&nbsp;(TIP)</em> 33:4391-4403. July 2024"
+  doi: "10.1109/TIP.2024.3433581"
+  year: 2024
+  month: 7
+- key: "ZLWvdBTW2024RLSOT2RBPPWIR"
+  authors: ["zhao_rui", "liang_tianyu", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "weise_thomas"]
+  title: "Randomized Local Search on the 2D&nbsp;Rectangular Bin Packing Problem with Item Rotation"
+  citation: "In Xiaodong Li and Julia Handl, editors, <em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2024) Companion</em>, July 14–18, 2024, Melbourne, VIC, Australia, pages 235-238. New York, NY, USA: ACM"
+  doi: "10.1145/3638530.3654139"
+  isbn: "979-8-4007-0495-6"
+  year: 2024
+  month: 7
+- key: "VHvEJWvdB2024TTPRFVCF"
+  authors: ["verduin_kristian", "horn_ruben", "van_eck_okke", "jansen_reitze", "weise_thomas", "van_den_berg_daan"]
+  title: "The Traveling Tournament Problem: Rows-First versus Columns-First"
+  citation: "<em>26th&nbsp;International Conference on Enterprise Information Systems&nbsp;(ICEIS'2024),</em> April 28-30, 2024, Angers, France, pages 447-455. Setúbal, Portugal: Science and Technology Publications, Lda"
+  issn: "2184-4992"
+  isbn: "978-989-758-692-7"
+  doi: "10.5220/0012557700003690"
+  year: 2024
+  month: 4
+- key: "WWLCL2023FFAOWBFGSCBE"
+  author: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan", "lassig_jorg"]
+  title: "Frequency Fitness Assignment:&nbsp;Optimization without Bias for Good Solutions can be Efficient"
+  citation: "<em>IEEE Transactions on Evolutionary Computation&nbsp;(TEVC)</em>. 27(4):980-992. August 2023"
+  doi: "10.1109/TEVC.2022.3191698"
+  year: 2023
+  month: 8
+- key: "RWWTP2023ROFMECOMTICWPNUDU"
+  authors: ["raayatpanah_mohammad_ali", "weise_thomas", "wu_jinsong", "tan_ming", "pardalos_panos_miltiades"]
+  title: "Robust Optimization for Minimizing Energy Consumption of Multicast Transmissions in Coded Wireless Packet Networks under Distance Uncertainty"
+  citation: "<em>Journal of Combinatorial Optimization</em> 46(1):4. August 2023"
+  doi: "10.1007/s10878-023-01065-y"
+  year: 2023
+  month: 8
