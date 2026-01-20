@@ -66,7 +66,7 @@
   year: 2024
   month: 9
 - key: "WSCTXZWTCW2024SGCNWSAFSBAR"
-  authors: "[wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
+  authors: ["wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
   title: "SelfGCN:&nbsp;Graph Convolution Network With Self-Attention for Skeleton-Based Action Recognition"
   citation: "<em>IEEE Transactions on Image Processing&nbsp;(TIP)</em> 33:4391-4403. July 2024"
   doi: "10.1109/TIP.2024.3433581"

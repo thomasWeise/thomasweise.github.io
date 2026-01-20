@@ -20,13 +20,11 @@ Here you can find a list of the students that I have supervised or co-supervised
     + Topic: Traveling Tournament Problem
     + Supervisor: {% include person.liquid person=site.data.people.weise_thomas %} 
     + Duration: 2023-2026
-    + Duration: 2021-2024
     + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'cao_xiang'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.chen_jiayang %}
     + Topic: Quadratic Assignment Problem
     + Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2023–2026
-    + Duration: 2021-2024
     + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'chen_jiayang'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 
