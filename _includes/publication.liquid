@@ -3,4 +3,4 @@
 {{- include.paper.citation -}}.
 {{- include.paper.links -}}
 {%- endcapture -%}
-{{- pubtext | remove: '<p>' | remove: '</p>' | strip | replace: '  ', ' ' | replace: ' ,', ',' | replace: ' .', '.' -}}
+{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: ',', ', ' | replace: ' ,', ',' | replace: ' .', '.' | normalize_whitespace -}}
