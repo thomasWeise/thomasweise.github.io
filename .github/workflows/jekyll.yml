@@ -21,7 +21,7 @@ jobs:
       - name: Minifying files
         run: minify --recursive --all --html-keep-document-tags ./_site/ -o ./_site_mini/
       - name: Including Non-Minified Files
-        run: cp --recursive --update=none --verbose ./_site/ ./_site_mini/
+        run: cp --recursive --update=none --verbose ./_site/* ./_site_mini/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
