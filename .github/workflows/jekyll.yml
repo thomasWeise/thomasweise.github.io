@@ -16,8 +16,10 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build
         uses: actions/jekyll-build-pages@v1
-      - name: Minify
-        uses: Massi-X/minify-gh-pages-action@v2
+      - name: Installing minifier
+        run: apk add minify
+      - name: Minifying files
+        run: minify --recursive --all --inplace --html-keep-document-tags ./_site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
   deploy:
