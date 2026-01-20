@@ -166,8 +166,12 @@ xu_dan:
   name_cn: "许丹"
 xu_lixiang:
   name: "Lixiang XU"
+  name_cn: "徐立祥"
 xu_tong:
   name: "Tong XU"
+  url: "http://staff.ustc.edu.cn/~tongxu/index.html"
+  name_cn: "徐童"
+  url_cn: "http://staff.ustc.edu.cn/~tongxu/index_zh.html"
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"
