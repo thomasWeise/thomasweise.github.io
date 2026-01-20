@@ -9,8 +9,8 @@ author_profile: true
 <ol>
 {% for paper in site.data.publications %}
   <li>
-  {% for author in paper.authors %}{{site.data.people[author] | markdownify}}{% unless forloop.last %}, {% endunless %}{% endfor %}.
-  {{paper.citation | markdownify}}.
-  {{paper.links | markdownify}}.</li>
+  {% for author in paper.authors %}{{site.data.people[author]}}{% unless forloop.last %},{% endunless %}{% endfor %}.
+  {{paper.citation}}.
+  {{paper.links}}.</li>
 {% endfor %}
 </ol>
