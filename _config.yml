@@ -133,6 +133,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-minifier
 
 # mimic GitHub Pages with --safe
 whitelist:
