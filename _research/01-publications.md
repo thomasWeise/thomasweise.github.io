@@ -8,6 +8,6 @@ author_profile: true
 
 <ol>
 {% for paper in site.data.publications %}
-  <li>{% include "publication.liquid" paper=paper %}</li>
+  <li>{% include publication.liquid paper=paper %}</li>
 {% endfor %}
 </ol>
