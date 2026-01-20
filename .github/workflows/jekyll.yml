@@ -17,7 +17,7 @@ jobs:
       - name: Build
         uses: actions/jekyll-build-pages@v1
       - name: Installing minifier
-        run: apk add minify
+        run: sudo apt-get install minify
       - name: Minifying files
         run: minify --recursive --all --inplace --html-keep-document-tags ./_site/
       - name: Upload artifact
