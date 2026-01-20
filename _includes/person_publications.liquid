@@ -1,9 +1,0 @@
-{%- assign selection=1 | sort -%}
-{%- for paper in site.data.publications -%}
-  {%- if paper.authors contains include.author -%}
-    {%- assign self_paper = paper | sort -%}
-    {%- assign selection = selection | concat: self_paper -%}
-  {%- endif -%}
-{%- endfor -%}
-{%- assign selection=selection | slice: 1 -%}
-{%- include publications.liquid papers=selection -%}

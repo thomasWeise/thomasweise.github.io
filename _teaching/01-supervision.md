@@ -34,7 +34,7 @@ Here you can find a list of the students that I have supervised or co-supervised
     + Topic: Two-Dimensional Bin Packing Problem
     + Supervisors: {% include person.liquid person=site.data.people.tan_ming %}, {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2022-2025
-    + Joint Publications:{%- include person_publications.liquid author='zhao_rui' -%}
+    + Joint Publications: {%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'zhao_rui'" -%}{%- include publications.liquid papers=papers %}
 - Mr. {% include person.liquid person=site.data.people.liang_tianyu %}
     + Type: Master's Student
     + Topic: Traveling Salesperson Problem, Frequency Fitness Assignment
