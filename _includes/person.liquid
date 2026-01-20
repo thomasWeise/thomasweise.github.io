@@ -1,1 +1,1 @@
-{{include.person.name}}
+{{include.person.name | remove: '<p>' | remove: '</p>' | strip}}
