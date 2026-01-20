@@ -1,31 +1,98 @@
-cao_xiang: "Xiang CAO&nbsp;(曹翔)"
-chen_jiayang: "Jiayang CHEN&nbsp;(陈嘉阳)"
-chen_wenxiang: "Wenxiang CHEN&nbsp;(陈文祥)"
-cosson_raphael: "Raphaël Cosson"
-ding_yunfei: "Yunfei DING&nbsp;(丁芸菲)"
-doerr_carola: "[Carola Doerr](https://doerr.perso.lip6.fr/)"
-jiang_yan: "Yan JIANG&nbsp;(江炎)"
-liang_tianyu: "[Tianyu LIANG](https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en)&nbsp;(梁天宇)"
-lin_shan: "Shan LIN&nbsp;(林杉)"
-liu_weichen: "Weichen LIU&nbsp;(刘伟臣)"
-liu_zhiyang: "Zhiyang LIU&nbsp;(刘志洋)"
-ma_lu: "Lu MA&nbsp;(马璐)"
-niemczyk_stefan: "[Stefan Niemczyk](https://www.linkedin.cn/incareer/in/dr-stefan-niemczyk-135527248)"
-ouyang_jin: "Jin OUYANG&nbsp;(欧阳晋)"
-podlich_alexander: "[Alexander Podlich](https://de.linkedin.com/in/alexander-podlich)"
-qi_qi: "[Qi QI](https://qiqi-helloworld.github.io)&nbsp;(齐琪)"
-ran_shuoyi: "Shuoyi RAN&nbsp;(冉烁依)"
-shi_wei: "Wei SHI&nbsp;(施玮)"
-sun_pengpeng: "Pengpeng SUN&nbsp;(孙鹏彭)"
-tan_ming: "Tan MING&nbsp;([檀明](https://baike.baidu.com/item/%E6%AA%80%E6%98%8E/5499577))"
-tang_ke: "[Ke TANG](https://faculty.sustech.edu.cn/?cat=3&tagid=tangk3)&nbsp;(唐珂)"
-thurer_matthias: "[Matthias Thürer](https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en)"
-van_den_berg_daan: "[Daan van den Berg](https://research.vu.nl/en/persons/daan-van-den-berg)"
-voigtmann_christian: "Christian Voigtmann"
-wan_mingxu: "Mingxu WAN&nbsp;(万明绪)"
-weise_thomas: "[Thomas Weise](https://thomasweise.github.io)&nbsp;(汤卫思)"
-wu_yuezhong: "[Yuezhong WU](https://yuezhongwu.github.io)&nbsp;(吴越钟)"
-wu_zhize: "[Zhize WU](https://deep-wu.github.io/)&nbsp;(吴志泽)"
-xu_dan: "Dan XU&nbsp;(许丹)"
-zeng_jiazheng: "Jiazheng ZENG&nbsp;(曾嘉政)"
-zhao_rui: "Rui ZHAO&nbsp;(赵睿)"
+cao_xiang:
+  name: "Xiang CAO"
+  name_cn: "曹翔"
+chen_jiayang:
+  name: "Jiayang CHEN"
+  name_cn: "陈嘉阳"
+chen_wenxiang:
+  name: "Wenxiang CHEN"
+  name_cn: "陈文祥"
+cosson_raphael:
+  name: "Raphaël Cosson"
+ding_yunfei:
+  name: "Yunfei DING"
+  name_cn: "丁芸菲"
+doerr_carola:
+  name: "Carola Doerr"
+  url: "https://doerr.perso.lip6.fr"
+jiang_yan:
+  name: "Yan JIANG"
+  name_cn: "江炎"
+liang_tianyu:
+  name: "Tianyu LIANG"
+  url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
+  name_cn: "梁天宇"
+lin_shan:
+  name: "Shan LIN"
+  name_cn: "林杉"
+liu_weichen:
+  name: "Weichen LIU"
+  name_cn: "刘伟臣"
+liu_zhiyang:
+  name: "Zhiyang LIU"
+  name_cn: "刘志洋"
+ma_lu:
+  name: "Lu MA"
+  name_cn: "马璐"
+niemczyk_stefan:
+  name: "Stefan Niemczyk"
+  url: "https://www.linkedin.cn/incareer/in/dr-stefan-niemczyk-135527248"
+ouyang_jin:
+  name: "Jin OUYANG"
+  name_cn: "欧阳晋"
+podlich_alexander:
+  name: "Alexander Podlich"
+  url: "https://de.linkedin.com/in/alexander-podlich"
+qi_qi:
+  name: "Qi QI"
+  url: "https://qiqi-helloworld.github.io"
+  name_cn: "齐琪"
+ran_shuoyi:
+  name: "Shuoyi RAN"
+  name_cn: "冉烁依"
+shi_wei:
+  name: "Wei SHI"
+  name_cn: "施玮"
+sun_pengpeng:
+  name: "Pengpeng SUN"
+  name_cn: "孙鹏彭"
+tan_ming:
+  name: "Tan MING"
+  name_cn: "檀明"
+  url_cn: "https://baike.baidu.com/item/%E6%AA%80%E6%98%8E/5499577"
+tang_ke:
+  name: "Ke TANG"
+  url: "https://faculty.sustech.edu.cn/?cat=3&tagid=tangk3"
+  name_cn: "唐珂"
+thurer_matthias:
+  name: "Matthias Thürer"
+  url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
+van_den_berg_daan:
+  name: "Daan van den Berg"
+  url: "https://research.vu.nl/en/persons/daan-van-den-berg"
+voigtmann_christian:
+  name: "Christian Voigtmann"
+wan_mingxu:
+  name: "Mingxu WAN"
+  name_cn: "万明绪"
+weise_thomas:
+  name: "Thomas Weise"
+  url: "https://thomasweise.github.io"
+  name_cn: "汤卫思"
+wu_yuezhong:
+  name: "Yuezhong WU"
+  url: "https://yuezhongwu.github.io"
+  name_cn: "吴越钟"
+wu_zhize:
+  name: "Zhize WU"
+  url: "https://deep-wu.github.io"
+  name_cn: "吴志泽"
+xu_dan:
+  name: "Dan XU"
+  name_cn: "许丹"
+zeng_jiazheng:
+  name: "Jiazheng ZENG"
+  name_cn: "曾嘉政"
+zhao_rui:
+  name: "Rui ZHAO"
+  name_cn: "赵睿"
