@@ -45,14 +45,17 @@ Here you can find a list of the students that I have supervised or co-supervised
     + Topic: Deep Learning
     + Supervisors: {% include person.liquid person=site.data.people.wu_zhize %}, {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2021-2024
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'sun_pengpeng'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.liu_zhiyang %}
     + Topic: Deep Learning, Detection of Personal Protective Equipment
     + Supervisors: {% include person.liquid person=site.data.people.wu_zhize %}, {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2020-2023
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'liu_zhiyang'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Ms. {% include person.liquid person=site.data.people.ran_shuoyi %}
     + Topic: Deep Learning, Detection of Chemical Safety Signs
     + Supervisors: {% include person.liquid person=site.data.people.wu_zhize %}, {% include person.liquid person=site.data.people.weise_thomas %}
     + Duration: 2020-2023
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'ran_shuoyi'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 
 ### External Students

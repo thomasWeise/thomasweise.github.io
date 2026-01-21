@@ -17,6 +17,8 @@ cheng_fan:
   name: "Fan CHENG"
 cosson_raphael:
   name: "Raphaël Cosson"
+ding_jianwen:
+  name: "Jianwen DING"
 ding_yunfei:
   name: "Yunfei DING"
   name_cn: "丁芸菲"
@@ -30,6 +32,8 @@ elias_jocelyne:
   name: "Jocelyne Elias"
 horn_ruben:
   name: "Ruben Horn"
+huang_qianjing:
+  name: "Qian-Jing HUANG"
 jansen_reitze:
   name: "Reitze Jansen"
   url: "https://github.com/rlhjansen"
@@ -40,6 +44,8 @@ jiang_yan:
   name_cn: "江炎"
 kang_menglei:
   name: "Menglei KANG"
+khodayifar_salman:
+  name: "Salman Khodayifar"
 lassig_jorg:
   name: "Jörg Lässig"
   url: "https://www.enterprise-application-development.org/group/core-team/joerg-laessig"
@@ -100,6 +106,11 @@ ran_shuoyi:
 shi_wei:
   name: "Wei SHI"
   name_cn: "施玮"
+song_liangtu:
+  name: "Liang-Tu SONG"
+sun_fei:
+  name: "Fei SUN"
+  name_cn: "孙斐"
 sun_pengpeng:
   name: "Pengpeng SUN"
   name_cn: "孙鹏彭"
@@ -133,6 +144,9 @@ voigtmann_christian:
 wagner_markus:
   name: "Markus Wagner"
   url: "https://research.monash.edu/en/persons/markus-wagner"
+wang_huan:
+  name: "Huan WANG"
+  name_cn: "王欢"
 wang_mengyuan:
   name: "Mengyuan WANG"
 wan_mingxu:
@@ -145,6 +159,8 @@ wang_xiaofeng:
   name: "Xiao-Feng WANG"
   name_cn: "王晓峰"
   url_cn: "https://baike.baidu.com/item/%E7%8E%8B%E6%99%93%E5%B3%B0/116547"
+wang_yan:
+  name: "Yan WANG"
 weise_thomas:
   name: "Thomas Weise"
   url: "https://thomasweise.github.io"
@@ -164,6 +180,11 @@ wu_zhize:
 xu_dan:
   name: "Dan XU"
   name_cn: "许丹"
+xu_jia:
+  name: "Jia XU"
+  name_cn: "徐佳"
+xu_jian:
+  name: "Jian XU"
 xu_lixiang:
   name: "Lixiang XU"
   name_cn: "徐立祥"

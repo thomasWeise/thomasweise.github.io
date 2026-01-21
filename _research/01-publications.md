@@ -2,8 +2,17 @@
 title: "Publications"
 permalink: /research/publications
 read_time: false
-toc: false
+toc: true
 author_profile: true
 ---
 
-{%- include publications.liquid papers=site.data.publications -%}
+## 2025
+{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2025" -%}{%- include publications.liquid papers=papers -%}{:/}
+## 2024
+{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2024" -%}{%- include publications.liquid papers=papers -%}{:/}
+## 2023
+{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2023" -%}{%- include publications.liquid papers=papers -%}{:/}
+## 2022
+{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2022" -%}{%- include publications.liquid papers=papers -%}{:/}
+## 2021
+{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2021" -%}{%- include publications.liquid papers=papers -%}{:/}
