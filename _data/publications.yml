@@ -346,7 +346,7 @@
 - key: "W2017FSDFTSTFOAB"
   authors: ["weise_thomas"]
   title: "From Standardized Data Formats to Standardized Tools for Optimization Algorithm Benchmarking"
-  citation: "<em>16th&nbsp;IEEE Conference on Cognitive Informatics & Cognitive Computing&nbsp;(ICCI*CC'2017),</em> July 26-28, 2017, University of Oxford, Oxford, UK, pages 490-497. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  citation: "<em>16th&nbsp;IEEE Conference on Cognitive Informatics &amp; Cognitive Computing&nbsp;(ICCI*CC'2017),</em> July 26-28, 2017, University of Oxford, Oxford, UK, pages 490-497. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
   isbn: "978-1-5386-0770-1"
   doi: "10.1109/ICCI-CC.2017.8109794"
   year: 2017
@@ -429,3 +429,106 @@
   doi: "10.1007/978-3-662-49014-3_47"
   year: 2015
   month: 9
+- key: "LWWC2015HECMFTTSP"
+  authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "chiong_raymond"]
+  title: "Hybrid Ejection Chain Methods for the Traveling Salesman Problem"
+  citation: "<em>10th&nbsp;International Conference on Bio-Inspired Computing &mdash; Theories and Applications&nbsp;(BIC-TA'2015),</em> September 25-28, 2015, Hefei, Anhui, China, Communications in Computer and Information Science, volume&nbsp;562. Berlin/Heidelberg:&nbsp;Springer-Verlag, pages 268-282"
+  isbn: "978-3-662-49013-6"
+  doi: "10.1007/978-3-662-49014-3_25"
+  year: 2015
+  month: 9
+- key: "WWC2015LSFTTSPACS"
+  authors: ["wu_yuezhong", "weise_thomas", "chiong_raymond"]
+  title: "Local Search for the Traveling Salesman Problem:&nbsp;A Comparative Study"
+  citation: "<em>14th&nbsp;IEEE Conference on Cognitive Informatics &amp; Cognitive Computing&nbsp;(ICCI*CC'2015),</em> July 6-8, 2015, Beijing, China, pages 213-220, Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  isbn: "978-1-4673-7289-3"
+  doi: "10.1109/ICCI-CC.2015.7259388"
+  year: 2015
+  month: 6
+- key: "WC2015AAWOPSTRWETPOSA"
+  authors: ["weise_thomas", "chiong_raymond"]
+  title: "An Alternative Way of Presenting Statistical Test Results when Evaluating the Performance of Stochastic Approaches"
+  citation: "<em>Neurocomputing</em>&nbsp;147:235-238. January 2015"
+  doi: "10.1016/j.neucom.2014.06.071"
+  year: 2015
+  month: 1
+- key: "YLWY2014ANMAWFAFTDTLMICBN"
+  author: ["yuan_bo", "li_bin", "weise_thomas", "yao_xin"]
+  title: "A&nbsp;New Memetic Algorithm with Fitness Approximation for the Defect-Tolerant Logic Mapping in Crossbar-Based Nanoarchitectures"
+  citation: "<em>IEEE Transactions on Evolutionary Computation&nbsp;(IEEE-TEVC)</em>&nbsp;18(6):846-859. December 2014"
+  doi: "10.1109/TEVC.2013.2288779"
+  year: 2014
+  month: 12
+- key: "JWLCA2014CAHBABAWECMLSATHOTT"
+  authors: ["jiang_yan", "weise_thomas", "lassig_jorg", "chiong_raymond", "athauda_rukshan"]
+  title: "Comparing a Hybrid Branch and Bound Algorithm with Evolutionary Computation Methods, Local Search and their Hybrids on the TSP"
+  citation: "<em>IEEE Symposium on Computational Intelligence in Production and Logistics Systems&nbsp;(CIPLS'2014),</em> part of the <em>IEEE Symposium Series on Computational Intelligence&nbsp;(SSCI'2014),</em> December 9-12, 2014, Orlando, FL, USA, pages 148-155. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  isbn: "978-1-4799-5375-2"
+  doi: "10.1109/CIPLS.2014.7007174"
+  year: 2014
+  month: 12
+- key: "ALKW2014CDWPPAFAGPS"
+  authors: ["awasthi_abhishek", "lassig_jorg", "kramer_oliver", "weise_thomas"]
+  title: "Common Due-Window Problem: Polynomial Algorithms for a Given Processing Sequence"
+  citation: "<em>IEEE Symposium on Computational Intelligence in Production and Logistics Systems&nbsp;(CIPLS'2014),</em> part of the <em>IEEE Symposium Series on Computational Intelligence&nbsp;(SSCI'2014),</em> December 9-12, 2014, Orlando, FL, USA, pages 32-39. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  isbn: "978-1-4799-5375-2"
+  doi: "10.1109/CIPLS.2014.7007158"
+  year: 2014
+  month: 12
+- key: "GWL2014IT3FNLSBRFMFTSCP"
+  authors: ["gao_chao", "weise_thomas", "li_jinlong"]
+  title: "Improve the 3-flip Neighborhood Local Search by Random Flat Move for the Set Covering Problem"
+  citation: "<em>Advances in Swarm Intelligence&nbsp;Proceedings of the Fifth International Conference on Swarm Intelligence&nbsp;(ICSI'2014),</em> Part 1, October 17-20, 2014, Hefei, Anhui, China, pages 27-35, Lecture Notes in Computer Science&nbsp;(LNCS), volume 8794. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  isbn: "978-3-319-11856-7"
+  doi: "10.1007/978-3-319-11857-4_4"
+  year: 2014
+  month: 10
+- key: "WCLTTCMY2014BOAAOSFFTTSP"
+  authors: ["weise_thomas", "chiong_raymond", "lassig_jorg", "tang_ke", "tsuitsui_shigeyoshi", "chen_wenxiang", "michalewicz_zbigniew", "yao_xin"]
+  title: "Benchmarking Optimization Algorithms:&nbsp;An Open Source Framework for the Traveling Salesman Problem"
+  citation: "<em>IEEE Computational Intelligence Magazine&nbsp;(CIM)</em>&nbsp;9(3):40-52. August 2014"
+  doi: "10.1109/MCI.2014.2326101"
+  year: 2014
+  month: 8
+- key: "WWTY2014EEIAWGP"
+  authors: ["weise_thomas", "wan_mingxu", "tang_ke", "yao_xin"]
+  title: "Evolving Exact Integer Algorithms with Genetic Programming"
+  citation: "<em>IEEE Congress on Evolutionary Computation&nbsp;(CEC'2014),</em> part of the <em>World Congress on Computational Intelligence&nbsp;(WCCI'2014),</em> pages 1816-1823, July 6-11, 2014, Beijing, China. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  isbn: "978-1-4799-1488-3"
+  doi: "10.1109/CEC.2014.6900292"
+  year: 2014
+  month: 7
+- key: "GWL2014AWBLSHAFTSCP"
+  authors: ["gao_chao", "weise_thomas", "li_jinlong"]
+  title: "A&nbsp;Weighting-Based Local Search Heuristic Algorithm for the Set Covering Problem"
+  citation: "<em>IEEE Congress on Evolutionary Computation&nbsp;(CEC'2014),</em> part of the <em>World Congress on Computational Intelligence&nbsp;(WCCI'2014),</em> pages 826-831, July 6-11, 2014, Beijing, China. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  isbn: "978-1-4799-1488-3"
+  doi: "10.1109/CEC.2014.6900355"
+- key: "ZWL2014FLBAOSFCSPWC"
+  authors: ["zhang_kai", "weise_thomas", "li_jinlong"]
+  title: "Fitness Level based Adaptive Operator Selection for Cutting Stock Problems with Contiguity"
+  citation: "<em>IEEE Congress on Evolutionary Computation&nbsp;(CEC'2014),</em> part of the <em>World Congress on Computational Intelligence&nbsp;(WCCI'2014),</em> pages 2539-2546, July 6-11, 2014, Beijing, China. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  isbn: "978-1-4799-1488-3"
+  doi: "10.1109/CEC.2014.6900335"
+- key: "WWWTDY2014FFA"
+  authors: ["weise_thomas", "wan_mingxu", "tang_ke", "wang_pu", "devert_alexandre", "yao_xin"]
+  title: "Frequency Fitness Assignment"
+  citation: "<em>IEEE Transactions on Evolutionary Computation&nbsp;(IEEE-TEVC)</em>&nbsp;18(2):226-243. April 2014"
+  doi: "10.1109/TEVC.2013.2251885"
+  year: 2014
+  month: 4
+- key: "WKWTY2014MGPFMRP"
+  authors: ["wang_pu", "tang_ke", "weise_thomas", "tsang_edward_pk", "yao_xin"]
+  title: "Multiobjective Genetic Programming for Maximizing ROC Performance"
+  citation: "<em>Neurocomputing</em>&nbsp;125:102-118. February, 2014"
+  doi: "10.1016/j.neucom.2012.06.054"
+  year: 2014
+  month: 2
+- key: "SW2013AIAFTV"
+  authors: ["shi_wei", "weise_thomas"]
+  title: "An Initialized ACO for the VRPTW"
+  booktitle: "<em>14th&nbsp;International Conference on Intelligent Data Engineering and Automated Learning&nbsp;(IDEAL'2013),</em> October 20-23, 2013, Hefei, Anhui, China, Lecture Notes in Computer Science&nbsp;(LNCS) volume&nbsp;8206/2013, pages 93-100. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  isbn: "978-3-642-41277-6"
+  doi: "10.1007/978-3-642-41278-3_12"
+  year: 2013
+  month: 10

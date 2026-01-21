@@ -1,5 +1,8 @@
 affenzeller_michael:
   name: "Michael Affenzeller"
+athauda_rukshan:
+  name: "Rukshan Athauda"
+  url: "https://www.newcastle.edu.au/profile/rukshan-athauda"
 awasthi_abhishek:
   name: "Abhishek Awasthi"
   url: "https://www.enterprise-application-development.org/group/alumni/dr-abhishek-awasthi"
@@ -44,6 +47,9 @@ cui_lixin:
   name: "Lixin CUI"
 deng_rui:
   name: "Rui DENG"
+devert_alexandre:
+  name: "Alexandre Devert"
+  url: "https://www.marmakoide.org"
 ding_jianwen:
   name: "Jianwen DING"
 ding_yunfei:
@@ -143,6 +149,9 @@ marcelloni_francesco:
 martignon_fabio:
   name: "Fabio Martignon"
   url: "https://cs.unibg.it/martignon"
+michalewicz_zbigniew:
+  name: "Zbigniew Michalewicz"
+  url: "https://cs.adelaide.edu.au/~zbyszek"
 mora_antonio_m:
   name: "Antonio M. Mora"
 mtenzi_frederick:
@@ -216,6 +225,12 @@ thurer_matthias:
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
 trautmann_heike:
   name: "Heike Trautmann"
+tsang_edward_pk:
+  name: "Edward P.K. Tsang"
+  name_cn: "曾炳均"
+  url: "https://www.bracil.net/edward"
+tsuitsui_shigeyoshi:
+  name: "Shigeyoshi Tsutsui"
 tu_jing:
   name: "Jing TU"
 tusar_tea:
@@ -247,6 +262,8 @@ wang_mengyuan:
 wan_mingxu:
   name: "Mingxu WAN"
   name_cn: "万明绪"
+wang_pu:
+  name: "Pu WANG"
 wang_xinqi:
   name: "Xin-Qi WANG"
   name_cn: "汪新琪"
@@ -305,6 +322,11 @@ yao_xin:
   name_cn: "姚新"
   url: "https://scholars.ln.edu.hk/en/persons/xin-yao"
   url_cn: "https://baike.baidu.com/item/%E5%A7%9A%E6%96%B0/7068437"
+yuan_bo:
+  name: "Bo YUAN"
+  url: "https://www.sustech.edu.cn/en/faculties/yuanbo.html"
+  name_cn: "袁博"
+  url_cn: "https://www.sustech.edu.cn/zh/faculties/yuanbo.html"
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"
@@ -313,6 +335,8 @@ zhang_chen:
   name_cn: "张琛"
 zhang_jiarui:
   name: "Jiarui ZHANG"
+zhang_kai:
+ name: "Kai ZHANG"
 zhang_xingyi:
   name: "Xingyi ZHANG"
   name_cn: "张兴义"
