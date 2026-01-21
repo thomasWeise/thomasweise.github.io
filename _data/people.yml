@@ -73,6 +73,8 @@ deng_rui:
 devert_alexandre:
   name: "Alexandre Devert"
   url: "https://www.marmakoide.org"
+dhakal_sandeep:
+  name: "Sandeep Dhakal"
 ding_jianwen:
   name: "Jianwen DING"
 ding_yunfei:
@@ -88,6 +90,8 @@ elias_jocelyne:
   name: "Jocelyne Elias"
 esparcia_alcazar_anna_isabel:
   name: "Anna Isabel Esparcia-Alcázar"
+fan_xiannian:
+  name: "Xiannian (Eric) FAN"
 filipe_joaquim:
   name: "Joaquim Filipe"
 gao_chao:
@@ -101,6 +105,9 @@ gong_maoguo:
   name: "Maoguo GONG"
   name_cn: "公茂果"
   url_cn: "https://faculty.xidian.edu.cn/GMG1/zh_CN/index.htm"
+gorldt_christian:
+  name: "Christian Gorldt"
+  url: "https://uol.de/bwl/lehrende/christian-gorldt"
 handl_julia:
   name: "Julia Handl"
 heng_lalin:
@@ -127,6 +134,8 @@ keegan_brian:
   url: "https://www.tudublin.ie/explore/faculties-and-schools/computing-digital-data/school-of-computer-science/people/academic-staff/brian-keegan.php"
 khodayifar_salman:
   name: "Salman Khodayifar"
+kinsner_witold:
+  name: "Witold Kinsner"
 kirely_michael:
   name: "Michael Kirley"
 klawonn_frank:
@@ -140,6 +149,9 @@ kramer_oliver:
 lassig_jorg:
   name: "Jörg Lässig"
   url: "https://www.enterprise-application-development.org/group/core-team/joerg-laessig"
+lau_bee_theng:
+  name: "Bee Theng Lau"
+  url: "https://www.swinburne.edu.my/staff/professor-lau-bee-theng"
 lee_minho:
   name: "Minho Lee"
 leuschner_jens:
@@ -177,6 +189,9 @@ liu_zhiyang:
   name_cn: "刘志洋"
 long_long:
   name: "Long LONG"
+lu_jianhua:
+  name: "Jianhua LU"
+  name_cn: "陆建华"
 ma_lu:
   name: "Lu MA"
   name_cn: "马璐"
@@ -206,6 +221,10 @@ nie_feiping:
 niemczyk_stefan:
   name: "Stefan Niemczyk"
   url: "https://www.linkedin.cn/incareer/in/dr-stefan-niemczyk-135527248"
+niu_li:
+  name: "Li NIU"
+  name_cn: "牛力"
+  url: "https://www.cs.sjtu.edu.cn/jiaoshiml/niuli.html"
 ochoa_gabriela:
   name: "Gabriela Ochoa"
   url: "https://www.stir.ac.uk/people/257336"
@@ -245,6 +264,11 @@ song_tao:
 sun_fei:
   name: "Fei SUN"
   name_cn: "孙斐"
+sugawara_kenji:
+  name: "Kenji Sugawara"
+sun_fuchun:
+  name: "Fuchun SUN"
+  name_cn: "孙富春"
 sun_pengpeng:
   name: "Pengpeng SUN"
   name_cn: "孙鹏彭"
@@ -320,6 +344,9 @@ wang_xiaofeng:
   url_cn: "https://baike.baidu.com/item/%E7%8E%8B%E6%99%93%E5%B3%B0/116547"
 wang_yan:
   name: "Yan WANG"
+wang_yingxu:
+  name: "Yingxu WANG"
+  url: "http://profiles.ucalgary.ca/yingxu-wang"
 wang_yongjun:
   name: "Yongjun WANG"
 wang_yu:
@@ -328,6 +355,9 @@ weise_thomas:
   name: "Thomas Weise"
   url: "https://thomasweise.github.io"
   name_cn: "汤卫思"
+widrow_bernard:
+  name: "Bernard Widrow"
+  url: "https://isl.stanford.edu/~widrow"
 winkler_stephan_m:
   name: "Stephan M. Winkler"
 wu_jinsong:
@@ -366,6 +396,9 @@ xu_jiabo:
   name: "Jiabo XU"
 xu_mengfei:
   name: "Mengfei Xu"
+yang_zhenyu:
+  name: "Zhenyu YANG"
+  name_cn: "杨振宇"
 yao_xin:
   name: "Xin YAO"
   name_cn: "姚新"
@@ -374,6 +407,8 @@ yao_xin:
 yin_hujun:
   name: "Hujun YIN"
   url: "https://personalpages.manchester.ac.uk/staff/hujun.yin"
+yu_xin:
+  name: "Xin YU"
 yuan_bo:
   name: "Bo YUAN"
   url: "https://www.sustech.edu.cn/en/faculties/yuanbo.html"
@@ -382,9 +417,14 @@ yuan_bo:
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"
+zhang_bo:
+  name: "Bo ZHANG"
 zhang_chen:
   name: "Chen ZHANG"
   name_cn: "张琛"
+zhang_du:
+  name: "Du ZHANG"
+  url: "https://athena.ecs.csus.edu/~zhangd/bio.html"
 zhang_jiarui:
   name: "Jiarui ZHANG"
 zhang_kai:
@@ -398,6 +438,8 @@ zhao_bingyan:
 zhao_rui:
   name: "Rui ZHAO"
   name_cn: "赵睿"
+zhong_yixin:
+  name: "Yixin ZHONG"
 zou_chang:
   name: "Chang ZOU"
 zou_le:
