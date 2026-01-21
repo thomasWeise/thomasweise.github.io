@@ -240,7 +240,7 @@
   year: 2020
   month: 8
 - key: "WWWW2020CNNBWSLFADFRSI"
-  author: ["zhize_wu", "weise_thomas", "wang_yan", "wang_yongjun"]
+  authors: ["zhize_wu", "weise_thomas", "wang_yan", "wang_yongjun"]
   title: "Convolutional Neural Network based Weakly Supervised Learning for Aircraft Detection from Remote Sensing Images"
   citation: "<em>IEEE Access</em>&nbsp;8:158097–158106. August 2020"
   doi: "10.1109/ACCESS.2020.3019956"
@@ -361,7 +361,7 @@
   year: 2017
   month: 7
 - key: "ALWK2016TCDWPWATLA"
-  authoers: ["awasthi_abhishek", "lassig_jorg", "weise_thomas", "kramer_oliver"]
+  authors: ["awasthi_abhishek", "lassig_jorg", "weise_thomas", "kramer_oliver"]
   title: "Tackling Common Due Window Problem with a Two-Layered Approach"
   citation: "<em>10th&nbsp;International Conference on Combinatorial Optimization and Applications&nbsp;(COCOA'2016),</em> Hong Kong, China, December 16–18, 2016, Lecture Notes in Computer Science&nbsp;(LNCS) volume&nbsp;10043, pages 772-781, Cham, Switzerland:&nbsp;Springer"
   isbn: "978-3-319-48748-9"
