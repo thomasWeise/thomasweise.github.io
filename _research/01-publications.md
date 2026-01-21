@@ -16,5 +16,5 @@ author_profile: true
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2022" -%}{%- include publications.liquid papers=papers -%}{:/}
 ## 2021
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2021" -%}{%- include publications.liquid papers=papers -%}{:/}
-## 2022
-{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2022" -%}{%- include publications.liquid papers=papers -%}{:/}
+## 2020
+{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2020" -%}{%- include publications.liquid papers=papers -%}{:/}
