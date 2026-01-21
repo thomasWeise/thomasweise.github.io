@@ -1,9 +1,16 @@
+affenzeller_michael:
+  name: "Michael Affenzeller"
 awasthi_abhishek:
   name: "Abhishek Awasthi"
   url: "https://www.enterprise-application-development.org/group/alumni/dr-abhishek-awasthi"
+back_thomas:
+  name: "Thomas Bäck"
 cao_xiang:
   name: "Xiang CAO"
   name_cn: "曹翔"
+catay_bulent:
+  name: "Bülent Çatay"
+  url: "https://people.sabanciuniv.edu/catay"
 chen_enhong:
   name: "Enhong CHEN"
   name_cn: "陈恩红"
@@ -50,6 +57,18 @@ du_changjiang:
   name_cn: "杜长江"
 elias_jocelyne:
   name: "Jocelyne Elias"
+esparcia_alcazar_anna_isabel:
+  name: "Anna Isabel Esparcia-Alcázar"
+filipe_joaquim:
+  name: "Joaquim Filipe"
+gao_chao:
+  name: "Chao GAO"
+gong_maoguo:
+  name: "Maoguo GONG"
+  name_cn: "公茂果"
+  url_cn: "https://faculty.xidian.edu.cn/GMG1/zh_CN/index.htm"
+handl_julia:
+  name: "Julia Handl"
 heng_lalin:
   name: "Lalin Heng"
 horn_ruben:
@@ -71,6 +90,8 @@ keegan_brian:
   url: "https://www.tudublin.ie/explore/faculties-and-schools/computing-digital-data/school-of-computer-science/people/academic-staff/brian-keegan.php"
 khodayifar_salman:
   name: "Salman Khodayifar"
+kononova_anna_v:
+  name: "Anna V. Kononova"
 kramer_oliver:
   name: "Oliver Kramer"
   url: "https://uol.de/en/computingscience/ci/team/oliver-kramer"
@@ -88,8 +109,16 @@ li_bin:
   name_cn: "李斌"
   url: "https://staff.ustc.edu.cn/~binli"
   url_cn: "https://faculty.ustc.edu.cn/libin123/en/index.htm"
+li_jinlong:
+  name: "Jinlong LI"
+  name_cn: "李金龙"
+  url_cn: "https://staff.ustc.edu.cn/~jlli"
+  url: "http://staff.ustc.edu.cn/~jlli/index_en.html"
 li_teng:
   name: "Teng LI"
+li_xiaodong:
+  name: "Xiaodong LI"
+  url: "https://www.rmit.edu.au/profiles/l/xiaodong-li"
 li_xinlu:
   name: "Xinlu LI"
   name_cn: "李新路"
@@ -105,9 +134,17 @@ liu_zhiyang:
 ma_lu:
   name: "Lu MA"
   name_cn: "马璐"
+machado_penousal:
+  name: "Penousal Machado"
+madani_kurosh:
+  name: "Kurosh Madani"
+marcelloni_francesco:
+  name: "Francesco Marcelloni"
 martignon_fabio:
   name: "Fabio Martignon"
   url: "https://cs.unibg.it/martignon"
+mora_antonio_m:
+  name: "Antonio M. Mora"
 mtenzi_frederick:
   name: "Fredrick Mtenzi"
 nian_fudong:
@@ -123,6 +160,10 @@ ochoa_gabriela:
 ouyang_jin:
   name: "Jin OUYANG"
   name_cn: "欧阳晋"
+pan_linqiang:
+  name: "Linqiang PAN"
+  name_cn: "潘林强"
+  url_cn: "http://faculty.hust.edu.cn/panlinqiang/zh_CN/index.htm"
 pardalos_panos_miltiades:
   name: "Panos Miltiades Pardalos"
   url: "https://iot.institute.ufl.edu/faculty/panos-m-pardalos"
@@ -147,6 +188,8 @@ shi_wei:
   name_cn: "施玮"
 song_liangtu:
   name: "Liang-Tu SONG"
+song_tao:
+  name: "Tao SONG"
 sun_fei:
   name: "Fei SUN"
   name_cn: "孙斐"
@@ -171,8 +214,12 @@ thomson_sarah_louise:
 thurer_matthias:
   name: "Matthias Thürer"
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
+trautmann_heike:
+  name: "Heike Trautmann"
 tu_jing:
   name: "Jing TU"
+tusar_tea:
+  name: "Tea Tušar"
 ullrich_markus:
   name: "Markus Ullrich"
   url: "https://www.enterprise-application-development.org/group/core-team/markus-ullrich-m-sc"
@@ -182,6 +229,8 @@ van_den_berg_daan:
 van_eck_okke:
   name: "Okke van Eck"
   url: "https://research.vu.nl/en/persons/okke-van-eck"
+van_stein_niki:
+  name: "Niki van Stein"
 verduin_kristian:
   name: "Kristian Verduin"
   url: "https://github.com/kristianverduin"
@@ -213,6 +262,8 @@ weise_thomas:
   name: "Thomas Weise"
   url: "https://thomasweise.github.io"
   name_cn: "汤卫思"
+winkler_stephan_m:
+  name: "Stephan M. Winkler"
 wu_jinsong:
   name: "Jinsong WU"
   name_cn: "吴劲松"
@@ -249,6 +300,11 @@ xu_jiabo:
   name: "Jiabo XU"
 xu_mengfei:
   name: "Mengfei Xu"
+yao_xin:
+  name: "Xin YAO"
+  name_cn: "姚新"
+  url: "https://scholars.ln.edu.hk/en/persons/xin-yao"
+  url_cn: "https://baike.baidu.com/item/%E5%A7%9A%E6%96%B0/7068437"
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"

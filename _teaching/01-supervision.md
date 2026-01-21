@@ -121,14 +121,17 @@ Here you can find a list of the students that I have supervised or co-supervised
         - Excellent Bachelor Thesis Award at USTC&nbsp;(Top&nbsp;5%)
         - Price Winner at Anhui Province Challenge Cup ("Science Olympics")
         - Price Winner at 12th National Chinese Annual Challenge Cup ("Science Olympics")
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'chen_wenxiang'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 #### Research Assistants at the University of Science and Technology of China (USTC, 中国科学技术大学)
 - Mr. {% include person.liquid person=site.data.people.xu_dan %}
     + Topic: Traveling Salesperson Problem
     + Duration: 2015-2016
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'xu_dan'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.ouyang_jin %}
     + Topic: Traveling Salesperson Problem
     + Duration: 2012-2013
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'ouyang_jin'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 
 ### At the University of Kassel, Germany

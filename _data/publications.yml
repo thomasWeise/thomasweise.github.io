@@ -17,7 +17,8 @@
 - key: "ZWvdBTLTW2024RLSFTDBPAANRFFA"
   authors: ["zhao_rui", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "liang_tianyu", "tan_ming", "weise_thomas"]
   title: "Randomized Local Search for Two-Dimensional Bin Packing and a Negative Result for Frequency Fitness Assignment"
-  citation: "In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;15-26. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
+  editors: ["marcelloni_francesco", "madani_kurosh", "van_stein_niki", "filipe_joaquim"]
+  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;15-26. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
   doi: "10.5220/0012888500003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -26,7 +27,8 @@
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
-  citation: "In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;27-37. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
+  editors: ["marcelloni_francesco", "madani_kurosh", "van_stein_niki", "filipe_joaquim"]
+  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;27-37. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
   doi: "10.5220/0012888600003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -35,7 +37,8 @@
 - key: "LWTWW2024GSIWIFFTTSP"
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
   title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
-  citation: "In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;173-180. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
+  editors: ["marcelloni_francesco", "madani_kurosh", "van_stein_niki", "filipe_joaquim"]
+  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;173-180. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
   doi: "10.5220/0012888800003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -44,7 +47,8 @@
 - key: "XWvdBW2024RLSVNVFFAOTTTP"
   authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas"]
   title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
-  citation: "In Francesco Marcelloni, Kurosh Madani, Niki van Stein and Joaquim Filipe, editors, <em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;38-49. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
+  editors: ["marcelloni_francesco", "madani_kurosh", "van_stein_niki", "filipe_joaquim"]
+  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;38-49. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
   doi: "10.5220/0012891500003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -53,7 +57,8 @@
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
-  citation: "In Michael Affenzeller, Stephan M. Winkler, Anna V. Kononova, Heike Trautmann, Tea Tušar, Penousal Machado, Thomas Bäck, editors, <em>18th&nbsp;International Conference on Parallel Problem Solving From Nature&nbsp;(PPSN&nbsp;XVIII),</em> September 14-18, 2024, Hagenberg, Austria, pages 377-392. Lecture Notes in Computer Science&nbsp;(LNCS), volume 15148"
+  editors: ["affenzeller_michael", "winkler_stephan_m", "kononova_anna_v", "trautmann_heike", "tusar_tea", "machado_penousal", "back_thomas"]
+  citation: "<em>18th&nbsp;International Conference on Parallel Problem Solving From Nature&nbsp;(PPSN&nbsp;XVIII),</em> September 14-18, 2024, Hagenberg, Austria, pages 377-392. Lecture Notes in Computer Science&nbsp;(LNCS), volume 15148"
   doi: "10.1007/978-3-031-70055-2_23"
   isbn: "978-3-031-70054-5"
   year: 2024
@@ -75,7 +80,8 @@
 - key: "ZLWvdBTW2024RLSOT2RBPPWIR"
   authors: ["zhao_rui", "liang_tianyu", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "weise_thomas"]
   title: "Randomized Local Search on the 2D&nbsp;Rectangular Bin Packing Problem with Item Rotation"
-  citation: "In Xiaodong Li and Julia Handl, editors, <em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2024) Companion</em>, July 14-18, 2024, Melbourne, VIC, Australia, pages 235-238. New York, NY, USA:&nbsp;ACM"
+  editors: ["li_xiaodong", "handl_julia"]
+  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2024) Companion</em>, July 14-18, 2024, Melbourne, VIC, Australia, pages 235-238. New York, NY, USA:&nbsp;ACM"
   doi: "10.1145/3638530.3654139"
   isbn: "979-8-4007-0495-6"
   year: 2024
@@ -120,7 +126,8 @@
 - key: "VWvdB2023WITTTONSWGA"
   authors: ["verduin_kristian", "weise_thomas", "van_den_berg_daan"]
   title: "Why is the Traveling Tournament Problem not Solved with Genetic Algorithms?"
-  citation: "Antonio M. Mora and Anna Isabel Esparcia-Alcázar, editors, <em>Late-Breaking Abstracts of EvoStar'2023,</em> April 12-14, 2023, Brno, Czech Republic"
+  editors: ["mora_antonio_m", "esparcia_alcazar_anna_isabel"]
+  citation: "<em>Late-Breaking Abstracts of EvoStar'2023,</em> April 12-14, 2023, Brno, Czech Republic"
   rg: "370060659"
   arxiv: "2403.13950"
   year: 2023
@@ -398,3 +405,27 @@
   doi: "10.1109/IPDPSW.2016.66"
   year: 2016
   month: 5
+- key: "SWCC2015HPWEPIFSTVRPWTW"
+  authors: ["shi_wei", "weise_thomas", "chiong_raymond", "catay_bulent"]
+  title: "Hybrid PACO with Enhanced Pheromone Initialization for Solving the Vehicle Routing Problem with Time Windows"
+  citation: "<em>IEEE Symposium on Computational Intelligence in Production and Logistics Systems&nbsp;(CIPLS'2015),</em> part of the <em>IEEE Symposium Series on Computational Intelligence&nbsp;(SSCI'2015),</em> December 8-10, 2015, Cape Town, South Africa, pages 1735-1742. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  isbn: "978-1-4799-7560-0"
+  doi: "10.1109/SSCI.2015.242"
+  year: 2015
+  month: 12
+- key: "GYWL2015AELSHWRWFTUSCP"
+  authors: ["gao_chao", "yao_xin", "weise_thomas", "li_jinlong"]
+  title: "An Efficient Local Search Heuristic with Row Weighting for the Unicost Set Covering Problem"
+  citation: "<em>European Journal of Operational Research&nbsp;(EJOR)<em>&nbsp;246(3):750-761. November 2015"
+  doi: "10.1016/j.ejor.2015.05.038"
+  year: 2015
+  month: 11
+- key: "XWWLC2015AIOHTSFTTSP"
+  authors: ["xu_dan", "weise_thomas", "wu_yuezhong", "lassig_jorg", "chiong_raymond"]
+  title: "An Investigation of Hybrid Tabu Search for the Traveling Salesman Problem"
+  editors: ["gong_maoguo", "pan_linqiang", "song_tao", "tang_ke", "zhang_xingyi"]
+  citation: "<em>10th&nbsp;International Conference on Bio-Inspired Computing &mdash; Theories and Applications&nbsp;(BIC-TA'2015),</em> September 25-28, 2015, Hefei, Anhui, China, Communications in Computer and Information Science, volume&nbsp;562. Berlin/Heidelberg:&nbsp;Springer-Verlag, pages 523-537"
+  isbn: "978-3-662-49013-6"
+  doi: "10.1007/978-3-662-49014-3_47"
+  year: 2015
+  month: 9

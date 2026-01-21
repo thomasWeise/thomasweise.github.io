@@ -1,5 +1,7 @@
 {%- capture pubtext -%}
 {%- for author in include.paper.authors -%}{%- assign person=site.data.people[author] -%}{%- include person.liquid person=person -%}{%- unless forloop.last -%}, {% endunless -%}{% endfor -%}:&nbsp;{{- include.paper.title -}}.
+{%- if include.paper.editors -%}
+In {%- for editor in include.paper.editors -%}{%- assign person=site.data.people[editor] -%}{%- include person.liquid person=person -%}, {% endfor -%}editors, {% endif -%}
 {{ include.paper.citation -}}.
 {%- if include.paper.isbn %} ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/{{- include.paper.isbn -}}">{{- include.paper.isbn -}}</a>.{%- endif -%}
 {%- if include.paper.issn %} ISSN:&nbsp;<a href="https://portal.issn.org/api/search?search[]=MUST=allissnbis={- include.paper.issn -}}">{{- include.paper.issn -}}</a>.{%- endif -%}
