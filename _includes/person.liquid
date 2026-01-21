@@ -1,5 +1,6 @@
-{%- assign put_link = include.put_link | default: true, allow_false: true -%}
-{%- if include.person.url and put_link -%}<a href="{{- include.person.url -}}">{%- endif -%}
+{%- assign no_links = include.no_links | default: false -%}
+{%- if no_links -%}{%- assign put_links = false -%}{%- else -%}{%- assign put_links = true -%}{%- endif -%}
+{%- if include.person.url and put_links -%}<a href="{{- include.person.url -}}">{%- endif -%}
 {{- include.person.name -}}
-{%- if include.person.url and put_link -%}</a>{%- endif -%}
-{%- if include.person.name_cn -%}&nbsp;({%- if include.person.url_cn and put_link -%}<a href="{{- include.person.url_cn -}}">{%- endif -%}{{- include.person.name_cn -}}{%- if include.person.url_cn and put_link -%}</a>{%- endif -%}){%- endif -%}
+{%- if include.person.url and put_links -%}</a>{%- endif -%}
+{%- if include.person.name_cn -%}&nbsp;({%- if include.person.url_cn and put_links -%}<a href="{{- include.person.url_cn -}}">{%- endif -%}{{- include.person.name_cn -}}{%- if include.person.url_cn and put_links -%}</a>{%- endif -%}){%- endif -%}
