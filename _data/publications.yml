@@ -526,9 +526,19 @@
   month: 2
 - key: "SW2013AIAFTV"
   authors: ["shi_wei", "weise_thomas"]
+  editors: ["yin_hujun", "tang_ke", "gao_yang", "klawonn_frank", "lee_minho", "weise_thomas", "li_bin", "yao_xin"]
   title: "An Initialized ACO for the VRPTW"
   citation: "<em>14th&nbsp;International Conference on Intelligent Data Engineering and Automated Learning&nbsp;(IDEAL'2013),</em> October 20-23, 2013, Hefei, Anhui, China, Lecture Notes in Computer Science&nbsp;(LNCS) volume&nbsp;8206/2013, pages 93-100. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-642-41277-6"
   doi: "10.1007/978-3-642-41278-3_12"
+  year: 2013
+  month: 10
+- key: "YTGKLWLY2013IDEAALI2"
+  authors: ["yin_hujun", "tang_ke", "gao_yang", "klawonn_frank", "lee_minho", "weise_thomas", "li_bin", "yao_xin"]
+  authors_are_editors: true
+  title: "14th&nbsp;International Conference on Intelligent Data Engineering and Automated Learning&nbsp;(IDEAL'2013)"
+  citation: ", October 20-23, 2013, Hefei, Anhui, China, Lecture Notes in Computer Science&nbsp;(LNCS) volume&nbsp;8206/2013, Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  isbn: "978-3-642-41277-6"
+  doi: "10.1007/978-3-642-41278-3"
   year: 2013
   month: 10

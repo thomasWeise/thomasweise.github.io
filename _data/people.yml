@@ -69,6 +69,11 @@ filipe_joaquim:
   name: "Joaquim Filipe"
 gao_chao:
   name: "Chao GAO"
+gao_yang:
+  name: "Yang GAO"
+  name_cn: "高阳"
+  url: "https://cs.nju.edu.cn/cs_en/95/a8/c55069a628136/page.htm"
+  url_cn: "https://cs.nju.edu.cn/58/14/c2639a153620/page.htm"
 gong_maoguo:
   name: "Maoguo GONG"
   name_cn: "公茂果"
@@ -96,6 +101,9 @@ keegan_brian:
   url: "https://www.tudublin.ie/explore/faculties-and-schools/computing-digital-data/school-of-computer-science/people/academic-staff/brian-keegan.php"
 khodayifar_salman:
   name: "Salman Khodayifar"
+klawonn_frank:
+  name: "Frank Klawonn"
+  url: "https://www.ostfalia.de/hochschule/fakultaeten/fakultaet-informatik/fakultaetsteam/prof-frank-klawonn"
 kononova_anna_v:
   name: "Anna V. Kononova"
 kramer_oliver:
@@ -104,6 +112,8 @@ kramer_oliver:
 lassig_jorg:
   name: "Jörg Lässig"
   url: "https://www.enterprise-application-development.org/group/core-team/joerg-laessig"
+lee_minho:
+  name: "Minho Lee"
 leuschner_jens:
   name: "Jens Leuschner"
 liang_tianyu:
@@ -322,6 +332,9 @@ yao_xin:
   name_cn: "姚新"
   url: "https://scholars.ln.edu.hk/en/persons/xin-yao"
   url_cn: "https://baike.baidu.com/item/%E5%A7%9A%E6%96%B0/7068437"
+yin_hujun:
+  name: "Hujun YIN"
+  url: "https://personalpages.manchester.ac.uk/staff/hujun.yin"
 yuan_bo:
   name: "Bo YUAN"
   url: "https://www.sustech.edu.cn/en/faculties/yuanbo.html"
