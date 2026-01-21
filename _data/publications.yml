@@ -416,7 +416,7 @@
 - key: "GYWL2015AELSHWRWFTUSCP"
   authors: ["gao_chao", "yao_xin", "weise_thomas", "li_jinlong"]
   title: "An Efficient Local Search Heuristic with Row Weighting for the Unicost Set Covering Problem"
-  citation: "<em>European Journal of Operational Research&nbsp;(EJOR)<em>&nbsp;246(3):750-761. November 2015"
+  citation: "<em>European Journal of Operational Research&nbsp;(EJOR)</em>&nbsp;246(3):750-761. November 2015"
   doi: "10.1016/j.ejor.2015.05.038"
   year: 2015
   month: 11
