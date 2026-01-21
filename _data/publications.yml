@@ -53,7 +53,7 @@
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
-  citation: "In Michael Affenzeller, Stephan M. Winkler, Anna V. Kononova, Heike Trautmann, Tea Tušar, Penousal Machado, Thomas Bäck, editors, <em>18th&nbsp;International Conference on Parallel Problem Solving From Nature&nbsp;(PPSN&nbsp;XVIII),</em> September 14-18, 2024, Hagenberg, Austria, pages 377–392. Lecture Notes in Computer Science&nbsp;(LNCS), volume 15148"
+  citation: "In Michael Affenzeller, Stephan M. Winkler, Anna V. Kononova, Heike Trautmann, Tea Tušar, Penousal Machado, Thomas Bäck, editors, <em>18th&nbsp;International Conference on Parallel Problem Solving From Nature&nbsp;(PPSN&nbsp;XVIII),</em> September 14-18, 2024, Hagenberg, Austria, pages 377-392. Lecture Notes in Computer Science&nbsp;(LNCS), volume 15148"
   doi: "10.1007/978-3-031-70055-2_23"
   isbn: "978-3-031-70054-5"
   year: 2024
@@ -75,7 +75,7 @@
 - key: "ZLWvdBTW2024RLSOT2RBPPWIR"
   authors: ["zhao_rui", "liang_tianyu", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "weise_thomas"]
   title: "Randomized Local Search on the 2D&nbsp;Rectangular Bin Packing Problem with Item Rotation"
-  citation: "In Xiaodong Li and Julia Handl, editors, <em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2024) Companion</em>, July 14–18, 2024, Melbourne, VIC, Australia, pages 235-238. New York, NY, USA:&nbsp;ACM"
+  citation: "In Xiaodong Li and Julia Handl, editors, <em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2024) Companion</em>, July 14-18, 2024, Melbourne, VIC, Australia, pages 235-238. New York, NY, USA:&nbsp;ACM"
   doi: "10.1145/3638530.3654139"
   isbn: "979-8-4007-0495-6"
   year: 2024
@@ -106,7 +106,7 @@
 - key: "WW2023RSDEWASSAA"
   authors: ["weise_thomas", "wu_zhize"]
   title: "Replicable Self-Documenting Experiments with Arbitrary Search Spaces and Algorithms"
-  citation: "<em>Genetic and Evolutionary Computation Conference Companion&nbsp;(GECCO'2023) Companion,</em> July 15–19, 2023, Lisbon, Portugal, pages 1891-1899. New York, NY, USA:&nbsp;ACM"
+  citation: "<em>Genetic and Evolutionary Computation Conference Companion&nbsp;(GECCO'2023) Companion,</em> July 15-19, 2023, Lisbon, Portugal, pages 1891-1899. New York, NY, USA:&nbsp;ACM"
   doi: "10.1145/3583133.3596306"
   year: 2023
   month: 7
@@ -135,7 +135,7 @@
 - key: "LWLvdbW2022STTSPUFFA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "weise_thomas"]
   title: "Solving the Traveling Salesperson Problem using Frequency Fitness Assignment"
-  citation: "<em>IEEE Symposium on Foundations of Computational Intelligence&nbsp;(IEEE FOCI'2022),</em> part of the <em>IEEE Symposium Series on Computational Intelligence&nbsp;(SSCI'2022),</em> December 4–7, 2022, Singapore. IEEE"
+  citation: "<em>IEEE Symposium on Foundations of Computational Intelligence&nbsp;(IEEE FOCI'2022),</em> part of the <em>IEEE Symposium Series on Computational Intelligence&nbsp;(SSCI'2022),</em> December 4-7, 2022, Singapore. IEEE"
   isbn: "978-1-6654-8768-9"
   doi: "10.1109/SSCI51031.2022.10022296"
   year: 2022
@@ -150,21 +150,21 @@
 - key: "RKWP2022ANATSSWMWOA"
   authors: ["raayatpanah_mohammad_ali", "khodayifar_salman", "weise_thomas", "pardalos_panos_miltiades"]
   title: "A&nbsp;Novel Approach to Subgraph Selection with Multiple Weights on Arcs"
-  citation: "<em>Journal of Combinatorial Optimization</em>&nbsp;44(1):242–268, August 2022"
+  citation: "<em>Journal of Combinatorial Optimization</em>&nbsp;44(1):242-268, August 2022"
   doi: "10.1007/s10878-021-00823-0"
   year: 2022
   month: 8
 - key: "LWW2022DOPPEIFASABD"
   authors: ["liu_zhiyang", "weise_thomas", "wu_zhize"]
   title: "Detection of Personal Protective Equipment in Factories:&nbsp;A Survey and Benchmark Dataset"
-  citation: "<em>18th&nbsp;International Conference Intelligent Computing Methodologies&nbsp;(ICIC'2022),</em> August 7–11, 2022, Xi'an, China, Part&nbsp;III, pages 448-459. Lecture Notes in Computer Science&nbsp;(LNCS), sub-series LNAI, volume&nbsp;13395"
+  citation: "<em>18th&nbsp;International Conference Intelligent Computing Methodologies&nbsp;(ICIC'2022),</em> August 7-11, 2022, Xi'an, China, Part&nbsp;III, pages 448-459. Lecture Notes in Computer Science&nbsp;(LNCS), sub-series LNAI, volume&nbsp;13395"
   doi: "10.1007/978-3-031-13832-4_37"
   year: 2022
   month: 8
 - key: "RWW2022CSSDASAB"
   authors: ["ran_shuoyi", "weise_thomas", "wu_zhize"]
   title: "Chemical Safety Sign Detection:&nbsp;A Survey and Benchmark"
-  citation: "<em>2022&nbsp;International Joint Conference on Neural Networks&nbsp;(IJCNN'2022),</em> part of the <em>IEEE World Congress on Computational Intelligence&nbsp;(IEEE WCCI'2022),</em> July 18–23, 2022, Padova, Italy. IEEE"
+  citation: "<em>2022&nbsp;International Joint Conference on Neural Networks&nbsp;(IJCNN'2022),</em> part of the <em>IEEE World Congress on Computational Intelligence&nbsp;(IEEE WCCI'2022),</em> July 18-23, 2022, Padova, Italy. IEEE"
   doi: "10.1109/IJCNN55064.2022.9892860"
   year: 2022
   month: 8
@@ -221,35 +221,35 @@
 - key: "WWLC2021FFAMOAIUBTOTOFV"
   authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan"]
   title: "Frequency Fitness Assignment:&nbsp;Making Optimization Algorithms Invariant under Bijective Transformations of the Objective Function Value"
-  citation: "<em>IEEE Transactions on Evolutionary Computation&nbsp;(TEVC)</em>&nbsp;25(2):307–319. April 2021"
+  citation: "<em>IEEE Transactions on Evolutionary Computation&nbsp;(TEVC)</em>&nbsp;25(2):307-319. April 2021"
   doi: "10.1109/TEVC.2020.3032090"
   year: 2021
   month: 4
 - key: "ZSWWCZ2020ANATNTPIWP"
   authors: ["zou_le", "song_liangtu", "wang_xiaofeng", "weise_thomas", "chen_yanping", "zhang_chen"]
   title: "A&nbsp;New Approach to Newton-Type Polynomial Interpolation with Parameters"
-  citation: "<em>Mathematical Problems in Engineering</em>&nbsp;2020(9020541):1–15. November 2020"
+  citation: "<em>Mathematical Problems in Engineering</em>&nbsp;2020(9020541):1-15. November 2020"
   doi: "10.1155/2020/9020541"
   year: 2020
   month: 11
 - key: "WWLZL2020SIOBOCIAITASCJ"
   authors: ["weise_thomas", "wagner_markus", "li_bin", "zhang_xingyi", "lassig_jorg"]
   title: "Special Issue on Benchmarking of Computational Intelligence Algorithms in the Applied Soft Computing Journal&nbsp;(Editorial)"
-  citation: "<em>Applied Soft Computing Journal&nbsp;(ASOC)&nbsp;93:106502. August 2020"
+  citation: "<em>Applied Soft Computing Journal&nbsp;(ASOC)</em>&nbsp;93:106502. August 2020"
   doi: "10.1016/j.asoc.2020.106502"
   year: 2020
   month: 8
 - key: "WWWW2020CNNBWSLFADFRSI"
-  authors: ["zhize_wu", "weise_thomas", "wang_yan", "wang_yongjun"]
+  authors: ["wu_zhize", "weise_thomas", "wang_yan", "wang_yongjun"]
   title: "Convolutional Neural Network based Weakly Supervised Learning for Aircraft Detection from Remote Sensing Images"
-  citation: "<em>IEEE Access</em>&nbsp;8:158097–158106. August 2020"
+  citation: "<em>IEEE Access</em>&nbsp;8:158097-158106. August 2020"
   doi: "10.1109/ACCESS.2020.3019956"
   year: 2020
   month: 8
 - key: "LXXWZSW2020IRUADABH"
   authors: ["li_xinlu", "xu_mengfei", "xu_jiabo", "weise_thomas", "zou_le", "sun_fei", "wu_zhize"]
   title: "Image Retrieval Using a Deep Attention-Based Hash"
-  citation: "<em>IEEE Access</em>&nbsp;8:142229–142242. July 2020"
+  citation: "<em>IEEE Access</em>&nbsp;8:142229-142242. July 2020"
   doi: "10.1109/ACCESS.2020.3011102"
   year: 2020
   month: 7
@@ -270,14 +270,14 @@
 - key: "LKMWT2019EELBABRAFWSN"
   authors: ["li_xinlu", "keegan_brian", "mtenzi_frederick", "weise_thomas", "tan_ming"]
   title: "Energy-Efficient Load Balancing Ant Based Routing Algorithm for Wireless Sensor Networks"
-  citation: "<em>IEEE Access</em>&nbsp;7:113182–113196, August 2019"
+  citation: "<em>IEEE Access</em>&nbsp;7:113182-113196, August 2019"
   doi: "10.1109/ACCESS.2019.2934889"
   year: 2019
   month: 8
 - key: "HW2019IDSUCNNACCAFADBODL"
   authors: ["heng_lalin", "weise_thomas"]
   title: "Intrusion Detection System Using Convolutional Neuronal Networks:&nbsp;A Cognitive Computing Approach for Anomaly Detection based on Deep Learning"
-  citation: "<em>18th&nbsp;IEEE International Conference on Cognitive Informatics &amp; Cognitive Computing&nbsp;(ICCI*CC'2019),</em> July 23-25, 2019, Polytechnic University of Milan, Italy, pages 34–40. IEEE Computer Society"
+  citation: "<em>18th&nbsp;IEEE International Conference on Cognitive Informatics &amp; Cognitive Computing&nbsp;(ICCI*CC'2019),</em> July 23-25, 2019, Polytechnic University of Milan, Italy, pages 34-40. IEEE Computer Society"
   isbn: "978‑1‑7281‑1419‑4"
   doi: "10.1109/ICCICC46617.2019.9146088"
   year: 2019
@@ -292,14 +292,14 @@
 - key: "WWLC2019IIIOADTM"
   authors: ["weise_thomas", "wu_yuezhong", "liu_weichen", "chiong_raymond"]
   title: "Implementation Issues in Optimization Algorithms:&nbsp;Do they matter?"
-  citation: "<em>Journal of Experimental &amp; Theoretical Artificial Intelligence&nbsp;(JETAI)</em>&nbsp;31(4):533–554. 2019"
+  citation: "<em>Journal of Experimental &amp; Theoretical Artificial Intelligence&nbsp;(JETAI)</em>&nbsp;31(4):533-554. 2019"
   doi: "10.1080/0952813X.2019.1574908"
   year: 2019
   month: 1
 - key: "WWW2019AIGBARSWPPFSLS"
   authors: ["weise_thomas", "wu_zijun", "wagner_markus"]
   title: "An&nbsp;Improved Generic Bet-and-Run Strategy with Performance Prediction for Stochastic Local Search"
-  citation: "<em>33rd&nbsp;AAAI Conference on Artificial Intelligence&nbsp;(AAAI'2019),</em> January 27 - February 1, 2019, Honolulu, Hawaii, USA, pages 2395–2402. Palo Alto, CA, USA:&nbsp;AAAI Press"
+  citation: "<em>33rd&nbsp;AAAI Conference on Artificial Intelligence&nbsp;(AAAI'2019),</em> January 27 - February 1, 2019, Honolulu, Hawaii, USA, pages 2395-2402. Palo Alto, CA, USA:&nbsp;AAAI Press"
   isbn: "978-1-57735-809-1"
   doi: "10.1609/aaai.v33i01.33012395"
   year: 2019
@@ -331,7 +331,7 @@
 - key: "QWL2018OABMASOTTSP"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Optimization Algorithm Behavior Modeling:&nbsp;A Study on the Traveling Salesman Problem"
-  citation: "<em>10th&nbsp;International Conference on Advanced Computational Intelligence&nbsp;(ICACI'2018),</em> March 29-31, 2018, Xiamen, Fujian, China, IEEE, pages 861–866"
+  citation: "<em>10th&nbsp;International Conference on Advanced Computational Intelligence&nbsp;(ICACI'2018),</em> March 29-31, 2018, Xiamen, Fujian, China, IEEE, pages 861-866"
   isbn: "978-1-5386-4362-4"
   doi: "10.1109/ICACI.2018.8377576"
   year: 2018
@@ -363,7 +363,7 @@
 - key: "ALWK2016TCDWPWATLA"
   authors: ["awasthi_abhishek", "lassig_jorg", "weise_thomas", "kramer_oliver"]
   title: "Tackling Common Due Window Problem with a Two-Layered Approach"
-  citation: "<em>10th&nbsp;International Conference on Combinatorial Optimization and Applications&nbsp;(COCOA'2016),</em> Hong Kong, China, December 16–18, 2016, Lecture Notes in Computer Science&nbsp;(LNCS) volume&nbsp;10043, pages 772-781, Cham, Switzerland:&nbsp;Springer"
+  citation: "<em>10th&nbsp;International Conference on Combinatorial Optimization and Applications&nbsp;(COCOA'2016),</em> Hong Kong, China, December 16-18, 2016, Lecture Notes in Computer Science&nbsp;(LNCS) volume&nbsp;10043, pages 772-781, Cham, Switzerland:&nbsp;Springer"
   isbn: "978-3-319-48748-9"
   doi: "10.1007/978-3-319-48749-6_59"
   year: 2016
@@ -378,7 +378,7 @@
 - key: "WWL2016HDLSAWEOAECBPOTTSP"
   authors: ["wu_yuezhong", "weise_thomas", "liu_weichen"]
   title: "Hybridizing Different Local Search Algorithms with Each Other and Evolutionary Computation:&nbsp;Better Performance on the Traveling Salesman Problem"
-  citation: "<em>18th&nbsp;Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2016),</em> Denver, Colorado, USA, July 20–24, 2016, pages 57-58, New York, NY, USA:&nbsp;ACM"
+  citation: "<em>18th&nbsp;Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2016),</em> Denver, Colorado, USA, July 20-24, 2016, pages 57-58, New York, NY, USA:&nbsp;ACM"
   isbn: "978-1-4503-4323-7"
   doi: "10.1145/2908961.2909001"
   year: 2026
