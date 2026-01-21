@@ -453,7 +453,7 @@
   year: 2015
   month: 1
 - key: "YLWY2014ANMAWFAFTDTLMICBN"
-  author: ["yuan_bo", "li_bin", "weise_thomas", "yao_xin"]
+  authors: ["yuan_bo", "li_bin", "weise_thomas", "yao_xin"]
   title: "A&nbsp;New Memetic Algorithm with Fitness Approximation for the Defect-Tolerant Logic Mapping in Crossbar-Based Nanoarchitectures"
   citation: "<em>IEEE Transactions on Evolutionary Computation&nbsp;(IEEE-TEVC)</em>&nbsp;18(6):846-859. December 2014"
   doi: "10.1109/TEVC.2013.2288779"
