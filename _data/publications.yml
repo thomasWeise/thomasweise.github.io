@@ -337,7 +337,7 @@
   year: 2018
   month: 3
 - key: "W2017FSDFTSTFOAB"
-  authors: ["weise_thomas"],
+  authors: ["weise_thomas"]
   title: "From Standardized Data Formats to Standardized Tools for Optimization Algorithm Benchmarking"
   citation: "<em>16th&nbsp;IEEE Conference on Cognitive Informatics & Cognitive Computing&nbsp;(ICCI*CC'2017),</em> July 26-28, 2017, University of Oxford, Oxford, UK, pages 490-497. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
   isbn: "978-1-5386-0770-1"
