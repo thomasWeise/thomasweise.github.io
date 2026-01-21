@@ -597,7 +597,7 @@
 - key: "DWT2012ASOSRFEOOGS"
   authors: ["weise_thomas", "devert_alexandre", "tang_ke"]
   title: "A&nbsp;Developmental Solution to (Dynamic) Capacitated Arc Routing Problems using Genetic Programming"
-  citation: "<em>14th&nbsp;Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2012),<em> July 7-11, 2012, Philadelphia, PA, USA, pages 831-838. New York, NY, USA:&nbsp;ACM"
+  citation: "<em>14th&nbsp;Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2012),</em> July 7-11, 2012, Philadelphia, PA, USA, pages 831-838. New York, NY, USA:&nbsp;ACM"
   isbn: "978-1-4503-1177-9"
   doi: "10.1145/2330163.2330278"
   year: 2012
