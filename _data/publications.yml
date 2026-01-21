@@ -156,7 +156,7 @@
   month: 8
 - key: "LWW2022DOPPEIFASABD"
   authors: ["liu_zhiyang", "weise_thomas", "wu_zhize"]
-  title: "Detection of Personal Protective Equipment in Factories:&nbsp;A Survey and Benchmark Dataset",
+  title: "Detection of Personal Protective Equipment in Factories:&nbsp;A Survey and Benchmark Dataset"
   citation: "<em>18th&nbsp;International Conference Intelligent Computing Methodologies&nbsp;(ICIC'2022),</em> August 7–11, 2022, Xi'an, China, Part&nbsp;III, pages 448-459. Lecture Notes in Computer Science&nbsp;(LNCS), sub-series LNAI, volume&nbsp;13395"
   doi: "10.1007/978-3-031-13832-4_37"
   year: 2022
