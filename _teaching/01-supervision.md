@@ -74,28 +74,34 @@ Here you can find a list of the students that I have supervised or co-supervised
     + Topic: Algorithm Behavior Modeling and Prediction
     + Duration: 2015–2018
     + Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'qi_qi'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.liu_weichen %}
     + Topic: Traveling Salesperson Problem
     + Duration: 2014–2017
     + Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'liu_weichen'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.jiang_yan %}
     + Topic: Traveling Salesperson Problem
     + Duration: 2013-2016
     + Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'jiang_yan'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.wu_yuezhong %}
     + Topic: Traveling Salesperson Problem
     + Duration: 2013-2016
     + Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'wu_yuezhong'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Ms. {% include person.liquid person=site.data.people.shi_wei %}
     + Topic: Ant Colony Systems, Vehicle Routing Problem with Time Windows
     + Duration: 2013-2016
     + Obtained Awards: 研究生国家奖学金
     + Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'shi_wei'" -%}{%- include publications.liquid papers=papers -%}{:/}
 - Mr. {% include person.liquid person=site.data.people.wan_mingxu %}
     + Topic: Genetic Programming for Exact Integer Algorithm Synthesis
     + Duration: 2009–2012
     + Supervisor: {% include person.liquid person=site.data.people.tang_ke %}
     + Co-Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
+    + Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'wan_mingxu'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 #### Bachelor's Student at the University of Science and Technology of China (USTC, 中国科学技术大学)
 - Ms. {% include person.liquid person=site.data.people.ma_lu %}

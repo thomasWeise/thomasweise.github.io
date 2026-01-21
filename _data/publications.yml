@@ -239,3 +239,162 @@
   doi: "10.1016/j.asoc.2020.106502"
   year: 2020
   month: 8
+- key: "WWWW2020CNNBWSLFADFRSI"
+  author: ["zhize_wu", "weise_thomas", "wang_yan", "wang_yongjun"]
+  title: "Convolutional Neural Network based Weakly Supervised Learning for Aircraft Detection from Remote Sensing Images"
+  citation: "<em>IEEE Access</em>&nbsp;8:158097–158106. August 2020"
+  doi: "10.1109/ACCESS.2020.3019956"
+  year: 2020
+  month: 8
+- key: "LXXWZSW2020IRUADABH"
+  authors: ["li_xinlu", "xu_mengfei", "xu_jiabo", "weise_thomas", "zou_le", "sun_fei", "wu_zhize"]
+  title: "Image Retrieval Using a Deep Attention-Based Hash"
+  citation: "<em>IEEE Access</em>&nbsp;8:142229–142242. July 2020"
+  doi: "10.1109/ACCESS.2020.3011102"
+  year: 2020
+  month: 7
+- key: "WCLW2020SADSOBIFATMPFBBDOA"
+  authors: ["weise_thomas", "chen_yan", "li_xinlu", "wu_zhize"]
+  title: "Selecting a diverse set of benchmark instances from a tunable model problem for black-box discrete optimization algorithms"
+  citation: "<em>Applied Soft Computing Journal&nbsp;(ASOC)</em>&nbsp;92:106269. June 2020"
+  doi: "10.1016/j.asoc.2020.106269"
+  year: 2020
+  month: 6
+- key: "TZCWZ2020AIRMFMTMCB"
+  authors: ["tu_jing", "zhang_jiarui", "chen_shengbing", "weise_thomas", "zou_le"]
+  title: "An&nbsp;Improved Retrieval Method for Multi-Transaction Mode Consortium Blockchain"
+  citation: "<em>Electronics</em>&nbsp;9(2):296. February 2020"
+  doi: "10.3390/electronics9020296"
+  year: 2020
+  month: 2
+- key: "LKMWT2019EELBABRAFWSN"
+  authors: ["li_xinlu", "keegan_brian", "mtenzi_frederick", "weise_thomas", "tan_ming"]
+  title: "Energy-Efficient Load Balancing Ant Based Routing Algorithm for Wireless Sensor Networks"
+  citation: "<em>IEEE Access</em>&nbsp;7:113182–113196, August 2019"
+  doi: "10.1109/ACCESS.2019.2934889"
+  year: 2019
+  month: 8
+- key: "HW2019IDSUCNNACCAFADBODL"
+  authors: ["heng_lalin", "weise_thomas"]
+  title: "Intrusion Detection System Using Convolutional Neuronal Networks:&nbsp;A Cognitive Computing Approach for Anomaly Detection based on Deep Learning"
+  citation: "<em>18th&nbsp;IEEE International Conference on Cognitive Informatics &amp; Cognitive Computing&nbsp;(ICCI*CC'2019),</em> July 23-25, 2019, Polytechnic University of Milan, Italy, pages 34–40. IEEE Computer Society"
+  isbn: "978‑1‑7281‑1419‑4"
+  doi: "10.1109/ICCICC46617.2019.9146088"
+  year: 2019
+  month: 7
+- key: "WJQL2019ABABBCOFTTSP"
+  authors: ["weise_thomas", "jiang_yan", "qi_qi", "liu_weichen"]
+  title: "A&nbsp;Branch-and-Bound-Based Crossover Operator for the Traveling Salesman Problem"
+  citation: "<em>International Journal of Cognitive Informatics and Natural Intelligence&nbsp;(IJCINI)</em>&nbsp;13(3):1-18. Autumn 2019"
+  doi: "10.4018/IJCINI.2019070101"
+  year: 2019
+  month: 7
+- key: "WWLC2019IIIOADTM"
+  authors: ["weise_thomas", "wu_yuezhong", "liu_weichen", "chiong_raymond"]
+  title: "Implementation Issues in Optimization Algorithms:&nbsp;Do they matter?"
+  citation: "<em>Journal of Experimental &amp; Theoretical Artificial Intelligence&nbsp;(JETAI)</em>&nbsp;31(4):533–554. 2019"
+  doi: "10.1080/0952813X.2019.1574908"
+  year: 2019
+  month: 1
+- key: "WWW2019AIGBARSWPPFSLS"
+  authors: ["weise_thomas", "wu_zijun", "wagner_markus"]
+  title: "An&nbsp;Improved Generic Bet-and-Run Strategy with Performance Prediction for Stochastic Local Search"
+  citation: "<em>33rd&nbsp;AAAI Conference on Artificial Intelligence&nbsp;(AAAI'2019),</em> January 27 - February 1, 2019, Honolulu, Hawaii, USA, pages 2395–2402. Palo Alto, CA, USA:&nbsp;AAAI Press"
+  isbn: "978-1-57735-809-1"
+  doi: "10.1609/aaai.v33i01.33012395"
+  year: 2019
+  month: 1
+- key: "RW2018VNFPFSFCWMEC"
+  authors: ["raayatpanah_mohammad_ali", "weise_thomas"]
+  title: "Virtual Network Function Placement for Service Function Chaining with Minimum Energy Consumption"
+  citation: "<em>IEEE International Conference on Computer and Communication Engineering Technology&nbsp;(CCET'2018),</em> August 18-20, 2018, Beijing, China, IEEE"
+  isbn: "978-1-586-7437-6"
+  doi: "10.1109/CCET.2018.8542223"
+  year: 2018
+  month: 8
+- key: "WW2018DFOCOPATTWMBPFST"
+  authors: ["weise_thomas", "wu_zijun"]
+  title: "Difficult Features of Combinatorial Optimization Problems and the Tunable W-Model Benchmark Problem for Simulating them"
+  citation: "<em>>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2018) Companion,</em> July 15-19, 2018, Kyoto, Japan, pages 1769-1776, New York, NY, USA:&nbsp;ACM"
+  isbn: "978-1-4503-5764-7"
+  doi: "10.1145/3205651.3208240"
+  year: 2018
+  month: 7
+- key: "UWAL2018AGPIGFDOP"
+  authors: ["ullrich_markus", "weise_thomas", "awasthi_abhishek", "lassig_jorg"]
+  title: "A&nbsp;Generic Problem Instance Generator for Discrete Optimization Problems"
+  citation: "<em>>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2018) Companion,</em> July 15-19, 2018, Kyoto, Japan, pages 1761-1768 New York, NY, USA:&nbsp;ACM"
+  isbn: "978-1-4503-5764-7"
+  doi: "10.1145/3205651.3208284"
+  year: 2018
+  month: 7
+- key: "QWL2018OABMASOTTSP"
+  authors: ["qi_qi", "weise_thomas", "li_bin"]
+  title: "Optimization Algorithm Behavior Modeling:&nbsp;A Study on the Traveling Salesman Problem"
+  citation: "<em>10th&nbsp;International Conference on Advanced Computational Intelligence&nbsp;(ICACI'2018),</em> March 29-31, 2018, Xiamen, Fujian, China, IEEE, pages 861–866"
+  isbn: "978-1-5386-4362-4"
+  doi: "10.1109/ICACI.2018.8377576"
+  year: 2018
+  month: 3
+- key: "W2017FSDFTSTFOAB"
+  authors: ["weise_thomas"],
+  title: "From Standardized Data Formats to Standardized Tools for Optimization Algorithm Benchmarking"
+  citation: "<em>16th&nbsp;IEEE Conference on Cognitive Informatics & Cognitive Computing&nbsp;(ICCI*CC'2017),</em> July 26-28, 2017, University of Oxford, Oxford, UK, pages 490-497. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  isbn: "978-1-5386-0770-1"
+  doi: "10.1109/ICCI-CC.2017.8109794"
+  year: 2017
+  month: 7
+- key: "LWWQ2017CTLSWCAEHAFTTSP"
+  authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "qi_qi"]
+  title: "Combining Two Local Searches with Crossover:&nbsp;An Efficient Hybrid Algorithm for the Traveling Salesman Problem"
+  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2017),</em> July 15-19, 2017, Berlin, Germany, New York, NY, USA:&nbsp;ACM Press, pages 298-305"
+  isbn: "978-1-4503-4920-8"
+  doi: "10.1145/3071178.3071201"
+  year: 2017
+  month: 7
+- key: "QWL2017MOARBAIA"
+  authors: ["qi_qi", "weise_thomas", "li_bin"]
+  title: "Modeling Optimization Algorithm Runtime Behavior and its Applications"
+  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2017) Companion,</em> July 15-19, 2017, Berlin, Germany, New York, NY, USA:&nbsp;ACM Press, pages 115-116"
+  isbn: "978-1-4503-4939-0"
+  doi: "10.1145/3067695.3076042"
+  year: 2017
+  month: 7
+- key: "ALWK2016TCDWPWATLA"
+  authoers: ["awasthi_abhishek", "lassig_jorg", "weise_thomas", "kramer_oliver"]
+  title: "Tackling Common Due Window Problem with a Two-Layered Approach"
+  citation: "<em>10th&nbsp;International Conference on Combinatorial Optimization and Applications&nbsp;(COCOA'2016),</em> Hong Kong, China, December 16–18, 2016, Lecture Notes in Computer Science&nbsp;(LNCS) volume&nbsp;10043, pages 772-781, Cham, Switzerland:&nbsp;Springer"
+  isbn: "978-3-319-48748-9"
+  doi: "10.1007/978-3-319-48749-6_59"
+  year: 2016
+  month: 12
+- key: "WWCTL2016GVLSTIOPSOEAP"
+  authors: ["weise_thomas", "wu_yuezhong", "chiong_raymond", "tang_ke", "lassig_jorg"]
+  title: "Global versus Local Search:&nbsp;The Impact of Population Sizes on Evolutionary Algorithm Performance"
+  citation: "<em>Journal of Global Optimization&nbsp;(JOGO)</em>&nbsp;66(3):511-534. November 2016"
+  doi: "10.1007/s10898-016-0417-5"
+  year: 2016
+  month: 11
+- key: "WWL2016HDLSAWEOAECBPOTTSP"
+  authors: ["wu_yuezhong", "weise_thomas", "liu_weichen"]
+  title: "Hybridizing Different Local Search Algorithms with Each Other and Evolutionary Computation:&nbsp;Better Performance on the Traveling Salesman Problem"
+  citation: "<em>18th&nbsp;Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2016),</em> Denver, Colorado, USA, July 20–24, 2016, pages 57-58, New York, NY, USA:&nbsp;ACM"
+  isbn: "978-1-4503-4323-7"
+  doi: "10.1145/2908961.2909001"
+  year: 2026
+  month: 7
+- key: "WWWXC2016HECMFTTSP"
+  authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "xu_dan", "chiong_raymond"]
+  title: "An Improved Ejection Chain Method and Its Hybrid Versions for Solving the Traveling Salesman Problem"
+  citation: "<em>Journal of Computational and Theoretical Nanoscience</em>&nbsp;13(6):3601-3610. June 2016"
+  doi: "10.1166/jctn.2016.5189"
+  year: 2016
+  month: 6
+- key: "ALLW2016GBPAFSADD"
+  authors: ["awasthi_abhishek", "lassig_jorg", "leuschner_jens", "weise_thomas"]
+  title: "GPGPU-based Parallel Algorithms for Scheduling Against Due Date"
+  citation: "<em>6th&nbsp;IEEE Workshop on Parallel Computing and Optimization&nbsp;(PCO'2016),</em> part of the <em>IEEE 30th &nbsp;International Parallel and Distributed Processing Symposium&nbsp;(IPDPS'2016),</em> May 23-27, 2016, Chicago, IL, USA, pages 766-775. Piscataway, NJ, USA: IEEE Computer Society."
+  isbn: "978-1-5090-3682-0"
+  doi: "10.1109/IPDPSW.2016.66"
+  year: 2016
+  month: 5

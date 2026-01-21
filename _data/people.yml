@@ -1,3 +1,6 @@
+awasthi_abhishek:
+  name: "Abhishek Awasthi"
+  url: "https://www.enterprise-application-development.org/group/alumni/dr-abhishek-awasthi"
 cao_xiang:
   name: "Xiang CAO"
   name_cn: "曹翔"
@@ -8,6 +11,10 @@ chen_enhong:
 chen_jiayang:
   name: "Jiayang CHEN"
   name_cn: "陈嘉阳"
+chen_shengbing:
+  name: "Shengbing CHEN"
+  name_cn: "陈圣兵"
+  url_cn: "https://baike.baidu.com/item/%E9%99%88%E5%9C%A3%E5%85%B5/5499642"
 chen_wenxiang:
   name: "Wenxiang CHEN"
   name_cn: "陈文祥"
@@ -21,6 +28,9 @@ chen_yanping:
   name: "Yanping CHEN"
 cheng_fan:
   name: "Fan CHENG"
+chiong_raymond:
+  name: "Raymond Chiong"
+  url: "https://www.newcastle.edu.au/profile/raymond-chiong"
 cosson_raphael:
   name: "Raphaël Cosson"
 cui_lixin:
@@ -40,6 +50,8 @@ du_changjiang:
   name_cn: "杜长江"
 elias_jocelyne:
   name: "Jocelyne Elias"
+heng_lalin:
+  name: "Lalin Heng"
 horn_ruben:
   name: "Ruben Horn"
 huang_qianjing:
@@ -54,11 +66,19 @@ jiang_yan:
   name_cn: "江炎"
 kang_menglei:
   name: "Menglei KANG"
+keegan_brian:
+  name: "Brian Keegan"
+  url: "https://www.tudublin.ie/explore/faculties-and-schools/computing-digital-data/school-of-computer-science/people/academic-staff/brian-keegan.php"
 khodayifar_salman:
   name: "Salman Khodayifar"
+kramer_oliver:
+  name: "Oliver Kramer"
+  url: "https://uol.de/en/computingscience/ci/team/oliver-kramer"
 lassig_jorg:
   name: "Jörg Lässig"
   url: "https://www.enterprise-application-development.org/group/core-team/joerg-laessig"
+leuschner_jens:
+  name: "Jens Leuschner"
 liang_tianyu:
   name: "Tianyu LIANG"
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
@@ -88,6 +108,8 @@ ma_lu:
 martignon_fabio:
   name: "Fabio Martignon"
   url: "https://cs.unibg.it/martignon"
+mtenzi_frederick:
+  name: "Fredrick Mtenzi"
 nian_fudong:
   name: "Fudong NIAN"
 nie_feiping:
@@ -149,6 +171,11 @@ thomson_sarah_louise:
 thurer_matthias:
   name: "Matthias Thürer"
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
+tu_jing:
+  name: "Jing TU"
+ullrich_markus:
+  name: "Markus Ullrich"
+  url: "https://www.enterprise-application-development.org/group/core-team/markus-ullrich-m-sc"
 van_den_berg_daan:
   name: "Daan van den Berg"
   url: "https://research.vu.nl/en/persons/daan-van-den-berg"
@@ -196,6 +223,10 @@ wu_zhize:
   name: "Zhize WU"
   url: "https://deep-wu.github.io"
   name_cn: "吴志泽"
+wu_zijun:
+  name: "Zijun WU"
+  name_cn: "吴自军"
+  url_cn: "https://faculty.hfut.edu.cn/wuzijun/zh_CN"
 xu_dan:
   name: "Dan XU"
   name_cn: "许丹"
@@ -212,12 +243,16 @@ xu_tong:
   url: "http://staff.ustc.edu.cn/~tongxu/index.html"
   name_cn: "徐童"
   url_cn: "http://staff.ustc.edu.cn/~tongxu/index_zh.html"
+xu_jiabo:
+  name: "Jiabo XU"
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"
 zhang_chen:
   name: "Chen ZHANG"
   name_cn: "张琛"
+zhang_jiarui:
+  name: "Jiarui ZHANG"
 zhang_xingyi:
   name: "Xingyi ZHANG"
   name_cn: "张兴义"
@@ -229,4 +264,4 @@ zou_chang:
   name: "Chang ZOU"
 zou_le:
   name: "Le ZOU"
-  name_cn: 邹乐
+  name_cn: "邹乐"
