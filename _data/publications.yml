@@ -620,7 +620,7 @@
 - key: "JCW2012SNTAL"
   authors: ["jovanovic_jelena", "chiong_raymond", "weise_thomas"]
   title: "Social Networking, Teaching, and Learning:&nbsp;Introduction to Special Section on Social Networking, Teaching, and Learning&nbsp;(SNTL)"
-  citation: "<em>Interdisciplinary Journal of Information, Knowledge, and Management&nbsp;(IJIKM)<em>&nbsp;7:39-43. April 2012"
+  citation: "<em>Interdisciplinary Journal of Information, Knowledge, and Management&nbsp;(IJIKM)</em>&nbsp;7:39-43. April 2012"
   year: 2012
   month: 4
 - key: "DWZ2012PBDEA"
@@ -641,6 +641,7 @@
 - key: "BCCDJMNW2012EO"
   authors: ["blum_christian", "chiong_raymond", "clerc_maurice", "de_jong_kenneth_alan", "michalewicz_zbigniew", "neri_ferrante", "weise_thomas"]
   title: "Evolutionary Optimization"
+  editors: ["chiong_raymond", "weise_thomas", "michalewicz_zbigniew"]
   citation: "<em>Variants of Evolutionary Algorithms for Real-World Applications,</em> chapter&nbsp;1, pages 1-29. Berlin/Heidelberg, Germany:&nbsp;Springer-Verlag, 2012"
   isbn: "978-3-642-23423-1"
   doi: "10.1007/978-3-642-23424-8_1"
