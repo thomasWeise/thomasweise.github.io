@@ -1,22 +1,32 @@
 cao_xiang:
   name: "Xiang CAO"
   name_cn: "曹翔"
+chen_enhong:
+  name: "Enhong CHEN"
+  name_cn: "陈恩红"
+  url: "http://staff.ustc.edu.cn/~cheneh"
 chen_jiayang:
   name: "Jiayang CHEN"
   name_cn: "陈嘉阳"
 chen_wenxiang:
   name: "Wenxiang CHEN"
   name_cn: "陈文祥"
-chen_yan:
-  name: "Yan CHEN"
-  name_cn: "陈岩"
 chen_xin:
   name: "Xin CHEN"
   name_cn: "陈鑫"
+chen_yan:
+  name: "Yan CHEN"
+  name_cn: "陈岩"
+chen_yanping:
+  name: "Yanping CHEN"
 cheng_fan:
   name: "Fan CHENG"
 cosson_raphael:
   name: "Raphaël Cosson"
+cui_lixin:
+  name: "Lixin CUI"
+deng_rui:
+  name: "Rui DENG"
 ding_jianwen:
   name: "Jianwen DING"
 ding_yunfei:
@@ -53,6 +63,11 @@ liang_tianyu:
   name: "Tianyu LIANG"
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
   name_cn: "梁天宇"
+li_bin:
+  name: "Bin LI"
+  name_cn: "李斌"
+  url: "https://staff.ustc.edu.cn/~binli"
+  url_cn: "https://faculty.ustc.edu.cn/libin123/en/index.htm"
 li_teng:
   name: "Teng LI"
 li_xinlu:
@@ -75,6 +90,8 @@ martignon_fabio:
   url: "https://cs.unibg.it/martignon"
 nian_fudong:
   name: "Fudong NIAN"
+nie_feiping:
+  name: "Feiping NIE"
 niemczyk_stefan:
   name: "Stefan Niemczyk"
   url: "https://www.linkedin.cn/incareer/in/dr-stefan-niemczyk-135527248"
@@ -124,6 +141,8 @@ tang_ke:
   name_cn: "唐珂"
 tang_keke:
   name: "Keke TANG"
+tang_yuanyan:
+  name: "Yuanyan TANG"
 thomson_sarah_louise:
   name: "Sarah Louise Thomson"
   url: "https://napier-repository.worktribe.com/person/3168833"
@@ -198,9 +217,16 @@ zeng_jiazheng:
   name_cn: "曾嘉政"
 zhang_chen:
   name: "Chen ZHANG"
+  name_cn: "张琛"
+zhang_xingyi:
+  name: "Xingyi ZHANG"
+  name_cn: "张兴义"
+  url_cn: "https://baike.baidu.com/item/%E5%BC%A0%E5%85%B4%E4%B9%89/53324378"
 zhao_rui:
   name: "Rui ZHAO"
   name_cn: "赵睿"
+zou_chang:
+  name: "Chang ZOU"
 zou_le:
   name: "Le ZOU"
   name_cn: 邹乐

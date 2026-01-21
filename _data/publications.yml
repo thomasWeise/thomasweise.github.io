@@ -1,6 +1,6 @@
 - key: "RWEMP2025AMILPAFCAOND"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "elias_jocelyne", "martignon_fabio", "pimpinella_andrea"]
-  title: "A Mixed-Integer Linear Programming Approach for Congestion-Aware Optimized NFV Deployment"
+  title: "A&nbsp;Mixed-Integer Linear Programming Approach for Congestion-Aware Optimized NFV Deployment"
   citation: "<em>23rd&nbsp;International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks&nbsp;(WiOpt'2025),</em> May 26-29, 2025, Linköping, Sweden. IEEE"
   issn: "2690-3342"
   isbn: "979-8-3315-9816-7"
@@ -149,7 +149,7 @@
   month: 11
 - key: "RKWP2022ANATSSWMWOA"
   authors: ["raayatpanah_mohammad_ali", "khodayifar_salman", "weise_thomas", "pardalos_panos_miltiades"]
-  title: "A Novel Approach to Subgraph Selection with Multiple Weights on Arcs"
+  title: "A&nbsp;Novel Approach to Subgraph Selection with Multiple Weights on Arcs"
   citation: "<em>Journal of Combinatorial Optimization</em>&nbsp;44(1):242–268, August 2022"
   doi: "10.1007/s10878-021-00823-0"
   year: 2022
@@ -189,3 +189,53 @@
   doi: "10.1016/j.asoc.2021.107885"
   year: 2021
   month: 12
+- key: "XCWLWNCT2021SSMLCKLIE"
+  authors: ["xu_lixiang", "cui_lixin", "weise_thomas", "li_xinlu", "wu_zhize", "nie_feiping", "chen_enhong", "tang_yuanyan"]
+  title: "Semi-Supervised Multi-Layer Convolution Kernel Learning in Credit Evaluation"
+  citation: "<em>Pattern Recognition</em>&nbsp;120(108125). December 2021"
+  doi: "10.1016/j.patcog.2021.108125"
+  year: 2021
+  month: 12
+- key: "WZWTW2021RARLFRSIR"
+  authors: ["wu_zhize", "zou_chang", "wang_yan", "tan_ming", "weise_thomas"]
+  title: "Rotation-Aware Representation Learning for Remote Sensing Image Retrieval"
+  citation: "<em>Information Sciences</em>&nbsp;572:404-423. September 2021"
+  doi: "10.1016/j.ins.2021.04.078"
+  year: 2021
+  month: 9
+- key: "ZSWHDW2021ASORLSISMBOTEFSM"
+  authors: ["zou_le", "song_liangtu", "weise_thomas", "wang_xiaofeng", "huang_qianjing", "deng_rui", "wu_zhize"]
+  title: "A&nbsp;Survey on Regional Level Set Image Segmentation Models based on the Energy Functional Similarity Measure"
+  citation: "<em>Neurocomputing</em>&nbsp;42:606-622. September 2021"
+  doi: "10.1016/j.neucom.2020.07.141"
+  year: 2021
+  month: 9
+- key: "WLCW2021SJSSPWUABFGS"
+  authors: ["weise_thomas", "li_xinlu", "chen_yan", "wu_zhize"]
+  title: "Solving Job Shop Scheduling Problems Without Using a Bias for Good Solutions"
+  citation: "<em>Genetic and Evolutionary Computation Conference Companion&nbsp;(GECCO'21) Companion,</em> July 10-14, 2021, Lille, France. New York, NY, USA:&nbso;ACM"
+  isbn: "978-1-4503-8351-6"
+  doi: "10.1145/3449726.3463124"
+  year: 2021
+  month: 7
+- key: "WWLC2021FFAMOAIUBTOTOFV"
+  authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan"]
+  title: "Frequency Fitness Assignment:&nbsp;Making Optimization Algorithms Invariant under Bijective Transformations of the Objective Function Value"
+  citation: "<em>IEEE Transactions on Evolutionary Computation&nbsp;(TEVC)</em>&nbsp;25(2):307–319. April 2021"
+  doi: "10.1109/TEVC.2020.3032090"
+  year: 2021
+  month: 4
+- key: "ZSWWCZ2020ANATNTPIWP"
+  authors: ["zou_le", "song_liangtu", "wang_xiaofeng", "weise_thomas", "chen_yanping", "zhang_chen"]
+  title: "A&nbsp;New Approach to Newton-Type Polynomial Interpolation with Parameters"
+  citation: "<em>Mathematical Problems in Engineering</em>&nbsp;2020(9020541):1–15. November 2020"
+  doi: "10.1155/2020/9020541"
+  year: 2020
+  month: 11
+- key: "WWLZL2020SIOBOCIAITASCJ"
+  authors: ["weise_thomas", "wagner_markus", "li_bin", "zhang_xingyi", "lassig_jorg"]
+  title: "Special Issue on Benchmarking of Computational Intelligence Algorithms in the Applied Soft Computing Journal&nbsp;(Editorial)"
+  citation: "<em>Applied Soft Computing Journal&nbsp;(ASOC)&nbsp;93:106502. August 2020"
+  doi: "10.1016/j.asoc.2020.106502"
+  year: 2020
+  month: 8
