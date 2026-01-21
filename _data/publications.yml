@@ -542,3 +542,114 @@
   doi: "10.1007/978-3-642-41278-3"
   year: 2013
   month: 10
+- key: "WBB2013SWSCTWSCP"
+  authors: ["weise_thomas", "blake_m_brian", "bleul_steffen"]
+  title: "Semantic Web Service Composition:&nbsp;The Web Service Challenge Perspective"
+  citation: "<em>Web Services Foundations &mdash; Part&nbsp;1:&nbsp;Foundations of Web Services,</em> chapter&nbsp;7, pages 161-187. Secaucus, NJ, USA: Springer-Verlag New York, Inc.  September 2013 / Copyright 2014"
+  isbn: "978-1-4614-7517-0"
+  doi: "10.1007/978-1-4614-7518-7_7"
+  year: 2013
+  month: 9
+- key: "OWDC2013SADAFTSP"
+  authors: ["ouyang_jin", "weise_thomas", "devert_alexandre", "chiong_raymond"]
+  title: "SDGP:&nbsp;A Developmental Approach for Traveling Salesman Problems"
+  citation: "<em>IEEE Symposium on Computational Intelligence in Production and Logistics Systems&nbsp;(CIPLS'2013),</em> part of the <em>IEEE Symposium Series on Computational Intelligence&nbsp;(SSCI'2013),</em> April 15-19, 2013, Singapore,  pages 78-85, Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press."
+  isbn: "978-1-4673-5905-4"
+  doi: "10.1109/CIPLS.2013.6595203"
+  year: 2013
+  month: 4
+- key: "AKCW2013GAECS"
+  authors: ["abedini_mani", "kirely_michael", "chiong_raymond"]
+  title: "GPU Accelerated eXtended Classifier System"
+  citation: "<em>IEEE Symposium on Computational Intelligence and Data Mining&nbsp;(CIDM'2013),</em> part of the <em>IEEE Symposium Series on Computational Intelligence&nbsp;(SSCI'2013),</em> April 16-19, 2013, Singapore, pages 293-300. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  isbn: "978-1-4673-5895-8"
+  doi: "10.1109/CIDM.2013.6597250"
+  year: 2013
+  month: 4
+- key: "LWWL2013FPDIFDUTSEEA"
+  authors: ["li_bin", "wang_yu", "weise_thomas", "long_long"]
+  title: "Fixed-Point Digital IIR Filter Design using Two-Stage Ensemble Evolutionary Algorithm"
+  citation: "<em>Applied Soft Computing&nbsp;(ASOC)</em>&nbsp;13(1):329-338. January 2013"
+  doi: "10.1016/j.asoc.2012.09.004"
+  year: 2013
+  month: 1
+- key: "WLW2013TSEMAFOADIFD"
+  authors: ["wang_yu", "li_bin", "weise_thomas"]
+  title: "Two-Stage Ensemble Memetic Algorithm:&nbsp;Function Optimization and Digital IIR Filter Design"
+  citation: "<em>Information Sciences</em>&nbsp;220:408-424. January, 2013"
+  doi: "10.1016/j.ins.2012.07.041"
+  year: 2013
+  month: 1
+- key: "WCT2012EOPABT"
+  authors: ["weise_thomas", "chiong_raymond", "tang_ke"]
+  title: "Evolutionary Optimization:&nbsp;Pitfalls and Booby Traps"
+  citation: "<em>Journal of Computer Science and Technology&nbsp;(JCST)</em>&nbsp;27(5):907-936. September 2012"
+  doi: "10.1007/s11390-012-1274-4"
+  year: 2012
+  month: 9
+- key: "WDT2012ADSTDCARPUGP"
+  authors: ["devert_alexandre", "weise_thomas", "tang_ke"]
+  title: "A&nbsp;Study on Scalable Representations for Evolutionary Optimization of Ground Structures"
+  citation: "<em>Evolutionary Computation</em>&nbsp;20(3):453-472. Fall 2012"
+  doi: "10.1162/EVCO_a_00054"
+  year: 2012
+  month: 9
+- key: "DWT2012ASOSRFEOOGS"
+  authors: ["weise_thomas", "devert_alexandre", "tang_ke"]
+  title: "A&nbsp;Developmental Solution to (Dynamic) Capacitated Arc Routing Problems using Genetic Programming"
+  citation: "<em>14th&nbsp;Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2012),<em> July 7-11, 2012, Philadelphia, PA, USA, pages 831-838. New York, NY, USA:&nbsp;ACM"
+  isbn: "978-1-4503-1177-9"
+  doi: "10.1145/2330163.2330278"
+  year: 2012
+  month: 7
+- key: "BBBBW2012OOTWSCWDACOSWS"
+  authors: ["bansal_ayjay", "bansal_srividya", "blake_m_brian", "bleul_steffen", "weise_thomas"]
+  title: "Overview of the Web Services Challenge&nbsp;(WSC):&nbsp;Discovery and Composition of Semantic Web Services"
+  citation: "<em>Semantic Web Services &mdash; Advancement through Evaluation,</em> chapter&nbsp;19, pages 297-312. April 2012, Berlin/Heidelberg:&nbsp;Springer-Verlag."
+  isbn: "978-3-642-28734-3"
+  doi: "10.1007/978-3-642-28735-0_19"
+  year: 2012
+  month: 4
+- key: "WT2012EDAWGP"
+  authors: ["weise_thomas", "tang_ke"]
+  title: "Evolving Distributed Algorithms with Genetic Programming"
+  citation: "<em>IEEE Transactions on Evolutionary Computation&nbsp;(TEVC)</em>&nbsp;16(2):242-265. April 2012"
+  doi: "10.1109/TEVC.2011.2112666"
+  year: 2012
+  month: 4
+- key: "JCW2012SNTAL"
+  authors: ["jovanovic_jelena", "chiong_raymond", "weise_thomas"]
+  title: "Social Networking, Teaching, and Learning:&nbsp;Introduction to Special Section on Social Networking, Teaching, and Learning&nbsp;(SNTL)"
+  citation: "<em>Interdisciplinary Journal of Information, Knowledge, and Management&nbsp;(IJIKM)<em>&nbsp;7:39-43. April 2012"
+  year: 2012
+  month: 4
+- key: "DWZ2012PBDEA"
+  authors: ["deng_changshou", "weise_thomas", "zhao_bingyan"],
+  title: "Pseudo Binary Differential Evolution Algorithm"
+  citation: "<em>Journal of Computational Information Systems&nbsp;(JOFCIS)</em>&nbsp;8(6):2425–2436. March 2012"
+  year: 2012
+  month: 3
+- key: "CWM2012VOEAFRWA"
+  authors: ["chiong_raymond", "weise_thomas", "michalewicz_zbigniew"]
+  authors_are_editors: true
+  title: "Variants of Evolutionary Algorithms for Real-World Applications"
+  citation: "Berlin/Heidelberg, Germany:&nbsp;Springer-Verlag, 2012"
+  isbn: "978-3-642-23423-1"
+  doi: "10.1007/978-3-642-23424-8"
+  year: 2012
+  month: 1
+- key: "BCCDJMNW2012EO"
+  authors: ["blum_christian", "chiong_raymond", "clerc_maurice", "de_jong_kenneth_alan", "michalewicz_zbigniew", "neri_ferrante", "weise_thomas"]
+  title: "Evolutionary Optimization"
+  citation: "<em>Variants of Evolutionary Algorithms for Real-World Applications,</em> chapter&nbsp;1, pages 1-29. Berlin/Heidelberg, Germany:&nbsp;Springer-Verlag, 2012"
+  isbn: "978-3-642-23423-1"
+  doi: "10.1007/978-3-642-23424-8_1"
+  year: 2012
+  month: 1
+- key: "WLWWYT2011SALBPSO"
+  authors: ["wang_yu", "li_bin", "weise_thomas", "wang_jianyu", "yuan_bo", "tian_qiongjie"]
+  title: "Self-Adaptive Learning Based Particle Swarm Optimization"
+  citation: "<em>Information Sciences</em>&nbsp;181(20):4515-4538. October 2011"
+  doi: "10.1016/j.ins.2010.07.013"
+  year: 2011
+  month: 10

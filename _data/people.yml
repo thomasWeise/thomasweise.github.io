@@ -1,3 +1,5 @@
+abedini_mani:
+  name: "Mani Abedini"
 affenzeller_michael:
   name: "Michael Affenzeller"
 athauda_rukshan:
@@ -8,6 +10,18 @@ awasthi_abhishek:
   url: "https://www.enterprise-application-development.org/group/alumni/dr-abhishek-awasthi"
 back_thomas:
   name: "Thomas Bäck"
+bansal_ayjay:
+  name: "Ajay Bansal"
+bansal_srividya:
+  name: "Srividya Bansal"
+blake_m_brian:
+  name: "M.&nbsp;Brian Blake"
+  url: "https://president.gsu.edu"
+bleul_steffen:
+  name: "Steffen Bleul"
+blum_christian:
+  name: "Christian Blum"
+  url: "https://www.iiia.csic.es/~christian.blum"
 cao_xiang:
   name: "Xiang CAO"
   name_cn: "曹翔"
@@ -41,10 +55,19 @@ cheng_fan:
 chiong_raymond:
   name: "Raymond Chiong"
   url: "https://www.newcastle.edu.au/profile/raymond-chiong"
+clerc_maurice:
+  name: "Maurice Clerc"
+  url: "https://mauriceclerc.net"
 cosson_raphael:
   name: "Raphaël Cosson"
 cui_lixin:
   name: "Lixin CUI"
+de_jong_kenneth_alan:
+  name: "Kenneth Alan De Jong"
+  url: "https://ieeexplore.ieee.org/author/37276171300"
+deng_changshou:
+  name: "Changshou DENG"
+  name_cn: "邓长寿"
 deng_rui:
   name: "Rui DENG"
 devert_alexandre:
@@ -94,6 +117,9 @@ jiang_wenxiang:
 jiang_yan:
   name: "Yan JIANG"
   name_cn: "江炎"
+jovanovic_jelena:
+  name: "Jelena Jovanović"
+  url: "https://jelenajovanovic.net"
 kang_menglei:
   name: "Menglei KANG"
 keegan_brian:
@@ -101,6 +127,8 @@ keegan_brian:
   url: "https://www.tudublin.ie/explore/faculties-and-schools/computing-digital-data/school-of-computer-science/people/academic-staff/brian-keegan.php"
 khodayifar_salman:
   name: "Salman Khodayifar"
+kirely_michael:
+  name: "Michael Kirley"
 klawonn_frank:
   name: "Frank Klawonn"
   url: "https://www.ostfalia.de/hochschule/fakultaeten/fakultaet-informatik/fakultaetsteam/prof-frank-klawonn"
@@ -147,6 +175,8 @@ liu_weichen:
 liu_zhiyang:
   name: "Zhiyang LIU"
   name_cn: "刘志洋"
+long_long:
+  name: "Long LONG"
 ma_lu:
   name: "Lu MA"
   name_cn: "马璐"
@@ -166,6 +196,9 @@ mora_antonio_m:
   name: "Antonio M. Mora"
 mtenzi_frederick:
   name: "Fredrick Mtenzi"
+neri_ferrante:
+  name: "Ferrante Neri"
+  url: "https://www.surrey.ac.uk/people/ferrante-neri"
 nian_fudong:
   name: "Fudong NIAN"
 nie_feiping:
@@ -233,6 +266,8 @@ thomson_sarah_louise:
 thurer_matthias:
   name: "Matthias Thürer"
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
+tian_qiongjie:
+  name: "Qiongjie TIAN"
 trautmann_heike:
   name: "Heike Trautmann"
 tsang_edward_pk:
@@ -267,6 +302,8 @@ wagner_markus:
 wang_huan:
   name: "Huan WANG"
   name_cn: "王欢"
+wang_jianyu:
+  name: "Jianyu WANG"
 wang_mengyuan:
   name: "Mengyuan WANG"
 wan_mingxu:
@@ -285,6 +322,8 @@ wang_yan:
   name: "Yan WANG"
 wang_yongjun:
   name: "Yongjun WANG"
+wang_yu:
+  name: "Yu WANG"
 weise_thomas:
   name: "Thomas Weise"
   url: "https://thomasweise.github.io"
@@ -354,6 +393,8 @@ zhang_xingyi:
   name: "Xingyi ZHANG"
   name_cn: "张兴义"
   url_cn: "https://baike.baidu.com/item/%E5%BC%A0%E5%85%B4%E4%B9%89/53324378"
+zhao_bingyan:
+  name: "Bingyan ZHAO"
 zhao_rui:
   name: "Rui ZHAO"
   name_cn: "赵睿"
