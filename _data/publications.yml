@@ -925,7 +925,7 @@
   year: 2009
   month: 7
 - key: "WPMG2009OGMEA"
-  authors: ["weise_thomas", "podlich_alexander", "menze_manfred", "gorld_christian"]
+  authors: ["weise_thomas", "podlich_alexander", "menze_manfred", "gorldt_christian"]
   title: "Optimierte Güterverkehrsplanung mit Evolutionären Algorithmen"
   citation: "<em>Industrie Management &mdash; Zeitschrift für industrielle Geschäftsprozesse</em>&nbsp;10(3):37-40. June 2009"
   type: "article"
