@@ -95,7 +95,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-timezone: CST
+timezone: "CST"
 date_format: "%Y-%m-%d"
 
 enable_copy_code_button: true

@@ -3,21 +3,21 @@
 }
 
 .pubarticle {
-    background-color: #FFF0F0;
+    background-color: mix($background-color, rgba(10, 0, 0, 0.5));
 }
 
 .pubconference {
-    background-color: #F0F0FF;
+    background-color: mix($background-color, rgba(0, 0, 10, 0.5));
 }
 
 .pubbook {
-    background-color: #F0FFF0;
+    background-color: mix($background-color, rgba(0, 0, 10, 0.5));
 }
 
 .pubchapter {
-    background-color: #FFFFF0;
+    background-color: mix($background-color, rgba(10, 10, 0, 0.5));
 }
 
 .pubproceedings {
-    background-color: #F0FFFF;
+    background-color: mix($background-color, rgba(10, 0, 10, 0.5));
 }
