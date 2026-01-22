@@ -3,12 +3,14 @@
 search: false
 ---
 /*!* test test test */
-color:red;
+html {color:red;
 background-color:red;
+}
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-color:red;
+html {color:red;
 background-color:red;
+}
