@@ -163,11 +163,13 @@ Here you can find a list of the students that I have supervised or co-supervised
 - Topic: Intelligent Control of Swap Body-based Logistics on Road and Rail
 - Duration: 2008–2009
 - Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
+- Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'podlich_alexander'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 ##### Mr. {% include person.liquid person=site.data.people.niemczyk_stefan no_links=true %}
 - Topic: A Model Problem with Tunable Hardness for the Evaluation of Evolutionary Algorithms
 - Duration: 2008–2009
 - Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
+- Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'niemczyk_stefan'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 #### Bachelor's Student at the University of Kassel, Germany
 

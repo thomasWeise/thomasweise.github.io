@@ -46,3 +46,5 @@ author_profile: true
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2007" -%}{%- include publications.liquid papers=papers -%}{:/}
 ## 2006
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2006" -%}{%- include publications.liquid papers=papers -%}{:/}
+## 2005
+{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2005" -%}{%- include publications.liquid papers=papers -%}{:/}
