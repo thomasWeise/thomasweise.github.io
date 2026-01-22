@@ -10,6 +10,8 @@ awasthi_abhishek:
   url: "https://www.enterprise-application-development.org/group/alumni/dr-abhishek-awasthi"
 back_thomas:
   name: "Thomas Bäck"
+baer_philipp_andreas:
+  name: "Philipp Andreas Baer"
 bansal_ayjay:
   name: "Ajay Bansal"
 bansal_srividya:
@@ -58,6 +60,8 @@ chiong_raymond:
 clerc_maurice:
   name: "Maurice Clerc"
   url: "https://mauriceclerc.net"
+comes_diana_elena:
+  name: "Diana Elena Comes"
 cosson_raphael:
   name: "Raphaël Cosson"
 cui_lixin:
@@ -92,6 +96,8 @@ esparcia_alcazar_anna_isabel:
   name: "Anna Isabel Esparcia-Alcázar"
 fan_xiannian:
   name: "Xiannian (Eric) FAN"
+fickert_volker:
+  name: "Volker Fickert"
 filipe_joaquim:
   name: "Joaquim Filipe"
 gao_chao:
@@ -101,6 +107,9 @@ gao_yang:
   name_cn: "高阳"
   url: "https://cs.nju.edu.cn/cs_en/95/a8/c55069a628136/page.htm"
   url_cn: "https://cs.nju.edu.cn/58/14/c2639a153620/page.htm"
+geihs_kurt:
+  name: "Kurt Geihs"
+  url: "https://geihs.de"
 gong_maoguo:
   name: "Maoguo GONG"
   name_cn: "公茂果"
@@ -116,6 +125,8 @@ horn_ruben:
   name: "Ruben Horn"
 huang_qianjing:
   name: "Qian-Jing HUANG"
+jager_michael_c:
+  author: "Michael C. Jäger"
 jansen_reitze:
   name: "Reitze Jansen"
   url: "https://github.com/rlhjansen"
@@ -127,20 +138,28 @@ jiang_yan:
 jovanovic_jelena:
   name: "Jelena Jovanović"
   url: "https://jelenajovanovic.net"
+kalfa_winfried:
+  name: "Winfried Kalfa"
 kang_menglei:
   name: "Menglei KANG"
 keegan_brian:
   name: "Brian Keegan"
   url: "https://www.tudublin.ie/explore/faculties-and-schools/computing-digital-data/school-of-computer-science/people/academic-staff/brian-keegan.php"
+khan_mohammad_ullah:
+  name: "Mohammad Ullah Khan"
 khodayifar_salman:
   name: "Salman Khodayifar"
 kinsner_witold:
   name: "Witold Kinsner"
+kirchhoff_marc:
+  name: "Marc Kirchhoff"
 kirely_michael:
   name: "Michael Kirley"
 klawonn_frank:
   name: "Frank Klawonn"
   url: "https://www.ostfalia.de/hochschule/fakultaeten/fakultaet-informatik/fakultaetsteam/prof-frank-klawonn"
+kona_srividya:
+  name: "Srividya Kona"
 kononova_anna_v:
   name: "Anna V. Kononova"
 kramer_oliver:
@@ -204,6 +223,8 @@ marcelloni_francesco:
 martignon_fabio:
   name: "Fabio Martignon"
   url: "https://cs.unibg.it/martignon"
+menze_manfred:
+  name: "Manfred Menze"
 michalewicz_zbigniew:
   name: "Zbigniew Michalewicz"
   url: "https://cs.adelaide.edu.au/~zbyszek"
@@ -214,6 +235,9 @@ mtenzi_frederick:
 neri_ferrante:
   name: "Ferrante Neri"
   url: "https://www.surrey.ac.uk/people/ferrante-neri"
+nebro_urbaneja_antonio_jesus:
+  name: "Antonio Jesús Nebro Urbaneja"
+  url: "http://www.lcc.uma.es/%7Eantonio"
 nian_fudong:
   name: "Fudong NIAN"
 nie_feiping:
@@ -254,9 +278,17 @@ raayatpanah_mohammad_ali:
 ran_shuoyi:
   name: "Shuoyi RAN"
   name_cn: "冉烁依"
+reichle_roland:
+  name: "Roland Reichle"
+reinhard_kai:
+  name: "Kai Reinhard"
 shi_wei:
   name: "Wei SHI"
   name_cn: "施玮"
+skubch_hendrik:
+  name: "Hendrik Skubch"
+  name_cn: "ヘンドリック スクバ"
+  url_cn: "https://thinkit.co.jp/author/10366"
 song_liangtu:
   name: "Liang-Tu SONG"
 song_tao:
@@ -323,6 +355,9 @@ voigtmann_christian:
 wagner_markus:
   name: "Markus Wagner"
   url: "https://research.monash.edu/en/persons/markus-wagner"
+wallnitz_elke:
+  name: "Elke Wällnitz"
+  url: "http://www.elkewaellnitz.de"
 wang_huan:
   name: "Huan WANG"
   name_cn: "王欢"
@@ -414,6 +449,9 @@ yuan_bo:
   url: "https://www.sustech.edu.cn/en/faculties/yuanbo.html"
   name_cn: "袁博"
   url_cn: "https://www.sustech.edu.cn/zh/faculties/yuanbo.html"
+zapf_michael:
+  name: "Michael Zapf"
+  url: "https://www.th-nuernberg.de/en/person/zapf-michael"
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"

@@ -6,5 +6,6 @@
 {%- if include.paper.doi %} doi:<a href="https://doi.org/{{- include.paper.doi -}}">{{- include.paper.doi -}}</a>.{%- endif -%}
 {%- if include.paper.rg %} [<a href="https://www.researchgate.net/publication/{{- include.paper.rg -}}">R<sup>G</sup></a>]{%- endif -%}
 {%- if include.paper.arxiv %} [<a href="https://arxiv.org/abs/{{- include.paper.arxiv -}}">arXiv</a>]{%- endif -%}
+{%- if include.paper.url %} [<a href="{{- include.paper.url -}}">link</a>]{%- endif -%}
 {%- endcapture -%}
 {{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," | replace: " .", "." | replace: "..", "." | replace: "?.", "?" | replace: "!.", "!" | append: "öäü@" | remove: ".öäü@" | remove: "öäü@" | strip | append: "." | replace: "?.", "?" | replace: "!.", "!" | replace: ".,", "," -}}
