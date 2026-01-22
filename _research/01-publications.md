@@ -6,6 +6,20 @@ toc: true
 author_profile: true
 ---
 
+<p>Several facets of my research work can be accessed from the following profiles:</p>
+<ul>
+<li><a href="http://scholar.google.com/citations?user=rT9StgcAAAAJ">Google Scholar</a></li>
+<li><a href="https://www.kiphub.com/author/666223137bda79841927fc0d">KipHub Scholarly</a></li>
+<li><a href="https://dblp.org/pid/38/1046">DBLP</a></li>
+<li><a href="https://www.semanticscholar.org/author/8950208">SemanticScholar</a></li>
+<li><a href="https://www.researchgate.net/profile/Thomas-Weise-3">ResearchGate</a></li>
+<li><a href="https://dl.acm.org/profile/81317502373">ACM Author Page</a></li>
+<li><a href="https://ieeexplore.ieee.org/author/37297069700">IEEE Author Page</a></li>
+<li>ORCID:<a href="https://orcid.org/0000-0002-9687-8509">0000-0002-9687-8509</a></li>
+<li><a href="https://arxiv.org/a/0000-0002-9687-8509.html">arXiv</a></li>
+<li><a href="http://gpbib.cs.ucl.ac.uk/gp-html/ThomasWeise.html">GP Bibliography</a></li>
+</ul>
+
 ## 2025
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2025" -%}{%- include publications.liquid papers=papers -%}{:/}
 ## 2024
