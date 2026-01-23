@@ -1,3 +1,9 @@
+{%- assign thearray="" | split: "," -%}
 {%- for theperson in include.persons -%}
-    {%- include person.liquid person="weise_thomas" -%}
+    {%- capture thepersonstr -%}
+        {%- include person.liquid person=Changes -%}
+    {%- endcapture -%}
+    {%- assign thepersonary = thepersonstr | split: "äü@ß" -%}
+    {%- assign thearray = thearray | concat: thepersonary -%}
 {%- endfor -%}
+{%- include printarray array=thearray -%}
