@@ -1,5 +1,8 @@
 {%- assign outarray = "" | split: "," -%}
 {%- for person in include.persons -%}
-    {%- include person.liquid person=person -%}
+    {%- capture personstr %-}
+        {%- include person.liquid person=person -%}
+    {%- endcapture -%}
+    {% assign outarray = outarray | concat: personstr -%}
 {%- endfor -%}
 {%- include print_array.liquid array=outarray -%}

@@ -1,6 +1,14 @@
 {%- assign no_links = include.no_links | default: false -%}
-{%- if no_links -%}{%- assign put_links = false -%}{%- else -%}{%- assign put_links = true -%}{%- endif -%}
-{%- if include.person.url and put_links -%}<a href="{{- include.person.url -}}">{%- endif -%}
-{{- include.person.name -}}
-{%- if include.person.url and put_links -%}</a>{%- endif -%}
-{%- if include.person.name_cn -%}&nbsp;({%- if include.person.url_cn and put_links -%}<a href="{{- include.person.url_cn -}}">{%- endif -%}{{- include.person.name_cn -}}{%- if include.person.url_cn and put_links -%}</a>{%- endif -%}){%- endif -%}
+{%- if no_links -%}
+    {%- assign put_links = false -%}
+{%- else -%}
+    {%- assign put_links = true -%}{
+{%- endif -%}
+{%- assign person=include.person -%}
+{%- unless person.name -%}
+    {%- assign person=site.data.people[person] -%}
+{%- endunless -%}
+{%- if person.url and put_links -%}<a href="{{- person.url -}}">{%- endif -%}
+{{- person.name -}}
+{%- if person.url and put_links -%}</a>{%- endif -%}
+{%- if person.name_cn -%}&nbsp;({%- if person.url_cn and put_links -%}<a href="{{- person.url_cn -}}">{%- endif -%}{{- person.name_cn -}}{%- if person.url_cn and put_links -%}</a>{%- endif -%}){%- endif -%}
