@@ -6,7 +6,9 @@ toc: true
 author_profile: true
 ---
 
-<p>Several facets of my research work can be accessed from the following profiles:</p>
+<p>
+Here you can find a list of publications of Prof.&nbsp;Dr.&nbsp;{% include person.liquid person=site.data.people.weise_thomas -%}.
+Several facets of my research work can also be accessed from the following profiles:</p>
 <ul>
 <li><a href="http://scholar.google.com/citations?user=rT9StgcAAAAJ">Google Scholar</a></li>
 <li><a href="https://www.kiphub.com/author/666223137bda79841927fc0d">KipHub Scholarly</a></li>
