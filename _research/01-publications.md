@@ -22,7 +22,7 @@ author_profile: true
     {%- if fa == "weise_thomas" -%}
         {%- assign first_author = first_author | plus: 1 -%}
     {%- endif -%}
-    {%- assign coauthors = coauthors | concat: paper.authors | uniq -%}
+    {%- assign coauthors = coauthors | concat: paper.authors -%}
     {%- assign coauthors = coauthors | uniq -%}
     {%- case paper.type -%}
         {%- when "article" -%}
@@ -43,13 +43,11 @@ author_profile: true
             {%- assign total_chapter = total_chapter | plus: 1 -%}    
     {%- endcase -%}
 {%- endfor -%}
-{%- assign coauthors = coauthors | uniq -%}
 {%- assign coauthors = coauthors | remove: "weise_thomas" -%}
-{%- assign coauthors = coauthors | uniq -%}
 
 Prof.&nbsp;Dr.&nbsp;{%- include person.liquid person="weise_thomas" %} has published {{ total -}}&nbsp;works, including {{ total_article -}}&nbsp;articles, {{ total_conference -}}&nbsp;conference papers, {{ total_book -}}&nbsp;books, {{ total_chapter -}}&nbsp;book chapters, and {{ total_proceedings -}}&nbsp;edited proceedings.
 He is the first author of&nbsp;{{ first_author -}}&nbsp;of these works, including {{ first_author_article -}}&nbsp;articles and {{ first_author_conference -}}&nbsp;conference papers.
-He has worked with {{ coauthors | size -}}&nbsp;coauthors and together with them published in journals such as the <em>IEEE Transactions on Evolutionary Computation,</em> the <em>IEEE Transactions on Image Processing,</em> <em>Information Fusion,</em> the <em>IEEE Computational Intelligence Magazine,</em> <em>Evolutionary Computation,</em> <em>Information Sciences,</em> <em>Pattern Recognition,</em> the <em>Applied Soft Computing Journal,</em> the <em>Journal of Combinatorial Optimization,</em> the <em>Journal of Global Optimization,</em> the <em>European Journal of Operational Research,</em> <em>Soft Computing</em>, the <em>Journal of Experimental &amp; Theoretical Artificial Intelligence,</em> <em>Neurocomputing</em>, the <em>Journal of Computer Science and Technology,</em> and <em>Remote Sensing</em> as well as at conferences such as the <em>AAAI Conference on Artificial Intelligence,</em> <em>Parallel Problem Solving from Nature,</em> the <em> Genetic and Evolutionary Computation Conference</em> the <em>IEEE Symposium Series on Computational Intelligence</em>, and the <em>IEEE Congress on Evolutionary Computation</em>.
+He has worked with {{ coauthors | size -}}&nbsp;coauthors and together with them published in journals such as the <em>IEEE Transactions on Evolutionary Computation,</em> the <em>IEEE Transactions on Image Processing, </em> <em>Information Fusion,</em> the <em>IEEE Computational Intelligence Magazine,</em> <em>Evolutionary Computation,</em> <em>Information Sciences,</em> the <em>Applied Soft Computing Journal,</em> the <em>Journal of Combinatorial Optimization,</em> the <em>Journal of Global Optimization,</em> and the <em>European Journal of Operational Research,</em>, among others, as well as at conferences such as the <em>AAAI Conference on Artificial Intelligence,</em> <em>Parallel Problem Solving from Nature,</em> and the <em> Genetic and Evolutionary Computation Conference</em>, among others.
 
 ## Scholarly Profiles
 Several facets of my research work can also be accessed from the following profiles:
