@@ -715,7 +715,7 @@
 - key: "DWZ2012PBDEA"
   authors: ["deng_changshou", "weise_thomas", "zhao_bingyan"]
   title: "Pseudo Binary Differential Evolution Algorithm"
-  citation: "<em>Journal of Computational Information Systems&nbsp;(JOFCIS)</em>&nbsp;8(6):2425–2436. March 2012"
+  citation: "<em>Journal of Computational Information Systems&nbsp;(JOFCIS)</em>&nbsp;8(6):2425-2436. March 2012"
   type: "article"
   year: 2012
   month: 3
@@ -750,7 +750,7 @@
 - key: "FTW2012MBOSMFLFID"
   authors: ["fan_xiannian", "tang_ke", "weise_thomas"]
   title: "Margin-Based Over-Sampling Method for Learning From Imbalanced Datasets"
-  citation: "<em>15th&nbsp;Pacific-Asia Conference on Advances in Knowledge Discovery and Data Mining&nbsp;(PAKDD'2011),</em> Part&nbsp;II, May 24–27, 2011, Shenzhen, Guangdong, China, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6635, pages&nbsp;309-320. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>15th&nbsp;Pacific-Asia Conference on Advances in Knowledge Discovery and Data Mining&nbsp;(PAKDD'2011),</em> Part&nbsp;II, May 24-27, 2011, Shenzhen, Guangdong, China, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6635, pages&nbsp;309-320. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-642-20846-1"
   doi: "10.1007/978-3-642-20847-8_26"
   type: "conference"
@@ -759,7 +759,7 @@
 - key: "WC2011ANEOAFTTDP"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "A&nbsp;Novel Extremal Optimization Approach for the Template Design Problem"
-  citation: "<em>International Journal of Organizational and Collective Intelligence&nbsp;(IJOCI)</em>&nbsp;2(2):1-17. April–June 2011"
+  citation: "<em>International Journal of Organizational and Collective Intelligence&nbsp;(IJOCI)</em>&nbsp;2(2):1-17. April-June 2011"
   doi: "10.4018/joci.2011040101"
   type: "article"
   year: 2011
@@ -767,7 +767,7 @@
 - key: "WNCW2011AFFMMEWMR"
   authors: ["weise_thomas", "niemczyk_stefan", "chiong_raymond", "wan_mingxu"]
   title: "A&nbsp;Framework for Multi-Model EDAs with Model Recombination"
-  citation: "<em>4th&nbsp;European Event on Bio-Inspired Algorithms for Continuous Parameter Optimisation&nbsp;(EvoNUM'2011),</em> part of <em>Applications of Evolutionary Computation &ndash; Proceedings of EvoAPPLICATIONS&nbsp;2011: EvoCOMPLEX, EvoGAMES, EvoIASP, EvoINTELLIGENCE, EvoNUM, and EvoSTOC,</em> April 27–29, 2011, Torino, Italy, Part&nbsp;1, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6624, pages&nbsp;304-313. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>4th&nbsp;European Event on Bio-Inspired Algorithms for Continuous Parameter Optimisation&nbsp;(EvoNUM'2011),</em> part of <em>Applications of Evolutionary Computation &ndash; Proceedings of EvoAPPLICATIONS&nbsp;2011: EvoCOMPLEX, EvoGAMES, EvoIASP, EvoINTELLIGENCE, EvoNUM, and EvoSTOC,</em> April 27-29, 2011, Torino, Italy, Part&nbsp;1, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6624, pages&nbsp;304-313. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-642-20524-8"
   doi: "10.1007/978-3-642-20525-5_31"
   type: "conference"
@@ -776,7 +776,7 @@
 - key: "WWT2011NLSATEOMA"
   authors: ["wan_mingxu", "weise_thomas", "tang_ke"]
   title: "Novel Loop Structures and the Evolution of Mathematical Algorithms"
-  citation: "<em>14th&nbsp;European Conference on Genetic Programming&nbsp;(EuroGP'2011),</em> April 27–29, 2011, Torino, Italy, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6621/2011, pages&nbsp;49-60. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>14th&nbsp;European Conference on Genetic Programming&nbsp;(EuroGP'2011),</em> April 27-29, 2011, Torino, Italy, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6621/2011, pages&nbsp;49-60. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-642-20406-7"
   doi: "10.1007/978-3-642-20407-4_5"
   type: "conference"
@@ -801,7 +801,7 @@
 - key: "WWZKSSLWZ2011POTFOCIAIFD"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "lu_jianhua", "weise_thomas", "zhang_du"]
   title: "Perspectives on the Field of Cognitive Informatics and Its Future Development"
-  citation: "<em>International Journal of Cognitive Informatics and Natural Intelligence&nbsp;(IJCINI)</em>&nbsp;5(1):1-17. January–March 2011"
+  citation: "<em>International Journal of Cognitive Informatics and Natural Intelligence&nbsp;(IJCINI)</em>&nbsp;5(1):1-17. January-March 2011"
   doi: "10.4018/jcini.2011010101"
   type: "article"
   year: 2011
@@ -809,7 +809,7 @@
 - key: "YWTB2010QASWSCFS"
   authors: ["yu_xin", "weise_thomas", "tang_ke", "bleul_steffen"]
   title: "QoS-aware Semantic Web Service Composition for SOAs"
-  citation: "<em>IEEE International Conference on Service-Oriented Computing and Applications&nbsp;(SOCA'2010),</em> December 13–15, 2010, Perth, WA, Australia, pages&nbsp;1-4. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  citation: "<em>IEEE International Conference on Service-Oriented Computing and Applications&nbsp;(SOCA'2010),</em> December 13-15, 2010, Perth, WA, Australia, pages&nbsp;1-4. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
   isbn: "978-1-4244-9802-4"
   doi: "10.1109/SOCA.2010.5707192"
   type: "conference"
@@ -818,7 +818,7 @@
 - key: "BWB2010WWSCAE"
   authors: ["blake_m_brian", "weise_thomas", "bleul_steffen"]
   title: "WSC-2010:&nbsp;Web Services Composition and Evaluation"
-  citation: "<em>IEEE International Conference on Service-Oriented Computing and Applications&nbsp;(SOCA'2010),</em> December 13–15, 2010, Perth, WA, Australia, pages&nbsp;1-4. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  citation: "<em>IEEE International Conference on Service-Oriented Computing and Applications&nbsp;(SOCA'2010),</em> December 13-15, 2010, Perth, WA, Australia, pages&nbsp;1-4. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
   isbn: "978-1-4244-9802-4"
   doi: "10.1109/SOCA.2010.5707190"
   type: "conference"
@@ -827,7 +827,7 @@
 - key: "CWYT2010LSGOUCCWVIL"
   authors: ["chen_wenxiang", "weise_thomas", "yang_zhenyu", "tang_ke"]
   title: "Large-Scale Global Optimization Using Cooperative Coevolution with Variable Interaction Learning"
-  citation: "<em>11th&nbsp;International Conference on Parallel Problem Solving from Nature&nbsp;(PPSN'2010),</em> Part&nbsp;II, September 11–15, 2010, Kraków, Poland, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6239, pages&nbsp;300-309. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>11th&nbsp;International Conference on Parallel Problem Solving from Nature&nbsp;(PPSN'2010),</em> Part&nbsp;II, September 11-15, 2010, Kraków, Poland, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6239, pages&nbsp;300-309. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-642-15870-4"
   doi: "10.1007/978-3-642-15871-1_31"
   type: "conference"
@@ -845,7 +845,7 @@
 - key: "WC2010EDMAFRBATBC"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "Evolutionary Data Mining Approaches for Rule-based and Tree-based Classifiers"
-  citation: "<em>9th&nbsp;IEEE International Conference on Cognitive Informatics&nbsp;(ICCI'2010),</em> July 7–9, 2010, Beijing, China, pages&nbsp;696-703. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  citation: "<em>9th&nbsp;IEEE International Conference on Cognitive Informatics&nbsp;(ICCI'2010),</em> July 7-9, 2010, Beijing, China, pages&nbsp;696-703. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
   isbn: "978-1-4244-8040-1"
   doi: "10.1109/COGINF.2010.5599821"
   type: "conference"
@@ -854,7 +854,7 @@
 - key: "WTWTY2010UGTEDRFCIFDS"
   authors: ["wang_pu", "tsang_edward_pk", "weise_thomas", "tang_ke", "yao_xin"]
   title: "Using GP to Evolve Decision Rules for Classification in Financial Data Sets"
-  citation: "<em>9th&nbsp;IEEE International Conference on Cognitive Informatics&nbsp;(ICCI'2010),</em> July 7–9, 2010, Beijing, China, pages&nbsp;720-727. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  citation: "<em>9th&nbsp;IEEE International Conference on Cognitive Informatics&nbsp;(ICCI'2010),</em> July 7-9, 2010, Beijing, China, pages&nbsp;720-727. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
   isbn: "978-1-4244-8040-1"
   doi: "10.1109/COGINF.2010.5599820"
   type: "conference"
@@ -863,7 +863,7 @@
 - key: "WWZKSSWZZ2010POCIAIFDSOPPIII"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "weise_thomas", "zhong_yixin", "zhang_du"]
   title: "Perspectives on Cognitive Informatics and Its Future Development:&nbsp;Summary of Plenary Panel&nbsp;II of IEEE&nbsp;ICCI'10"
-  citation: "<em>9th&nbsp;IEEE International Conference on Cognitive Informatics&nbsp;(ICCI'2010),</em> July 7–9, 2010, Beijing, China, pages&nbsp;17-25. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  citation: "<em>9th&nbsp;IEEE International Conference on Cognitive Informatics&nbsp;(ICCI'2010),</em> July 7-9, 2010, Beijing, China, pages&nbsp;17-25. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
   isbn: "978-1-4244-8040-1"
   doi: "10.1109/COGINF.2010.5599693"
   type: "conference"
@@ -880,7 +880,7 @@
 - key: "CWL2009TDUEOWMSO"
   authors: ["chiong_raymond", "weise_thomas", "lau_bee_theng"]
   title: "Template Design using Extremal Optimization with Multiple Search Operators"
-  citation: "<em>International Conference on Soft Computing and Pattern Recognition&nbsp;(SoCPaR'2009),</em> December 4–7, 2009, Malacca, Malaysia, pages&nbsp;202-207. Piscataway, NJ, USA:&nbsp;IEEE"
+  citation: "<em>International Conference on Soft Computing and Pattern Recognition&nbsp;(SoCPaR'2009),</em> December 4-7, 2009, Malacca, Malaysia, pages&nbsp;202-207. Piscataway, NJ, USA:&nbsp;IEEE"
   isbn: "978-1-4244-5330-6"
   doi: "10.1109/SoCPaR.2009.49"
   type: "conference"
@@ -909,7 +909,7 @@
 - key: "WZ2009EDAWGPE"
   authors: ["weise_thomas", "zapf_michael"]
   title: "Evolving Distributed Algorithms with Genetic Programming:&nbsp;Election"
-  citation: "<em>First ACM/SIGEVO Summit on Genetic and Evolutionary Computation&nbsp;(GEC'2009),</em> June 12–14, 2009, Shanghai, China, pages&nbsp;577-584. New York, NY, USA&nbsp;ACM Press"
+  citation: "<em>First ACM/SIGEVO Summit on Genetic and Evolutionary Computation&nbsp;(GEC'2009),</em> June 12-14, 2009, Shanghai, China, pages&nbsp;577-584. New York, NY, USA&nbsp;ACM Press"
   isbn: "978-1-60558-326-6"
   doi: "10.1145/1543834.1543913"
   type: "conference"
@@ -918,7 +918,7 @@
 - key: "KBBBW2009W2AQOSOWSC"
   authors: ["kona_srividya", "bansal_ajay", "blake_m_brian", "bleul_steffen", "weise_thomas"]
   title: "WSC-2009:&nbsp;A&nbsp;Quality of Service-Oriented Web Services Challenge"
-  citation: "<em>11th&nbsp;IEEE Conference on Commerce and Enterprise Computing&nbsp;(CEC'2009),</em> July 20–23, 2009, Vienna, Austria, pages&nbsp;487-490. Piscataway, NJ, USA:&nbsp;IEEE Computer Society and Red Hook, NY, USA:&nbsp;Curran Associates, Inc"
+  citation: "<em>11th&nbsp;IEEE Conference on Commerce and Enterprise Computing&nbsp;(CEC'2009),</em> July 20-23, 2009, Vienna, Austria, pages&nbsp;487-490. Piscataway, NJ, USA:&nbsp;IEEE Computer Society and Red Hook, NY, USA:&nbsp;Curran Associates, Inc"
   isbn: "978-0-7695-3755-9"
   doi: "10.1109/CEC.2009.80"
   type: "conference"
@@ -934,7 +934,7 @@
 - key: "CBWG2009AFAFBPM"
   authors: ["comes_diana_elena", "bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "A&nbsp;Flexible Approach for Business Processes Monitoring"
-  citation: "<em>9th&nbsp;IFIP&nbsp;WG 6.1&nbsp;International Conference on Distributed Applications and Interoperable Systems&nbsp;(DAIS'2009),</em> June 9–11, 2009, Lisbon, Portugal, pages&nbsp;116-128. Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;5523/2009. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>9th&nbsp;IFIP&nbsp;WG 6.1&nbsp;International Conference on Distributed Applications and Interoperable Systems&nbsp;(DAIS'2009),</em> June 9-11, 2009, Lisbon, Portugal, pages&nbsp;116-128. Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;5523/2009. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   doi: "10.1007/978-3-642-02164-0_9"
   isbn: "978-3-642-02163-3"
   type: "conference"
@@ -952,7 +952,7 @@
 - key: "WPRGG2009EFTP"
   authors: ["weise_thomas", "podlich_alexander", "reinhard_kai", "gorldt_christian", "geihs_kurt"]
   title: "Evolutionary Freight Transportation Planning"
-  citation: "<em>Applications of Evolutionary Computing &mdash; Proceedings of EvoWorkshops'2009,</em> April 15–17, 2009, Tübingen, Germany:&nbsp;Eberhard-Karls-Universität Tübingen, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;5484/2009, pages&nbsp;768-777. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>Applications of Evolutionary Computing &mdash; Proceedings of EvoWorkshops'2009,</em> April 15-17, 2009, Tübingen, Germany:&nbsp;Eberhard-Karls-Universität Tübingen, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;5484/2009, pages&nbsp;768-777. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-642-01128-3"
   doi: "10.1007/978-3-642-01129-0_87"
   type: "conference"
@@ -985,7 +985,7 @@
 - key: "CW2009GOAML"
   authors: ["chiong_raymond", "weise_thomas"]
   title: "Global Optimisation and Mobile Learning"
-  citation: "<em>Learning Technology &mdash; LTTF Newsletter,</em>&nbsp;11(1-2):26-28. January–April 2009"
+  citation: "<em>Learning Technology &mdash; LTTF Newsletter,</em>&nbsp;11(1-2):26-28. January-April 2009"
   type: "article"
   year: 2009
   month: 1
@@ -999,7 +999,7 @@
 - key: "ZW2008CSE"
   authors: ["zapf_michael", "weise_thomas"]
   title: "Can Solutions Emerge?"
-  citation: "<em>3rd&nbsp;International Workshop on Self-Organizing Systems&nbsp;(IWSOS'2008),</em> December 10-12, 2008, Vienna, Austria. Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;5343/2008, pages&nbsp;299–304. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>3rd&nbsp;International Workshop on Self-Organizing Systems&nbsp;(IWSOS'2008),</em> December 10-12, 2008, Vienna, Austria. Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;5343/2008, pages&nbsp;299-304. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-540-92156-1"
   doi: "10.1007/978-3-540-92157-8_29"
   type: "conference"
@@ -1008,7 +1008,7 @@
 - key: "BWG2008GSDFMR"
   authors: ["baer_philipp_andreas", "weise_thomas", "geihs_kurt"]
   title: "Geminga:&nbsp;Service Discovery for Mobile Robotics"
-  citation: "<em>3rd&nbsp;International Conference on Systems and Networks Communications&nbsp;(ICSNC'2008),</em> pages&nbsp;167-172, October 26–31, 2008, Sliema, Malta. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  citation: "<em>3rd&nbsp;International Conference on Systems and Networks Communications&nbsp;(ICSNC'2008),</em> pages&nbsp;167-172, October 26-31, 2008, Sliema, Malta. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
   isbn: "978-0-7695-3371-1"
   doi: "10.1109/ICSNC.2008.29"
   type: "conference"
@@ -1026,7 +1026,7 @@
 - key: "WBKG2008SWSCFSOA"
   authors: ["weise_thomas", "bleul_steffen", "kirchhoff_marc", "geihs_kurt"]
   title: "Semantic Web Service Composition for Service-Oriented Architectures"
-  citation: "<em>IEEE Joint Conference on E-Commerce Technology&nbsp;(10th&nbsp;CEC) and Enterprise Computing, E-Commerce and E-Servicesy&nbsp;(5th&nbsp;EEE)&nbsp;(CEC/EEE'2008),</em> July 21–24, 2008, Washington, DC, USA, pages&nbsp;355-358. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
+  citation: "<em>IEEE Joint Conference on E-Commerce Technology&nbsp;(10th&nbsp;CEC) and Enterprise Computing, E-Commerce and E-Servicesy&nbsp;(5th&nbsp;EEE)&nbsp;(CEC/EEE'2008),</em> July 21-24, 2008, Washington, DC, USA, pages&nbsp;355-358. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
   isbn: "978-0-7695-3340-7"
   doi: "10.1109/CECandEEE.2008.148"
   type: "conference"
@@ -1035,7 +1035,7 @@
 - key: "BBKBWJ2008W0CTWSC"
   authors: ["bansal_ajay", "blake_m_brian", "kona_srividya", "bleul_steffen", "weise_thomas", "jager_michael_c"]
   title: "WSC-08:&nbsp;Continuing the Web Services Challenge"
-  citation: "<em>IEEE Joint Conference on E-Commerce Technology&nbsp;(10th&nbsp;CEC) and Enterprise Computing, E-Commerce and E-Servicesy&nbsp;(5th&nbsp;EEE)&nbsp;(CEC/EEE'2008),</em> July 21–24, 2008, Washington, DC, USA, pages&nbsp;351-354. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
+  citation: "<em>IEEE Joint Conference on E-Commerce Technology&nbsp;(10th&nbsp;CEC) and Enterprise Computing, E-Commerce and E-Servicesy&nbsp;(5th&nbsp;EEE)&nbsp;(CEC/EEE'2008),</em> July 21-24, 2008, Washington, DC, USA, pages&nbsp;351-354. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
   isbn: "978-0-7695-3340-7"
   doi: "10.1109/CECandEEE.2008.146"
   type: "conference"
@@ -1044,7 +1044,7 @@
 - key: "WBCG2008DATSWSC"
   authors: ["weise_thomas", "bleul_steffen", "comes_diana_elena", "geihs_kurt"]
   title: "Different Approaches to Semantic Web Service Composition"
-  citation: "<em>3rd&nbsp;International Conference on Internet and Web Applications and Services&nbsp;(ICIW'2008),</em> June 8–13, 2008, Athens, Greece, pages&nbsp;90-96. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
+  citation: "<em>3rd&nbsp;International Conference on Internet and Web Applications and Services&nbsp;(ICIW'2008),</em> June 8-13, 2008, Athens, Greece, pages&nbsp;90-96. Los Alamitos, CA, USA:&nbsp;IEEE Computer Society Press"
   isbn: "978-0-7695-3163-2"
   doi: "10.1109/ICIW.2008.32"
   type: "conference"
@@ -1053,7 +1053,7 @@
 - key: "WZG2008EPAP"
   authors: ["weise_thomas", "zapf_michael", "geihs_kurt"]
   title: "Evolving Proactive Aggregation Protocols"
-  citation: "<em>11th&nbsp;European Conference on Genetic Programming&nbsp;(EuroGP'2008),</em> March 26–28, 2008, Naples, Italy, Lecture Notes in Computer Science&nbsp;(LNCS) volume&nbsp;4971/2008, pages&nbsp;254-265. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>11th&nbsp;European Conference on Genetic Programming&nbsp;(EuroGP'2008),</em> March 26-28, 2008, Naples, Italy, Lecture Notes in Computer Science&nbsp;(LNCS) volume&nbsp;4971/2008, pages&nbsp;254-265. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-540-78670-2"
   doi: "10.1007/978-3-540-78671-9_22"
   type: "conference"
@@ -1070,7 +1070,7 @@
 - key: "WZG2007RBGP"
   authors: ["weise_thomas", "zapf_michael", "geihs_kurt"]
   title: "Rule-based Genetic Programming"
-  citation: "<em>2nd&nbsp;International Conference on Bio-Inspired Models of Network, Information, and Computing Systems&nbsp;(BIONETICS'2007),</em> December 10–12, 2007, Budapest, Hungary, pages&nbsp;8-15. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
+  citation: "<em>2nd&nbsp;International Conference on Bio-Inspired Models of Network, Information, and Computing Systems&nbsp;(BIONETICS'2007),</em> December 10-12, 2007, Budapest, Hungary, pages&nbsp;8-15. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
   isbn: "978-963-9799-05-9"
   doi: "10.1109/BIMNICS.2007.4610073"
   type: "conference"
@@ -1079,7 +1079,7 @@
 - key: "WZKG2007GPMMDD"
   authors: ["weise_thomas", "zapf_michael", "khan_mohammad_ullah", "geihs_kurt"]
   title: "Genetic Programming meets Model-Driven Development"
-  citation: "<em>7th&nbsp;International Conference on Hybrid Intelligent Systems&nbsp;(HIS'2007), September 17–19, 2007, Kaiserslautern, Germany, pages&nbsp;332-335. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
+  citation: "<em>7th&nbsp;International Conference on Hybrid Intelligent Systems&nbsp;(HIS'2007), September 17-19, 2007, Kaiserslautern, Germany, pages&nbsp;332-335. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
   isbn: "0-7695-2946-1"
   doi: "10.1109/HIS.2007.11"
   type: "conference"
@@ -1088,7 +1088,7 @@
 - key: "BWG2007MAFSSCSF"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "Making a Fast Semantic Service Composition System Faster"
-  citation: "<em>IEEE Joint Conference on E-Commerce Technology&nbsp;(9th&nbsp;CEC) and Enterprise Computing, E-Commerce and E-Services&nbsp;(4th&nbsp;EEE)&nbsp;(CEC/EEE'2007),</em> July 23–26, 2007, Tokyo, Japan, pages&nbsp;517-520. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
+  citation: "<em>IEEE Joint Conference on E-Commerce Technology&nbsp;(9th&nbsp;CEC) and Enterprise Computing, E-Commerce and E-Services&nbsp;(4th&nbsp;EEE)&nbsp;(CEC/EEE'2007),</em> July 23-26, 2007, Tokyo, Japan, pages&nbsp;517-520. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
   doi: "10.1109/CEC-EEE.2007.62"
   isbn: "0-7695-2913-5"
   type: "conference"
@@ -1097,7 +1097,7 @@
 - key: "WGB2007GPFPAP"
   authors: ["weise_thomas", "geihs_kurt", "baer_philipp_andreas"]
   title: "Genetic Programming for Proactive Aggregation Protocols"
-  citation: "8th&nbsp;International Conference on Adaptive and Natural Computing Algorithms&nbsp;(ICANNGA'2007),</em> April 11–17, 2007, Warsaw, Poland, Part&nbsp;I, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;4431/2007, pages&nbsp;167-173. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "8th&nbsp;International Conference on Adaptive and Natural Computing Algorithms&nbsp;(ICANNGA'2007),</em> April 11-17, 2007, Warsaw, Poland, Part&nbsp;I, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;4431/2007, pages&nbsp;167-173. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-540-71589-4"
   doi: "10.1007/978-3-540-71618-1_19"
   type: "conference"
@@ -1106,7 +1106,7 @@
 - key: "BRZWG2007AGATTDOARS"
   authors: ["baer_philipp_andreas", "reichle_roland", "zapf_michael", "weise_thomas", "geihs_kurt"]
   title: "A&nbsp;Generative Approach to the Development of Autonomous Robot Software"
-  citation: "<em>4th&nbsp;IEEE Workshop on Engineering of Autonomic and Autonomous Systems&nbsp;(EASe'2007),</em> March 26–29, 2007, Tucson, AZ, USA, pages&nbsp;43-52. Washington, DC, USA:&nbsp;IEEE Computer Society"
+  citation: "<em>4th&nbsp;IEEE Workshop on Engineering of Autonomic and Autonomous Systems&nbsp;(EASe'2007),</em> March 26-29, 2007, Tucson, AZ, USA, pages&nbsp;43-52. Washington, DC, USA:&nbsp;IEEE Computer Society"
   isbn: "0-7695-2809-0"
   doi: "10.1109/EASE.2007.2"
   type: "conference"
@@ -1115,7 +1115,7 @@
 - key: "WG2006DAAFFDMOSAATTGPOSN"
   authors: ["weise_thomas", "geihs_kurt"]
   title: "DGPF &nbsp; An Adaptable Framework for Distributed Multi-Objective Search Algorithms Applied to the Genetic Programming of Sensor Networks"
-  citation: "<em>2nd&nbsp;International Conference on Bioinspired Optimization Methods and their Applications&nbsp;(BIOMA'2006),</em> October 9–10, 2006, Ljubljana, Slovenia, pages&nbsp;157-166"
+  citation: "<em>2nd&nbsp;International Conference on Bioinspired Optimization Methods and their Applications&nbsp;(BIOMA'2006),</em> October 9-10, 2006, Ljubljana, Slovenia, pages&nbsp;157-166"
   isbn: "9616303813"
   url: "http://bioma.ijs.si/BIOMA2006Proceedings.pdf"
   type: "conference"
@@ -1131,7 +1131,7 @@
 - key: "WG2006GPTFSN"
   authors: ["weise_thomas", "geihs_kurt"]
   title: "Genetic Programming Techniques for Sensor Networks"
-  citation: 'Tagungsband:&nbsp;5.&nbsp;GI/ITG&nbsp;KuVS Fachgesprächs “Drahtlose Sensornetze”,</em> July 17–18, 2006, Stuttgart, Germany, pages&nbsp;21-25'
+  citation: 'Tagungsband:&nbsp;5.&nbsp;GI/ITG&nbsp;KuVS Fachgesprächs “Drahtlose Sensornetze”,</em> July 17-18, 2006, Stuttgart, Germany, pages&nbsp;21-25'
   url: "http://elib.uni-stuttgart.de/opus/volltexte/2006/2838"
   type: "conference"
   year: 2006
@@ -1139,7 +1139,7 @@
 - key: "BWG2006LSSCISSD"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "Large-Scale Service Composition in Semantic Service Discovery"
-  citation: "<em>IEEE Joint Conference on E-Commerce Technology and Enterprise Computing, E-Commerce and E-Services&nbsp;(CEC/EEE'2006),</em> June 26–29, 2006, Millbrae, CA, USA, pages&nbsp;427-429. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
+  citation: "<em>IEEE Joint Conference on E-Commerce Technology and Enterprise Computing, E-Commerce and E-Services&nbsp;(CEC/EEE'2006),</em> June 26-29, 2006, Millbrae, CA, USA, pages&nbsp;427-429. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
   doi: "10.1109/CEC-EEE.2006.59"
   isbn: "0-7695-2511-3"
   type: "conference"
@@ -1155,7 +1155,7 @@
 - key: "WW2005EPXEFDEUVVELI"
   authors: ["wallnitz_elke", "weise_thomas"]
   title: "Ein plattformunabhängiger XML-Editor für die Erstellung und Verwaltung von E-Learning-Inhalten"
-  citation: "<em>Workshop Proceedings DeLFI&nbsp;2005 und GMW05:&nbsp;Die dritte e-Learning Fachtagung Informatik + Gesellschaft für Medien in der Wissenschaft,</em> September 13–16, 2005, Rostock, Germany, pages&nbsp;83-92. Berlin, Germany:&nbsp;Logos Verlag Berlin"
+  citation: "<em>Workshop Proceedings DeLFI&nbsp;2005 und GMW05:&nbsp;Die dritte e-Learning Fachtagung Informatik + Gesellschaft für Medien in der Wissenschaft,</em> September 13-16, 2005, Rostock, Germany, pages&nbsp;83-92. Berlin, Germany:&nbsp;Logos Verlag Berlin"
   type: "conference"
   year: 2005
   month: 9
@@ -1183,7 +1183,7 @@
 - key: "WW2005DPKEAWZEVELMADBVX"
   authors: ["wallnitz_elke", "weise_thomas"]
   title: "Der plattformunabhängige KML-Editor als Werkzeug zur Entwicklung von E-Learning-Modulen auf der Basis von XML"
-  citation: "<em>Tagungsband zum 3.&nbsp;Workshop über die Grundfragen multimedialen Lehrens und Lernens&nbsp;(GML2'2005),</em> March 7–9, 2005, Cottbus, Brandenburg, Germany, pages&nbsp;215-224. Aachen, North Rhine-Westphalia, Germany:&nbsp;Shaker Verlag GmbH"
+  citation: "<em>Tagungsband zum 3.&nbsp;Workshop über die Grundfragen multimedialen Lehrens und Lernens&nbsp;(GML2'2005),</em> March 7-9, 2005, Cottbus, Brandenburg, Germany, pages&nbsp;215-224. Aachen, North Rhine-Westphalia, Germany:&nbsp;Shaker Verlag GmbH"
   type: "conference"
   isbn: "978-3-8322-4649-5"
   year: 2005
