@@ -23,6 +23,7 @@ author_profile: true
         {%- assign first_author = first_author | plus: 1 -%}
     {%- endif -%}
     {%- assign coauthors = coauthors | concat: paper.authors | uniq -%}
+    {%- assign coauthors = coauthors | uniq -%}
     {%- case paper.type -%}
         {%- when "article" -%}
             {%- assign total_article = total_article | plus: 1 -%}
@@ -42,7 +43,9 @@ author_profile: true
             {%- assign total_chapter = total_chapter | plus: 1 -%}    
     {%- endcase -%}
 {%- endfor -%}
+{%- assign coauthors = coauthors | uniq -%}
 {%- assign coauthors = coauthors | remove: "weise_thomas" -%}
+{%- assign coauthors = coauthors | uniq -%}
 
 Prof.&nbsp;Dr.&nbsp;{%- include person.liquid person="weise_thomas" %} has published {{ total -}}&nbsp;works, including {{ total_article -}}&nbsp;articles, {{ total_conference -}}&nbsp;conference papers, {{ total_book -}}&nbsp;books, {{ total_chapter -}}&nbsp;book chapters, and {{ total_proceedings -}}&nbsp;edited proceedings.
 He is the first author of&nbsp;{{ first_author -}}&nbsp;of these works, including {{ first_author_article -}}&nbsp;articles and {{ first_author_conference -}}&nbsp;conference papers.
