@@ -42,7 +42,7 @@ author_profile: true
 {%- endfor -%}
 
 Prof.&nbsp;Dr.&nbsp;{%- include person.liquid person=site.data.people.weise_thomas %} has published {{ total -}}&nbsp;works, including {{ total_article -}}&nbsp;articles, {{ total_conference -}}&nbsp;conference papers, {{ total_book -}}&nbsp;books, {{ total_chapter -}}&nbsp;book chapters, and {{ total_proceedings -}}&nbsp;edited proceedings.
-He is the first author of&nbsp;{{ first_author -}}&nbsp;of these works, including {{ first_author_article -}}&nbsp;articles and {{ assign first_author_conference -}}&nbsp;conference papers.
+He is the first author of&nbsp;{{ first_author -}}&nbsp;of these works, including {{ first_author_article -}}&nbsp;articles and {{ first_author_conference -}}&nbsp;conference papers.
 
 ## Scholarly Profiles
 Several facets of my research work can also be accessed from the following profiles:
