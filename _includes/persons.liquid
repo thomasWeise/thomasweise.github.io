@@ -1,7 +1,7 @@
 {%- assign thearray="" | split: "," -%}
 {%- for theperson in include.persons -%}
     {%- capture thepersonstr -%}
-        {%- include person.liquid person=Changes -%}
+        {%- include person.liquid person=theperson -%}
     {%- endcapture -%}
     {%- assign thepersonary = thepersonstr | split: "äü@ß" -%}
     {%- assign thearray = thearray | concat: thepersonary -%}
