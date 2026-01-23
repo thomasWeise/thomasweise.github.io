@@ -1,0 +1,15 @@
+{%- assign size = include.array | size -%}
+{%- if size == 1 -%}
+    {{- include.array[0] -}}
+{%- else -%}
+    {%- if size == 2 -%}
+        {{- include.array[0] }} and {{ include.array[1] }}
+    {%- else -%}
+        {%- for item in include.array -%}
+            {{- item -}}
+            {%- if forloop.rindex0 > 0 -%}
+                {%- if forloop.rindex0 == 1 -%}, and{%-else -%}, {% endif -%}
+            {%- endif -%}
+        {% endfor -%}
+    {%- endif -%}
+{%- endif -%}
