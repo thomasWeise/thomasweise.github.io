@@ -27,6 +27,7 @@ blum_christian:
 cao_xiang:
   name: "Xiang CAO"
   name_cn: "曹翔"
+  orcid: "0009-0006-4811-7824"
 catay_bulent:
   name: "Bülent Çatay"
   url: "https://people.sabanciuniv.edu/catay"
@@ -37,6 +38,7 @@ chen_enhong:
 chen_jiayang:
   name: "Jiayang CHEN"
   name_cn: "陈嘉阳"
+  orcid: "0009-0004-2320-2980"
 chen_shengbing:
   name: "Shengbing CHEN"
   name_cn: "陈圣兵"
@@ -54,6 +56,7 @@ chen_yanping:
   name: "Yanping CHEN"
 cheng_fan:
   name: "Fan CHENG"
+  orcid: "0000-0003-0175-0818"
 chiong_raymond:
   name: "Raymond Chiong"
   url: "https://www.newcastle.edu.au/profile/raymond-chiong"
@@ -98,6 +101,7 @@ dreo_johann:
 du_changjiang:
   name: "Chang-Jiang DU"
   name_cn: "杜长江"
+  orcid: "0009-0007-7514-792X"
 elias_jocelyne:
   name: "Jocelyne Elias"
 esparcia_alcazar_anna_isabel:
@@ -190,6 +194,7 @@ liang_tianyu:
   name: "Tianyu LIANG"
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
   name_cn: "梁天宇"
+  orcid: "0009-0004-3732-4831"
 li_bin:
   name: "Bin LI"
   name_cn: "李斌"
@@ -202,6 +207,7 @@ li_jinlong:
   url: "http://staff.ustc.edu.cn/~jlli/index_en.html"
 li_teng:
   name: "Teng LI"
+  orcid: "0000-0003-1150-088X"
 li_xiaodong:
   name: "Xiaodong LI"
   url: "https://www.rmit.edu.au/profiles/l/xiaodong-li"
@@ -251,6 +257,7 @@ nebro_urbaneja_antonio_jesus:
   url: "http://www.lcc.uma.es/%7Eantonio"
 nian_fudong:
   name: "Fudong NIAN"
+  orcid: "0000-0001-9604-7564"
 nie_feiping:
   name: "Feiping NIE"
 niemczyk_stefan:
@@ -319,6 +326,7 @@ tan_ming:
   name: "Tan MING"
   name_cn: "檀明"
   url_cn: "https://baike.baidu.com/item/%E6%AA%80%E6%98%8E/5499577"
+  orcid: "0009-0004-3851-053X"
 tang_ke:
   name: "Ke TANG"
   url: "https://faculty.sustech.edu.cn/?cat=3&tagid=tangk3"
@@ -332,9 +340,11 @@ teytaud_olivier:
 thomson_sarah_louise:
   name: "Sarah Louise Thomson"
   url: "https://napier-repository.worktribe.com/person/3168833"
+  orcid: "0000-0001-6971-7817"
 thurer_matthias:
   name: "Matthias Thürer"
   url: "https://www.tu-chemnitz.de/mb/FabrPlan/prof_mitarbeiter.php.en"
+  orcid: "0000-0002-2705-969X"
 tian_qiongjie:
   name: "Qiongjie TIAN"
 trautmann_heike:
@@ -355,6 +365,7 @@ ullrich_markus:
 van_den_berg_daan:
   name: "Daan van den Berg"
   url: "https://research.vu.nl/en/persons/daan-van-den-berg"
+  orcid: "0000-0001-5060-3342"
 van_eck_okke:
   name: "Okke van Eck"
   url: "https://research.vu.nl/en/persons/okke-van-eck"
@@ -368,6 +379,7 @@ voigtmann_christian:
 wagner_markus:
   name: "Markus Wagner"
   url: "https://research.monash.edu/en/persons/markus-wagner"
+  orcid: "0000-0002-3124-0061"
 wallnitz_elke:
   name: "Elke Wällnitz"
   url: "http://www.elkewaellnitz.de"
@@ -386,6 +398,7 @@ wang_pu:
 wang_xinqi:
   name: "Xin-Qi WANG"
   name_cn: "汪新琪"
+  orcid: "0009-0005-8836-3475"
 wang_xiaofeng:
   name: "Xiao-Feng WANG"
   name_cn: "王晓峰"
@@ -402,6 +415,7 @@ wang_yu:
 weise_thomas:
   name: "Thomas Weise"
   name_cn: "汤卫思"
+  orcid: "0000-0002-9687-8509"
 widrow_bernard:
   name: "Bernard Widrow"
   url: "https://isl.stanford.edu/~widrow"
@@ -419,6 +433,7 @@ wu_zhize:
   name: "Zhize WU"
   url: "https://deep-wu.github.io"
   name_cn: "吴志泽"
+  orcid: "0000-0001-7416-5711"
 wu_zijun:
   name: "Zijun WU"
   name_cn: "吴自军"
@@ -471,6 +486,7 @@ zapf_michael:
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"
+  orcid: "0009-0007-9722-317X"
 zhang_bo:
   name: "Bo ZHANG"
 zhang_chen:
@@ -492,6 +508,7 @@ zhao_bingyan:
 zhao_rui:
   name: "Rui ZHAO"
   name_cn: "赵睿"
+  orcid: "0009-0002-2426-9453"
 zhong_yixin:
   name: "Yixin ZHONG"
 zou_chang:
