@@ -7,8 +7,8 @@
     {%- else -%}
         {%- for item in include.array -%}
             {{- item -}}
-            {%- if forloop.rindex0 > 0 -%}
-                {%- if forloop.rindex0 == 1 -%}, and{%-else -%}, {% endif -%}
+            {%- if forloop.index1 < size -%}
+                {%- if forloop.index1 < size | minus 1 -%}, {% else -%}, and {% endif -%}
             {%- endif -%}
         {% endfor -%}
     {%- endif -%}
