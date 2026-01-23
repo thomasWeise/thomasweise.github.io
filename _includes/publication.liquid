@@ -1,5 +1,5 @@
 {%- capture pubtext -%}
-{%- include persons.liquid perons=include.paper.authors -%}{%- if include.paper.authors_are_editors -%}, editors, {% else -%}:&nbsp;{%- endif -%}{{- include.paper.title -}}.
+{%- include persons.liquid persons=include.paper.authors -%}{%- if include.paper.authors_are_editors -%}, editors, {% else -%}:&nbsp;{%- endif -%}{{- include.paper.title -}}.
 {%- if include.paper.editors %} In&nbsp;{% for editor in include.paper.editors -%}{%- assign person=site.data.people[editor] -%}{%- include person.liquid person=person -%}, {% endfor -%}editors, {% endif %} {{ include.paper.citation -}}.
 {%- if include.paper.isbn %} ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/{{- include.paper.isbn -}}">{{- include.paper.isbn -}}</a>.{%- endif -%}
 {%- if include.paper.issn %} ISSN:&nbsp;<a href="https://portal.issn.org/api/search?search[]=MUST=allissnbis={- include.paper.issn -}}">{{- include.paper.issn -}}</a>.{%- endif -%}
