@@ -1,8 +1,5 @@
 {%- assign outarray = "" | split: "," -%}
 {%- for person in include.persons -%}
-    {%- capture personstr -%}{%- include person.liquid person=person -%}{%- endcapture -%}
-    {{ personstr }}
-    {%- assign personary = personstr | split: "äöü@ß" -%}
-    {%- assign outarray = outarray | concat: personary -%}
+    {%- include person.liquid person=person -%}
 {%- endfor -%}
 {%- include print_array.liquid array=outarray -%}
