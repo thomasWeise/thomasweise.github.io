@@ -28,7 +28,7 @@ Here you can find a list of the students that I have supervised or co-supervised
 #### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person=site.data.people.chen_jiayang no_links=true %}
 - Topic: Quadratic Assignment Problem
 - Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
-- Duration: 2023–2026
+- Duration: 2023-2026
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'chen_jiayang'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 
@@ -83,13 +83,13 @@ Here you can find a list of the students that I have supervised or co-supervised
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Ms. {% include person.liquid person=site.data.people.qi_qi no_links=true %}
 - Topic: Algorithm Behavior Modeling and Prediction
-- Duration: 2015–2018
+- Duration: 2015-2018
 - Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'qi_qi'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person=site.data.people.liu_weichen no_links=true %}
 - Topic: Traveling Salesperson Problem
-- Duration: 2014–2017
+- Duration: 2014-2017
 - Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'liu_weichen'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
@@ -114,7 +114,7 @@ Here you can find a list of the students that I have supervised or co-supervised
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person=site.data.people.wan_mingxu no_links=true %}
 - Topic: Genetic Programming for Exact Integer Algorithm Synthesis
-- Duration: 2009–2012
+- Duration: 2009-2012
 - Supervisor: {% include person.liquid person=site.data.people.tang_ke %}
 - Co-Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'wan_mingxu'" -%}{%- include publications.liquid papers=papers -%}{:/}
@@ -161,13 +161,13 @@ Here you can find a list of the students that I have supervised or co-supervised
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person=site.data.people.podlich_alexander no_links=true %}
 - Topic: Intelligent Control of Swap Body-based Logistics on Road and Rail
-- Duration: 2008–2009
+- Duration: 2008-2009
 - Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'podlich_alexander'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person=site.data.people.niemczyk_stefan no_links=true %}
 - Topic: A Model Problem with Tunable Hardness for the Evaluation of Evolutionary Algorithms
-- Duration: 2008–2009
+- Duration: 2008-2009
 - Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'niemczyk_stefan'" -%}{%- include publications.liquid papers=papers -%}{:/}
 
