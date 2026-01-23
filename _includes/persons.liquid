@@ -6,4 +6,4 @@
     {%- assign thepersonary = thepersonstr | split: "äü@ß" -%}
     {%- assign thearray = thearray | concat: thepersonary -%}
 {%- endfor -%}
-{%- include printarray array=thearray -%}
+{%- include printarray.liquid array=thearray -%}
