@@ -9,14 +9,14 @@ related: false
 
 This is the academic website of Prof. Dr. Thomas Weise (汤卫思教授), full professor at Hefei University (合肥大学) located in the beautiful city of Hefei (合肥市) in the Anhui Province (安徽省) in China.
 
-{% assign a="a" | split: ", " %}
+{% assign a = "a" | split: "," %}
 {%- include print_array.liquid array=a -%}<br/>
 
-{% assign a="b,c" | split: ", " %}
+{% assign a = "b,c" | split: "," %}
 {%- include print_array.liquid array=a -%}<br/>
 
-{% assign a="d,e,f" | split: ", " %}
+{% assign a = "d,e,f" | split: "," %}
 {%- include print_array.liquid array=a -%}<br/>
 
-{% assign a="g,h,i,j,k,l" | split: ", " %}
+{% assign a = "g,h,i,j,k,l" | split: "," %}
 {%- include print_array.liquid array=a -%}<br/>

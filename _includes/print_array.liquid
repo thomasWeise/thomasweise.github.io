@@ -6,13 +6,11 @@
         {{- include.array[0] }} and {{ include.array[1] }}
     {%- else -%}
         {%- assign sizemo = size | minus: 1 -%}
-        {%- assign index = 1 -%}
         {%- for item in include.array -%}
             {{- item -}}
-            {%- if index < size -%}
-                {%- if index < sizemo -%}, {% else -%}, and {% endif -%}
+            {%- if forloop.index1 < size -%}
+                {%- if forloop.index1 < sizemo -%}, {% else -%}, and {% endif -%}
             {%- endif -%}
-        {%- assign index = index | plus: 1 -%}
         {% endfor -%}
     {%- endif -%}
 {%- endif -%}
