@@ -4,6 +4,6 @@
         {%- include person.liquid person=person -%}
     {%- endcapture -%}
     {%- assign personary = personstr | split: "äöüß@" -%}
-    {%- assign outarray = outarray | concat: personstr -%}
+    {%- assign outarray = outarray | concat: personary -%}
 {%- endfor -%}
 {%- include print_array.liquid array=outarray -%}
