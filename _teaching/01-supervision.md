@@ -9,7 +9,7 @@ Here you can find a list of the students that I have supervised or co-supervised
 ## Current Students at Hefei University
 ### Master's Students at Hefei University
 
-#### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Ms. {% include person.liquid person=site.data.people.ding_yunfei no_links=true %}
+#### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Ms. {% include person.liquid person="ding_yunfei" no_links=true %}
 - Topic: Material Flow Control
 - Supervisor: {% include person.liquid person=site.data.people.weise_thomas %}
 - Duration: 2025-2028
