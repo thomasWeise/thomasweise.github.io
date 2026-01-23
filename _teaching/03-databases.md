@@ -1,6 +1,9 @@
 ---
 title: "Course: Databases"
 permalink: /databases
+read_time: false
+toc: false
+author_profile: false
 ---
 
 [Databases](/databases) (数据库原理及应用) is a course on, well, databases.

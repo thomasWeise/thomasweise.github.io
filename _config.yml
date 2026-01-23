@@ -228,11 +228,22 @@ defaults:
       author_profile: true
       share: false
       read_time: false
+  - scope:
+      path: ""
+      type: software
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      read_time: false
 
 collections:
   teaching:
     output: true
     permalink: /:collection/:path/
   research:
+    output: true
+    permalink: /:collection/:path/
+  software:
     output: true
     permalink: /:collection/:path/
