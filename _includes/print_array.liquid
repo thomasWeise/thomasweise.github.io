@@ -5,10 +5,11 @@
     {%- if size == 2 -%}
         {{- include.array[0] }} and {{ include.array[1] }}
     {%- else -%}
+        {%- if sizemo == size | minus: 1 -%}
         {%- for item in include.array -%}
             {{- item -}}
             {%- if forloop.index1 < size -%}
-                {%- if forloop.index1 < size | minus 1 -%}, {% else -%}, and {% endif -%}
+                {%- if forloop.index1 < sizemo -%}, {% else -%}, and {% endif -%}
             {%- endif -%}
         {% endfor -%}
     {%- endif -%}
