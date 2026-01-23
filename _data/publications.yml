@@ -64,7 +64,7 @@
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
   editors: ["affenzeller_michael", "winkler_stephan_m", "kononova_anna_v", "trautmann_heike", "tusar_tea", "machado_penousal", "back_thomas"]
-  citation: "<em>18th&nbsp;International Conference on Parallel Problem Solving From Nature&nbsp;(PPSN&nbsp;XVIII),</em> September 14-18, 2024, Hagenberg, Austria, pages&nbsp;377-392. Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;15148"
+  citation: "<em>18th&nbsp;International Conference on Parallel Problem Solving from Nature&nbsp;(PPSN&nbsp;XVIII),</em> September 14-18, 2024, Hagenberg, Austria, pages&nbsp;377-392. Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;15148"
   doi: "10.1007/978-3-031-70055-2_23"
   isbn: "978-3-031-70054-5"
   type: "conference"
@@ -827,7 +827,7 @@
 - key: "CWYT2010LSGOUCCWVIL"
   authors: ["chen_wenxiang", "weise_thomas", "yang_zhenyu", "tang_ke"]
   title: "Large-Scale Global Optimization Using Cooperative Coevolution with Variable Interaction Learning"
-  citation: "<em>11th&nbsp;International Conference on Parallel Problem Solving From Nature&nbsp;(PPSN'2010),</em> Part&nbsp;II, September 11–15, 2010, Kraków, Poland, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6239, pages&nbsp;300-309. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>11th&nbsp;International Conference on Parallel Problem Solving from Nature&nbsp;(PPSN'2010),</em> Part&nbsp;II, September 11–15, 2010, Kraków, Poland, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;6239, pages&nbsp;300-309. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-642-15870-4"
   doi: "10.1007/978-3-642-15871-1_31"
   type: "conference"
