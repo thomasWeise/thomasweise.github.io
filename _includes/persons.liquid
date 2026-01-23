@@ -1,6 +1,7 @@
-{%- assign array = "" | split: "," -%}
+{%- assign outarray = "" | split: "," -%}
 {%- for person in include.persons -%}
     {%- assign personstr=site.data.people[person] -%}
-    {%- assign array = array | concat: personstr -%}
+    {%- assign personarray=personstr | split: "äöü@" -%}
+    {%- assign outarray = outarray | concat: personarray -%}
 {%- endfor -%}
-{%- include print_array.liquid array=array -%}
+{%- include print_array.liquid array=outarray -%}
