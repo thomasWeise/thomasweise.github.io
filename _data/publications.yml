@@ -355,6 +355,14 @@
   type: "conference"
   year: 2019
   month: 1
+- key: "WWQLT2018ADCOAAPIBAWATCFEDASAIF"
+  authors: ["weise_thomas", "wang_xiaofeng", "qi_qi", "li_bin", "tang_ke"]
+  title : "Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features"
+  citation: "<em>Applied Soft Computing Journal&nbsp;(ASOC),</em> 73:366–382, December 2018"
+  doi: "10.1016/j.asoc.2018.08.030"
+  type: "article"
+  year: 2018
+  month: 12
 - key: "RW2018VNFPFSFCWMEC"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas"]
   title: "Virtual Network Function Placement for Service Function Chaining with Minimum Energy Consumption"
@@ -626,7 +634,7 @@
   citation: "<em>Web Services Foundations &mdash; Part&nbsp;1:&nbsp;Foundations of Web Services,</em> chapter&nbsp;7, pages&nbsp;161-187. Secaucus, NJ, USA: Springer-Verlag New York, Inc.  September 2013 / Copyright 2014"
   isbn: "978-1-4614-7517-0"
   doi: "10.1007/978-1-4614-7518-7_7"
-  type: "conference"
+  type: "chapter"
   year: 2013
   month: 9
 - key: "OWDC2013SADAFTSP"
@@ -963,7 +971,7 @@
   title: "Combining Genetic Programming and Model-Driven Development"
   citation: "<em>International Journal of Computational Intelligence and Applications&nbsp;(IJCIA),</em>&nbsp;8(1):37-52. March 2009"
   doi: "10.1142/S1469026809002436"
-  type: "chapter"
+  type: "article"
   year: 2009
   month: 3
 - key: "PWMG2009IWFDLVM"
