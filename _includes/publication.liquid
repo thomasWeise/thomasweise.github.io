@@ -33,7 +33,7 @@
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
-        <br><span class="pubrefs">{{- block -}}</span>
+        <br><span class="pubrefs">{{- block -}}.</span>
     {%- endunless -%}
     {%- assign block = "" -%}
     {%- assign block_empty = true -%}
@@ -63,7 +63,7 @@
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
-        <br><span class="publinks">{{- block -}}</span>
+        <br><span class="publinks">{{- block -}}.</span>
     {%- endunless -%}
 </li>
 {%- endcapture -%}
