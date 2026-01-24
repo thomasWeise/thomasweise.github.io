@@ -1,6 +1,8 @@
 {%- capture pubtext -%}
-{%- for paper in include.papers -%}
-<li{%- if paper.type %} class="pub{{ paper.type -}}"{%- endif -%}>{%- include publication.liquid paper=paper -%}</li>
-{%- endfor -%}
+    {%- for paper in include.papers -%}
+        {%- include publication.liquid paper=paper -%}
+    {%- endfor -%}
 {%- endcapture -%}
-<ul class="publist">{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," -}}</ul>
+<ul class="publist">
+    {{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," -}}
+</ul>

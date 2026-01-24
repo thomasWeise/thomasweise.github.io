@@ -1,11 +1,70 @@
 {%- capture pubtext -%}
-{%- include persons.liquid persons=include.paper.authors -%}{%- if include.paper.authors_are_editors -%}, editors, {% else -%}:&nbsp;{%- endif -%}{{- include.paper.title -}}.
-{%- if include.paper.editors %} In&nbsp;{% for editor in include.paper.editors -%}{%- assign person=site.data.people[editor] -%}{%- include person.liquid person=person -%}, {% endfor -%}editors, {% endif %} {{ include.paper.citation -}}.
-{%- if include.paper.isbn %} ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/{{- include.paper.isbn -}}">{{- include.paper.isbn -}}</a>.{%- endif -%}
-{%- if include.paper.issn %} ISSN:&nbsp;<a href="https://portal.issn.org/api/search?search[]=MUST=allissnbis={- include.paper.issn -}}">{{- include.paper.issn -}}</a>.{%- endif -%}
-{%- if include.paper.doi %} doi:<a href="https://doi.org/{{- include.paper.doi -}}">{{- include.paper.doi -}}</a>.{%- endif -%}
-{%- if include.paper.rg %} [<a href="https://www.researchgate.net/publication/{{- include.paper.rg -}}">R<sup>G</sup></a>]{%- endif -%}
-{%- if include.paper.arxiv %} [<a href="https://arxiv.org/abs/{{- include.paper.arxiv -}}">arXiv</a>]{%- endif -%}
-{%- if include.paper.url %} [<a href="{{- include.paper.url -}}">link</a>]{%- endif -%}
+<li{%- if include.paper.type %} class="pub{{ include.paper.type -}}"{%- endif -%}>
+    {%- include persons.liquid persons=include.paper.authors -%}
+    {%- if include.paper.authors_are_editors -%}, editors, {% else -%}:&nbsp;{%- endif -%}
+    {{- include.paper.title -}}.
+    {%- if include.paper.editors %} In&nbsp;{%- include persons.liquid persons=include.paper.editors -%}, editors, {% endif %}
+    {{ include.paper.citation -}}.
+    {%- assign block = "" -%}
+    {%- assign block_empty = true -%}
+    {%- if include.paper.isbn %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = 'ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/' | append: include.paper.isbn | append: '">' | append: include.paper.isbn | append: "</a>" %-}
+    {%- endif -%}
+    {%- if include.paper.issn %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: 'ISSN:&nbsp;<a href="https://portal.issn.org/api/search?search[]=MUST=allissnbis=' | append: include.paper.issn | append: '">' | append: include.paper.issn | append: '</a>' -%}
+    {%- endif -%}
+    {%- if include.paper.doi %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: include.paper.doi | append: '">' | append: include.paper.doi | append: '</a>' -%}
+    {%- endif -%}
+    {%- unless block_empty -%}
+        {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace %-}
+        <br><span class="refblock">{{- block -}}</span>
+    {%- endunless -%}
+    {%- assign block = "" -%}
+    {%- assign block_empty = true -%}
+    {%- if include.paper.rg %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '[<a href="https://www.researchgate.net/publication/' | append: include.paper.rg | append: '">R<sup>G</sup></a>]' -%}
+    {%- endif -%}
+    {%- if include.paper.arxiv %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '[<a href="https://arxiv.org/abs/' | append: include.paper.arxiv | append: '">arXiv</a>]' -%}
+    {%- endif -%}
+    {%- if include.paper.url %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '[<a href="' | append: include.paper.url | append: '">link</a>]' -%}
+    {%- endif -%}
+    {%- unless block_empty -%}
+        {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace %-}
+        <br><span class="linkblock">{{- block -}}</span>
+    {%- endunless -%}
+</li>
 {%- endcapture -%}
 {{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," | replace: " .", "." | replace: "..", "." | replace: "?.", "?" | replace: "!.", "!" | append: "öäü@" | remove: ".öäü@" | remove: "öäü@" | strip | append: "." | replace: "?.", "?" | replace: "!.", "!" | replace: ".,", "," -}}
