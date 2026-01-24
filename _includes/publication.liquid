@@ -13,7 +13,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = 'ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/' | append: include.paper.isbn | append: '">' | append: include.paper.isbn | append: "</a>" %-}
+        {%- assign block = block | append: 'ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/' | append: include.paper.isbn | append: '">' | append: include.paper.isbn | append: "</a>" -%}
     {%- endif -%}
     {%- if include.paper.issn %}
         {%- if block_empty -%}
@@ -32,7 +32,7 @@
         {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: include.paper.doi | append: '">' | append: include.paper.doi | append: '</a>' -%}
     {%- endif -%}
     {%- unless block_empty -%}
-        {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace %-}
+        {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
         <br><span class="refblock">{{- block -}}</span>
     {%- endunless -%}
     {%- assign block = "" -%}
@@ -62,7 +62,7 @@
         {%- assign block = block | append: '[<a href="' | append: include.paper.url | append: '">link</a>]' -%}
     {%- endif -%}
     {%- unless block_empty -%}
-        {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace %-}
+        {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
         <br><span class="linkblock">{{- block -}}</span>
     {%- endunless -%}
 </li>
