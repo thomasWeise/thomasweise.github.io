@@ -33,7 +33,7 @@
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
-        <br><span class="pubrefs">{{- block -}}.</span>
+        <div class="pubrefs">{{- block -}}.</div>
     {%- endunless -%}
     {%- assign block = "" -%}
     {%- assign block_empty = true -%}
@@ -63,8 +63,8 @@
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
-        <br><span class="publinks">{{- block -}}.</span>
+        <div class="publinks">{{- block -}}.</div>
     {%- endunless -%}
 </li>
 {%- endcapture -%}
-{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," | replace: " .", "." | replace: "..", "." | replace: "?.", "?" | replace: "!.", "!" | append: "öäü@" | remove: ".öäü@" | remove: "öäü@" | strip | append: "." | replace: "?.", "?" | replace: "!.", "!" | replace: ".,", "," -}}
+{{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," | replace: " .", "." | replace: "..", "." | replace: "?.", "?" | replace: "!.", "!" | append: "öäü@" | remove: ".öäü@" | remove: "öäü@" | strip | replace: "?.", "?" | replace: "!.", "!" | replace: ".,", "," -}}
