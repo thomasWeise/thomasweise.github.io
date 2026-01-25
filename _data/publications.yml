@@ -1572,14 +1572,16 @@
 - key: "WW2005PIKEFCELMBOX"
   authors: ["wallnitz_elke", "weise_thomas"]
   title: "Platform-independent KML Editor for Creating E-Learning Modules based on XML"
-  citation: "<em>World Conference on Educational Multimedia, Hypermedia and Telecommunications&nbsp;(EDMEDIA'2005),</em> June 27, 2005, Montréal, QC, Canada, pages&nbsp;4700-4704. Chesapeake, VA, USA:&nbsp;Association for the Advancement of Computing in Education&nbsp;(AACE)"
+  editors: ["tissary_varpu"]
+  citation: "<em>17th&nbsp;Annual World Conference on Educational Multimedia, Hypermedia and Telecommunications&nbsp;(Ed-Media'2005),</em> June 27-29, 2005, Montréal, QC, Canada, pages&nbsp;4700-4704. Chesapeake, VA, USA:&nbsp;Association for the Advancement of Computing in Education&nbsp;(AACE)"
   type: "conference"
   year: 2005
   month: 6
 - key: "KFW2005FFDSAMOCROOSC"
   authors: ["kalfa_winfried", "fickert_volker", "weise_thomas"]
   title: "Framework for Distributed Simulation and Measuring of Complex Relations of Operating System Components"
-  citation: "<em>World Conference on Educational Multimedia, Hypermedia and Telecommunications&nbsp;(EDMEDIA'2005),</em> June 27, 2005, Montréal, QC, Canada, pages&nbsp;3865-3870. Chesapeake, VA, USA:&nbsp;Association for the Advancement of Computing in Education&nbsp;(AACE)"
+  editors: ["tissary_varpu"]
+  citation: "<em>17th&nbsp;Annual World Conference on Educational Multimedia, Hypermedia and Telecommunications&nbsp;(Ed-Media'2005),</em> June 27-29, 2005, Montréal, QC, Canada, pages&nbsp;3865-3870. Chesapeake, VA, USA:&nbsp;Association for the Advancement of Computing in Education&nbsp;(AACE)"
   type: "conference"
   year: 2005
   month: 6
