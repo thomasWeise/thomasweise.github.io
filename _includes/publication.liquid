@@ -106,7 +106,7 @@
             {%- assign block_empty = false -%}
             {%- assign block = "Indexed in&nbsp;" -%}
         {%- else -%}
-            {%- assign block = block | append: ", indexed&nbsp;" -%}
+            {%- assign block = block | append: ", indexed in&nbsp;" -%}
         {%- endif -%}
         {%- assign bi = include.paper.index | join: ", " -%}
         {%- assign block = block | append: bi -%}
