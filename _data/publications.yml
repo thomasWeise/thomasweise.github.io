@@ -1519,7 +1519,7 @@
   issn: "2168-1864"
 - key: "WG2006DAAFFDMOSAATTGPOSN"
   authors: ["weise_thomas", "geihs_kurt"]
-  title: "DGPF &nbsp; An Adaptable Framework for Distributed Multi-Objective Search Algorithms Applied to the Genetic Programming of Sensor Networks"
+  title: "DGPF &mdash; An Adaptable Framework for Distributed Multi-Objective Search Algorithms Applied to the Genetic Programming of Sensor Networks"
   citation: "<em>2nd&nbsp;International Conference on Bioinspired Optimization Methods and their Applications&nbsp;(BIOMA'2006),</em> October 9-10, 2006, Ljubljana, Slovenia, pages&nbsp;157-166"
   isbn: "9616303813"
   url: "http://bioma.ijs.si/BIOMA2006Proceedings.pdf"
