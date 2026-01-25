@@ -37,6 +37,85 @@
     {%- endunless -%}
     {%- assign block = "" -%}
     {%- assign block_empty = true -%}
+    {%- if include.paper.ccf %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '中国计算机学会' | append: include.paper.ccf | append: '类' -%}
+    {%- endif -%}
+    {%- if include.paper.cas %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '中国科学院分' | append: include.paper.cas | append: '区' -%}
+    {%- endif -%}
+    {%- if include.paper.caa %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '中国自动化学会' | append: include.paper.caa | append: '类' -%}
+    {%- endif -%}
+    {%- if include.paper.caai %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '中国人工智能学会' | append: include.paper.caai | append: '类' -%}
+    {%- endif -%}
+    {%- if include.paper.thcpl %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '清华大学计算机学科' | append: include.paper.thcpl | append: '群' -%}
+    {%- endif -%}
+    {%- if include.paper.fms %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: 'FMS-' | append: include.paper.fms | append: '类' -%}
+    {%- endif -%}
+    {%- if include.paper.cms %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: 'CMS-' | append: include.paper.cms | append: '类' -%}
+    {%- endif -%}
+    {%- if include.paper.if %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: 'IF<sub>2025</sub>&nbsp;' | append: include.paper.if -%}
+    {%- endif -%}
+    {%- if include.paper.index %}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign bi = include.paper.index | join: ", " -%
+        {%- assign block = block | append: bi -%}
+    {%- endif -%}
+    {%- unless block_empty -%}
+        {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
+        <div class="pubindex">{{- block -}}.</div>
+    {%- endunless -%}
+    {%- assign block = "" -%}
+    {%- assign block_empty = true -%}
     {%- if include.paper.rg %}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
