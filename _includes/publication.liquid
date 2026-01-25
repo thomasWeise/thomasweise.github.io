@@ -153,6 +153,14 @@
             {%- assign block = block | append: '[<a href="' | append: thedata | append: '">data</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
+    {%- if include.paper.supplement -%}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '[<a href="' | append: include.paper.supplement | append: '">supplement</a>]' -%}
+    {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
         <div class="publinks">{{- block -}}.</div>

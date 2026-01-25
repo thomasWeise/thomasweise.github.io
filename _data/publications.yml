@@ -102,7 +102,8 @@
   ccf: "B"
   caai: "B"
   index: ["EI"]
-  data: ["https://doi.org/10.5281/zenodo.11488348", "https://doi.org/10.5281/zenodo.10987573"]
+  data: ["https://doi.org/10.5281/zenodo.11488348"]
+  supplement: "https://doi.org/10.5281/zenodo.10987573"
 - key: "LWLvdBTW2024ATTSPWFFAAHA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
   title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"
