@@ -22,7 +22,7 @@
   issn: "1568-4946"
   index: ["SCIE", "EI"]
   if: 6.6
-  data: "https://doi.org/10.5281/zenodo.10472493"
+  data: ["https://doi.org/10.5281/zenodo.10472493"]
 - key: "programmingWithPython"
   authors: ["weise_thomas"]
   title: "Programming with Python"
@@ -49,7 +49,7 @@
   year: 2024
   month: 11
   index: ["EI"]
-  data: "https://doi.org/10.5281/zenodo.13324219"
+  data: ["https://doi.org/10.5281/zenodo.13324219"]
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
@@ -62,7 +62,7 @@
   year: 2024
   month: 11
   index: ["EI"]
-  data: "https://doi.org/10.5281/zenodo.13324662"
+  data: ["https://doi.org/10.5281/zenodo.13324662"]
 - key: "LWTWW2024GSIWIFFTTSP"
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
   title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
@@ -75,7 +75,7 @@
   year: 2024
   month: 11
   index: ["EI"]
-  data: "https://doi.org/10.5281/zenodo.13324196"
+  data: ["https://doi.org/10.5281/zenodo.13324196"]
 - key: "XWvdBW2024RLSVNVFFAOTTTP"
   authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas"]
   title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
@@ -88,7 +88,7 @@
   year: 2024
   month: 11
   index: ["EI"]
-  data: "https://doi.org/10.5281/zenodo.13329107"
+  data: ["https://doi.org/10.5281/zenodo.13329107"]
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
@@ -102,8 +102,7 @@
   ccf: "B"
   caai: "B"
   index: ["EI"]
-  data: "https://doi.org/10.5281/zenodo.11488348"
-  supplement: "https://doi.org/10.5281/zenodo.10987573"
+  data: ["https://doi.org/10.5281/zenodo.11488348", "https://doi.org/10.5281/zenodo.10987573"]
 - key: "LWLvdBTW2024ATTSPWFFAAHA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
   title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"
@@ -117,7 +116,7 @@
   index: ["SCIE", "EI"]
   issn: "1432-7643"
   if: 2.5
-  data: "https://doi.org/10.5281/zenodo.10217879"
+  data: ["https://doi.org/10.5281/zenodo.10217879"]
 - key: "WSCTXZWTCW2024SGCNWSAFSBAR"
   authors: ["wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
   title: "SelfGCN:&nbsp;Graph Convolution Network With Self-Attention for Skeleton-Based Action Recognition"
@@ -134,7 +133,7 @@
   if: 13.7
   index: ["SCI", "EI"]
   issn: "1057-7149"
-  data: "https://github.com/SunPengP/SelfGCN"
+  data: ["https://github.com/SunPengP/SelfGCN"]
 - key: "ZLWvdBTW2024RLSOT2RBPPWIR"
   authors: ["zhao_rui", "liang_tianyu", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "weise_thomas"]
   title: "Randomized Local Search on the 2D&nbsp;Rectangular Bin Packing Problem with Item Rotation"
@@ -149,7 +148,7 @@
   caai: "C"
   thcpl: "B"
   index: ["EI"]
-  data: "https://doi.org/10.5281/zenodo.10901807"
+  data: ["https://doi.org/10.5281/zenodo.10901807"]
 - key: "VHvEJWvdB2024TTPRFVCF"
   authors: ["verduin_kristian", "horn_ruben", "van_eck_okke", "jansen_reitze", "weise_thomas", "van_den_berg_daan"]
   title: "The Traveling Tournament Problem:&nbsp;Rows-First versus Columns-First"
@@ -179,7 +178,7 @@
   if: 12.0
   issn: "1089-778X"
   index: ["SCI", "EI"]
-  data: "https://doi.org/10.5281/zenodo.5567725"
+  data: ["https://doi.org/10.5281/zenodo.5567725"]
 - key: "RWWTP2023ROFMECOMTICWPNUDU"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "wu_jinsong", "tan_ming", "pardalos_panos_miltiades"]
   title: "Robust Optimization for Minimizing Energy Consumption of Multicast Transmissions in Coded Wireless Packet Networks under Distance Uncertainty"
@@ -205,7 +204,7 @@
   caai: "C"
   thcpl: "B"
   index: ["EI"]
-  data: "https://github.com/thomasWeise/moptipy"
+  data: ["https://github.com/thomasWeise/moptipy"]
 - key: "WKCJWWTXLZZ2023ALCCVPAMFSSORSI"
   authors: ["wang_xiaofeng", "kang_menglei", "chen_yan", "jiang_wenxiang", "wang_mengyuan", "weise_thomas", "tan_ming", "xu_lixiang", "li_xinlu", "zou_le", "zhang_chen"]
   title: "Adaptive Local Cross-Channel Vector Pooling Attention Module for Semantic Segmentation of Remote Sensing Imagery"
@@ -230,7 +229,7 @@
   type: "conference"
   year: 2023
   month: 4
-  data: "https://githubcom/kristianverduin/Violation-Experiment"
+  data: ["https://githubcom/kristianverduin/Violation-Experiment"]
 - key: "CJWKWWTXLZ2022LALAFOGCISSNFRSI"
   authors: ["chen_yan", "jiang_wenxiang", "wang_mengyuan", "kang_menglei", "weise_thomas", "wang_xiaofeng", "tan_ming", "xu_lixiang", "zhang_chen"]
   title: "LightFGCNet:&nbsp;A Lightweight and Focusing on Global Context Information Semantic Segmentation Network for Remote Sensing Imagery"
@@ -256,7 +255,7 @@
   month: 12
   issn: "2770-0097"
   index: ["EI"]
-  data: "https://doi.org/10.5281/zenodo.6784555"
+  data: ["https://doi.org/10.5281/zenodo.6784555"]
 - key: "DXWW2022CSASIICGEFC"
   authors: ["ding_jianwen", "xu_jia", "weise_thomas", "wang_huan"]
   title: "Community Services and Social Involvement in COVID-19 Governance:&nbsp;Evidence from China"
@@ -290,7 +289,7 @@
   month: 8
   ccf: "C"
   index: ["EI"]
-  data: "https://doi.org/10.5281/zenodo.6551758"
+  data: ["https://doi.org/10.5281/zenodo.6551758"]
 - key: "RWW2022CSSDASAB"
   authors: ["ran_shuoyi", "weise_thomas", "wu_zhize"]
   title: "Chemical Safety Sign Detection:&nbsp;A Survey and Benchmark"
@@ -305,7 +304,7 @@
   thcpl: "B"
   index: ["EI"]
   issn: "2161-4393"
-  data: "http://doi.org/10.5281/zenodo.5938816"
+  data: ["http://doi.org/10.5281/zenodo.5938816"]
 - key: "ZWHWSW2022DRETILSISMAS"
   authors: ["zou_le", "huang_qianjing", "wu_zhize", "song_liangtu", "wang_xiaofeng"]
   title: "Distance Regularization Energy Terms in Level Set Image Segment Model:&nbsp;A Survey"
@@ -336,7 +335,7 @@
   if: 15.5
   index: ["SCIE", "EI"]
   issn: "1566-2535"
-  data: "https://doi.org/10.5281/zenodo.4420286"
+  data: ["https://doi.org/10.5281/zenodo.4420286"]
 - key: "WWZXLW2021HODFVHRSI"
   authors: ["wu_zhize", "wang_xiaofeng", "zou_le", "xu_lixiang", "li_xinlu", "weise_thomas"]
   title: "Hierarchical Object Detection for Very High-Resolution Satellite Images"
@@ -350,6 +349,7 @@
   issn: "1568-4946"
   index: ["SCIE", "EI"]
   if: 6.6
+  data: ["http://doi.org/10.5281/zenodo.3999174", "http://doi.org/10.5281/zenodo.3999187"]
 - key: "XCWLWNCT2021SSMLCKLIE"
   authors: ["xu_lixiang", "cui_lixin", "weise_thomas", "li_xinlu", "wu_zhize", "nie_feiping", "chen_enhong", "tang_yuanyan"]
   title: "Semi-Supervised Multi-Layer Convolution Kernel Learning in Credit Evaluation"
@@ -428,7 +428,7 @@
   if: 12.0
   issn: "1089-778X"
   index: ["SCI", "EI"]
-  data: "https://doi.org/10.5281/zenodo.3899474"
+  data: ["https://doi.org/10.5281/zenodo.3899474"]
 - key: "ZSWWCZ2020ANATNTPIWP"
   authors: ["zou_le", "song_liangtu", "wang_xiaofeng", "weise_thomas", "chen_yanping", "zhang_chen"]
   title: "A&nbsp;New Approach to Newton-Type Polynomial Interpolation with Parameters"
@@ -463,7 +463,7 @@
   if: 3.6
   index: ["SCIE", "EI"]
   issn: "2169-3536"
-  data: "http://doi.org/10.5281/zenodo.3843229"
+  data: ["http://doi.org/10.5281/zenodo.3843229"]
 - key: "LXXWZSW2020IRUADABH"
   authors: ["li_xinlu", "xu_mengfei", "xu_jiabo", "weise_thomas", "zou_le", "sun_fei", "wu_zhize"]
   title: "Image Retrieval Using a Deep Attention-Based Hash"
@@ -489,7 +489,7 @@
   issn: "1568-4946"
   index: ["SCIE", "EI"]
   if: 6.6
-  data: "https://doi.org/10.5281/zenodo.1256883"
+  data: ["https://doi.org/10.5281/zenodo.1256883"]
 - key: "TZCWZ2020AIRMFMTMCB"
   authors: ["tu_jing", "zhang_jiarui", "chen_shengbing", "weise_thomas", "zou_le"]
   title: "An&nbsp;Improved Retrieval Method for Multi-Transaction Mode Consortium Blockchain"
