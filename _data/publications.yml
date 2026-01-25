@@ -291,6 +291,12 @@
   type: "article"
   year: 2022
   month: 4
+  cas: 1
+  caa: "A"
+  caai: "A"
+  if: 15.5
+  index: ["SCIE", "EI"]
+  issn: "1566-2535"
 - key: "WWZXLW2021HODFVHRSI"
   authors: ["wu_zhize", "wang_xiaofeng", "zou_le", "xu_lixiang", "li_xinlu", "weise_thomas"]
   title: "Hierarchical Object Detection for Very High-Resolution Satellite Images"
@@ -312,6 +318,14 @@
   type: "article"
   year: 2021
   month: 12
+  ccf: "B"
+  cas: 1
+  caa: "A"
+  caai: "B"
+  thcpl: "B"
+  if: 7.6
+  index: ["SCI", "EI"]
+  issn: "0031-3203"
 - key: "WZWTW2021RARLFRSIR"
   authors: ["wu_zhize", "zou_chang", "wang_yan", "tan_ming", "weise_thomas"]
   title: "Rotation-Aware Representation Learning for Remote Sensing Image Retrieval"
@@ -320,6 +334,14 @@
   type: "article"
   year: 2021
   month: 9
+  ccf: "B"
+  cas: 2
+  caa: "A"
+  thcpl: "B"
+  fms: "B"
+  if: 6.8
+  index: ["SCI", "EI"]
+  issn: "0020-0255"
 - key: "ZSWHDW2021ASORLSISMBOTEFSM"
   authors: ["zou_le", "song_liangtu", "weise_thomas", "wang_xiaofeng", "huang_qianjing", "deng_rui", "wu_zhize"]
   title: "A&nbsp;Survey on Regional Level Set Image Segmentation Models based on the Energy Functional Similarity Measure"
@@ -374,6 +396,7 @@
   type: "article"
   year: 2020
   month: 11
+  issn: "1024-123X"
 - key: "WWLZL2020SIOBOCIAITASCJ"
   authors: ["weise_thomas", "wagner_markus", "li_bin", "zhang_xingyi", "lassig_jorg"]
   title: "Special Issue on Benchmarking of Computational Intelligence Algorithms in the Applied Soft Computing Journal&nbsp;(Editorial)"
@@ -395,6 +418,10 @@
   type: "article"
   year: 2020
   month: 8
+  cas: 4
+  if: 3.6
+  index: ["SCIE", "EI"]
+  issn: "2169-3536"
 - key: "LXXWZSW2020IRUADABH"
   authors: ["li_xinlu", "xu_mengfei", "xu_jiabo", "weise_thomas", "zou_le", "sun_fei", "wu_zhize"]
   title: "Image Retrieval Using a Deep Attention-Based Hash"
@@ -403,6 +430,10 @@
   type: "article"
   year: 2020
   month: 7
+  cas: 4
+  if: 3.6
+  index: ["SCIE", "EI"]
+  issn: "2169-3536"
 - key: "WCLW2020SADSOBIFATMPFBBDOA"
   authors: ["weise_thomas", "chen_yan", "li_xinlu", "wu_zhize"]
   title: "Selecting a diverse set of benchmark instances from a tunable model problem for black-box discrete optimization algorithms"
@@ -424,6 +455,9 @@
   type: "article"
   year: 2020
   month: 2
+  cas: 4
+  issn: "2079-9292"
+  index: ["EI"]
 - key: "LKMWT2019EELBABRAFWSN"
   authors: ["li_xinlu", "keegan_brian", "mtenzi_frederick", "weise_thomas", "tan_ming"]
   title: "Energy-Efficient Load Balancing Ant Based Routing Algorithm for Wireless Sensor Networks"
@@ -432,6 +466,10 @@
   type: "article"
   year: 2019
   month: 8
+  cas: 4
+  if: 3.6
+  index: ["SCIE", "EI"]
+  issn: "2169-3536"
 - key: "HW2019IDSUCNNACCAFADBODL"
   authors: ["heng_lalin", "weise_thomas"]
   title: "Intrusion Detection System Using Convolutional Neuronal Networks:&nbsp;A Cognitive Computing Approach for Anomaly Detection based on Deep Learning"
@@ -441,6 +479,7 @@
   type: "conference"
   year: 2019
   month: 7
+  index: ["EI"]
 - key: "WJQL2019ABABBCOFTTSP"
   authors: ["weise_thomas", "jiang_yan", "qi_qi", "liu_weichen"]
   title: "A&nbsp;Branch-and-Bound-Based Crossover Operator for the Traveling Salesman Problem"
@@ -449,6 +488,10 @@
   type: "article"
   year: 2019
   month: 7
+  cas: 4
+  if: 1.0
+  index: ["EI"]
+  issn: "1557-3958"
 - key: "WWLC2019IIIOADTM"
   authors: ["weise_thomas", "wu_yuezhong", "liu_weichen", "chiong_raymond"]
   title: "Implementation Issues in Optimization Algorithms:&nbsp;Do they matter?"
@@ -457,6 +500,11 @@
   type: "article"
   year: 2019
   month: 1
+  ccf: "C"
+  cas: 4
+  if: 1.7
+  index: ["SCIE", "EI"]
+  issn: "0952-813X"
 - key: "WWW2019AIGBARSWPPFSLS"
   authors: ["weise_thomas", "wu_zijun", "wagner_markus"]
   title: "An&nbsp;Improved Generic Bet-and-Run Strategy with Performance Prediction for Stochastic Local Search"
@@ -466,6 +514,11 @@
   type: "conference"
   year: 2019
   month: 1
+  ccf: "A"
+  caai: "A"
+  thcpl: "A"
+  index: ["EI"]
+  issn: "2159-5399"
 - key: "WWQLT2018ADCOAAPIBAWATCFEDASAIF"
   authors: ["weise_thomas", "wang_xiaofeng", "qi_qi", "li_bin", "tang_ke"]
   title : "Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features"
@@ -488,6 +541,8 @@
   type: "conference"
   year: 2018
   month: 8
+  issn: "2836-5984"
+  index: ["EI"]
 - key: "WW2018DFOCOPATTWMBPFST"
   authors: ["weise_thomas", "wu_zijun"]
   title: "Difficult Features of Combinatorial Optimization Problems and the Tunable W-Model Benchmark Problem for Simulating them"
@@ -523,6 +578,8 @@
   type: "conference"
   year: 2018
   month: 3
+  issn: "2572-1038"
+  index: ["EI"]
 - key: "W2017FSDFTSTFOAB"
   authors: ["weise_thomas"]
   title: "From Standardized Data Formats to Standardized Tools for Optimization Algorithm Benchmarking"
@@ -532,6 +589,7 @@
   type: "conference"
   year: 2017
   month: 7
+  index: ["EI"]
 - key: "LWWQ2017CTLSWCAEHAFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "qi_qi"]
   title: "Combining Two Local Searches with Crossover:&nbsp;An Efficient Hybrid Algorithm for the Traveling Salesman Problem"
@@ -575,6 +633,14 @@
   type: "article"
   year: 2016
   month: 11
+  ccf: "B"
+  cas: 3
+  thcpl: "B"
+  fms: "B"
+  cms: "T2"
+  if: 1.7
+  index: ["SCI", "EI"]
+  issn: "0925-5001"
 - key: "WWL2016HDLSAWEOAECBPOTTSP"
   authors: ["wu_yuezhong", "weise_thomas", "liu_weichen"]
   title: "Hybridizing Different Local Search Algorithms with Each Other and Evolutionary Computation:&nbsp;Better Performance on the Traveling Salesman Problem"
@@ -652,6 +718,7 @@
   type: "conference"
   year: 2015
   month: 6
+  index: ["EI"]
 - key: "WC2015AAWOPSTRWETPOSA"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "An Alternative Way of Presenting Statistical Test Results when Evaluating the Performance of Stochastic Approaches"
@@ -856,6 +923,14 @@
   doi: "10.1016/j.ins.2012.07.041"
   year: 2013
   month: 1
+  ccf: "B"
+  cas: 2
+  caa: "A"
+  thcpl: "B"
+  fms: "B"
+  if: 6.8
+  index: ["SCI", "EI"]
+  issn: "0020-0255"
 - key: "WCT2012EOPABT"
   authors: ["weise_thomas", "chiong_raymond", "tang_ke"]
   title: "Evolutionary Optimization:&nbsp;Pitfalls and Booby Traps"
@@ -953,6 +1028,14 @@
   type: "article"
   year: 2011
   month: 10
+  ccf: "B"
+  cas: 2
+  caa: "A"
+  thcpl: "B"
+  fms: "B"
+  if: 6.8
+  index: ["SCI", "EI"]
+  issn: "0020-0255"
 - key: "FTW2012MBOSMFLFID"
   authors: ["fan_xiannian", "tang_ke", "weise_thomas"]
   title: "Margin-Based Over-Sampling Method for Learning From Imbalanced Datasets"
@@ -1061,6 +1144,7 @@
   type: "conference"
   year: 2010
   month: 7
+  index: ["EI"]
 - key: "WTWTY2010UGTEDRFCIFDS"
   authors: ["wang_pu", "tsang_edward_pk", "weise_thomas", "tang_ke", "yao_xin"]
   title: "Using GP to Evolve Decision Rules for Classification in Financial Data Sets"
@@ -1070,6 +1154,7 @@
   type: "conference"
   year: 2010
   month: 7
+  index: ["EI"]
 - key: "WWZKSSWZZ2010POCIAIFDSOPPIII"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "weise_thomas", "zhong_yixin", "zhang_du"]
   title: "Perspectives on Cognitive Informatics and Its Future Development:&nbsp;Summary of Plenary Panel&nbsp;II of IEEE&nbsp;ICCI'10"
@@ -1079,6 +1164,7 @@
   type: "conference"
   year: 2010
   month: 7
+  index: ["EI"]
 - key: "WLW2010EODADECFLSELDOOPS"
   authors: ["wang_yu", "li_bin", "weise_thomas"]
   title: "Estimation of Distribution and Differential Evolution Cooperation for Large Scale Economic Load Dispatch Optimization of Power Systems"
@@ -1087,6 +1173,14 @@
   type: "article"
   year: 2010
   month: 6
+  ccf: "B"
+  cas: 2
+  caa: "A"
+  thcpl: "B"
+  fms: "B"
+  if: 6.8
+  index: ["SCI", "EI"]
+  issn: "0020-0255"
 - key: "CWL2009TDUEOWMSO"
   authors: ["chiong_raymond", "weise_thomas", "lau_bee_theng"]
   title: "Template Design using Extremal Optimization with Multiple Search Operators"
