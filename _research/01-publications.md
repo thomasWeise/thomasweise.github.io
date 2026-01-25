@@ -5,8 +5,7 @@ read_time: false
 toc: true
 author_profile: true
 ---
-
-{% assign total = 0 -%}
+{%  assign total = 0 -%}
 {%- assign first_author = 0 -%}
 {%- assign total_article = 0 -%}
 {%- assign first_author_article = 0 -%}

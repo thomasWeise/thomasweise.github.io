@@ -16,6 +16,11 @@
   type: "article"
   year: 2025
   month: 3
+  cas: 2
+  caai: "C"
+  issn: "1568-4946"
+  index: ["SCIE", "EI"]
+  if: 6.6
 - key: "ZWvdBTLTW2024RLSFTDBPAANRFFA"
   authors: ["zhao_rui", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "liang_tianyu", "tan_ming", "weise_thomas"]
   title: "Randomized Local Search for Two-Dimensional Bin Packing and a Negative Result for Frequency Fitness Assignment"
@@ -78,6 +83,11 @@
   type: "article"
   year: 2024
   month: 9
+  ccf: "C"
+  cas: 4
+  index: ["SCIE", "EI"]
+  issn: "1432-7643"
+  if: 2.5
 - key: "WSCTXZWTCW2024SGCNWSAFSBAR"
   authors: ["wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
   title: "SelfGCN:&nbsp;Graph Convolution Network With Self-Attention for Skeleton-Based Action Recognition"
@@ -86,6 +96,14 @@
   type: "article"
   year: 2024
   month: 7
+  ccf: "A"
+  cas: 1
+  caa: "A+"
+  caai: "A"
+  thcpl: "A"
+  if: 13.7
+  index: ["SCI", "EI"]
+  issn: "1057-7149"
 - key: "ZLWvdBTW2024RLSOT2RBPPWIR"
   authors: ["zhao_rui", "liang_tianyu", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "weise_thomas"]
   title: "Randomized Local Search on the 2D&nbsp;Rectangular Bin Packing Problem with Item Rotation"
@@ -96,6 +114,10 @@
   type: "conference"
   year: 2024
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "VHvEJWvdB2024TTPRFVCF"
   authors: ["verduin_kristian", "horn_ruben", "van_eck_okke", "jansen_reitze", "weise_thomas", "van_den_berg_daan"]
   title: "The Traveling Tournament Problem:&nbsp;Rows-First versus Columns-First"
@@ -103,6 +125,7 @@
   issn: "2184-4992"
   isbn: "978-989-758-692-7"
   type: "conference"
+  index: ["EI"]
   doi: "10.5220/0012557700003690"
   year: 2024
   month: 4
@@ -114,6 +137,15 @@
   type: "article"
   year: 2023
   month: 8
+  ccf: "B"
+  cas: 1
+  caa: "A+"
+  caai: "A"
+  thcpl: "B"
+  fms: "B"
+  if: 12.0
+  issn: "1089-778X"
+  index: ["SCI", "EI"]
 - key: "RWWTP2023ROFMECOMTICWPNUDU"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "wu_jinsong", "tan_ming", "pardalos_panos_miltiades"]
   title: "Robust Optimization for Minimizing Energy Consumption of Multicast Transmissions in Coded Wireless Packet Networks under Distance Uncertainty"
@@ -122,6 +154,11 @@
   type: "article"
   year: 2023
   month: 8
+  cas: 4
+  index: ["SCIE", "EI"]
+  if: 1.1
+  issn: "1382-6905"
+  cms: "T2"
 - key: "WW2023RSDEWASSAA"
   authors: ["weise_thomas", "wu_zhize"]
   title: "Replicable Self-Documenting Experiments with Arbitrary Search Spaces and Algorithms"
@@ -130,6 +167,10 @@
   type: "conference"
   year: 2023
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "WKCJWWTXLZZ2023ALCCVPAMFSSORSI"
   authors: ["wang_xiaofeng", "kang_menglei", "chen_yan", "jiang_wenxiang", "wang_mengyuan", "weise_thomas", "tan_ming", "xu_lixiang", "li_xinlu", "zou_le", "zhang_chen"]
   title: "Adaptive Local Cross-Channel Vector Pooling Attention Module for Semantic Segmentation of Remote Sensing Imagery"
@@ -138,6 +179,12 @@
   type: "article"
   year: 2023
   month: 4
+  cas: 2
+  caa: "A"
+  caai: "B"
+  if: 4.1
+  issn: "2072-4292"
+  index: ["SCIE", "EI"]
 - key: "VWvdB2023WITTTONSWGA"
   authors: ["verduin_kristian", "weise_thomas", "van_den_berg_daan"]
   title: "Why is the Traveling Tournament Problem not Solved with Genetic Algorithms?"
@@ -156,6 +203,12 @@
   type: "article"
   year: 2022
   month: 12
+  cas: 2
+  caa: "A"
+  caai: "B"
+  if: 4.1
+  issn: "2072-4292"
+  index: ["SCIE", "EI"]
 - key: "LWLvdbW2022STTSPUFFA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "weise_thomas"]
   title: "Solving the Traveling Salesperson Problem using Frequency Fitness Assignment"
@@ -165,6 +218,8 @@
   type: "conference"
   year: 2022
   month: 12
+  issn: "2770-0097"
+  index: ["EI"]
 - key: "DXWW2022CSASIICGEFC"
   authors: ["ding_jianwen", "xu_jia", "weise_thomas", "wang_huan"]
   title: "Community Services and Social Involvement in COVID-19 Governance:&nbsp;Evidence from China"
@@ -173,6 +228,7 @@
   type: "article"
   year: 2022
   month: 11
+  issn: "1661-7827"
 - key: "RKWP2022ANATSSWMWOA"
   authors: ["raayatpanah_mohammad_ali", "khodayifar_salman", "weise_thomas", "pardalos_panos_miltiades"]
   title: "A&nbsp;Novel Approach to Subgraph Selection with Multiple Weights on Arcs"
@@ -181,6 +237,11 @@
   type: "article"
   year: 2022
   month: 8
+  cas: 4
+  index: ["SCIE", "EI"]
+  if: 1.1
+  issn: "1382-6905"
+  cms: "T2"
 - key: "LWW2022DOPPEIFASABD"
   authors: ["liu_zhiyang", "weise_thomas", "wu_zhize"]
   title: "Detection of Personal Protective Equipment in Factories:&nbsp;A Survey and Benchmark Dataset"
@@ -190,16 +251,22 @@
   type: "conference"
   year: 2022
   month: 8
+  ccf: "C"
+  index: ["EI"]
 - key: "RWW2022CSSDASAB"
   authors: ["ran_shuoyi", "weise_thomas", "wu_zhize"]
   title: "Chemical Safety Sign Detection:&nbsp;A Survey and Benchmark"
   citation: "<em>2022&nbsp;International Joint Conference on Neural Networks&nbsp;(IJCNN'2022),</em> part of the <em>IEEE World Congress on Computational Intelligence&nbsp;(IEEE WCCI'2022),</em> July 18-23, 2022, Padova, Italy. IEEE"
   doi: "10.1109/IJCNN55064.2022.9892860"
   isbn: "978-1-7281-8671-9"
-  issn: "2161-4393"
   type: "conference"
   year: 2022
   month: 8
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
+  issn: "2161-4393"
 - key: "ZWHWSW2022DRETILSISMAS"
   authors: ["zou_le", "huang_qianjing", "wu_zhize", "song_liangtu", "wang_xiaofeng"]
   title: "Distance Regularization Energy Terms in Level Set Image Segment Model:&nbsp;A Survey"
@@ -208,6 +275,14 @@
   type: "article"
   year: 2022
   month: 6
+  ccf: "C"
+  cas: 2
+  caa: "A"
+  caai: "B"
+  thcpl: "B"
+  if: 6.5
+  index: ["SCIE", "EI"]
+  issn: "0925-2312"
 - key: "WXWSTW2022HFADABWSLFODFRSI"
   authors: ["wu_zhize", "xu_jian", "wang_yan", "sun_fei", "tan_ming", "weise_thomas"]
   title: "Hierarchical fusion and divergent activation based weakly supervised learning for object detection from remote sensing images"
@@ -224,6 +299,11 @@
   type: "article"
   year: 2021
   month: 12
+  cas: 2
+  caai: "C"
+  issn: "1568-4946"
+  index: ["SCIE", "EI"]
+  if: 6.6
 - key: "XCWLWNCT2021SSMLCKLIE"
   authors: ["xu_lixiang", "cui_lixin", "weise_thomas", "li_xinlu", "wu_zhize", "nie_feiping", "chen_enhong", "tang_yuanyan"]
   title: "Semi-Supervised Multi-Layer Convolution Kernel Learning in Credit Evaluation"
@@ -248,6 +328,14 @@
   type: "article"
   year: 2021
   month: 9
+  ccf: "C"
+  cas: 2
+  caa: "A"
+  caai: "B"
+  thcpl: "B"
+  if: 6.5
+  index: ["SCIE", "EI"]
+  issn: "0925-2312"
 - key: "WLCW2021SJSSPWUABFGS"
   authors: ["weise_thomas", "li_xinlu", "chen_yan", "wu_zhize"]
   title: "Solving Job Shop Scheduling Problems Without Using a Bias for Good Solutions"
@@ -257,6 +345,10 @@
   type: "conference"
   year: 2021
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "WWLC2021FFAMOAIUBTOTOFV"
   authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan"]
   title: "Frequency Fitness Assignment:&nbsp;Making Optimization Algorithms Invariant under Bijective Transformations of the Objective Function Value"
@@ -265,6 +357,15 @@
   type: "article"
   year: 2021
   month: 4
+  ccf: "B"
+  cas: 1
+  caa: "A+"
+  caai: "A"
+  thcpl: "B"
+  fms: "B"
+  if: 12.0
+  issn: "1089-778X"
+  index: ["SCI", "EI"]
 - key: "ZSWWCZ2020ANATNTPIWP"
   authors: ["zou_le", "song_liangtu", "wang_xiaofeng", "weise_thomas", "chen_yanping", "zhang_chen"]
   title: "A&nbsp;New Approach to Newton-Type Polynomial Interpolation with Parameters"
@@ -281,6 +382,11 @@
   type: "article"
   year: 2020
   month: 8
+  cas: 2
+  caai: "C"
+  issn: "1568-4946"
+  index: ["SCIE", "EI"]
+  if: 6.6
 - key: "WWWW2020CNNBWSLFADFRSI"
   authors: ["wu_zhize", "weise_thomas", "wang_yan", "wang_yongjun"]
   title: "Convolutional Neural Network based Weakly Supervised Learning for Aircraft Detection from Remote Sensing Images"
@@ -305,6 +411,11 @@
   type: "article"
   year: 2020
   month: 6
+  cas: 2
+  caai: "C"
+  issn: "1568-4946"
+  index: ["SCIE", "EI"]
+  if: 6.6
 - key: "TZCWZ2020AIRMFMTMCB"
   authors: ["tu_jing", "zhang_jiarui", "chen_shengbing", "weise_thomas", "zou_le"]
   title: "An&nbsp;Improved Retrieval Method for Multi-Transaction Mode Consortium Blockchain"
@@ -363,6 +474,11 @@
   type: "article"
   year: 2018
   month: 12
+  cas: 2
+  caai: "C"
+  issn: "1568-4946"
+  index: ["SCIE", "EI"]
+  if: 6.6
 - key: "RW2018VNFPFSFCWMEC"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas"]
   title: "Virtual Network Function Placement for Service Function Chaining with Minimum Energy Consumption"
@@ -381,6 +497,10 @@
   type: "conference"
   year: 2018
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "UWAL2018AGPIGFDOP"
   authors: ["ullrich_markus", "weise_thomas", "awasthi_abhishek", "lassig_jorg"]
   title: "A&nbsp;Generic Problem Instance Generator for Discrete Optimization Problems"
@@ -390,6 +510,10 @@
   type: "conference"
   year: 2018
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "QWL2018OABMASOTTSP"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Optimization Algorithm Behavior Modeling:&nbsp;A Study on the Traveling Salesman Problem"
@@ -417,6 +541,10 @@
   type: "conference"
   year: 2017
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "QWL2017MOARBAIA"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Modeling Optimization Algorithm Runtime Behavior and its Applications"
@@ -426,6 +554,10 @@
   type: "conference"
   year: 2017
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "ALWK2016TCDWPWATLA"
   authors: ["awasthi_abhishek", "lassig_jorg", "weise_thomas", "kramer_oliver"]
   title: "Tackling Common Due Window Problem with a Two-Layered Approach"
@@ -452,6 +584,10 @@
   type: "conference"
   year: 2026
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "WWWXC2016HECMFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "xu_dan", "chiong_raymond"]
   title: "An Improved Ejection Chain Method and Its Hybrid Versions for Solving the Traveling Salesman Problem"
@@ -478,6 +614,8 @@
   type: "conference"
   year: 2015
   month: 12
+  issn: "2770-0097"
+  index: ["EI"]
 - key: "GYWL2015AELSHWRWFTUSCP"
   authors: ["gao_chao", "yao_xin", "weise_thomas", "li_jinlong"]
   title: "An Efficient Local Search Heuristic with Row Weighting for the Unicost Set Covering Problem"
@@ -522,6 +660,14 @@
   type: "article"
   year: 2015
   month: 1
+  ccf: "C"
+  cas: 2
+  caa: "A"
+  caai: "B"
+  thcpl: "B"
+  if: 6.5
+  index: ["SCIE", "EI"]
+  issn: "0925-2312"
 - key: "YLWY2014ANMAWFAFTDTLMICBN"
   authors: ["yuan_bo", "li_bin", "weise_thomas", "yao_xin"]
   title: "A&nbsp;New Memetic Algorithm with Fitness Approximation for the Defect-Tolerant Logic Mapping in Crossbar-Based Nanoarchitectures"
@@ -530,6 +676,15 @@
   type: "article"
   year: 2014
   month: 12
+  ccf: "B"
+  cas: 1
+  caa: "A+"
+  caai: "A"
+  thcpl: "B"
+  fms: "B"
+  if: 12.0
+  issn: "1089-778X"
+  index: ["SCI", "EI"]
 - key: "JWLCA2014CAHBABAWECMLSATHOTT"
   authors: ["jiang_yan", "weise_thomas", "lassig_jorg", "chiong_raymond", "athauda_rukshan"]
   title: "Comparing a Hybrid Branch and Bound Algorithm with Evolutionary Computation Methods, Local Search and their Hybrids on the TSP"
@@ -539,6 +694,8 @@
   type: "conference"
   year: 2014
   month: 12
+  issn: "2770-0097"
+  index: ["EI"]
 - key: "ALKW2014CDWPPAFAGPS"
   authors: ["awasthi_abhishek", "lassig_jorg", "kramer_oliver", "weise_thomas"]
   title: "Common Due-Window Problem: Polynomial Algorithms for a Given Processing Sequence"
@@ -548,6 +705,8 @@
   type: "conference"
   year: 2014
   month: 12
+  issn: "2770-0097"
+  index: ["EI"]
 - key: "GWL2014IT3FNLSBRFMFTSCP"
   authors: ["gao_chao", "weise_thomas", "li_jinlong"]
   title: "Improve the 3-flip Neighborhood Local Search by Random Flat Move for the Set Covering Problem"
@@ -600,6 +759,15 @@
   type: "article"
   year: 2014
   month: 4
+  ccf: "B"
+  cas: 1
+  caa: "A+"
+  caai: "A"
+  thcpl: "B"
+  fms: "B"
+  if: 12.0
+  issn: "1089-778X"
+  index: ["SCI", "EI"]
 - key: "WKWTY2014MGPFMRP"
   authors: ["wang_pu", "tang_ke", "weise_thomas", "tsang_edward_pk", "yao_xin"]
   title: "Multiobjective Genetic Programming for Maximizing ROC Performance"
@@ -608,6 +776,14 @@
   type: "article"
   year: 2014
   month: 2
+  ccf: "C"
+  cas: 2
+  caa: "A"
+  caai: "B"
+  thcpl: "B"
+  if: 6.5
+  index: ["SCIE", "EI"]
+  issn: "0925-2312"
 - key: "SW2013AIAFTV"
   authors: ["shi_wei", "weise_thomas"]
   editors: ["yin_hujun", "tang_ke", "gao_yang", "klawonn_frank", "lee_minho", "weise_thomas", "li_bin", "yao_xin"]
@@ -646,6 +822,8 @@
   type: "conference"
   year: 2013
   month: 4
+  issn: "2770-0097"
+  index: ["EI"]
 - key: "AKCW2013GAECS"
   authors: ["abedini_mani", "kirely_michael", "chiong_raymond"]
   title: "GPU Accelerated eXtended Classifier System"
@@ -655,6 +833,8 @@
   type: "conference"
   year: 2013
   month: 4
+  issn: "2770-0097"
+  index: ["EI"]
 - key: "LWWL2013FPDIFDUTSEEA"
   authors: ["li_bin", "wang_yu", "weise_thomas", "long_long"]
   title: "Fixed-Point Digital IIR Filter Design using Two-Stage Ensemble Evolutionary Algorithm"
@@ -663,6 +843,11 @@
   type: "article"
   year: 2013
   month: 1
+  cas: 2
+  caai: "C"
+  issn: "1568-4946"
+  index: ["SCIE", "EI"]
+  if: 6.6
 - key: "WLW2013TSEMAFOADIFD"
   authors: ["wang_yu", "li_bin", "weise_thomas"]
   title: "Two-Stage Ensemble Memetic Algorithm:&nbsp;Function Optimization and Digital IIR Filter Design"
@@ -696,6 +881,10 @@
   type: "conference"
   year: 2012
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "BBBBW2012OOTWSCWDACOSWS"
   authors: ["bansal_ajay", "bansal_srividya", "blake_m_brian", "bleul_steffen", "weise_thomas"]
   title: "Overview of the Web Services Challenge&nbsp;(WSC):&nbsp;Discovery and Composition of Semantic Web Services"
@@ -713,6 +902,15 @@
   type: "article"
   year: 2012
   month: 4
+  ccf: "B"
+  cas: 1
+  caa: "A+"
+  caai: "A"
+  thcpl: "B"
+  fms: "B"
+  if: 12.0
+  issn: "1089-778X"
+  index: ["SCI", "EI"]
 - key: "JCW2012SNTAL"
   authors: ["jovanovic_jelena", "chiong_raymond", "weise_thomas"]
   title: "Social Networking, Teaching, and Learning:&nbsp;Introduction to Special Section on Social Networking, Teaching, and Learning&nbsp;(SNTL)"
@@ -850,6 +1048,10 @@
   type: "conference"
   year: 2010
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "WC2010EDMAFRBATBC"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "Evolutionary Data Mining Approaches for Rule-based and Tree-based Classifiers"
@@ -1031,6 +1233,10 @@
   type: "conference"
   year: 2008
   month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: ["EI"]
 - key: "WBKG2008SWSCFSOA"
   authors: ["weise_thomas", "bleul_steffen", "kirchhoff_marc", "geihs_kurt"]
   title: "Semantic Web Service Composition for Service-Oriented Architectures"
