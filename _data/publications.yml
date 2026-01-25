@@ -75,6 +75,9 @@
   type: "conference"
   year: 2024
   month: 9
+  ccf: "B"
+  caai: "B"
+  index: ["EI"]
 - key: "LWLvdBTW2024ATTSPWFFAAHA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
   title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"
@@ -662,6 +665,7 @@
   type: "article"
   year: 2016
   month: 6
+  issn: "1546-1955"
 - key: "ALLW2016GBPAFSADD"
   authors: ["awasthi_abhishek", "lassig_jorg", "leuschner_jens", "weise_thomas"]
   title: "GPGPU-based Parallel Algorithms for Scheduling Against Due Date"
@@ -671,6 +675,7 @@
   type: "conference"
   year: 2016
   month: 5
+  issn: "2639-3867"
 - key: "SWCC2015HPWEPIFSTVRPWTW"
   authors: ["shi_wei", "weise_thomas", "chiong_raymond", "catay_bulent"]
   title: "Hybrid PACO with Enhanced Pheromone Initialization for Solving the Vehicle Routing Problem with Time Windows"
@@ -700,6 +705,8 @@
   type: "conference"
   year: 2015
   month: 9
+  issn: "2150-3443"
+  index: ["EI"]
 - key: "LWWC2015HECMFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "chiong_raymond"]
   title: "Hybrid Ejection Chain Methods for the Traveling Salesman Problem"
@@ -709,6 +716,8 @@
   type: "conference"
   year: 2015
   month: 9
+  issn: "2150-3443"
+  index: ["EI"]
 - key: "WWC2015LSFTTSPACS"
   authors: ["wu_yuezhong", "weise_thomas", "chiong_raymond"]
   title: "Local Search for the Traveling Salesman Problem:&nbsp;A Comparative Study"
@@ -777,7 +786,7 @@
 - key: "GWL2014IT3FNLSBRFMFTSCP"
   authors: ["gao_chao", "weise_thomas", "li_jinlong"]
   title: "Improve the 3-flip Neighborhood Local Search by Random Flat Move for the Set Covering Problem"
-  citation: "<em>Advances in Swarm Intelligence&nbsp;Proceedings of the Fifth International Conference on Swarm Intelligence&nbsp;(ICSI'2014),</em> Part 1, October 17-20, 2014, Hefei, Anhui, China, pages&nbsp;27-35, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;8794. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
+  citation: "<em>Advances in Swarm Intelligence&nbsp;Proceedings of the 5th&nbsp;International Conference on Swarm Intelligence&nbsp;(ICSI'2014),</em> Part 1, October 17-20, 2014, Hefei, Anhui, China, pages&nbsp;27-35, Lecture Notes in Computer Science&nbsp;(LNCS), volume&nbsp;8794. Berlin, Germany:&nbsp;Springer-Verlag GmbH"
   isbn: "978-3-319-11856-7"
   doi: "10.1007/978-3-319-11857-4_4"
   type: "conference"
@@ -791,6 +800,12 @@
   type: "article"
   year: 2014
   month: 8
+  cas: 2
+  caa: "A+"
+  caai: "B"
+  if: 11.2
+  index: ["SCIE", "EI"]
+  issn: "1556-603X"
 - key: "WWTY2014EEIAWGP"
   authors: ["weise_thomas", "wan_mingxu", "tang_ke", "yao_xin"]
   title: "Evolving Exact Integer Algorithms with Genetic Programming"
@@ -800,6 +815,8 @@
   type: "conference"
   year: 2014
   month: 7
+  caai: "C"
+  index: ["EI"]
 - key: "GWL2014AWBLSHAFTSCP"
   authors: ["gao_chao", "weise_thomas", "li_jinlong"]
   title: "A&nbsp;Weighting-Based Local Search Heuristic Algorithm for the Set Covering Problem"
@@ -809,6 +826,8 @@
   type: "conference"
   year: 2014
   month: 7
+  caai: "C"
+  index: ["EI"]
 - key: "ZWL2014FLBAOSFCSPWC"
   authors: ["zhang_kai", "weise_thomas", "li_jinlong"]
   title: "Fitness Level based Adaptive Operator Selection for Cutting Stock Problems with Contiguity"
@@ -818,6 +837,8 @@
   type: "conference"
   year: 2014
   month: 7
+  caai: "C"
+  index: ["EI"]
 - key: "WWWTDY2014FFA"
   authors: ["weise_thomas", "wan_mingxu", "tang_ke", "wang_pu", "devert_alexandre", "yao_xin"]
   title: "Frequency Fitness Assignment"
@@ -861,6 +882,7 @@
   type: "conference"
   year: 2013
   month: 10
+  index: ["EI"]
 - key: "YTGKLWLY2013IDEAALI2"
   authors: ["yin_hujun", "tang_ke", "gao_yang", "klawonn_frank", "lee_minho", "weise_thomas", "li_bin", "yao_xin"]
   authors_are_editors: true
@@ -871,6 +893,7 @@
   type: "proceedings"
   year: 2013
   month: 10
+  index: ["EI"]
 - key: "WBB2013SWSCTWSCP"
   authors: ["weise_thomas", "blake_m_brian", "bleul_steffen"]
   title: "Semantic Web Service Composition:&nbsp;The Web Service Challenge Perspective"
@@ -939,6 +962,13 @@
   type: "article"
   year: 2012
   month: 9
+  ccf: "B"
+  cas: 4
+  caai: "C"
+  thcpl: "B"
+  if: 1.3
+  index: ["EI"]
+  issn: "1666-6046"
 - key: "WDT2012ADSTDCARPUGP"
   authors: ["devert_alexandre", "weise_thomas", "tang_ke"]
   title: "A&nbsp;Study on Scalable Representations for Evolutionary Optimization of Ground Structures"
@@ -947,6 +977,15 @@
   type: "article"
   year: 2012
   month: 9
+  ccf: "B"
+  cas: 3
+  caa: "A"
+  caai: "B"
+  thcpl: "B"
+  fms: "C"
+  if: 3.4
+  index: ["SCIE", "EI"]
+  issn: "1063-6560"
 - key: "DWT2012ASOSRFEOOGS"
   authors: ["weise_thomas", "devert_alexandre", "tang_ke"]
   title: "A&nbsp;Developmental Solution to (Dynamic) Capacitated Arc Routing Problems using Genetic Programming"
@@ -993,6 +1032,7 @@
   type: "article"
   year: 2012
   month: 4
+  issn: "1555-1229"
 - key: "DWZ2012PBDEA"
   authors: ["deng_changshou", "weise_thomas", "zhao_bingyan"]
   title: "Pseudo Binary Differential Evolution Algorithm"
@@ -1000,6 +1040,7 @@
   type: "article"
   year: 2012
   month: 3
+  issn: "2374-7447"
 - key: "CWM2012VOEAFRWA"
   authors: ["chiong_raymond", "weise_thomas", "michalewicz_zbigniew"]
   authors_are_editors: true
@@ -1045,6 +1086,9 @@
   type: "conference"
   year: 2011
   month: 5
+  ccf: "C"
+  caai: "C"
+  index: ["EI"]
 - key: "WC2011ANEOAFTTDP"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "A&nbsp;Novel Extremal Optimization Approach for the Template Design Problem"
@@ -1053,6 +1097,7 @@
   type: "article"
   year: 2011
   month: 4
+  issn: "1947-9344"
 - key: "WNCW2011AFFMMEWMR"
   authors: ["weise_thomas", "niemczyk_stefan", "chiong_raymond", "wan_mingxu"]
   title: "A&nbsp;Framework for Multi-Model EDAs with Model Recombination"
@@ -1062,6 +1107,7 @@
   type: "conference"
   year: 2011
   month: 4
+  index: ["EI"]
 - key: "WWT2011NLSATEOMA"
   authors: ["wan_mingxu", "weise_thomas", "tang_ke"]
   title: "Novel Loop Structures and the Evolution of Mathematical Algorithms"
@@ -1071,6 +1117,7 @@
   type: "conference"
   year: 2011
   month: 4
+  index: ["EI"]
 - key: "CW2012SIOMSHAA"
   authors: ["chiong_raymond", "weise_thomas"]
   title: "Editorial:&nbsp;Special Issue on Modern Search Heuristics and Applications"
@@ -1079,6 +1126,10 @@
   type: "article"
   year: 2011
   month: 3
+  cas: 4
+  if: 2.6
+  index: ["EI"]
+  issn: "1864-5909"
 - key: "WWC2011NEAFSCPAES"
   authors: ["wang_pu", "weise_thomas", "chiong_raymond"]
   title: "Novel Evolutionary Algorithms for Supervised Classification Problems:&nbsp;An Experimental Study"
@@ -1087,6 +1138,10 @@
   type: "article"
   year: 2011
   month: 3
+  cas: 4
+  if: 2.6
+  index: ["EI"]
+  issn: "1864-5909"
 - key: "WWZKSSLWZ2011POTFOCIAIFD"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "lu_jianhua", "weise_thomas", "zhang_du"]
   title: "Perspectives on the Field of Cognitive Informatics and Its Future Development"
@@ -1095,6 +1150,10 @@
   type: "article"
   year: 2011
   month: 1
+  cas: 4
+  if: 1.0
+  index: ["EI"]
+  issn: "1557-3958"
 - key: "YWTB2010QASWSCFS"
   authors: ["yu_xin", "weise_thomas", "tang_ke", "bleul_steffen"]
   title: "QoS-aware Semantic Web Service Composition for SOAs"
@@ -1104,6 +1163,9 @@
   type: "conference"
   year: 2010
   month: 12
+  index: ["EI"]
+  ccf: "C"
+  issn: "2163-2871"
 - key: "BWB2010WWSCAE"
   authors: ["blake_m_brian", "weise_thomas", "bleul_steffen"]
   title: "WSC-2010:&nbsp;Web Services Composition and Evaluation"
@@ -1113,6 +1175,9 @@
   type: "conference"
   year: 2010
   month: 12
+  index: ["EI"]
+  ccf: "C"
+  issn: "2163-2871"
 - key: "CWYT2010LSGOUCCWVIL"
   authors: ["chen_wenxiang", "weise_thomas", "yang_zhenyu", "tang_ke"]
   title: "Large-Scale Global Optimization Using Cooperative Coevolution with Variable Interaction Learning"
@@ -1122,6 +1187,9 @@
   type: "conference"
   year: 2010
   month: 9
+  ccf: "B"
+  caai: "B"
+  index: ["EI"]
 - key: "WNT2010AAOAB"
   authors: ["weise_thomas", "niu_li", "tang_ke"]
   title: "AOAB &mdash; Automated Optimization Algorithm Benchmarking"
@@ -1190,6 +1258,8 @@
   type: "conference"
   year: 2009
   month: 12
+  issn: "2381-7542"
+  index: ["EI"]
 - key: "WPG2009SRWVRPWEA"
   authors: ["weise_thomas", "podlich_alexander", "gorldt_christian"]
   editors: ["chiong_raymond",  "dhakal_sandeep"]
@@ -1213,12 +1283,13 @@
 - key: "WZ2009EDAWGPE"
   authors: ["weise_thomas", "zapf_michael"]
   title: "Evolving Distributed Algorithms with Genetic Programming:&nbsp;Election"
-  citation: "<em>First ACM/SIGEVO Summit on Genetic and Evolutionary Computation&nbsp;(GEC'2009),</em> June 12-14, 2009, Shanghai, China, pages&nbsp;577-584. New York, NY, USA&nbsp;ACM Press"
+  citation: "<em>1st&nbsp;ACM/SIGEVO Summit on Genetic and Evolutionary Computation&nbsp;(GEC'2009),</em> June 12-14, 2009, Shanghai, China, pages&nbsp;577-584. New York, NY, USA&nbsp;ACM Press"
   isbn: "978-1-60558-326-6"
   doi: "10.1145/1543834.1543913"
   type: "conference"
   year: 2009
   month: 6
+  index: ["EI"]
 - key: "KBBBW2009W2AQOSOWSC"
   authors: ["kona_srividya", "bansal_ajay", "blake_m_brian", "bleul_steffen", "weise_thomas"]
   title: "WSC-2009:&nbsp;A&nbsp;Quality of Service-Oriented Web Services Challenge"
@@ -1228,6 +1299,7 @@
   type: "conference"
   year: 2009
   month: 7
+  issn: "2330-9903"
 - key: "WPMG2009OGMEA"
   authors: ["weise_thomas", "podlich_alexander", "menze_manfred", "gorldt_christian"]
   title: "Optimierte Güterverkehrsplanung mit Evolutionären Algorithmen"
