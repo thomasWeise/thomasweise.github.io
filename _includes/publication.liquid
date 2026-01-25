@@ -108,7 +108,9 @@
         {%- else -%}
             {%- assign block = block | append: ", indexed in&nbsp;" -%}
         {%- endif -%}
-        {%- assign bi = include.paper.index | join: ", " -%}
+        {%- capture bi -%}
+            {%- include print_array.liquid array=include.paper.index -%}
+        {%- endcapture -%}
         {%- assign block = block | append: bi -%}
     {%- endif -%}
     {%- unless block_empty -%}
