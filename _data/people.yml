@@ -137,6 +137,7 @@ heng_lalin:
   name: "Lalin Heng"
 horn_ruben:
   name: "Ruben Horn"
+  orcid: "0000-0001-6643-5582"
 huang_qianjing:
   name: "Qian-Jing HUANG"
 jager_michael_c:
@@ -144,8 +145,10 @@ jager_michael_c:
 jansen_reitze:
   name: "Reitze Jansen"
   url: "https://github.com/rlhjansen"
+  orcid: "0009-0007-0029-2882"
 jiang_wenxiang:
   name: "Wenxiang JIANG"
+  orcid: "0000-0001-9450-3415"
 jiang_yan:
   name: "Yan JIANG"
   name_cn: "江炎"
@@ -156,6 +159,7 @@ kalfa_winfried:
   name: "Winfried Kalfa"
 kang_menglei:
   name: "Menglei KANG"
+  orcid: "0000-0002-1077-0813"
 keegan_brian:
   name: "Brian Keegan"
   url: "https://www.tudublin.ie/explore/faculties-and-schools/computing-digital-data/school-of-computer-science/people/academic-staff/brian-keegan.php"
@@ -216,6 +220,7 @@ li_xiaodong:
 li_xinlu:
   name: "Xinlu LI"
   name_cn: "李新路"
+  orcid: "0000-0002-3806-3993"
 lin_shan:
   name: "Shan LIN"
   name_cn: "林杉"
@@ -295,6 +300,7 @@ raayatpanah_mohammad_ali:
   name: "Mohammad Ali Raayatpanah"
   name_cn: "محمدعلی رعایت پناه"
   url: "https://gs.khu.ac.ir/cv/220/english"
+  orcid: "0000-0002-3303-0981"
 ran_shuoyi:
   name: "Shuoyi RAN"
   name_cn: "冉烁依"
@@ -324,6 +330,7 @@ sun_fuchun:
 sun_pengpeng:
   name: "Pengpeng SUN"
   name_cn: "孙鹏彭"
+  url: "https://github.com/SunPengP"
 tan_ming:
   name: "Tan MING"
   name_cn: "檀明"
@@ -373,6 +380,7 @@ van_den_berg_daan:
 van_eck_okke:
   name: "Okke van Eck"
   url: "https://research.vu.nl/en/persons/okke-van-eck"
+  orcid: "0000-0002-3600-5183"
 van_stein_niki:
   name: "Niki van Stein"
 verduin_kristian:
