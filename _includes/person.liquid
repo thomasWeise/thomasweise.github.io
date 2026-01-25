@@ -1,14 +1,21 @@
 {%- assign no_links = include.no_links | default: false -%}
-{%- if no_links -%}
-    {%- assign put_links = false -%}
-{%- else -%}
-    {%- assign put_links = true -%}
-{%- endif -%}
 {%- assign person=include.person -%}
 {%- unless person.name -%}
     {%- assign person=site.data.people[person] -%}
 {%- endunless -%}
-{%- if person.url and put_links -%}<a href="{{- person.url -}}">{%- endif -%}
+{%- assign p_url = nil -%}
+{%- assign p_url_cn = nil -%}
+{%- unless no_links -%}
+    {%- if person.url -%}
+        {%- assign p_url = person.url -%}
+    {%- elsif person.orcid -%}
+        {%- assign p_url = 'https://orcid.org/' | append: person.orcid -%}
+    {%- endif -%}
+    {%- if person.url_cn -%}
+        {%- assign p_url_cn = person.url_cn -%}
+    {%- endif -%}
+{%- endunless -%}
+{%- if p_url -%}<a href="{{- p_url -}}">{%- endif -%}
 {{- person.name -}}
-{%- if person.url and put_links -%}</a>{%- endif -%}
-{%- if person.name_cn -%}&nbsp;({%- if person.url_cn and put_links -%}<a href="{{- person.url_cn -}}">{%- endif -%}{{- person.name_cn -}}{%- if person.url_cn and put_links -%}</a>{%- endif -%}){%- endif -%}
+{%- if p_url -%}</a>{%- endif -%}
+{%- if person.name_cn -%}&nbsp;({%- if p_url_cn -%}<a href="{{- p_url_cn -}}">{%- endif -%}{{- person.name_cn -}}{%- if p_url_cn -%}</a>{%- endif -%}){%- endif -%}
