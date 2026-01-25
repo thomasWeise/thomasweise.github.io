@@ -99,7 +99,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'IF<sub>2025</sub>&nbsp;' | append: include.paper.if -%}
+        {%- assign block = block | append: 'IF<sub>2025</sub>:&nbsp;' | append: include.paper.if -%}
     {%- endif -%}
     {%- if include.paper.index %}
         {%- if block_empty -%}
@@ -108,7 +108,7 @@
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
         {%- assign bi = include.paper.index | join: ", " -%}
-        {%- assign block = block | append: bi -%}
+        {%- assign block = block | append: "indexed in&nbsp;"| append: bi -%}
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
