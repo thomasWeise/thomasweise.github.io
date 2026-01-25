@@ -29,12 +29,14 @@
   citation: 'Self-published open-source electronic book for the course <em>"Python Programming"</em> (Python程序设计) at Hefei University&nbsp;(合肥大学) starting in Semester&nbsp;2, 2025.'
   year: 2025
   url: "/programmingWithPython"
+  type: "book"
 - key: "databases"
   authors: ["thomas_weise"]
   title: "Databases"
   citation: 'Self-published open-source electronic book for the course <em>"Database Principles and Applications"</em> (数据库原理与应用) at Hefei University&nbsp;(合肥大学) starting in Semester&nbsp;2, 2025.'
   year: 2025
   url: "/databases"
+  type: "book"
 - key: "ZWvdBTLTW2024RLSFTDBPAANRFFA"
   authors: ["zhao_rui", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "liang_tianyu", "tan_ming", "weise_thomas"]
   title: "Randomized Local Search for Two-Dimensional Bin Packing and a Negative Result for Frequency Fitness Assignment"
