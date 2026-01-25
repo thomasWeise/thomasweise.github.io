@@ -1479,7 +1479,7 @@
 - key: "WZKG2007GPMMDD"
   authors: ["weise_thomas", "zapf_michael", "khan_mohammad_ullah", "geihs_kurt"]
   title: "Genetic Programming meets Model-Driven Development"
-  citation: "<em>7th&nbsp;International Conference on Hybrid Intelligent Systems&nbsp;(HIS'2007), September 17-19, 2007, Kaiserslautern, Germany, pages&nbsp;332-335. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
+  citation: "<em>7th&nbsp;International Conference on Hybrid Intelligent Systems&nbsp;(HIS'2007),</em> September 17-19, 2007, Kaiserslautern, Germany, pages&nbsp;332-335. Piscataway, NJ, USA:&nbsp;IEEE Computer Society"
   isbn: "0-7695-2946-1"
   doi: "10.1109/HIS.2007.11"
   type: "conference"
