@@ -107,7 +107,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign bi = include.paper.index | join: ", " -%
+        {%- assign bi = include.paper.index | join: ", " -%}
         {%- assign block = block | append: bi -%}
     {%- endif -%}
     {%- unless block_empty -%}
