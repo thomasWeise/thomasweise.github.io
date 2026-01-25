@@ -104,11 +104,12 @@
     {%- if include.paper.index %}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
+            {%- assign block = "In&nbsp;"
         {%- else -%}
-            {%- assign block = block | append: ", " -%}
+            {%- assign block = block | append: ", in&nbsp;" -%}
         {%- endif -%}
         {%- assign bi = include.paper.index | join: ", " -%}
-        {%- assign block = block | append: "indexed in&nbsp;"| append: bi -%}
+        {%- assign block = block | append: bi -%}
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
