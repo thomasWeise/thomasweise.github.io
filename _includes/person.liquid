@@ -1,5 +1,5 @@
 {%- assign no_links = include.no_links | default: false -%}
-{%- if person.name = "Thomas Weise" -%}
+{%- if person.name == "Thomas Weise" -%}
     {%- assign no_links = true -%}
 {%- endif -%}
 {%- assign person=include.person -%}
