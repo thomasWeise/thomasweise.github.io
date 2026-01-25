@@ -24,14 +24,14 @@
   if: 6.6
   data: "https://doi.org/10.5281/zenodo.10472493"
 - key: "programmingWithPython"
-  authors: ["thomas_weise"]
+  authors: ["weise_thomas"]
   title: "Programming with Python"
   citation: 'Self-published open-source electronic book for the course <em>"Python Programming"</em> (Python程序设计) at Hefei University&nbsp;(合肥大学) starting in Semester&nbsp;2, 2025.'
   year: 2025
   url: "/programmingWithPython"
   type: "book"
 - key: "databases"
-  authors: ["thomas_weise"]
+  authors: ["weise_thomas"]
   title: "Databases"
   citation: 'Self-published open-source electronic book for the course <em>"Database Principles and Applications"</em> (数据库原理与应用) at Hefei University&nbsp;(合肥大学) starting in Semester&nbsp;2, 2025.'
   year: 2025
