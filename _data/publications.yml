@@ -428,6 +428,7 @@
   if: 12.0
   issn: "1089-778X"
   index: ["SCI", "EI"]
+  data: "https://doi.org/10.5281/zenodo.3899474"
 - key: "ZSWWCZ2020ANATNTPIWP"
   authors: ["zou_le", "song_liangtu", "wang_xiaofeng", "weise_thomas", "chen_yanping", "zhang_chen"]
   title: "A&nbsp;New Approach to Newton-Type Polynomial Interpolation with Parameters"
@@ -462,6 +463,7 @@
   if: 3.6
   index: ["SCIE", "EI"]
   issn: "2169-3536"
+  data: "http://doi.org/10.5281/zenodo.3843229"
 - key: "LXXWZSW2020IRUADABH"
   authors: ["li_xinlu", "xu_mengfei", "xu_jiabo", "weise_thomas", "zou_le", "sun_fei", "wu_zhize"]
   title: "Image Retrieval Using a Deep Attention-Based Hash"
@@ -487,6 +489,7 @@
   issn: "1568-4946"
   index: ["SCIE", "EI"]
   if: 6.6
+  data: "https://doi.org/10.5281/zenodo.1256883"
 - key: "TZCWZ2020AIRMFMTMCB"
   authors: ["tu_jing", "zhang_jiarui", "chen_shengbing", "weise_thomas", "zou_le"]
   title: "An&nbsp;Improved Retrieval Method for Multi-Transaction Mode Consortium Blockchain"

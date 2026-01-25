@@ -368,6 +368,7 @@ tsuitsui_shigeyoshi:
   name: "Shigeyoshi Tsutsui"
 tu_jing:
   name: "Jing TU"
+  orcid: "0000-0002-4174-9419"
 tusar_tea:
   name: "Tea Tušar"
 ullrich_markus:
@@ -528,3 +529,4 @@ zou_chang:
 zou_le:
   name: "Le ZOU"
   name_cn: "邹乐"
+  orcid: "0000-0001-5718-0813"

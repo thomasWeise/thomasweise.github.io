@@ -1,4 +1,7 @@
 {%- assign no_links = include.no_links | default: false -%}
+{%- if person.name = "Thomas Weise" -%}
+    {%- assign no_links = true -%}
+{%- endif -%}
 {%- assign person=include.person -%}
 {%- unless person.name -%}
     {%- assign person=site.data.people[person] -%}
@@ -8,8 +11,6 @@
 {%- unless no_links -%}
     {%- if person.url -%}
         {%- assign p_url = person.url -%}
-    {%- elsif person.orcid -%}
-        {%- assign p_url = 'https://orcid.org/' | append: person.orcid -%}
     {%- endif -%}
     {%- if person.url_cn -%}
         {%- assign p_url_cn = person.url_cn -%}
