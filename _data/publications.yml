@@ -8,6 +8,7 @@
   type: "conference"
   year: 2025
   month: 5
+  index: ["EI"]
 - key: "WDWZCLNWW2025DAVFDFCDIC"
   authors: ["wu_zhize", "du_changjiang", "wang_xinqi", "zou_le", "cheng_fan", "li_teng", "nian_fudong", "weise_thomas", "wang_xiaofeng"]
   title: "Domain Adaptation via Feature Disentanglement for Cross-Domain Image Classification"
@@ -32,6 +33,7 @@
   type: "conference"
   year: 2024
   month: 11
+  index: ["EI"]
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
@@ -43,6 +45,7 @@
   type: "conference"
   year: 2024
   month: 11
+  index: ["EI"]
 - key: "LWTWW2024GSIWIFFTTSP"
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
   title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
@@ -54,6 +57,7 @@
   type: "conference"
   year: 2024
   month: 11
+  index: ["EI"]
 - key: "XWvdBW2024RLSVNVFFAOTTTP"
   authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas"]
   title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
@@ -65,6 +69,7 @@
   type: "conference"
   year: 2024
   month: 11
+  index: ["EI"]
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
@@ -1334,6 +1339,7 @@
   type: "conference"
   year: 2009
   month: 4
+  index: ["EI"]
 - key: "WZKG2009CGPAMDD"
   authors: ["weise_thomas", "zapf_michael", "khan_mohammad_ullah", "geihs_kurt"]
   title: "Combining Genetic Programming and Model-Driven Development"
@@ -1342,18 +1348,23 @@
   type: "article"
   year: 2009
   month: 3
+  issn: "1469-0268"
+  index: ["EI"]
+  if: 1.3
+  cas: 4
 - key: "PWMG2009IWFDLVM"
   authors: ["podlich_alexander", "weise_thomas", "menze_manfred", "gorldt_christian"]
   title: "Intelligente Wechselbrückensteuerung für die Logistik von Morgen"
-  citation: "<em>Workshops der Wissenschaftlichen Konferenz Kommunikation in Verteilten Systemen&nbsp;(WowKiVS'2009),</em> March 6, 2009, Kassel, Hesse, Germany:&nbsp;University of Kassel. Potsdam, Germany:&nbsp;European Association of Software Science and Technology"
+  citation: "<em>Workshops der Wissenschaftlichen Konferenz Kommunikation in Verteilten Systemen&nbsp;(WowKiVS'2009),</em> March 6, 2009, Kassel, Hesse, Germany. In <em>Electronic Communications of the EASST&nbsp;(ECEASST),</em> volume&nbsp;17, Potsdam, Germany:&nbsp;European Association of Software Science and Technology"
   doi: "10.14279/tuj.eceasst.17.205"
   type: "conference"
   year: 2009
   month: 3
+  issn: 1863-2122
 - key: "BWG2009TWSCAROSWSC"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "The Web Service Challenge &mdash; A Review on Semantic Web Service Composition"
-  citation: "<em>Workshops der Wissenschaftlichen Konferenz Kommunikation in Verteilten Systemen&nbsp;(WowKiVS'2009),</em> March 6, 2009, Kassel, Hesse, Germany:&nbsp;University of Kassel. Potsdam, Germany:&nbsp;European Association of Software Science and Technology"
+  citation: "<em>Workshops der Wissenschaftlichen Konferenz Kommunikation in Verteilten Systemen&nbsp;(WowKiVS'2009),</em> March 6, 2009, Kassel, Hesse, Germany In <em>Electronic Communications of the EASST&nbsp;(ECEASST),</em> volume&nbsp;17, Potsdam, Germany:&nbsp;European Association of Software Science and Technology"
   doi: "10.14279/tuj.eceasst.17.204"
   type: "conference"
   year: 2009
@@ -1381,6 +1392,7 @@
   type: "conference"
   year: 2008
   month: 12
+  index: ["EI"]
 - key: "BWG2008GSDFMR"
   authors: ["baer_philipp_andreas", "weise_thomas", "geihs_kurt"]
   title: "Geminga:&nbsp;Service Discovery for Mobile Robotics"
@@ -1390,6 +1402,8 @@
   type: "conference"
   year: 2008
   month: 10
+  issn: "2163-9019"
+  index: ["EI"]
 - key: "WNSRG2008ATMFMOERANFL"
   authors: ["weise_thomas", "niemczyk_stefan", "skubch_hendrik", "reichle_roland", "geihs_kurt"]
   title: "A&nbsp;Tunable Model for Multi-Objective, Epistatic, Rugged, and Neutral Fitness Landscapes"
@@ -1412,6 +1426,7 @@
   type: "conference"
   year: 2008
   month: 7
+  index: ["EI"]
 - key: "BBKBWJ2008W0CTWSC"
   authors: ["bansal_ajay", "blake_m_brian", "kona_srividya", "bleul_steffen", "weise_thomas", "jager_michael_c"]
   title: "WSC-08:&nbsp;Continuing the Web Services Challenge"
@@ -1421,6 +1436,7 @@
   type: "conference"
   year: 2008
   month: 7
+  index: ["EI"]
 - key: "WBCG2008DATSWSC"
   authors: ["weise_thomas", "bleul_steffen", "comes_diana_elena", "geihs_kurt"]
   title: "Different Approaches to Semantic Web Service Composition"
@@ -1430,6 +1446,8 @@
   type: "conference"
   year: 2008
   month: 6
+  issn: "2308-3972"
+  index: ["EI"]
 - key: "WZG2008EPAP"
   authors: ["weise_thomas", "zapf_michael", "geihs_kurt"]
   title: "Evolving Proactive Aggregation Protocols"
@@ -1439,6 +1457,7 @@
   type: "conference"
   year: 2008
   month: 3
+  index: ["EI"]
 - key: "ZW2007OEEFAS"
   authors: ["zapf_michael", "weise_thomas"]
   title: "Offline Emergence Engineering For Agent Societies"
@@ -1456,6 +1475,7 @@
   type: "conference"
   year: 2007
   month: 12
+  index: ["EI"]
 - key: "WZKG2007GPMMDD"
   authors: ["weise_thomas", "zapf_michael", "khan_mohammad_ullah", "geihs_kurt"]
   title: "Genetic Programming meets Model-Driven Development"
@@ -1465,6 +1485,8 @@
   type: "conference"
   year: 2007
   month: 9
+  issn: "2639-7404"
+  index: ["EI"]
 - key: "BWG2007MAFSSCSF"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "Making a Fast Semantic Service Composition System Faster"
@@ -1474,6 +1496,7 @@
   type: "conference"
   year: 2007
   month: 7
+  index: ["EI"]
 - key: "WGB2007GPFPAP"
   authors: ["weise_thomas", "geihs_kurt", "baer_philipp_andreas"]
   title: "Genetic Programming for Proactive Aggregation Protocols"
@@ -1492,6 +1515,8 @@
   type: "conference"
   year: 2007
   month: 3
+  index: ["EI"]
+  issn: "2168-1864"
 - key: "WG2006DAAFFDMOSAATTGPOSN"
   authors: ["weise_thomas", "geihs_kurt"]
   title: "DGPF &nbsp; An Adaptable Framework for Distributed Multi-Objective Search Algorithms Applied to the Genetic Programming of Sensor Networks"
@@ -1501,6 +1526,7 @@
   type: "conference"
   year: 2006
   month: 10
+  index: ["EI"]
 - key: "BW2006AOFQASD"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "An Ontology for Quality-Aware Service Discovery"
@@ -1508,6 +1534,7 @@
   type: "article"
   year: 2006
   month: 7
+  issn: "2766-483X"
 - key: "WG2006GPTFSN"
   authors: ["weise_thomas", "geihs_kurt"]
   title: "Genetic Programming Techniques for Sensor Networks"
@@ -1525,6 +1552,7 @@
   type: "conference"
   year: 2006
   month: 6
+  index: ["EI"]
 - key: "BW2005AOFQASD"
   authors: ["bleul_steffen", "weise_thomas"]
   title: "An Ontology for Quality-Aware Service Discovery"
@@ -1539,6 +1567,8 @@
   type: "conference"
   year: 2005
   month: 9
+  isbn: "978-3885793953"
+  index: ["EI"]
 - key: "WW2005PIKEFCELMBOX"
   authors: ["wallnitz_elke", "weise_thomas"]
   title: "Platform-independent KML Editor for Creating E-Learning Modules based on XML"
@@ -1563,7 +1593,8 @@
 - key: "WW2005DPKEAWZEVELMADBVX"
   authors: ["wallnitz_elke", "weise_thomas"]
   title: "Der plattformunabhängige KML-Editor als Werkzeug zur Entwicklung von E-Learning-Modulen auf der Basis von XML"
-  citation: "<em>Tagungsband zum 3.&nbsp;Workshop über die Grundfragen multimedialen Lehrens und Lernens&nbsp;(GML2'2005),</em> March 7-9, 2005, Cottbus, Brandenburg, Germany, pages&nbsp;215-224. Aachen, North Rhine-Westphalia, Germany:&nbsp;Shaker Verlag GmbH"
+  editors: ["fellbaum_klaus"]
+  citation: "<em>Tagungsband zum 3.&nbsp;Workshop über die Grundfragen multimedialen Lehrens und Lernens&nbsp;(GML<sup>2</sup>'2005),</em> March 7-9, 2005, Cottbus, Brandenburg, Germany, pages&nbsp;215-224. Aachen, North Rhine-Westphalia, Germany:&nbsp;Shaker Verlag GmbH"
   type: "conference"
   isbn: "978-3-8322-4649-5"
   year: 2005
