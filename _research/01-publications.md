@@ -72,8 +72,7 @@ Here you can find the academic profiles and the list of publications of Prof.&nb
             {%- assign scie = scie | plus: 1 -%}
         {%- endif -%}
     {%- endif -%}
-{%- endfor -%}
-During his career, he has published {{ total -}}&nbsp;works, including {{ total_article -}}&nbsp;articles, {{ total_conference -}}&nbsp;conference papers, {{ total_book -}}&nbsp;books, {{ total_chapter -}}&nbsp;book chapters, and {{ total_proceedings -}}&nbsp;edited proceedings.
+{%- endfor %} During his career, he has published {{ total -}}&nbsp;works, including {{ total_article -}}&nbsp;articles, {{ total_conference -}}&nbsp;conference papers, {{ total_book -}}&nbsp;books, {{ total_chapter -}}&nbsp;book chapters, and {{ total_proceedings -}}&nbsp;edited proceedings.
 He is the first author of&nbsp;{{ first_author -}}&nbsp;of these works, including {{ first_author_article -}}&nbsp;articles and {{ first_author_conference -}}&nbsp;conference papers.
 Prof.&nbsp;Weise is author or coauthor of {{ cas_1 -}}&nbsp;papers in 中国科学院分1区,  {{ ccf_a -}}&nbsp;in 中国计算机学会A类, {{ caai_a -}}&nbsp;in 中国人工智能学会A类, and of {{ caa_ap -}}&nbsp;in 中国自动化学会A+类, and {{ thcpl_a -}}&nbsp;in 清华大学计算机学科A群. 
 {{ ei -}}&nbsp;of his papers are indexed by&nbsp;EI and {{ scie -}}&nbsp;are in the SCI(E) index.
