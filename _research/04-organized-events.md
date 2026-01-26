@@ -19,7 +19,7 @@ Here you can find the academic events that I have organized or co-organized.
 
 ## {% assign event = event | plus: 1 -%}{{- event -}}.&nbsp;AABOH @ GECCO 2021
 {% include person.liquid person="kononova_anna_v" -%}, {% include person.liquid person="wang_hao" -%}, {% include person.liquid person="weise_thomas" -%}, {% include person.liquid person="doerr_carola" -%}, {% include person.liquid person="back_thomas" -%}, {% include person.liquid person="caraffini_fabio" -%}, and {% include person.liquid person="dreo_johann" -%}.
-*Analysing Algorithmic Behaviour of Optimisation Heuristics Workshop&nbsp;(AABOH'2021)* at the 2021&nbsp;Genetic and Evolutionary Computation Conference&nbsp;(<a href="https://gecco-2021.sigevo.org">GECCO'21</a>), July 10-14, 2021 in Lille, France
+*Analysing Algorithmic Behaviour of Optimisation Heuristics Workshop&nbsp;(AABOH'2021)* at the 2021&nbsp;Genetic and Evolutionary Computation Conference&nbsp;(<a href="https://gecco-2021.sigevo.org">GECCO'21</a>), July 10-14, 2021 in Lille, France.
 
 ## {% assign event = event | plus: 1 -%}{{- event -}}.&nbsp;BENCHMARKING @ GECCO 2021
 {% include person.liquid person="branke_jurgen" -%}, {% include person.liquid person="doerr_carola" -%}, {% include person.liquid person="eftimov_tome" -%}, {% include person.liquid person="kerschke_pascal" -%}, {% include person.liquid person="lopez_ibanez_manuel" -%}, {% include person.liquid person="naujoks_boris" -%}, {% include person.liquid person="paquete_luis" -%}, {% include person.liquid person="volz_vanessa" -%}, and {% include person.liquid person="weise_thomas" -%}.
@@ -27,7 +27,7 @@ Here you can find the academic events that I have organized or co-organized.
 
 ## {% assign event = event | plus: 1 -%}{{- event -}}.&nbsp;BOCIA @ CEC 2021
 {% include person.liquid person="weise_thomas" -%}, {% include person.liquid person="zamuda_ales" -%}, and {% include person.liquid person="wagner_markus" -%}.
-*Special Session on Benchmarking of Computational Intelligence Algorithms&nbsp;(BOCIA'2021)* at the 2021&nbsp;IEEE Congress on Evolutionary Computation&nbsp;(<a href="https://cec2021.mini.pw.edu.pl/">CEC 2021</a>), June 28-July 1, 2021 in Kraków, Poland
+*Special Session on Benchmarking of Computational Intelligence Algorithms&nbsp;(BOCIA'2021)* at the 2021&nbsp;IEEE Congress on Evolutionary Computation&nbsp;(<a href="https://cec2021.mini.pw.edu.pl/">CEC 2021</a>), June 28-July 1, 2021 in Kraków, Poland.
 
 ## {% assign event = event | plus: 1 -%}{{- event -}}.&nbsp;BENCHMARK @ PPSN 2020
 {% include person.liquid person="back_thomas" -%}, {% include person.liquid person="bartz_beielstein_thomas" -%}, {% include person.liquid person="bossek_jakob" -%}, {% include person.liquid person="derbel_bilel" -%}, {% include person.liquid person="doerr_carola" -%}, {% include person.liquid person="eftimov_tome" -%}, {% include person.liquid person="kerschke_pascal" -%}, {% include person.liquid person="la_cava_william" -%}, {% include person.liquid person="liefooghe_arnaud" -%}, {% include person.liquid person="lopez_ibanez_manuel" -%}, {% include person.liquid person="naujoks_boris" -%}, {% include person.liquid person="oliveto_pietro_simone" -%}, {% include person.liquid person="orzechowski_patryk" -%}, {% include person.liquid person="preuss_mike" -%}, {% include person.liquid person="rapin_jeremy" -%}, {% include person.liquid person="shir_ofer_m" -%}, {% include person.liquid person="teytaud_olivier" -%}, {% include person.liquid person="trautmann_heike" -%}, {% include person.liquid person="urbanowicz_ryan_j" -%}, {% include person.liquid person="volz_vanessa" -%}, {% include person.liquid person="wagner_markus" -%}, {% include person.liquid person="wang_hao" -%}, {% include person.liquid person="weise_thomas" -%}, {% include person.liquid person="wrobel_borys" -%}, and {% include person.liquid person="zamuda_ales" -%}.
@@ -64,7 +64,7 @@ It is a virtual special issues, where papers were published as soon as they were
 
 ## {% assign event = event | plus: 1 -%}{{- event -}}.&nbsp;SITA-UBRI Workshop in Hefei 2015
 {% include person.liquid person="weise_thomas" -%} and {% include person.liquid person="lassig_jorg" -%}.
-*SITA-UBRI&nbsp;Joint Workshop on Sustainable Logistics,* November 5, 2015, Hefei, Anhui, China
+*SITA-UBRI&nbsp;Joint Workshop on Sustainable Logistics,* November 5, 2015, Hefei, Anhui, China.
 
 ## {% assign event = event | plus: 1 -%}{{- event -}}.&nbsp;Special Session @ SSCI 2014
 {% include person.liquid person="weise_thomas" -%} and {% include person.liquid person="lassig_jorg" -%}.
