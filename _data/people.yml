@@ -8,6 +8,9 @@ athauda_rukshan:
 awasthi_abhishek:
   name: "Abhishek Awasthi"
   url: "https://www.enterprise-application-development.org/group/alumni/dr-abhishek-awasthi"
+auger_anne:
+  name: "Anne Auger"
+  url: "http://www.cmap.polytechnique.fr/~anne.auger"
 back_thomas:
   name: "Thomas Bäck"
 baer_philipp_andreas:
@@ -71,6 +74,9 @@ cosson_raphael:
   name: "Raphaël Cosson"
 cui_lixin:
   name: "Lixin CUI"
+cussat_blanc_sylvain:
+  name: "Sylvain Cussat-Blanc"
+  url: "https://www.irit.fr/~Sylvain.Cussat-Blanc"
 de_jong_kenneth_alan:
   name: "Kenneth Alan De Jong"
   url: "https://ieeexplore.ieee.org/author/37276171300"
@@ -104,6 +110,9 @@ du_changjiang:
   orcid: "0009-0007-7514-792X"
 elias_jocelyne:
   name: "Jocelyne Elias"
+epitropakis_michael_g:
+  name: "Michael G. Epitropakis"
+  url: "https://www.epitropakis.co.uk"
 esparcia_alcazar_anna_isabel:
   name: "Anna Isabel Esparcia-Alcázar"
 fan_xiannian:
@@ -114,6 +123,12 @@ fickert_volker:
   name: "Volker Fickert"
 filipe_joaquim:
   name: "Joaquim Filipe"
+fonseca_carlos_m:
+  name: "Carlos M. Fonseca"
+  url: "https://eden.dei.uc.pt/~cmfonsec"
+gallagher_marcus:
+  name: "Marcus Gallagher"
+  url: "https://about.uq.edu.au/experts/469"
 gao_chao:
   name: "Chao GAO"
 gao_yang:
@@ -146,6 +161,9 @@ jansen_reitze:
   name: "Reitze Jansen"
   url: "https://github.com/rlhjansen"
   orcid: "0009-0007-0029-2882"
+jansen_thomas:
+  name: "Thomas Jansen"
+  url: "https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/thj10"
 jiang_wenxiang:
   name: "Wenxiang JIANG"
   orcid: "0000-0001-9450-3415"
@@ -230,8 +248,14 @@ liu_weichen:
 liu_zhiyang:
   name: "Zhiyang LIU"
   name_cn: "刘志洋"
+lobo_fernando_g:
+  name: "Fernando G. Lobo"
+  url: "https://www.fernandolobo.info"
 long_long:
   name: "Long LONG"
+lourenco_nuno:
+  name: "Nuno Lourenço"
+  url: "https://www.cisuc.uc.pt/en/people/nuno-lourenco"
 lu_jianhua:
   name: "Jianhua LU"
   name_cn: "陆建华"
@@ -240,6 +264,7 @@ ma_lu:
   name_cn: "马璐"
 machado_penousal:
   name: "Penousal Machado"
+  url: "https://www.cisuc.uc.pt/en/people/penousal-machado"
 madani_kurosh:
   name: "Kurosh Madani"
 marcelloni_francesco:
@@ -252,6 +277,8 @@ menze_manfred:
 michalewicz_zbigniew:
   name: "Zbigniew Michalewicz"
   url: "https://cs.adelaide.edu.au/~zbyszek"
+miller_julian_francis:
+  name: "Julian Francis Miller"
 mora_antonio_m:
   name: "Antonio M. Mora"
 mtenzi_frederick:
@@ -277,9 +304,15 @@ niu_li:
 ochoa_gabriela:
   name: "Gabriela Ochoa"
   url: "https://www.stir.ac.uk/people/257336"
+oliveto_pietro_simone:
+  name: "Pietro Simone Oliveto"
+  url: "https://peteroliveto.github.io"
 ouyang_jin:
   name: "Jin OUYANG"
   name_cn: "欧阳晋"
+paquete_luis:
+  name: "Luís Paquete"
+  url: "https://www.cisuc.uc.pt/en/people/luis-paquete"
 pan_linqiang:
   name: "Linqiang PAN"
   name_cn: "潘林强"
@@ -292,6 +325,12 @@ pimpinella_andrea:
 podlich_alexander:
   name: "Alexander Podlich"
   url: "https://de.linkedin.com/in/alexander-podlich"
+preuss_mike:
+  name: "Mike Preuss"
+  url: "https://www.universiteitleiden.nl/en/staffmembers/mike-preuss"
+purshouse_robin:
+  name: "Robin Purshouse"
+  url: "https://sheffield.ac.uk/eee/people/academic-staff/robin-purshouse"
 qi_qi:
   name: "Qi QI"
   url: "https://qiqi-helloworld.github.io"
@@ -319,6 +358,9 @@ song_liangtu:
   name: "Liang-Tu SONG"
 song_tao:
   name: "Tao SONG"
+squillero_giovanni:
+  name: "Giovanni Squillero"
+  url: "https://staff.polito.it/giovanni.squillero"
 sun_fei:
   name: "Fei SUN"
   name_cn: "孙斐"
@@ -344,6 +386,8 @@ tang_keke:
   name: "Keke TANG"
 tang_yuanyan:
   name: "Yuanyan TANG"
+tonda_alberto:
+  name: "Alberto Tonda"
 teytaud_olivier:
   name: "Olivier Teytaud"
 tissary_varpu:
@@ -430,11 +474,20 @@ weise_thomas:
   name_cn: "汤卫思"
   orcid: "0000-0002-9687-8509"
   no_links: true
+whitley_l_darrell:
+  name: "L.&nbsp;Darrell Whitley"
+  url: "https://www.cs.colostate.edu/~whitley"
 widrow_bernard:
   name: "Bernard Widrow"
   url: "https://isl.stanford.edu/~widrow"
+wilson_dennis_g:
+  name: "Dennis G. Wilson"
+  url: "https://d9w.github.io"
 winkler_stephan_m:
   name: "Stephan M. Winkler"
+wrobel_borys:
+  name: "Borys Wróbel"
+  url: "https://eibr.eu/about"
 wu_jinsong:
   name: "Jinsong WU"
   name_cn: "吴劲松"
@@ -494,9 +547,15 @@ yuan_bo:
   url: "https://www.sustech.edu.cn/en/faculties/yuanbo.html"
   name_cn: "袁博"
   url_cn: "https://www.sustech.edu.cn/zh/faculties/yuanbo.html"
+zamuda_ales:
+  name: "Aleš Zamuda"
+  url: "https://www.aleszamuda.si"
 zapf_michael:
   name: "Michael Zapf"
   url: "https://www.th-nuernberg.de/en/person/zapf-michael"
+zarges_christine:
+  name: "Christine Zarges"
+  url: "https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/chz8"
 zeng_jiazheng:
   name: "Jiazheng ZENG"
   name_cn: "曾嘉政"

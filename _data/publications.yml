@@ -633,6 +633,19 @@
   if: 6.6
   code: ["http://optimizationBenchmarking.github.io", "https://github.com/optimizationBenchmarking"]
   dblp: "https://dblp.org/rec/journals/asc/WeiseWQLT18.html"
+- key: ""
+  title: "Workshops at PPSN&nbsp;2018"
+  author: ["purshouse_robin", "zarges_christine", "cussat_blanc_sylvain", "epitropakis_michael_g", "gallagher_marcus", "jansen_thomas", "kerschke_pascal", "li_xiaodong", "lobo_fernando_g", "miller_julian_francis", "oliveto_pietro_simone", "preuss_mike", "squillero_giovanni", "tonda_alberto", "wagner_markus", "weise_thomas", "wilson_dennis_g", "wrobel_borys", "zamuda_ales"]
+  citation: "<em>15th&nbsp;International Conference on Parallel Problem Solving from Nature&nbsp;(PPSN&nbsp;XV),</em> September 8–12, 2018, Coimbra, Portugal, Part&nbsp;II, pages&nbsp;490-497.  Lecture Notes in Computer Science&nbsp;(LNTCS), volume&nbsp;11102. Cham, Switzerland: Springer"
+  editors: ["auger_anne", "fonseca_carlos_m", "lourenco_nuno", "machado_penousal", "paquete_luis", "whitley_l_darrell"]
+  doi: "10.1007/978-3-319-99259-4_39"
+  isbn: "978-3-319-99258-7"
+  ccf: "B"
+  caai: "B"
+  index: ["EI"]
+  year: 2018
+  month: 9
+  dblp: "https://dblp.org/rec/conf/ppsn/PurshouseZCEG0K18.html"
 - key: "RW2018VNFPFSFCWMEC"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas"]
   title: "Virtual Network Function Placement for Service Function Chaining with Minimum Energy Consumption"
