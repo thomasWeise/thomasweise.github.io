@@ -205,7 +205,7 @@
   caai: "C"
   thcpl: "B"
   index: ["EI"]
-  data: ["https://github.com/thomasWeise/moptipy"]
+  code: ["https://github.com/thomasWeise/moptipy"]
 - key: "WKCJWWTXLZZ2023ALCCVPAMFSSORSI"
   authors: ["wang_xiaofeng", "kang_menglei", "chen_yan", "jiang_wenxiang", "wang_mengyuan", "weise_thomas", "tan_ming", "xu_lixiang", "li_xinlu", "zou_le", "zhang_chen"]
   title: "Adaptive Local Cross-Channel Vector Pooling Attention Module for Semantic Segmentation of Remote Sensing Imagery"
@@ -578,6 +578,7 @@
   issn: "1568-4946"
   index: ["SCIE", "EI"]
   if: 6.6
+  code: ["http://optimizationBenchmarking.github.io", "https://github.com/optimizationBenchmarking"]
 - key: "RW2018VNFPFSFCWMEC"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas"]
   title: "Virtual Network Function Placement for Service Function Chaining with Minimum Energy Consumption"
@@ -602,6 +603,7 @@
   caai: "C"
   thcpl: "B"
   index: ["EI"]
+  code: ["http://github.com/thomasWeise/BBDOB_W_Model"]
 - key: "UWAL2018AGPIGFDOP"
   authors: ["ullrich_markus", "weise_thomas", "awasthi_abhishek", "lassig_jorg"]
   title: "A&nbsp;Generic Problem Instance Generator for Discrete Optimization Problems"
@@ -636,6 +638,7 @@
   year: 2017
   month: 7
   index: ["EI"]
+  code: ["http://optimizationBenchmarking.github.io", "https://github.com/optimizationBenchmarking"]
 - key: "LWWQ2017CTLSWCAEHAFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "qi_qi"]
   title: "Combining Two Local Searches with Crossover:&nbsp;An Efficient Hybrid Algorithm for the Traveling Salesman Problem"
@@ -649,6 +652,7 @@
   caai: "C"
   thcpl: "B"
   index: ["EI"]
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "QWL2017MOARBAIA"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Modeling Optimization Algorithm Runtime Behavior and its Applications"
@@ -687,6 +691,7 @@
   if: 1.7
   index: ["SCI", "EI"]
   issn: "0925-5001"
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "WWL2016HDLSAWEOAECBPOTTSP"
   authors: ["wu_yuezhong", "weise_thomas", "liu_weichen"]
   title: "Hybridizing Different Local Search Algorithms with Each Other and Evolutionary Computation:&nbsp;Better Performance on the Traveling Salesman Problem"
@@ -694,12 +699,13 @@
   isbn: "978-1-4503-4323-7"
   doi: "10.1145/2908961.2909001"
   type: "conference"
-  year: 2026
+  year: 2016
   month: 7
   ccf: "C"
   caai: "C"
   thcpl: "B"
   index: ["EI"]
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "WWWXC2016HECMFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "xu_dan", "chiong_raymond"]
   title: "An Improved Ejection Chain Method and Its Hybrid Versions for Solving the Traveling Salesman Problem"
@@ -709,6 +715,7 @@
   year: 2016
   month: 6
   issn: "1546-1955"
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "ALLW2016GBPAFSADD"
   authors: ["awasthi_abhishek", "lassig_jorg", "leuschner_jens", "weise_thomas"]
   title: "GPGPU-based Parallel Algorithms for Scheduling Against Due Date"
@@ -750,6 +757,7 @@
   month: 9
   issn: "2150-3443"
   index: ["EI"]
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "LWWC2015HECMFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "chiong_raymond"]
   title: "Hybrid Ejection Chain Methods for the Traveling Salesman Problem"
@@ -761,6 +769,7 @@
   month: 9
   issn: "2150-3443"
   index: ["EI"]
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "WWC2015LSFTTSPACS"
   authors: ["wu_yuezhong", "weise_thomas", "chiong_raymond"]
   title: "Local Search for the Traveling Salesman Problem:&nbsp;A Comparative Study"
@@ -771,6 +780,7 @@
   year: 2015
   month: 6
   index: ["EI"]
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "WC2015AAWOPSTRWETPOSA"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "An Alternative Way of Presenting Statistical Test Results when Evaluating the Performance of Stochastic Approaches"
@@ -815,6 +825,7 @@
   month: 12
   issn: "2770-0097"
   index: ["EI"]
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "ALKW2014CDWPPAFAGPS"
   authors: ["awasthi_abhishek", "lassig_jorg", "kramer_oliver", "weise_thomas"]
   title: "Common Due-Window Problem: Polynomial Algorithms for a Given Processing Sequence"
@@ -849,6 +860,7 @@
   if: 11.2
   index: ["SCIE", "EI"]
   issn: "1556-603X"
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "WWTY2014EEIAWGP"
   authors: ["weise_thomas", "wan_mingxu", "tang_ke", "yao_xin"]
   title: "Evolving Exact Integer Algorithms with Genetic Programming"
