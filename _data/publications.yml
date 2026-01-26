@@ -635,7 +635,7 @@
   dblp: "https://dblp.org/rec/journals/asc/WeiseWQLT18.html"
 - key: ""
   title: "Workshops at PPSN&nbsp;2018"
-  author: ["purshouse_robin", "zarges_christine", "cussat_blanc_sylvain", "epitropakis_michael_g", "gallagher_marcus", "jansen_thomas", "kerschke_pascal", "li_xiaodong", "lobo_fernando_g", "miller_julian_francis", "oliveto_pietro_simone", "preuss_mike", "squillero_giovanni", "tonda_alberto", "wagner_markus", "weise_thomas", "wilson_dennis_g", "wrobel_borys", "zamuda_ales"]
+  authors: ["purshouse_robin", "zarges_christine", "cussat_blanc_sylvain", "epitropakis_michael_g", "gallagher_marcus", "jansen_thomas", "kerschke_pascal", "li_xiaodong", "lobo_fernando_g", "miller_julian_francis", "oliveto_pietro_simone", "preuss_mike", "squillero_giovanni", "tonda_alberto", "wagner_markus", "weise_thomas", "wilson_dennis_g", "wrobel_borys", "zamuda_ales"]
   citation: "<em>15th&nbsp;International Conference on Parallel Problem Solving from Nature&nbsp;(PPSN&nbsp;XV),</em> September 8–12, 2018, Coimbra, Portugal, Part&nbsp;II, pages&nbsp;490-497.  Lecture Notes in Computer Science&nbsp;(LNTCS), volume&nbsp;11102. Cham, Switzerland: Springer"
   editors: ["auger_anne", "fonseca_carlos_m", "lourenco_nuno", "machado_penousal", "paquete_luis", "whitley_l_darrell"]
   doi: "10.1007/978-3-319-99259-4_39"
