@@ -142,7 +142,7 @@
             {%- else -%}
                 {%- assign block = block | append: ", " -%}
             {%- endif -%}
-            {%- assign block = block | append: '[<a href="' | append: theurl | append: '">data</a>]' -%}
+            {%- assign block = block | append: '[<a href="' | append: theurl | append: '">link</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
     {%- if include.paper.code -%}
@@ -152,7 +152,7 @@
             {%- else -%}
                 {%- assign block = block | append: ", " -%}
             {%- endif -%}
-            {%- assign block = block | append: '[<a href="' | append: thecode | append: '">data</a>]' -%}
+            {%- assign block = block | append: '[<a href="' | append: thecode | append: '">code</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
     {%- if include.paper.data -%}
