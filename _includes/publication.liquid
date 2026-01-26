@@ -191,7 +191,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '[<a href="' | append: include.paper.dblp | append: '">dblp</a>], [<a href="' | append: include.paper.dblp | append: '?view=bibtex">bibTeX</a>] -%}
+        {%- assign block = block | append: '[<a href="' | append: include.paper.dblp | append: '">dblp</a>], [<a href="' | append: include.paper.dblp | append: '?view=bibtex">bibTeX</a>]' -%}
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
