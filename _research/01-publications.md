@@ -5,7 +5,9 @@ read_time: false
 toc: true
 author_profile: true
 ---
-{%  assign total = 0 -%}
+
+Here you can find the academic profiles and the list of publications of Prof.&nbsp;Dr.&nbsp;{%- include person.liquid person="weise_thomas" %}.
+{%- assign total = 0 -%}
 {%- assign first_author = 0 -%}
 {%- assign total_article = 0 -%}
 {%- assign first_author_article = 0 -%}
@@ -71,11 +73,10 @@ author_profile: true
         {%- endif -%}
     {%- endif -%}
 {%- endfor -%}
-
-Prof.&nbsp;Dr.&nbsp;{%- include person.liquid person="weise_thomas" %} has published {{ total -}}&nbsp;works, including {{ total_article -}}&nbsp;articles, {{ total_conference -}}&nbsp;conference papers, {{ total_book -}}&nbsp;books, {{ total_chapter -}}&nbsp;book chapters, and {{ total_proceedings -}}&nbsp;edited proceedings.
+During his career, he has published {{ total -}}&nbsp;works, including {{ total_article -}}&nbsp;articles, {{ total_conference -}}&nbsp;conference papers, {{ total_book -}}&nbsp;books, {{ total_chapter -}}&nbsp;book chapters, and {{ total_proceedings -}}&nbsp;edited proceedings.
 He is the first author of&nbsp;{{ first_author -}}&nbsp;of these works, including {{ first_author_article -}}&nbsp;articles and {{ first_author_conference -}}&nbsp;conference papers.
-His author or coauthor of {{ cas_1 -}}&nbsp;papers in 中国科学院分1区,  {{ ccf_a -}}&nbsp;in 中国计算机学会A类, {{ caai_a -}}&nbsp;in 中国人工智能学会A类, and of {{ caa_ap -}}&nbsp;in 中国自动化学会A+类, {{ caa_ap -}}&nbsp;in 清华大学计算机学科A群. 
-{{ ei -}}&nbsp;of his papers are indexed by&nbsp;EI and {{ sci -}}&nbsp;are in the SCI(E) index.
+Prof.&nbsp;Weise is author or coauthor of {{ cas_1 -}}&nbsp;papers in 中国科学院分1区,  {{ ccf_a -}}&nbsp;in 中国计算机学会A类, {{ caai_a -}}&nbsp;in 中国人工智能学会A类, and of {{ caa_ap -}}&nbsp;in 中国自动化学会A+类, and {{ thcpl_a -}}&nbsp;in 清华大学计算机学科A群. 
+{{ ei -}}&nbsp;of his papers are indexed by&nbsp;EI and {{ scie -}}&nbsp;are in the SCI(E) index.
 His works appeared in journals such as the <em>IEEE Transactions on Evolutionary Computation,</em> the <em>IEEE Transactions on Image Processing, </em> <em>Information Fusion,</em> the <em>IEEE Computational Intelligence Magazine,</em> <em>Evolutionary Computation,</em> <em>Information Sciences,</em> the <em>Applied Soft Computing Journal,</em> the <em>Journal of Combinatorial Optimization,</em> the <em>Journal of Global Optimization,</em> and the <em>European Journal of Operational Research,</em> among others, as well as at conferences such as the <em>AAAI Conference on Artificial Intelligence,</em> <em>Parallel Problem Solving from Nature,</em> and the <em> Genetic and Evolutionary Computation Conference</em>, among others.
 
 ## Scholarly Profiles
