@@ -429,6 +429,7 @@ weise_thomas:
   name: "Thomas Weise"
   name_cn: "汤卫思"
   orcid: "0000-0002-9687-8509"
+  no_links: true
 widrow_bernard:
   name: "Bernard Widrow"
   url: "https://isl.stanford.edu/~widrow"

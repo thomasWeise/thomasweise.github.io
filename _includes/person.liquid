@@ -1,13 +1,13 @@
 {%- assign no_links = include.no_links | default: false -%}
-{%- if person.name == "Thomas Weise" -%}
-    {%- assign no_links = true -%}
-{%- endif -%}
 {%- assign person=include.person -%}
 {%- unless person.name -%}
     {%- assign person=site.data.people[person] -%}
 {%- endunless -%}
 {%- assign p_url = nil -%}
 {%- assign p_url_cn = nil -%}
+{%- if person.no_links -%}
+    {%- assign no_links = true -%}
+{%- endif -%}
 {%- unless no_links -%}
     {%- if person.url -%}
         {%- assign p_url = person.url -%}
