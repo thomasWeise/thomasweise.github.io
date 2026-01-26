@@ -23,6 +23,7 @@
   index: ["SCIE", "EI"]
   if: 6.6
   data: ["https://doi.org/10.5281/zenodo.10472493"]
+  rg: "367652506"
 - key: "programmingWithPython"
   authors: ["weise_thomas"]
   title: "Programming with Python"
@@ -103,7 +104,7 @@
   caai: "B"
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.11488348"]
-  supplement: "https://doi.org/10.5281/zenodo.10987573"
+  supplement: ["https://doi.org/10.5281/zenodo.10987573"]
 - key: "LWLvdBTW2024ATTSPWFFAAHA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
   title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"
@@ -114,6 +115,7 @@
   month: 9
   ccf: "C"
   cas: 4
+  rg: "382177439"
   index: ["SCIE", "EI"]
   issn: "1432-7643"
   if: 2.5
@@ -193,6 +195,7 @@
   if: 1.1
   issn: "1382-6905"
   cms: "T2"
+  rg: "372857973"
 - key: "WW2023RSDEWASSAA"
   authors: ["weise_thomas", "wu_zhize"]
   title: "Replicable Self-Documenting Experiments with Arbitrary Search Spaces and Algorithms"
@@ -220,6 +223,7 @@
   if: 4.1
   issn: "2072-4292"
   index: ["SCIE", "EI"]
+  rg: "369936207"
 - key: "VWvdB2023WITTTONSWGA"
   authors: ["verduin_kristian", "weise_thomas", "van_den_berg_daan"]
   title: "Why is the Traveling Tournament Problem not Solved with Genetic Algorithms?"
@@ -230,7 +234,8 @@
   type: "conference"
   year: 2023
   month: 4
-  data: ["https://githubcom/kristianverduin/Violation-Experiment"]
+  data: ["https://github.com/kristianverduin/Violation-Experiment"]
+  code: ["https://github.com/kristianverduin/Violation-Experiment"]
 - key: "CJWKWWTXLZ2022LALAFOGCISSNFRSI"
   authors: ["chen_yan", "jiang_wenxiang", "wang_mengyuan", "kang_menglei", "weise_thomas", "wang_xiaofeng", "tan_ming", "xu_lixiang", "zhang_chen"]
   title: "LightFGCNet:&nbsp;A Lightweight and Focusing on Global Context Information Semantic Segmentation Network for Remote Sensing Imagery"
@@ -245,6 +250,7 @@
   if: 4.1
   issn: "2072-4292"
   index: ["SCIE", "EI"]
+  rg: "366088963"
 - key: "LWLvdbW2022STTSPUFFA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "weise_thomas"]
   title: "Solving the Traveling Salesperson Problem using Frequency Fitness Assignment"
@@ -266,6 +272,7 @@
   year: 2022
   month: 11
   issn: "1661-7827"
+  rg: "365503268"
 - key: "RKWP2022ANATSSWMWOA"
   authors: ["raayatpanah_mohammad_ali", "khodayifar_salman", "weise_thomas", "pardalos_panos_miltiades"]
   title: "A&nbsp;Novel Approach to Subgraph Selection with Multiple Weights on Arcs"
@@ -279,6 +286,7 @@
   if: 1.1
   issn: "1382-6905"
   cms: "T2"
+  rg: "356190941"
 - key: "LWW2022DOPPEIFASABD"
   authors: ["liu_zhiyang", "weise_thomas", "wu_zhize"]
   title: "Detection of Personal Protective Equipment in Factories:&nbsp;A Survey and Benchmark Dataset"
@@ -439,6 +447,7 @@
   year: 2020
   month: 11
   issn: "1024-123X"
+  rg: "347002646"
 - key: "WWLZL2020SIOBOCIAITASCJ"
   authors: ["weise_thomas", "wagner_markus", "li_bin", "zhang_xingyi", "lassig_jorg"]
   title: "Special Issue on Benchmarking of Computational Intelligence Algorithms in the Applied Soft Computing Journal&nbsp;(Editorial)"
@@ -452,6 +461,7 @@
   issn: "1568-4946"
   index: ["SCIE", "EI"]
   if: 6.6
+  rg: "343277440"
 - key: "WWWW2020CNNBWSLFADFRSI"
   authors: ["wu_zhize", "weise_thomas", "wang_yan", "wang_yongjun"]
   title: "Convolutional Neural Network based Weakly Supervised Learning for Aircraft Detection from Remote Sensing Images"
@@ -465,6 +475,7 @@
   index: ["SCIE", "EI"]
   issn: "2169-3536"
   data: ["http://doi.org/10.5281/zenodo.3843229"]
+  rg: "343931719"
 - key: "LXXWZSW2020IRUADABH"
   authors: ["li_xinlu", "xu_mengfei", "xu_jiabo", "weise_thomas", "zou_le", "sun_fei", "wu_zhize"]
   title: "Image Retrieval Using a Deep Attention-Based Hash"
@@ -477,6 +488,7 @@
   if: 3.6
   index: ["SCIE", "EI"]
   issn: "2169-3536"
+  rg: "343149456"
 - key: "WCLW2020SADSOBIFATMPFBBDOA"
   authors: ["weise_thomas", "chen_yan", "li_xinlu", "wu_zhize"]
   title: "Selecting a diverse set of benchmark instances from a tunable model problem for black-box discrete optimization algorithms"
@@ -503,6 +515,7 @@
   cas: 4
   issn: "2079-9292"
   index: ["EI"]
+  rg: "339157154"
 - key: "LKMWT2019EELBABRAFWSN"
   authors: ["li_xinlu", "keegan_brian", "mtenzi_frederick", "weise_thomas", "tan_ming"]
   title: "Energy-Efficient Load Balancing Ant Based Routing Algorithm for Wireless Sensor Networks"
@@ -515,6 +528,7 @@
   if: 3.6
   index: ["SCIE", "EI"]
   issn: "2169-3536"
+  rg: "335130675"
 - key: "HW2019IDSUCNNACCAFADBODL"
   authors: ["heng_lalin", "weise_thomas"]
   title: "Intrusion Detection System Using Convolutional Neuronal Networks:&nbsp;A Cognitive Computing Approach for Anomaly Detection based on Deep Learning"
@@ -538,6 +552,7 @@
   index: ["EI"]
   issn: "1557-3958"
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  rg: "334144299"
 - key: "WWLC2019IIIOADTM"
   authors: ["weise_thomas", "wu_yuezhong", "liu_weichen", "chiong_raymond"]
   title: "Implementation Issues in Optimization Algorithms:&nbsp;Do they matter?"
@@ -565,6 +580,7 @@
   thcpl: "A"
   index: ["EI"]
   issn: "2159-5399"
+  rg: "335718362"
 - key: "WWQLT2018ADCOAAPIBAWATCFEDASAIF"
   authors: ["weise_thomas", "wang_xiaofeng", "qi_qi", "li_bin", "tang_ke"]
   title : "Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features"
@@ -692,6 +708,7 @@
   index: ["SCI", "EI"]
   issn: "0925-5001"
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  rg: "294425002"
 - key: "WWL2016HDLSAWEOAECBPOTTSP"
   authors: ["wu_yuezhong", "weise_thomas", "liu_weichen"]
   title: "Hybridizing Different Local Search Algorithms with Each Other and Evolutionary Computation:&nbsp;Better Performance on the Traveling Salesman Problem"
@@ -781,6 +798,7 @@
   month: 6
   index: ["EI"]
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  rg: "282652534"
 - key: "WC2015AAWOPSTRWETPOSA"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "An Alternative Way of Presenting Statistical Test Results when Evaluating the Performance of Stochastic Approaches"
@@ -826,6 +844,7 @@
   issn: "2770-0097"
   index: ["EI"]
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  rg: "291831120"
 - key: "ALKW2014CDWPPAFAGPS"
   authors: ["awasthi_abhishek", "lassig_jorg", "kramer_oliver", "weise_thomas"]
   title: "Common Due-Window Problem: Polynomial Algorithms for a Given Processing Sequence"
@@ -861,6 +880,7 @@
   index: ["SCIE", "EI"]
   issn: "1556-603X"
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  rg: "263894831"
 - key: "WWTY2014EEIAWGP"
   authors: ["weise_thomas", "wan_mingxu", "tang_ke", "yao_xin"]
   title: "Evolving Exact Integer Algorithms with Genetic Programming"
@@ -1088,6 +1108,7 @@
   year: 2012
   month: 4
   issn: "1555-1229"
+  rg: "286939422"
 - key: "DWZ2012PBDEA"
   authors: ["deng_changshou", "weise_thomas", "zhao_bingyan"]
   title: "Pseudo Binary Differential Evolution Algorithm"
@@ -1116,6 +1137,7 @@
   type: "chapter"
   year: 2012
   month: 1
+  rg: "280385466"
 - key: "WLWWYT2011SALBPSO"
   authors: ["wang_yu", "li_bin", "weise_thomas", "wang_jianyu", "yuan_bo", "tian_qiongjie"]
   title: "Self-Adaptive Learning Based Particle Swarm Optimization"
@@ -1144,6 +1166,7 @@
   ccf: "C"
   caai: "C"
   index: ["EI"]
+  rg: "220895078"
 - key: "WC2011ANEOAFTTDP"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "A&nbsp;Novel Extremal Optimization Approach for the Template Design Problem"
@@ -1153,6 +1176,7 @@
   year: 2011
   month: 4
   issn: "1947-9344"
+  rg: "220366734"
 - key: "WNCW2011AFFMMEWMR"
   authors: ["weise_thomas", "niemczyk_stefan", "chiong_raymond", "wan_mingxu"]
   title: "A&nbsp;Framework for Multi-Model EDAs with Model Recombination"
@@ -1163,6 +1187,7 @@
   year: 2011
   month: 4
   index: ["EI"]
+  rg: "220866931"
 - key: "WWT2011NLSATEOMA"
   authors: ["wan_mingxu", "weise_thomas", "tang_ke"]
   title: "Novel Loop Structures and the Evolution of Mathematical Algorithms"
@@ -1185,6 +1210,7 @@
   if: 2.6
   index: ["EI"]
   issn: "1864-5909"
+  rg: "220497334"
 - key: "WWC2011NEAFSCPAES"
   authors: ["wang_pu", "weise_thomas", "chiong_raymond"]
   title: "Novel Evolutionary Algorithms for Supervised Classification Problems:&nbsp;An Experimental Study"
@@ -1197,6 +1223,7 @@
   if: 2.6
   index: ["EI"]
   issn: "1864-5909"
+  rg: "225153661"
 - key: "WWZKSSLWZ2011POTFOCIAIFD"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "lu_jianhua", "weise_thomas", "zhang_du"]
   title: "Perspectives on the Field of Cognitive Informatics and Its Future Development"
@@ -1209,6 +1236,7 @@
   if: 1.0
   index: ["EI"]
   issn: "1557-3958"
+  rg: "220116002"
 - key: "YWTB2010QASWSCFS"
   authors: ["yu_xin", "weise_thomas", "tang_ke", "bleul_steffen"]
   title: "QoS-aware Semantic Web Service Composition for SOAs"
@@ -1221,6 +1249,7 @@
   index: ["EI"]
   ccf: "C"
   issn: "2163-2871"
+  rg: "224216650"
 - key: "BWB2010WWSCAE"
   authors: ["blake_m_brian", "weise_thomas", "bleul_steffen"]
   title: "WSC-2010:&nbsp;Web Services Composition and Evaluation"
@@ -1233,6 +1262,7 @@
   index: ["EI"]
   ccf: "C"
   issn: "2163-2871"
+  rg: "224216649"
 - key: "CWYT2010LSGOUCCWVIL"
   authors: ["chen_wenxiang", "weise_thomas", "yang_zhenyu", "tang_ke"]
   title: "Large-Scale Global Optimization Using Cooperative Coevolution with Variable Interaction Learning"
@@ -1278,6 +1308,7 @@
   year: 2010
   month: 7
   index: ["EI"]
+  rg: "224182124"
 - key: "WWZKSSWZZ2010POCIAIFDSOPPIII"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "weise_thomas", "zhong_yixin", "zhang_du"]
   title: "Perspectives on Cognitive Informatics and Its Future Development:&nbsp;Summary of Plenary Panel&nbsp;II of IEEE&nbsp;ICCI'10"
@@ -1288,6 +1319,7 @@
   year: 2010
   month: 7
   index: ["EI"]
+  rg: "221470922"
 - key: "WLW2010EODADECFLSELDOOPS"
   authors: ["wang_yu", "li_bin", "weise_thomas"]
   title: "Estimation of Distribution and Differential Evolution Cooperation for Large Scale Economic Load Dispatch Optimization of Power Systems"
@@ -1315,6 +1347,7 @@
   month: 12
   issn: "2381-7542"
   index: ["EI"]
+  rg: "232656972"
 - key: "WPG2009SRWVRPWEA"
   authors: ["weise_thomas", "podlich_alexander", "gorldt_christian"]
   editors: ["chiong_raymond",  "dhakal_sandeep"]
@@ -1325,10 +1358,11 @@
   type: "chapter"
   year: 2009
   month: 10
+  rg: "225788788"
 - key: "WC2009EAATADS"
   authors: ["weise_thomas", "chiong_raymond"]
   editors: ["chiong_raymond"]
-  tite: "Evolutionary Approaches and Their Applications to Distributed Systems"
+  tite: "Evolutionary Approaches and their Applications to Distributed Systems"
   citation: "<em>Intelligent Systems for Automated Learning and Adaptation:&nbsp;Emerging Trends and Applications,</em> chapter&nbsp;6, pages&nbsp;114-149. Hershey, PA, USA:&nbsp;Information Science Reference / IGI Global, September 2009"
   isbn: "978-1-60566-798-0"
   doi: "10.4018/978-1-60566-798-0.ch006"
@@ -1355,6 +1389,7 @@
   year: 2009
   month: 7
   issn: "2330-9903"
+  rg: "221542482"
 - key: "WPMG2009OGMEA"
   authors: ["weise_thomas", "podlich_alexander", "menze_manfred", "gorldt_christian"]
   title: "Optimierte Güterverkehrsplanung mit Evolutionären Algorithmen"
@@ -1371,6 +1406,7 @@
   type: "conference"
   year: 2009
   month: 6
+  rg: "220973484"
 - key: "WZCN2009WIOD"
   authors: ["weise_thomas", "zapf_michael", "chiong_raymond", "nebro_urbaneja_antonio_jesus"]
   title: "Why is optimization difficult?"
@@ -1380,6 +1416,7 @@
   type: "chapter"
   year: 2009
   month: 4
+  rg: "226934059"
 - key: "WPRGG2009EFTP"
   authors: ["weise_thomas", "podlich_alexander", "reinhard_kai", "gorldt_christian", "geihs_kurt"]
   title: "Evolutionary Freight Transportation Planning"
@@ -1390,6 +1427,7 @@
   year: 2009
   month: 4
   index: ["EI"]
+  slides: ["https://www.researchgate.net/publication/220866768"]
 - key: "WZKG2009CGPAMDD"
   authors: ["weise_thomas", "zapf_michael", "khan_mohammad_ullah", "geihs_kurt"]
   title: "Combining Genetic Programming and Model-Driven Development"
@@ -1402,6 +1440,7 @@
   index: ["EI"]
   if: 1.3
   cas: 4
+  rg: "220606389"
 - key: "PWMG2009IWFDLVM"
   authors: ["podlich_alexander", "weise_thomas", "menze_manfred", "gorldt_christian"]
   title: "Intelligente Wechselbrückensteuerung für die Logistik von Morgen"
@@ -1411,6 +1450,7 @@
   year: 2009
   month: 3
   issn: 1863-2122
+  rg: "220054418"
 - key: "BWG2009TWSCAROSWSC"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "The Web Service Challenge &mdash; A Review on Semantic Web Service Composition"
@@ -1419,6 +1459,7 @@
   type: "conference"
   year: 2009
   month: 3
+  rg: "220054131"
 - key: "CW2009GOAML"
   authors: ["chiong_raymond", "weise_thomas"]
   title: "Global Optimisation and Mobile Learning"
@@ -1443,6 +1484,13 @@
   year: 2008
   month: 12
   index: ["EI"]
+  rg: "225122768"
+- key: "ZW2008AOEETDSS"
+  authors: ["zapf_michael", "weise_thomas"]
+  title: "Applicability of Emergence Engineering to Distributed Systems Scenarios"
+  citation: "<em>6th&nbsp;European Workshop on Multi-Agent Systems&nbsp;(EUMAS'2008),</em> December 18-19, 2008, Bath, UK"
+  type: "conference"
+  rg: "36410535"
 - key: "BWG2008GSDFMR"
   authors: ["baer_philipp_andreas", "weise_thomas", "geihs_kurt"]
   title: "Geminga:&nbsp;Service Discovery for Mobile Robotics"
@@ -1477,6 +1525,7 @@
   year: 2008
   month: 7
   index: ["EI"]
+  rg: "221542665"
 - key: "BBKBWJ2008W0CTWSC"
   authors: ["bansal_ajay", "blake_m_brian", "kona_srividya", "bleul_steffen", "weise_thomas", "jager_michael_c"]
   title: "WSC-08:&nbsp;Continuing the Web Services Challenge"
@@ -1498,6 +1547,7 @@
   month: 6
   issn: "2308-3972"
   index: ["EI"]
+  rg: "4345875"
 - key: "WZG2008EPAP"
   authors: ["weise_thomas", "zapf_michael", "geihs_kurt"]
   title: "Evolving Proactive Aggregation Protocols"
@@ -1516,6 +1566,7 @@
   type: "conference"
   year: 2007
   month: 12
+  rg: "36410043"
 - key: "WZG2007RBGP"
   authors: ["weise_thomas", "zapf_michael", "geihs_kurt"]
   title: "Rule-based Genetic Programming"
@@ -1537,6 +1588,7 @@
   month: 9
   issn: "2639-7404"
   index: ["EI"]
+  rg: "4279273"
 - key: "BWG2007MAFSSCSF"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "Making a Fast Semantic Service Composition System Faster"
@@ -1547,6 +1599,7 @@
   year: 2007
   month: 7
   index: ["EI"]
+  rg: "4266846"
 - key: "WGB2007GPFPAP"
   authors: ["weise_thomas", "geihs_kurt", "baer_philipp_andreas"]
   title: "Genetic Programming for Proactive Aggregation Protocols"
@@ -1585,6 +1638,7 @@
   year: 2006
   month: 7
   issn: "2766-483X"
+  rg: "228669733"
 - key: "WG2006GPTFSN"
   authors: ["weise_thomas", "geihs_kurt"]
   title: "Genetic Programming Techniques for Sensor Networks"
@@ -1602,6 +1656,7 @@
   type: "conference"
   year: 2006
   month: 6
+  rg: "4245707"
   index: ["EI"]
 - key: "BW2005AOFQASD"
   authors: ["bleul_steffen", "weise_thomas"]

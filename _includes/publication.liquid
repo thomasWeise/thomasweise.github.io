@@ -99,7 +99,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'IF<sub>2025</sub>:&nbsp;' | append: include.paper.if -%}
+        {%- assign block = block | append: 'IF=' | append: include.paper.if -%}
     {%- endif -%}
     {%- if include.paper.index -%}
         {%- if block_empty -%}
@@ -145,6 +145,16 @@
             {%- assign block = block | append: '[<a href="' | append: theurl | append: '">link</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
+    {%- if include.paper.slides -%}
+        {%- for theslides in include.paper.slides -%}
+            {%- if block_empty -%}
+                {%- assign block_empty = false -%}
+            {%- else -%}
+                {%- assign block = block | append: ", " -%}
+            {%- endif -%}
+            {%- assign block = block | append: '[<a href="' | append: theslides | append: '">slides</a>]' -%}
+        {%- endfor -%}
+    {%- endif -%}
     {%- if include.paper.code -%}
         {%- for thecode in include.paper.code -%}
             {%- if block_empty -%}
@@ -166,12 +176,14 @@
         {%- endfor -%}
     {%- endif -%}
     {%- if include.paper.supplement -%}
-        {%- if block_empty -%}
-            {%- assign block_empty = false -%}
-        {%- else -%}
-            {%- assign block = block | append: ", " -%}
-        {%- endif -%}
-        {%- assign block = block | append: '[<a href="' | append: include.paper.supplement | append: '">supplement</a>]' -%}
+        {%- for thesupplement in include.paper.supplement -%}
+            {%- if block_empty -%}
+                {%- assign block_empty = false -%}
+            {%- else -%}
+                {%- assign block = block | append: ", " -%}
+            {%- endif -%}
+            {%- assign block = block | append: '[<a href="' | append: thesupplement | append: '">supplement</a>]' -%}
+        {%- endfor -%}
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
