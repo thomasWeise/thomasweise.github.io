@@ -2,7 +2,7 @@
 title: "Invited Talks"
 permalink: /research/talks
 read_time: false
-toc: true
+toc: false
 author_profile: true
 ---
 
