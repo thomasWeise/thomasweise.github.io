@@ -136,12 +136,24 @@
         {%- assign block = block | append: '[<a href="https://arxiv.org/abs/' | append: include.paper.arxiv | append: '">arXiv</a>]' -%}
     {%- endif -%}
     {%- if include.paper.url -%}
-        {%- if block_empty -%}
-            {%- assign block_empty = false -%}
-        {%- else -%}
-            {%- assign block = block | append: ", " -%}
-        {%- endif -%}
-        {%- assign block = block | append: '[<a href="' | append: include.paper.url | append: '">link</a>]' -%}
+        {%- for theurl in include.paper.url -%}
+            {%- if block_empty -%}
+                {%- assign block_empty = false -%}
+            {%- else -%}
+                {%- assign block = block | append: ", " -%}
+            {%- endif -%}
+            {%- assign block = block | append: '[<a href="' | append: theurl | append: '">data</a>]' -%}
+        {%- endfor -%}
+    {%- endif -%}
+    {%- if include.paper.code -%}
+        {%- for thecode in include.paper.code -%}
+            {%- if block_empty -%}
+                {%- assign block_empty = false -%}
+            {%- else -%}
+                {%- assign block = block | append: ", " -%}
+            {%- endif -%}
+            {%- assign block = block | append: '[<a href="' | append: thecode | append: '">data</a>]' -%}
+        {%- endfor -%}
     {%- endif -%}
     {%- if include.paper.data -%}
         {%- for thedata in include.paper.data -%}

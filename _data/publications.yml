@@ -28,14 +28,14 @@
   title: "Programming with Python"
   citation: 'Self-published open-source electronic book for the course <em>"Python Programming"</em> (Python程序设计) at Hefei University&nbsp;(合肥大学) starting in Semester&nbsp;2, 2025.'
   year: 2025
-  url: "/programmingWithPython"
+  url: ["/programmingWithPython"]
   type: "book"
 - key: "databases"
   authors: ["weise_thomas"]
   title: "Databases"
   citation: 'Self-published open-source electronic book for the course <em>"Database Principles and Applications"</em> (数据库原理与应用) at Hefei University&nbsp;(合肥大学) starting in Semester&nbsp;2, 2025.'
   year: 2025
-  url: "/databases"
+  url: ["/databases"]
   type: "book"
 - key: "ZWvdBTLTW2024RLSFTDBPAANRFFA"
   authors: ["zhao_rui", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "liang_tianyu", "tan_ming", "weise_thomas"]
@@ -134,7 +134,7 @@
   if: 13.7
   index: ["SCI", "EI"]
   issn: "1057-7149"
-  data: ["https://github.com/SunPengP/SelfGCN"]
+  code: ["https://github.com/SunPengP/SelfGCN"]
 - key: "ZLWvdBTW2024RLSOT2RBPPWIR"
   authors: ["zhao_rui", "liang_tianyu", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "weise_thomas"]
   title: "Randomized Local Search on the 2D&nbsp;Rectangular Bin Packing Problem with Item Rotation"
@@ -491,6 +491,7 @@
   index: ["SCIE", "EI"]
   if: 6.6
   data: ["https://doi.org/10.5281/zenodo.1256883"]
+  code: ["http://github.com/thomasWeise/BBDOB_W_Model"]
 - key: "TZCWZ2020AIRMFMTMCB"
   authors: ["tu_jing", "zhang_jiarui", "chen_shengbing", "weise_thomas", "zou_le"]
   title: "An&nbsp;Improved Retrieval Method for Multi-Transaction Mode Consortium Blockchain"
@@ -536,6 +537,7 @@
   if: 1.0
   index: ["EI"]
   issn: "1557-3958"
+  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
 - key: "WWLC2019IIIOADTM"
   authors: ["weise_thomas", "wu_yuezhong", "liu_weichen", "chiong_raymond"]
   title: "Implementation Issues in Optimization Algorithms:&nbsp;Do they matter?"
@@ -1498,7 +1500,7 @@
   authors: ["zapf_michael", "weise_thomas"]
   title: "Offline Emergence Engineering For Agent Societies"
   citation: "<em>5th&nbsp;European Workshop on Multi-Agent Systems&nbsp;(EUMAS'2007),</em> December 14, 2007, Hammamet, Tunesia"
-  url: "https://kobra.uni-kassel.de/handle/123456789/2007120719844"
+  url: ["https://kobra.uni-kassel.de/handle/123456789/2007120719844"]
   type: "conference"
   year: 2007
   month: 12
@@ -1558,7 +1560,7 @@
   title: "DGPF &mdash; An Adaptable Framework for Distributed Multi-Objective Search Algorithms Applied to the Genetic Programming of Sensor Networks"
   citation: "<em>2nd&nbsp;International Conference on Bioinspired Optimization Methods and their Applications&nbsp;(BIOMA'2006),</em> October 9-10, 2006, Ljubljana, Slovenia, pages&nbsp;157-166"
   isbn: "9616303813"
-  url: "http://bioma.ijs.si/BIOMA2006Proceedings.pdf"
+  url: ["http://bioma.ijs.si/BIOMA2006Proceedings.pdf"]
   type: "conference"
   year: 2006
   month: 10
@@ -1575,7 +1577,7 @@
   authors: ["weise_thomas", "geihs_kurt"]
   title: "Genetic Programming Techniques for Sensor Networks"
   citation: 'Tagungsband:&nbsp;5.&nbsp;GI/ITG&nbsp;KuVS Fachgesprächs “Drahtlose Sensornetze”,</em> July 17-18, 2006, Stuttgart, Germany, pages&nbsp;21-25'
-  url: "http://elib.uni-stuttgart.de/opus/volltexte/2006/2838"
+  url: ["http://elib.uni-stuttgart.de/opus/volltexte/2006/2838"]
   type: "conference"
   year: 2006
   month: 7
