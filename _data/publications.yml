@@ -146,6 +146,7 @@
   issn: "1057-7149"
   code: ["https://github.com/SunPengP/SelfGCN"]
   dblp: "https://dblp.org/rec/journals/tip/WuSCTXZWTCW24.html"
+  arxiv: "2003.05684"
 - key: "ZLWvdBTW2024RLSOT2RBPPWIR"
   authors: ["zhao_rui", "liang_tianyu", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "weise_thomas"]
   title: "Randomized Local Search on the 2D&nbsp;Rectangular Bin Packing Problem with Item Rotation"
@@ -194,6 +195,7 @@
   index: ["SCI", "EI"]
   data: ["https://doi.org/10.5281/zenodo.5567725"]
   dblp: "https://dblp.org/rec/journals/tec/0001WLCL23.html"
+  arxiv: "2112.00229"
 - key: "RWWTP2023ROFMECOMTICWPNUDU"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "wu_jinsong", "tan_ming", "pardalos_panos_miltiades"]
   title: "Robust Optimization for Minimizing Energy Consumption of Multicast Transmissions in Coded Wireless Packet Networks under Distance Uncertainty"
@@ -466,6 +468,7 @@
   index: ["SCI", "EI"]
   data: ["https://doi.org/10.5281/zenodo.3899474"]
   dblp: "https://dblp.org/rec/journals/tec/0001WLC21.html"
+  arxiv: "2001.01416"
 - key: "ZSWWCZ2020ANATNTPIWP"
   authors: ["zou_le", "song_liangtu", "wang_xiaofeng", "weise_thomas", "chen_yanping", "zhang_chen"]
   title: "A&nbsp;New Approach to Newton-Type Polynomial Interpolation with Parameters"
@@ -618,6 +621,8 @@
   issn: "2159-5399"
   rg: "335718362"
   dblp: "https://dblp.org/rec/conf/aaai/0001W019.html"
+  arxiv: "1806.08984"
+  url: ["https://ojs.aaai.org/index.php/AAAI/article/view/4082"]
 - key: "WWQLT2018ADCOAAPIBAWATCFEDASAIF"
   authors: ["weise_thomas", "wang_xiaofeng", "qi_qi", "li_bin", "tang_ke"]
   title : "Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features"
