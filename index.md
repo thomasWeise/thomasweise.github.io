@@ -21,7 +21,7 @@ Yet, if we plug it into the (1+1)&nbsp;EA, for instance, it can speed the algori
 My goal is to research both positive and negative aspects of FFA.
 Some of my publications on this topic are:
 
-{%- include publications.liquid papers=["WWLCL2023FFAOWBFGSCBE", "WWLC2021FFAMOAIUBTOTOFV", "WWWTDY2014FFA"] shorter=true %}
+{%- include publications.liquid papers="WWLCL2023FFAOWBFGSCBE," "WWLC2021FFAMOAIUBTOTOFV,WWWTDY2014FFA" | split: "," shorter=true %}
 
 My second research interest is on benchmarking.
 Benchmarking is maybe the most important tool for experimental research on metaheuristics.
