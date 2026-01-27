@@ -1539,7 +1539,7 @@
   year: 2009
   month: 5
   type: "thesis"
-  link: ["https://urn.fi/urn:nbn:de:hebis:34-2009051127217"]
+  url: ["https://urn.fi/urn:nbn:de:hebis:34-2009051127217"]
 - key: "WZCN2009WIOD"
   authors: ["weise_thomas", "zapf_michael", "chiong_raymond", "nebro_urbaneja_antonio_jesus"]
   title: "Why is optimization difficult?"
