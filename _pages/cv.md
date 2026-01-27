@@ -69,7 +69,7 @@ author_profile: true
 ## Awards and Honors
 <ul>
 <li>{% include person.liquid person="weise_thomas" -%}.
-The Huangshan Friendship Award of Anhui Province (安徽省黄山友谊奖).
+Huangshan Friendship Award of Anhui Province (安徽省黄山友谊奖).
 Anhui Provincial People's Government (安徽省人民政府).
 April 2025.</li>
 <li>Hefei University&nbsp;(合肥大学) and {% include person.liquid person="weise_thomas" -%}.
@@ -77,7 +77,8 @@ Hefei Foreign Expert Studio 2021 (合肥市外国专家工作室).
 Hefei City Foreign Experts and Technology Talent Management Service Office (合肥市外国专家与科技人才管理服务处).
 2022.</li>
 <li>{% include person.liquid person="weise_thomas" -%}.
-Hefei City Friendship Award (外国专家“友谊奖”) from the Hefei Municipal Government (合肥市人民政府).
+Hefei City Friendship Award (外国专家“友谊奖”).
+Hefei Municipal Government (合肥市人民政府).
 December 2020.</li>
 <li>{% include person.liquid person="weise_thomas" -%}.
 Hefei Specially Recruited Foreign Expert (合肥市特聘外国专家证书) within the First Hefei Recruitment Program of Talented Foreigners (首批市"引进外国高端人才计划").
