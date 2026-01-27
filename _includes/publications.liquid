@@ -1,6 +1,7 @@
+{%- assign pubsshort = include.shorter | default: false -%}
 {%- capture pubtext -%}
     {%- for paper in include.papers -%}
-        {%- include publication.liquid paper=paper -%}
+        {%- include publication.liquid paper=paper short=pubsshort -%}
     {%- endfor -%}
 {%- endcapture -%}
 <ul class="publist">
