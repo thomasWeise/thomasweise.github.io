@@ -13,7 +13,7 @@ My research area is metaheuristic optimization and operations research.
 I mainly focus on discrete and combinatorial problems from domains such as transport and logistics, production planning, scheduling, and packing.
 Within these domains, I currently pursue two main interests.
 
-My first research interest is on a technique called *Frequency Fitness Assignment&nbsp;([FFA](/talks/ffa.pdf), 频率适应度分配), which is an "Algorithm Plugin".
+My first research interest is on a technique called *Frequency Fitness Assignment*&nbsp;([FFA](/talks/ffa.pdf), 频率适应度分配), which is an "Algorithm Plugin".
 FFA removes the bias towards better solutions from its host algorithm and makes it invariant under all injective transformations of the objective function value.
 This is the strongest theoretically possible invariance and the only other algorithms that possess it are random sampling, random walks, and exhaustive enumeration.
 These methods are very bad optimization methods.
