@@ -6,6 +6,8 @@ toc: true
 author_profile: true
 ---
 
+Here you can find a list of my voluntary scientific activities.
+
 ## Connections to the Industry
 Prof.&nbsp;Weise is a [member](https://www.complexica.com/dr-thomas-weise) of the [Scientific Advisory Board](http://www.complexica.com/about/people) of [Complexica](http://www.complexica.com), an Artificial Intelligence software company hat helps large organizations sell more products and services, and reduce their labor costs and headcount through the use of automated analytics.
 Complexica is a leading provider of Artificial Intelligence software for optimizing sales and marketing activities, ranging from promotional planning, pricing, and product mix optimization, through to sales force automation, CRM, and multi-channel quoting and order processing.
@@ -14,6 +16,39 @@ Complexica is a leading provider of Artificial Intelligence software for optimiz
 - China Computer Federation&nbsp;([CCF](https://www.ccf.org.cn/en)) [中国计算机学会](http://www.ccf.org.cn/sites/ccf)&nbsp;(Member since 2012)
 - The Benchmarking Network&nbsp;(Member since 2019)
 - COnfiguration and SElection of ALgorithms&nbsp;([COSEAL](https://www.coseal.net)), an international group of researchers with focus on algorithm selection and algorithm configuration.&nbsp;(Member since 2017)
+
+## Invited Talks
+- *[Frequency Fitness Assignment](/talks/ffa.pdf)* (频率适应度分配), 2023-04-06, Harbin Institute of Technology&nbsp;(哈尔滨工业大学（深圳）) in Shenzhen, Guangdong, China
+- Keynote *[Frequency Fitness Assignment](/talks/ffa.pdf)* (频率适应度分配), 2023-03-25, International Conference on Pattern Recognition, Machine Vision and Intelligent Algorithms&nbsp;(PRMVIA'2023)
+- *Automating Scientific Research in Optimization*, 2018-10-30, Goethe University of Frankfurt in Frankfurt, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-29, Leibnitz University Hannover in Hannover, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-26, at the Leuphana University of Lüneburg, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-25, University of Bremen in Bremen, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-24, Carl von Ossietzky University of Oldenburg, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-23, University of Kassel in Kassel, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-22, Institute of Industrial Automation and Software Engineering&nbsp;(IAS) at the University of Stuttgart
+- *Automating Scientific Research in Optimization*, 2018-10-22, Fraunhofer Institute for Industrial Engineering&nbsp;(IAO) at the University of Stuttgart
+- *Automating Scientific Research in Optimization*, 2018-10-19, Johannes Gutenberg University Mainz in Mainz, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-18, Julius-Maximilians-Universität in Würzburg, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-17, Technical University of Munich in Munich, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-16, University of Leipzig in Leipzig, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-15, TU Chemnitz in Chemnitz, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-12, TU Bergakademie Freiberg, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-11, TU Dresden in Dresden, German
+- *Automating Scientific Research in Optimization*, 2018-10-10, Otto von Guericke University Magdeburg in Magdeburg, Germany
+- *Automating Scientific Research in Optimization*, 2018-10-08, Zuse Institute Berlin&nbsp;(ZIB), Germany
+- *Automating Scientific Research in Optimization*, 2017-10-25, Anhui University&nbsp;(安徽大学), Hefei, Anhui, China 
+- *Automating Scientific Research in Optimization*, 2017-08-03 Ludwig-Maximilians-Universität Munich in Munich (München), Germany
+- *Automating Scientific Research in Optimization*, 2017-08-02, Johannes Gutenberg University Mainz in Mainz, Germany
+- *Automating Scientific Research in Optimization*, 2017-08-01, University of Cologne in Köln (Cologne), Germany
+- *Automating Scientific Research in Optimization*, 2017-07-31, University of Leipzig in Leipzig, Germany
+- *Automating Scientific Research in Optimization*, 2017-07-28, University of Applied Sciences Zittau/Görlitz in Görlitz, Germany
+- *Automating Scientific Research in Optimization*, 2017-07-27, Otto von Guericke University Magdeburg in Magdeburg, Germany
+- *Automating Scientific Research in Optimization*, 2017-07-26, Clausthal University of Technology in Clausthal-Zellerfeld, Germany
+- *Automating Scientific Research in Optimization*, 2017-07-25, Technische Universität Ilmenau in Ilmenau, Germany
+- *Automating Scientific Research in Optimization*, 2017-07-24, University of Applied Sciences Mittweida in Mittweida, Germany
+- *Automating Scientific Research in Optimization*, 2017-07-21, Chemnitz University of Technology in Chemnitz, Germany
+*Automating Scientific Research in Optimization*, 2017-07-20, Friedrich Schiller University in Jena, Germany
 
 ## Journal Reviewer and Editorships
 - Member of Editorial Board&nbsp;(2017-ongoing):&nbsp;*[Applied Soft Computing](http://www.journals.elsevier.com/applied-soft-computing),* ISSN:&nbsp;1568-4946, Elsevier Journal
