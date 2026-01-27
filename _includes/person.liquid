@@ -1,7 +1,7 @@
 {%- assign no_links = include.no_links | default: false -%}
-{%- assign person=include.person -%}
+{%- assign person = include.person -%}
 {%- unless person.name -%}
-    {%- assign person=site.data.people[person] -%}
+    {%- assign person = site.data.people[person] -%}
 {%- endunless -%}
 {%- assign p_url = nil -%}
 {%- assign p_url_cn = nil -%}

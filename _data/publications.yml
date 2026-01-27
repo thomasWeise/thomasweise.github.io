@@ -1532,6 +1532,14 @@
   month: 6
   rg: "220973484"
   dblp: "https://dblp.org/rec/conf/dais/ComesBWG09.html"
+- key: "W2009EDAWGP"
+  title: "Evolving Distributed Algorithms with Genetic Programming"
+  authors: ["weise_thomas"]
+  citation: "PhD Thesis published in May&nbsp;2009 at the Department of Electrical Engineering and Computer Science&nbsp;(FB16) of the University of Kassel in Kassel, Germany"
+  year: 2009
+  month: 5
+  type: "thesis"
+  link: ["https://urn.fi/urn:nbn:de:hebis:34-2009051127217"]
 - key: "WZCN2009WIOD"
   authors: ["weise_thomas", "zapf_michael", "chiong_raymond", "nebro_urbaneja_antonio_jesus"]
   title: "Why is optimization difficult?"

@@ -1,35 +1,40 @@
 {%- capture pubtext -%}
-<li{%- if include.paper.type %} class="pub{{ include.paper.type -}}"{%- endif -%}>
-    {%- include persons.liquid persons=include.paper.authors -%}
-    {%- if include.paper.authors_are_editors -%}, editors, {% else -%}:&nbsp;{%- endif -%}
-    {{- include.paper.title -}}.
-    {%- if include.paper.editors %} In&nbsp;{%- include persons.liquid persons=include.paper.editors -%}, editors, {% endif %}
-    {{ include.paper.citation -}}.
+{%- assign thepaper = include.paper -%}
+{%- unless thepaper.key -%}
+    {%- assign thepapers = site.data.publications | where: "key", include.paper -%}
+    {%- assign thepaper = thepapers[0]  -%}
+{%- endunless -%}
+<li{%- if thepaper.type %} class="pub{{ thepaper.type -}}"{%- endif -%}>
+    {%- include persons.liquid persons=thepaper.authors -%}
+    {%- if thepaper.authors_are_editors -%}, editors, {% else -%}:&nbsp;{%- endif -%}
+    {{- thepaper.title -}}.
+    {%- if thepaper.editors %} In&nbsp;{%- include persons.liquid persons=thepaper.editors -%}, editors, {% endif %}
+    {{ thepaper.citation -}}.
     {%- assign block = "" -%}
     {%- assign block_empty = true -%}
-    {%- if include.paper.isbn -%}
+    {%- if thepaper.isbn -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/' | append: include.paper.isbn | append: '">' | append: include.paper.isbn | append: "</a>" -%}
+        {%- assign block = block | append: 'ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/' | append: thepaper.isbn | append: '">' | append: thepaper.isbn | append: "</a>" -%}
     {%- endif -%}
-    {%- if include.paper.issn -%}
+    {%- if thepaper.issn -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'ISSN:&nbsp;<a href="https://portal.issn.org/api/search?search[]=MUST=allissnbis=' | append: include.paper.issn | append: '">' | append: include.paper.issn | append: '</a>' -%}
+        {%- assign block = block | append: 'ISSN:&nbsp;<a href="https://portal.issn.org/api/search?search[]=MUST=allissnbis=' | append: thepaper.issn | append: '">' | append: thepaper.issn | append: '</a>' -%}
     {%- endif -%}
-    {%- if include.paper.doi -%}
+    {%- if thepaper.doi -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: include.paper.doi | append: '">' | append: include.paper.doi | append: '</a>' -%}
+        {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: thepaper.doi | append: '">' | append: thepaper.doi | append: '</a>' -%}
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
@@ -37,71 +42,71 @@
     {%- endunless -%}
     {%- assign block = "" -%}
     {%- assign block_empty = true -%}
-    {%- if include.paper.ccf -%}
+    {%- if thepaper.ccf -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '中国计算机学会' | append: include.paper.ccf | append: '类' -%}
+        {%- assign block = block | append: '中国计算机学会' | append: thepaper.ccf | append: '类' -%}
     {%- endif -%}
-    {%- if include.paper.cas -%}
+    {%- if thepaper.cas -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '中国科学院分' | append: include.paper.cas | append: '区' -%}
+        {%- assign block = block | append: '中国科学院分' | append: thepaper.cas | append: '区' -%}
     {%- endif -%}
-    {%- if include.paper.caa -%}
+    {%- if thepaper.caa -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '中国自动化学会' | append: include.paper.caa | append: '类' -%}
+        {%- assign block = block | append: '中国自动化学会' | append: thepaper.caa | append: '类' -%}
     {%- endif -%}
-    {%- if include.paper.caai -%}
+    {%- if thepaper.caai -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '中国人工智能学会' | append: include.paper.caai | append: '类' -%}
+        {%- assign block = block | append: '中国人工智能学会' | append: thepaper.caai | append: '类' -%}
     {%- endif -%}
-    {%- if include.paper.thcpl -%}
+    {%- if thepaper.thcpl -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '清华大学计算机学科' | append: include.paper.thcpl | append: '群' -%}
+        {%- assign block = block | append: '清华大学计算机学科' | append: thepaper.thcpl | append: '群' -%}
     {%- endif -%}
-    {%- if include.paper.fms -%}
+    {%- if thepaper.fms -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'FMS-' | append: include.paper.fms | append: '类' -%}
+        {%- assign block = block | append: 'FMS-' | append: thepaper.fms | append: '类' -%}
     {%- endif -%}
-    {%- if include.paper.cms -%}
+    {%- if thepaper.cms -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'CMS-' | append: include.paper.cms | append: '类' -%}
+        {%- assign block = block | append: 'CMS-' | append: thepaper.cms | append: '类' -%}
     {%- endif -%}
-    {%- if include.paper.if -%}
+    {%- if thepaper.if -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'IF=' | append: include.paper.if -%}
+        {%- assign block = block | append: 'IF=' | append: thepaper.if -%}
     {%- endif -%}
-    {%- if include.paper.index -%}
+    {%- if thepaper.index -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
             {%- assign block = "Indexed in&nbsp;" -%}
@@ -109,7 +114,7 @@
             {%- assign block = block | append: ", indexed in&nbsp;" -%}
         {%- endif -%}
         {%- capture bi -%}
-            {%- include print_array.liquid array=include.paper.index -%}
+            {%- include print_array.liquid array=thepaper.index -%}
         {%- endcapture -%}
         {%- assign block = block | append: bi -%}
     {%- endif -%}
@@ -119,24 +124,24 @@
     {%- endunless -%}
     {%- assign block = "" -%}
     {%- assign block_empty = true -%}
-    {%- if include.paper.rg -%}
+    {%- if thepaper.rg -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '[<a href="https://www.researchgate.net/publication/' | append: include.paper.rg | append: '">R<sup>G</sup></a>]' -%}
+        {%- assign block = block | append: '[<a href="https://www.researchgate.net/publication/' | append: thepaper.rg | append: '">R<sup>G</sup></a>]' -%}
     {%- endif -%}
-    {%- if include.paper.arxiv -%}
+    {%- if thepaper.arxiv -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '[<a href="https://arxiv.org/abs/' | append: include.paper.arxiv | append: '">arXiv</a>]' -%}
+        {%- assign block = block | append: '[<a href="https://arxiv.org/abs/' | append: thepaper.arxiv | append: '">arXiv</a>]' -%}
     {%- endif -%}
-    {%- if include.paper.url -%}
-        {%- for theurl in include.paper.url -%}
+    {%- if thepaper.url -%}
+        {%- for theurl in thepaper.url -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
             {%- else -%}
@@ -145,8 +150,8 @@
             {%- assign block = block | append: '[<a href="' | append: theurl | append: '">link</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
-    {%- if include.paper.slides -%}
-        {%- for theslides in include.paper.slides -%}
+    {%- if thepaper.slides -%}
+        {%- for theslides in thepaper.slides -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
             {%- else -%}
@@ -155,8 +160,8 @@
             {%- assign block = block | append: '[<a href="' | append: theslides | append: '">slides</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
-    {%- if include.paper.code -%}
-        {%- for thecode in include.paper.code -%}
+    {%- if thepaper.code -%}
+        {%- for thecode in thepaper.code -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
             {%- else -%}
@@ -165,8 +170,8 @@
             {%- assign block = block | append: '[<a href="' | append: thecode | append: '">code</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
-    {%- if include.paper.data -%}
-        {%- for thedata in include.paper.data -%}
+    {%- if thepaper.data -%}
+        {%- for thedata in thepaper.data -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
             {%- else -%}
@@ -175,8 +180,8 @@
             {%- assign block = block | append: '[<a href="' | append: thedata | append: '">data</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
-    {%- if include.paper.supplement -%}
-        {%- for thesupplement in include.paper.supplement -%}
+    {%- if thepaper.supplement -%}
+        {%- for thesupplement in thepaper.supplement -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
             {%- else -%}
@@ -185,13 +190,13 @@
             {%- assign block = block | append: '[<a href="' | append: thesupplement | append: '">supplement</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
-    {%- if include.paper.dblp -%}
+    {%- if thepaper.dblp -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '[<a href="' | append: include.paper.dblp | append: '">dblp</a>], [<a href="' | append: include.paper.dblp | append: '?view=bibtex">bibTeX</a>]' -%}
+        {%- assign block = block | append: '[<a href="' | append: thepaper.dblp | append: '">dblp</a>], [<a href="' | append: thepaper.dblp | append: '?view=bibtex">bibTeX</a>]' -%}
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
