@@ -9,7 +9,7 @@
     {%- assign thepapers = site.data.publications | where: "key", include.paper -%}
     {%- assign thepaper = thepapers[0]  -%}
 {%- endunless -%}
-<li{%- if thepaper.type %} class="pub{{ thepaper.type -}}"{%- endif -%}>
+<li{%- if publong and thepaper.type %} class="pub{{ thepaper.type -}}"{%- endif -%}>
     {%- include persons.liquid persons=thepaper.authors -%}
     {%- if thepaper.authors_are_editors -%}, editors, {% else -%}:&nbsp;{%- endif -%}
     {{- thepaper.title -}}.
@@ -34,14 +34,14 @@
             {%- endif -%}
             {%- assign block = block | append: 'ISSN:&nbsp;<a href="https://portal.issn.org/api/search?search[]=MUST=allissnbis=' | append: thepaper.issn | append: '">' | append: thepaper.issn | append: '</a>' -%}
         {%- endif -%}
-    {%- endif -%}
-    {%- if thepaper.doi -%}
-        {%- if block_empty -%}
-            {%- assign block_empty = false -%}
-        {%- else -%}
-            {%- assign block = block | append: ", " -%}
+        {%- if thepaper.doi -%}
+            {%- if block_empty -%}
+                {%- assign block_empty = false -%}
+            {%- else -%}
+                {%- assign block = block | append: ", " -%}
+            {%- endif -%}
+            {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: thepaper.doi | append: '">' | append: thepaper.doi | append: '</a>' -%}
         {%- endif -%}
-        {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: thepaper.doi | append: '">' | append: thepaper.doi | append: '</a>' -%}
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
@@ -133,6 +133,16 @@
     {%- endif -%}
     {%- assign block = "" -%}
     {%- assign block_empty = true -%}
+    {%- unless publong -%}
+        {%- if thepaper.doi -%}
+            {%- if block_empty -%}
+                {%- assign block_empty = false -%}
+            {%- else -%}
+                {%- assign block = block | append: ", " -%}
+            {%- endif -%}
+            {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: thepaper.doi | append: '">' | append: thepaper.doi | append: '</a>' -%}
+        {%- endif -%}
+    {%- endunless -%}
     {%- if thepaper.rg -%}
         {%- if block_empty -%}
             {%- assign block_empty = false -%}
