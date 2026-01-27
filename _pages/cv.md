@@ -54,8 +54,8 @@ author_profile: true
   <li>Where: <a href="http://www.uni-kassel.de/eecs/vs">Distributed Systems Group</a>, <a href="http://www.uni-kassel.de/eecs">Fachbereich 16:&nbsp;Elektrotechnik/Informatik</a>, <a href="http://www.uni-kassel.de">University of Kassel</a> (德国卡塞尔大学) in Kassel, Hessen, Germany</li>
   <li>Topic: Synthesis of distributed algorithms using Evolutionary Computation and Genetic Programming.</li>
   <li>Supervisor: {% include person.liquid person="geihs_kurt" %}</li>
-  <li>Result: *summa cum laude*</li>
-  <li>Meaning: Comparable to the *Doctor of Engineering,* *Engineering Doctorate,* *Doctor of Science,* or a *PhD* degree.</li>
+  <li>Result: summa cum laude</li>
+  <li>Meaning: Comparable to the Doctor of Engineering, Engineering Doctorate, Doctor of Science, or a PhD degree.</li>
   <li>ISCED'2011 Level: 844</li></ul></li>
 <li>Diplom-Informatiker (Dipl.-Inf., 学士+硕士)<ul>
   <li>When: 2001–2005</li>
