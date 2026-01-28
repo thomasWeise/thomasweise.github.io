@@ -208,11 +208,12 @@
             {%- endif -%}
             {%- assign block = block | append: '[<a href="' | append: thepaper.dblp | append: '">dblp</a>], [<a href="' | append: thepaper.dblp | append: '?view=bibtex">bibTeX</a>]' -%}
         {%- endif -%}
+        {%- unless block_empty -%}
+            {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
+            <div class="publinks">{{- block -}}.</div>
+        {%- endunless -%}
     {%- else %} [<a href="/research/publications#{{- thepaper.key -}}">infos</a>]{%- endif -%}
-    {%- unless block_empty -%}
-        {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
-        <div class="publinks">{{- block -}}.</div>
-    {%- endunless -%}
+    {%- endif -%}
 </li>
 {%- endcapture -%}
 {{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | strip | normalize_whitespace | replace: " ,", "," | replace: " .", "." | replace: "..", "." | replace: "?.", "?" | replace: "!.", "!" | append: "öäü@" | remove: ".öäü@" | remove: "öäü@" | strip | replace: "?.", "?" | replace: "!.", "!" | replace: ".,", "," -}}
