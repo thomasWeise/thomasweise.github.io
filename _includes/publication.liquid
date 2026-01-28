@@ -9,15 +9,19 @@
     {%- assign thepapers = site.data.publications | where: "key", include.paper -%}
     {%- assign thepaper = thepapers[0]  -%}
 {%- endunless -%}
-<li{%- if publong and thepaper.type %} class="pub{{ thepaper.type -}}"{%- endif -%}>
+{%- assign key_is_id = false -%}
+{%- if page.url == "/research/publications" -%}
+    {%- assign key_is_id = true -%}
+{%- endif -%}
+<li{%- if publong and thepaper.type %} class="pub{{ thepaper.type -}}"{%- endif -%}{%- if key_is_id %} id="{{- thepaper.key -}}"{%- endif -%}>
     {%- include persons.liquid persons=thepaper.authors -%}
     {%- if thepaper.authors_are_editors -%}, editors, {% else -%}:&nbsp;{%- endif -%}
     {{- thepaper.title -}}.
     {%- if thepaper.editors %} In&nbsp;{%- include persons.liquid persons=thepaper.editors -%}, editors, {% endif %}
     {{ thepaper.citation -}}.
-    {%- assign block = "" -%}
-    {%- assign block_empty = true -%}
     {%- if publong -%}
+        {%- assign block = "" -%}
+        {%- assign block_empty = true -%}
         {%- if thepaper.isbn -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
@@ -42,12 +46,10 @@
             {%- endif -%}
             {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: thepaper.doi | append: '">' | append: thepaper.doi | append: '</a>' -%}
         {%- endif -%}
-    {%- endif -%}
-    {%- unless block_empty -%}
-        {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
-        <div class="pubrefs">{{- block -}}.</div>
-    {%- endunless -%}
-    {%- if publong -%}
+        {%- unless block_empty -%}
+            {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
+            <div class="pubrefs">{{- block -}}.</div>
+        {%- endunless -%}
         {%- assign block = "" -%}
         {%- assign block_empty = true -%}
         {%- if thepaper.ccf -%}
@@ -130,46 +132,34 @@
             {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
             <div class="pubindex">{{- block -}}.</div>
         {%- endunless -%}
-    {%- endif -%}
-    {%- assign block = "" -%}
-    {%- assign block_empty = true -%}
-    {%- unless publong -%}
-        {%- if thepaper.doi -%}
+        {%- assign block = "" -%}
+        {%- assign block_empty = true -%}
+        {%- if thepaper.rg -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
             {%- else -%}
                 {%- assign block = block | append: ", " -%}
             {%- endif -%}
-            {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: thepaper.doi | append: '">' | append: thepaper.doi | append: '</a>' -%}
+            {%- assign block = block | append: '[<a href="https://www.researchgate.net/publication/' | append: thepaper.rg | append: '">R<sup>G</sup></a>]' -%}
         {%- endif -%}
-    {%- endunless -%}
-    {%- if thepaper.rg -%}
-        {%- if block_empty -%}
-            {%- assign block_empty = false -%}
-        {%- else -%}
-            {%- assign block = block | append: ", " -%}
-        {%- endif -%}
-        {%- assign block = block | append: '[<a href="https://www.researchgate.net/publication/' | append: thepaper.rg | append: '">R<sup>G</sup></a>]' -%}
-    {%- endif -%}
-    {%- if thepaper.arxiv -%}
-        {%- if block_empty -%}
-            {%- assign block_empty = false -%}
-        {%- else -%}
-            {%- assign block = block | append: ", " -%}
-        {%- endif -%}
-        {%- assign block = block | append: '[<a href="https://arxiv.org/abs/' | append: thepaper.arxiv | append: '">arXiv</a>]' -%}
-    {%- endif -%}
-    {%- if thepaper.url -%}
-        {%- for theurl in thepaper.url -%}
+        {%- if thepaper.arxiv -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
             {%- else -%}
                 {%- assign block = block | append: ", " -%}
             {%- endif -%}
-            {%- assign block = block | append: '[<a href="' | append: theurl | append: '">link</a>]' -%}
-        {%- endfor -%}
-    {%- endif -%}
-    {%- if publong -%}
+            {%- assign block = block | append: '[<a href="https://arxiv.org/abs/' | append: thepaper.arxiv | append: '">arXiv</a>]' -%}
+        {%- endif -%}
+        {%- if thepaper.url -%}
+            {%- for theurl in thepaper.url -%}
+                {%- if block_empty -%}
+                    {%- assign block_empty = false -%}
+                {%- else -%}
+                    {%- assign block = block | append: ", " -%}
+                {%- endif -%}
+                {%- assign block = block | append: '[<a href="' | append: theurl | append: '">link</a>]' -%}
+            {%- endfor -%}
+        {%- endif -%}
         {%- if thepaper.slides -%}
             {%- for theslides in thepaper.slides -%}
                 {%- if block_empty -%}
@@ -218,6 +208,7 @@
             {%- endif -%}
             {%- assign block = block | append: '[<a href="' | append: thepaper.dblp | append: '">dblp</a>], [<a href="' | append: thepaper.dblp | append: '?view=bibtex">bibTeX</a>]' -%}
         {%- endif -%}
+    {%- else %} [<a href="/research/publications#{{- thepaper.key -}}">infos</a>]
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
