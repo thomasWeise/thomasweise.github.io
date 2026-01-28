@@ -35,4 +35,4 @@ Some of my publications on this topic are:
 {% assign thepapers = "WW2023RSDEWASSAA,WCLW2020SADSOBIFATMPFBBDOA,WWQLT2018ADCOAAPIBAWATCFEDASAIF" | split: "," -%}
 {%- include publications.liquid papers=thepapers shorter=true %}
 
-Besides doing research, I [supervise](/teaching/supervision), [teach classes](/teaching) in international curricula of our university, and contribute to the research community as [reviewer and editor](/research/activities).  
+Besides doing research, I [supervise students](/teaching/supervision), [teach classes](/teaching) in international curricula of our university, and contribute to the research community as [reviewer and editor](/research/activities).  
