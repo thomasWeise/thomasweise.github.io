@@ -4,7 +4,6 @@ permalink: /moptipy
 read_time: false
 toc: false
 author_profile: true
-excerpt_separator: ""
 ---
 
 [moptipy](/moptipy)&nbsp;is a library with implementations of metaheuristic optimization methods in Python that also offers an environment for replicable experiments.
