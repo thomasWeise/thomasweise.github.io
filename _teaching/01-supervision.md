@@ -4,9 +4,11 @@ permalink: /teaching/supervision
 toc: true
 ---
 
-Here you can find a list of the students that I have supervised or co-supervised.
+I have supervised students at three different universities.
+Here you can find a list of these students, together with the papers we published together.
+
 {%- assign student = 0 %}
-## Current Students at Hefei University
+## Current Students at Hefei University&nbsp;(合肥大学)
 ### Master's Students at Hefei University
 
 #### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Ms. {% include person.liquid person="ding_yunfei" no_links=true %}
@@ -33,7 +35,7 @@ Here you can find a list of the students that I have supervised or co-supervised
 
 
 ## Alumni
-### At Hefei University
+### At Hefei University&nbsp;(合肥大学)
 #### Master's Students at Hefei University
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person="zhao_rui" no_links=true %}
@@ -72,7 +74,7 @@ Here you can find a list of the students that I have supervised or co-supervised
 #### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person="cosson_raphael" no_links=true %}
 - Type: Master's Student
 - Topic: Algorithm Selection for Discrete Black-Box Optimization Problems.
-- Origin: Laboratoire d'informatique de Paris 6 ([LIP6](http://www.lip6.fr), [Sorbonne University](http://www.sorbonne-universite.fr/en)) in Paris, France
+- Origin: Laboratoire d'informatique de Paris&nbsp;6&nbsp;([LIP6](http://www.lip6.fr)), [Sorbonne University](http://www.sorbonne-universite.fr/en)&nbsp;(法国索邦大学) in Paris, France
 - Main Supervisor: {% include person.liquid person="doerr_carola" %}
 - Co-Supervisor: {% include person.liquid person="weise_thomas" %}
 - Duration: Summer 2019
@@ -155,7 +157,7 @@ Here you can find a list of the students that I have supervised or co-supervised
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'ouyang_jin'" -%}{%- include publications.liquid  papers=papers shorter=true -%}{:/}
 
 
-### At the University of Kassel, Germany
+### At the University of Kassel&nbsp;(德国卡塞尔大学), Germany
 
 #### Master's Student at the University of Kassel, Germany
 
