@@ -25,6 +25,6 @@
       {% endif %}
     </h2>
     {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
+    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{- post.excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | strip | normalize_whitespace -}}</p>{% endif %}
   </article>
 </div>
