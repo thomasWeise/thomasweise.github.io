@@ -623,6 +623,7 @@
   dblp: "https://dblp.org/rec/conf/aaai/0001W019.html"
   arxiv: "1806.08984"
   url: ["https://ojs.aaai.org/index.php/AAAI/article/view/4082"]
+  code: ["https://github.com/thomasWeise/betAndRun"]
 - key: "WWQLT2018ADCOAAPIBAWATCFEDASAIF"
   authors: ["weise_thomas", "wang_xiaofeng", "qi_qi", "li_bin", "tang_ke"]
   title : "Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features"
