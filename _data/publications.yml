@@ -469,6 +469,15 @@
   data: ["https://doi.org/10.5281/zenodo.3899474"]
   dblp: "https://dblp.org/rec/journals/tec/0001WLC21.html"
   arxiv: "2001.01416"
+- key: "W2020AITOA"
+  authors: ["weise_thomas"]
+  title: "An Introduction to Optimization Algorithms"
+  citation: "Self-published open-source electronic book on optimization. This is an attempt to make a new version of <a href='/research/publications#W2009GOEB'>Global Optimization Algorithms &mdash; Theory and Application</a> with a Java code base backing it and based on a experiment. It is less complete, but more practically grounded."
+  url: ["/aitoa", "/aitoa/aitoa.pdf", "/aitoa/aitoa.html"]
+  code: ["https://github.com/thomasWeise/aitoa-code"]
+  slides: ["/aitoa-slides"]
+  year: 2020
+  month: 12
 - key: "ZSWWCZ2020ANATNTPIWP"
   authors: ["zou_le", "song_liangtu", "wang_xiaofeng", "weise_thomas", "chen_yanping", "zhang_chen"]
   title: "A&nbsp;New Approach to Newton-Type Polynomial Interpolation with Parameters"
@@ -551,13 +560,6 @@
   issn: "2079-9292"
   index: ["EI"]
   rg: "339157154"
-- key: "W2020AITOA"
-  authors: ["weise_thomas"]
-  title: "An Introduction to Optimization Algorithms"
-  citation: "Self-published open-source electronic book on optimization. This is an attempt to make a new version of <a href='/research/publications#W2009GOEB'>Global Optimization Algorithms — Theory and Application</a> with a Java code base backing it and based on a experiment. It is less complete, but more practically grounded."
-  url: ["/aitoa", "/aitoa/aitoa.pdf", "/aitoa/aitoa.html"]
-  code: ["https://github.com/thomasWeise/aitoa-code"]
-  slides: ["/aitoa-slides"]
 - key: "LKMWT2019EELBABRAFWSN"
   authors: ["li_xinlu", "keegan_brian", "mtenzi_frederick", "weise_thomas", "tan_ming"]
   title: "Energy-Efficient Load Balancing Ant Based Routing Algorithm for Wireless Sensor Networks"
