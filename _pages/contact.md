@@ -2,7 +2,14 @@
 title: Contact
 permalink: /contact/
 read_time: false
+toc: true
+author_profile: true
 ---
+
+## Electronic Contact
+Email:&nbsp;[tweise@hfuu.edu.cn](mailto:tweise@hfuu.edu.cn) *always* with CC to [tweise@ustc.edu.cn](mailto:tweise@ustc.edu.cn).<br>
+Web:&nbsp;<https://thomasweise.github.io><br>
+GitHub:&nbsp;[thomasWeise](https://github.com/thomasWeise)
 
 ## Address in English
 Thomas Weise (汤卫思教授)<br>
