@@ -208,6 +208,14 @@
         {%- endif -%}
         {%- assign block = block | append: '[<a href="' | append: thepaper.dblp | append: '">dblp</a>], [<a href="' | append: thepaper.dblp | append: '?view=bibtex">bibTeX</a>]' -%}
     {%- endif -%}
+    {%- if thepaper.gpbib -%}
+        {%- if block_empty -%}
+            {%- assign block_empty = false -%}
+        {%- else -%}
+            {%- assign block = block | append: ", " -%}
+        {%- endif -%}
+        {%- assign block = block | append: '[<a href="https://gpbib.cs.ucl.ac.uk/gp-html/' | append: thepaper.gpbib | append: '.html">GPbib</a>]' -%}
+    {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
         <div class="publinks">{{- block -}}.</div>

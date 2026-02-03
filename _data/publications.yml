@@ -988,6 +988,7 @@
   caai: "C"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cec/WeiseWTY14.html"
+  gpbib: "Weise_2014_CEC"
 - key: "GWL2014AWBLSHAFTSCP"
   authors: ["gao_chao", "weise_thomas", "li_jinlong"]
   title: "A&nbsp;Weighting-Based Local Search Heuristic Algorithm for the Set Covering Problem"
@@ -1030,6 +1031,7 @@
   issn: "1089-778X"
   index: ["SCI", "EI"]
   dblp: "https://dblp.org/rec/journals/tec/WeiseWWTDY14.html"
+  gpbib: "Weise_2013_ieeeTEC"
 - key: "WKWTY2014MGPFMRP"
   authors: ["wang_pu", "tang_ke", "weise_thomas", "tsang_edward_pk", "yao_xin"]
   title: "Multiobjective Genetic Programming for Maximizing ROC Performance"
@@ -1048,6 +1050,7 @@
   issn: "0925-2312"
   dblp: "https://dblp.org/rec/journals/ijon/WangTWTY14.html"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___home.ustc.edu.cn__wuyou308_doc_mogp.pdf"]
+  gpbib: "Wang_2013_Neurocomputing"
 - key: "SW2013AIAFTV"
   authors: ["shi_wei", "weise_thomas"]
   editors: ["yin_hujun", "tang_ke", "gao_yang", "klawonn_frank", "lee_minho", "weise_thomas", "li_bin", "yao_xin"]
@@ -1094,6 +1097,7 @@
   issn: "2770-0097"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cipls/OuyangWDC13.html"
+  gpbib: "Ouyang_2013_CIPLS"
 - key: "AKCW2013GAECS"
   authors: ["abedini_mani", "kirely_michael", "chiong_raymond"]
   title: "GPU Accelerated eXtended Classifier System"
@@ -1185,6 +1189,7 @@
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/WeiseDT12.html"
+  gpbib: "Weise_2012_GECCO"
 - key: "BBBBW2012OOTWSCWDACOSWS"
   authors: ["bansal_ajay", "bansal_srividya", "blake_m_brian", "bleul_steffen", "weise_thomas"]
   title: "Overview of the Web Services Challenge&nbsp;(WSC):&nbsp;Discovery and Composition of Semantic Web Services"
@@ -1213,6 +1218,7 @@
   issn: "1089-778X"
   index: ["SCI", "EI"]
   dblp: "https://dblp.org/rec/journals/tec/WeiseT12.html"
+  gpbib: "Weise_2011_ieeeTEC"
 - key: "JCW2012SNTAL"
   authors: ["jovanovic_jelena", "chiong_raymond", "weise_thomas"]
   title: "Social Networking, Teaching, and Learning:&nbsp;Introduction to Special Section on Social Networking, Teaching, and Learning&nbsp;(SNTL)"
@@ -1318,6 +1324,7 @@
   month: 4
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/eurogp/WanWT11.html"
+  gpbib: "wan_2011_EuroGP"
 - key: "CW2012SIOMSHAA"
   authors: ["chiong_raymond", "weise_thomas"]
   title: "Editorial:&nbsp;Special Issue on Modern Search Heuristics and Applications"
@@ -1427,6 +1434,7 @@
   index: ["EI"]
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WC2010EDMAFRBATBC.pdf"]
   dblp: "https://dblp.org/rec/conf/IEEEicci/WeiseC10.html"
+  gpbib: "Weise_2010_ICCI"
 - key: "WTWTY2010UGTEDRFCIFDS"
   authors: ["wang_pu", "tsang_edward_pk", "weise_thomas", "tang_ke", "yao_xin"]
   title: "Using GP to Evolve Decision Rules for Classification in Financial Data Sets"
@@ -1440,6 +1448,7 @@
   rg: "224182124"
   dblp: "https://dblp.org/rec/conf/IEEEicci/WangTWTY10.html"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WTWTY2010UGPTEDRFCIFDS.pdf"]
+  gpbib: "wang_2010_ICCI"
 - key: "WWZKSSWZZ2010POCIAIFDSOPPIII"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "weise_thomas", "zhong_yixin", "zhang_du"]
   title: "Perspectives on Cognitive Informatics and Its Future Development:&nbsp;Summary of Plenary Panel&nbsp;II of IEEE&nbsp;ICCI'10"
@@ -1505,6 +1514,7 @@
   year: 2009
   month: 9
   dblp: "https://dblp.org/rec/books/igi/Chiong10/WeiseC10.html"
+  gpbib: "Weise_2010_ISALA"
 - key: "WZ2009EDAWGPE"
   authors: ["weise_thomas", "zapf_michael"]
   title: "Evolving Distributed Algorithms with Genetic Programming:&nbsp;Election"
@@ -1517,6 +1527,7 @@
   index: ["EI"]
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WZ2009EDAWGPE.pdf"]
   dblp: "https://dblp.org/rec/conf/gecco/WeiseZ09.html"
+  gpbib: "WeiseZ_2009_GEC"
 - key: "KBBBW2009W2AQOSOWSC"
   authors: ["kona_srividya", "bansal_ajay", "blake_m_brian", "bleul_steffen", "weise_thomas"]
   title: "WSC-2009:&nbsp;A&nbsp;Quality of Service-Oriented Web Services Challenge"
@@ -1554,7 +1565,8 @@
   year: 2009
   month: 5
   type: "thesis"
-  url: ["https://urn.fi/urn:nbn:de:hebis:34-2009051127217"]
+  url: ["https://urn.fi/urn:nbn:de:hebis:34-2009051127217", "http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/https___kobra.bibliothek.uni-kassel.de_bitstream_urn_nbn_de_hebis_34-2009051127217_3_DissertationThomasWeise.pdf"]
+  gpbib: "Weise_thesis"
 - key: "WZCN2009WIOD"
   authors: ["weise_thomas", "zapf_michael", "chiong_raymond", "nebro_urbaneja_antonio_jesus"]
   title: "Why is optimization difficult?"
@@ -1593,6 +1605,7 @@
   rg: "220606389"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WZKG2009DGPFz.pdf"]
   dblp: "https://dblp.org/rec/journals/ijcia/WeiseZKG09.html"
+  gpbib: "Weise_2009_IJCIA"
 - key: "PWMG2009IWFDLVM"
   authors: ["podlich_alexander", "weise_thomas", "menze_manfred", "gorldt_christian"]
   title: "Intelligente Wechselbrückensteuerung für die Logistik von Morgen"
@@ -1628,6 +1641,7 @@
   rg: "200622167"
   type: "book"
   year: 2009
+  gpbib: "W2007GOEB"
 - key: "ZW2008CSE"
   authors: ["zapf_michael", "weise_thomas"]
   title: "Can Solutions Emerge?"
@@ -1640,6 +1654,7 @@
   index: ["EI"]
   rg: "225122768"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_ZW2008CSE.pdf"]
+  gpbib: "Zapf_2008_IWSOS"
   dblp: "https://dblp.org/rec/conf/iwsos/ZapfW08.html"
 - key: "ZW2008AOEETDSS"
   authors: ["zapf_michael", "weise_thomas"]
@@ -1648,6 +1663,7 @@
   type: "conference"
   rg: "36410535"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_ZW2008AOEETDSS.pdf"]
+  gpbib: "Zapf_2008_eumas"
 - key: "BWG2008GSDFMR"
   authors: ["baer_philipp_andreas", "weise_thomas", "geihs_kurt"]
   title: "Geminga:&nbsp;Service Discovery for Mobile Robotics"
@@ -1721,6 +1737,7 @@
   month: 3
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/eurogp/WeiseZG08.html"
+  gpbib: "conf_eurogp_WeiseZG08"
 - key: "ZW2007OEEFAS"
   authors: ["zapf_michael", "weise_thomas"]
   title: "Offline Emergence Engineering For Agent Societies"
@@ -1730,6 +1747,7 @@
   year: 2007
   month: 12
   rg: "36410043"
+  gpbib: "Weise_2007_HIS"
 - key: "WZG2007RBGP"
   authors: ["weise_thomas", "zapf_michael", "geihs_kurt"]
   title: "Rule-based Genetic Programming"
@@ -1742,6 +1760,7 @@
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/bionetics/WeiseZG07.html"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WZG2007RBGP.pdf"]
+  gpbib: "WZG2007DGPFi"
 - key: "WZKG2007GPMMDD"
   authors: ["weise_thomas", "zapf_michael", "khan_mohammad_ullah", "geihs_kurt"]
   title: "Genetic Programming meets Model-Driven Development"
@@ -1755,6 +1774,7 @@
   index: ["EI"]
   rg: "4279273"
   dblp: "https://dblp.org/rec/conf/his/WeiseZKG07.html"
+  gpbib: "Weise_2007_HIS"
 - key: "BWG2007MAFSSCSF"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "Making a Fast Semantic Service Composition System Faster"
@@ -1778,6 +1798,7 @@
   month: 4
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WGB2007DGPFb.pdf"]
   dblp: "https://dblp.org/rec/conf/icannga/WeiseGB07.html"
+  gpbib: "WGB2007DGPFb"
 - key: "BRZWG2007AGATTDOARS"
   authors: ["baer_philipp_andreas", "reichle_roland", "zapf_michael", "weise_thomas", "geihs_kurt"]
   title: "A&nbsp;Generative Approach to the Development of Autonomous Robot Software"
@@ -1799,6 +1820,7 @@
   year: 2006
   month: 10
   index: ["EI"]
+  gpbib: "WG2006DGPFc"
 - key: "BW2006AOFQASD"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "An Ontology for Quality-Aware Service Discovery"
@@ -1817,6 +1839,7 @@
   type: "conference"
   year: 2006
   month: 7
+  gpbib: "DGPF06b"
 - key: "BWG2006LSSCISSD"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "Large-Scale Service Composition in Semantic Service Discovery"
