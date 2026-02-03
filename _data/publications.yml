@@ -472,9 +472,9 @@
 - key: "W2020AITOA"
   authors: ["weise_thomas"]
   title: "An Introduction to Optimization Algorithms"
-  citation: "Self-published open-source electronic book on optimization. This is an attempt to make a new version of <a href='/research/publications#W2009GOEB'>Global Optimization Algorithms &mdash; Theory and Application</a> with a Java code base backing it and based on a experiment. It is less complete, but more practically grounded."
+  citation: "Self-published open-source electronic book on optimization. This is an attempt to make a new version of <a href='/research/publications#W2009GOEB'>Global Optimization Algorithms &mdash; Theory and Application</a> with a Java code base backing it and based on an experiment. It is less complete, but more practically grounded."
   url: ["/aitoa", "/aitoa/aitoa.pdf", "/aitoa/aitoa.html"]
-  code: ["https://github.com/thomasWeise/aitoa-code"]
+  code: ["/aitoa-code", "https://github.com/thomasWeise/aitoa-code"]
   slides: ["/aitoa-slides"]
   year: 2020
   month: 12
