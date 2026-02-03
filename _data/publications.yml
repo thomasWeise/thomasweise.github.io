@@ -1047,6 +1047,7 @@
   index: ["SCIE", "EI"]
   issn: "0925-2312"
   dblp: "https://dblp.org/rec/journals/ijon/WangTWTY14.html"
+  url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___home.ustc.edu.cn__wuyou308_doc_mogp.pdf"]
 - key: "SW2013AIAFTV"
   authors: ["shi_wei", "weise_thomas"]
   editors: ["yin_hujun", "tang_ke", "gao_yang", "klawonn_frank", "lee_minho", "weise_thomas", "li_bin", "yao_xin"]
@@ -1424,6 +1425,7 @@
   year: 2010
   month: 7
   index: ["EI"]
+  url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WC2010EDMAFRBATBC.pdf"]
   dblp: "https://dblp.org/rec/conf/IEEEicci/WeiseC10.html"
 - key: "WTWTY2010UGTEDRFCIFDS"
   authors: ["wang_pu", "tsang_edward_pk", "weise_thomas", "tang_ke", "yao_xin"]
@@ -1437,6 +1439,7 @@
   index: ["EI"]
   rg: "224182124"
   dblp: "https://dblp.org/rec/conf/IEEEicci/WangTWTY10.html"
+  url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WTWTY2010UGPTEDRFCIFDS.pdf"]
 - key: "WWZKSSWZZ2010POCIAIFDSOPPIII"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "weise_thomas", "zhong_yixin", "zhang_du"]
   title: "Perspectives on Cognitive Informatics and Its Future Development:&nbsp;Summary of Plenary Panel&nbsp;II of IEEE&nbsp;ICCI'10"
@@ -1512,6 +1515,7 @@
   year: 2009
   month: 6
   index: ["EI"]
+  url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WZ2009EDAWGPE.pdf"]
   dblp: "https://dblp.org/rec/conf/gecco/WeiseZ09.html"
 - key: "KBBBW2009W2AQOSOWSC"
   authors: ["kona_srividya", "bansal_ajay", "blake_m_brian", "bleul_steffen", "weise_thomas"]
@@ -1587,6 +1591,7 @@
   if: 1.3
   cas: 4
   rg: "220606389"
+  url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WZKG2009DGPFz.pdf"]
   dblp: "https://dblp.org/rec/journals/ijcia/WeiseZKG09.html"
 - key: "PWMG2009IWFDLVM"
   authors: ["podlich_alexander", "weise_thomas", "menze_manfred", "gorldt_christian"]
@@ -1634,6 +1639,7 @@
   month: 12
   index: ["EI"]
   rg: "225122768"
+  url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_ZW2008CSE.pdf"]
   dblp: "https://dblp.org/rec/conf/iwsos/ZapfW08.html"
 - key: "ZW2008AOEETDSS"
   authors: ["zapf_michael", "weise_thomas"]
@@ -1641,6 +1647,7 @@
   citation: "<em>6th&nbsp;European Workshop on Multi-Agent Systems&nbsp;(EUMAS'2008),</em> December 18-19, 2008, Bath, UK"
   type: "conference"
   rg: "36410535"
+  url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_ZW2008AOEETDSS.pdf"]
 - key: "BWG2008GSDFMR"
   authors: ["baer_philipp_andreas", "weise_thomas", "geihs_kurt"]
   title: "Geminga:&nbsp;Service Discovery for Mobile Robotics"
@@ -1718,7 +1725,7 @@
   authors: ["zapf_michael", "weise_thomas"]
   title: "Offline Emergence Engineering For Agent Societies"
   citation: "<em>5th&nbsp;European Workshop on Multi-Agent Systems&nbsp;(EUMAS'2007),</em> December 14, 2007, Hammamet, Tunesia"
-  url: ["https://kobra.uni-kassel.de/handle/123456789/2007120719844"]
+  url: ["https://kobra.uni-kassel.de/handle/123456789/2007120719844", "http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_ZW2007EUMASTR.pdf"]
   type: "conference"
   year: 2007
   month: 12
@@ -1734,6 +1741,7 @@
   month: 12
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/bionetics/WeiseZG07.html"
+  url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WZG2007RBGP.pdf"]
 - key: "WZKG2007GPMMDD"
   authors: ["weise_thomas", "zapf_michael", "khan_mohammad_ullah", "geihs_kurt"]
   title: "Genetic Programming meets Model-Driven Development"
@@ -1768,6 +1776,7 @@
   type: "conference"
   year: 2007
   month: 4
+  url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WGB2007DGPFb.pdf"]
   dblp: "https://dblp.org/rec/conf/icannga/WeiseGB07.html"
 - key: "BRZWG2007AGATTDOARS"
   authors: ["baer_philipp_andreas", "reichle_roland", "zapf_michael", "weise_thomas", "geihs_kurt"]
@@ -1785,7 +1794,7 @@
   title: "DGPF &mdash; An Adaptable Framework for Distributed Multi-Objective Search Algorithms Applied to the Genetic Programming of Sensor Networks"
   citation: "<em>2nd&nbsp;International Conference on Bioinspired Optimization Methods and their Applications&nbsp;(BIOMA'2006),</em> October 9-10, 2006, Ljubljana, Slovenia, pages&nbsp;157-166"
   isbn: "9616303813"
-  url: ["http://bioma.ijs.si/BIOMA2006Proceedings.pdf"]
+  url: ["http://bioma.ijs.si/BIOMA2006Proceedings.pdf", "http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WG2006DGPFc.pdf"]
   type: "conference"
   year: 2006
   month: 10
@@ -1804,7 +1813,7 @@
   authors: ["weise_thomas", "geihs_kurt"]
   title: "Genetic Programming Techniques for Sensor Networks"
   citation: 'Tagungsband:&nbsp;5.&nbsp;GI/ITG&nbsp;KuVS Fachgesprächs “Drahtlose Sensornetze”,</em> July 17-18, 2006, Stuttgart, Germany, pages&nbsp;21-25'
-  url: ["http://elib.uni-stuttgart.de/opus/volltexte/2006/2838"]
+  url: ["http://elib.uni-stuttgart.de/opus/volltexte/2006/2838", "http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___dgpf.sourceforge.net_documents_006-2006-07-17-kuvs_paper.pdf"]
   type: "conference"
   year: 2006
   month: 7
