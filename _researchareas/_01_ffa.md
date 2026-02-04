@@ -1,6 +1,6 @@
 ---
 title: "Frequency Fitness Assignment"
-permalink: /research/research_areas/ffa
+permalink: /research/areas/ffa
 read_time: false
 toc: true
 author_profile: true

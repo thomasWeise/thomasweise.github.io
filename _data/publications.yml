@@ -188,7 +188,7 @@
   month: 4
   rg: "380307727"
   dblp: "https://dblp.org/rec/conf/iceis/VerduinHEJ0B24.html"
-  tags: ["TTP", "RLS", "FFA", "combinatorial_optimization"]
+  tags: ["TTP", "GAs", "combinatorial_optimization"]
 - key: "WWLCL2023FFAOWBFGSCBE"
   authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan", "lassig_jorg"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization without Bias for Good Solutions can be Efficient"
