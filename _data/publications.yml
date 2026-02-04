@@ -10,6 +10,7 @@
   month: 5
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/wiopt/RaayatpanahWEMP25.html"
+  tags: ["mixed_integer", "linear_programming", "distributed_systems", "NFV"]
 - key: "WDWZCLNWW2025DAVFDFCDIC"
   authors: ["wu_zhize", "du_changjiang", "wang_xinqi", "zou_le", "cheng_fan", "li_teng", "nian_fudong", "weise_thomas", "wang_xiaofeng"]
   title: "Domain Adaptation via Feature Disentanglement for Cross-Domain Image Classification"
@@ -26,6 +27,7 @@
   data: ["https://doi.org/10.5281/zenodo.10472493"]
   rg: "367652506"
   dblp: "https://dblp.org/rec/journals/asc/WuDWZCLNWW25.html"
+  tags: ["image_classification"]
 - key: "programmingWithPython"
   authors: ["weise_thomas"]
   title: "Programming with Python"
@@ -33,6 +35,7 @@
   year: 2025
   url: ["/programmingWithPython"]
   type: "book"
+  tags: ["python"]
 - key: "databases"
   authors: ["weise_thomas"]
   title: "Databases"
@@ -40,6 +43,7 @@
   year: 2025
   url: ["/databases"]
   type: "book"
+  tags: ["databases"]
 - key: "ZWvdBTLTW2024RLSFTDBPAANRFFA"
   authors: ["zhao_rui", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "liang_tianyu", "tan_ming", "weise_thomas"]
   title: "Randomized Local Search for Two-Dimensional Bin Packing and a Negative Result for Frequency Fitness Assignment"
@@ -54,6 +58,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324219"]
   dblp: "https://dblp.org/rec/conf/ijcci/ZhaoWBTLT024.html"
+  tags: ["2DBPP", "FFA", "RLS", "combinatorial_optimization"]
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
@@ -68,6 +73,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324662"]
   dblp: "https://dblp.org/rec/conf/ijcci/ChenWT024.html"
+  tags: ["FFA", "QAP", "RLS", "combinatorial_optimization"]
 - key: "LWTWW2024GSIWIFFTTSP"
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
   title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
@@ -82,6 +88,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324196"]
   dblp: "https://dblp.org/rec/conf/ijcci/LiangWT0024.html"
+  tags: ["TSP", "RLS", "FFA", "combinatorial_optimization"]
 - key: "XWvdBW2024RLSVNVFFAOTTTP"
   authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas"]
   title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
@@ -96,6 +103,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13329107"]
   dblp: "https://dblp.org/rec/conf/ijcci/XiangWB024.html"
+  tags: ["TTP", "RLS", "FFA", "combinatorial_optimization", "NSGA-II", "MOP"]
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
@@ -112,6 +120,7 @@
   data: ["https://doi.org/10.5281/zenodo.11488348"]
   supplement: ["https://doi.org/10.5281/zenodo.10987573"]
   dblp: "https://dblp.org/rec/conf/ppsn/ThomsonOBLW24.html"
+  tags: ["QAP", "RLS", "FFA", "SA", "combinatorial_optimization"]
 - key: "LWLvdBTW2024ATTSPWFFAAHA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
   title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"
@@ -128,6 +137,7 @@
   if: 2.5
   data: ["https://doi.org/10.5281/zenodo.10217879"]
   dblp: "https://dblp.org/rec/journals/soco/LiangWLBTW24.html"
+  tags: ["TSP", "RLS", "FFA", "combinatorial_optimization"]
 - key: "WSCTXZWTCW2024SGCNWSAFSBAR"
   authors: ["wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
   title: "SelfGCN:&nbsp;Graph Convolution Network With Self-Attention for Skeleton-Based Action Recognition"
@@ -147,6 +157,7 @@
   code: ["https://github.com/SunPengP/SelfGCN"]
   dblp: "https://dblp.org/rec/journals/tip/WuSCTXZWTCW24.html"
   arxiv: "2003.05684"
+  tags: ["action_recognition"]
 - key: "ZLWvdBTW2024RLSOT2RBPPWIR"
   authors: ["zhao_rui", "liang_tianyu", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "weise_thomas"]
   title: "Randomized Local Search on the 2D&nbsp;Rectangular Bin Packing Problem with Item Rotation"
@@ -163,6 +174,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.10901807"]
   dblp: "https://dblp.org/rec/conf/gecco/ZhaoLWBT024.html"
+  tags: ["2DBPP", "RLS", "combinatorial_optimization"]
 - key: "VHvEJWvdB2024TTPRFVCF"
   authors: ["verduin_kristian", "horn_ruben", "van_eck_okke", "jansen_reitze", "weise_thomas", "van_den_berg_daan"]
   title: "The Traveling Tournament Problem:&nbsp;Rows-First versus Columns-First"
@@ -176,6 +188,7 @@
   month: 4
   rg: "380307727"
   dblp: "https://dblp.org/rec/conf/iceis/VerduinHEJ0B24.html"
+  tags: ["TTP", "RLS", "FFA", "combinatorial_optimization"]
 - key: "WWLCL2023FFAOWBFGSCBE"
   authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan", "lassig_jorg"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization without Bias for Good Solutions can be Efficient"
