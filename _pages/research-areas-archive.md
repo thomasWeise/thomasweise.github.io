@@ -4,7 +4,7 @@ title: "Research Areas"
 read_time: false
 toc: false
 author_profile: true
-collection: researchareas
+collection: research_areas
 permalink: /research/areas
 ---
 

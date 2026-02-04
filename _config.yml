@@ -229,7 +229,7 @@ defaults:
       read_time: false
   - scope:
       path: ""
-      type: researchareas
+      type: research_areas
     values:
       layout: single
       author_profile: true
@@ -251,7 +251,7 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
-  researchareas:
+  research_areas:
     output: true
     permalink: /research/:collection/:path/
   software:
