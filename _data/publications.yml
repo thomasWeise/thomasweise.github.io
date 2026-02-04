@@ -209,6 +209,7 @@
   data: ["https://doi.org/10.5281/zenodo.5567725"]
   dblp: "https://dblp.org/rec/journals/tec/0001WLCL23.html"
   arxiv: "2112.00229"
+  tags: ["FFA", "(1+1)EA", "discrete"]
 - key: "RWWTP2023ROFMECOMTICWPNUDU"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "wu_jinsong", "tan_ming", "pardalos_panos_miltiades"]
   title: "Robust Optimization for Minimizing Energy Consumption of Multicast Transmissions in Coded Wireless Packet Networks under Distance Uncertainty"
