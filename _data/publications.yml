@@ -27,7 +27,7 @@
   data: ["https://doi.org/10.5281/zenodo.10472493"]
   rg: "367652506"
   dblp: "https://dblp.org/rec/journals/asc/WuDWZCLNWW25.html"
-  tags: ["image_classification"]
+  tags: ["image_classification", "domain_adaptation"]
 - key: "programmingWithPython"
   authors: ["weise_thomas"]
   title: "Programming with Python"
@@ -58,7 +58,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324219"]
   dblp: "https://dblp.org/rec/conf/ijcci/ZhaoWBTLT024.html"
-  tags: ["2DBPP", "FFA", "RLS", "combinatorial_optimization"]
+  tags: ["2DBPP", "FFA", "RLS", "combinatorial_optimization", "local_search", "bin_packing", "moptipy", "python"]
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
@@ -73,7 +73,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324662"]
   dblp: "https://dblp.org/rec/conf/ijcci/ChenWT024.html"
-  tags: ["FFA", "QAP", "RLS", "combinatorial_optimization"]
+  tags: ["FFA", "QAP", "RLS", "combinatorial_optimization", "local_search", "moptipy", "python"]
 - key: "LWTWW2024GSIWIFFTTSP"
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
   title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
@@ -88,9 +88,9 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324196"]
   dblp: "https://dblp.org/rec/conf/ijcci/LiangWT0024.html"
-  tags: ["TSP", "RLS", "FFA", "combinatorial_optimization"]
+  tags: ["TSP", "RLS", "FFA", "local_search", "combinatorial_optimization", "moptipy", "python"]
 - key: "XWvdBW2024RLSVNVFFAOTTTP"
-  authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas"]
+  authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas", "moptipy", "python"]
   title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
   editors: ["marcelloni_francesco", "madani_kurosh", "van_stein_niki", "filipe_joaquim"]
   citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;38-49. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
@@ -103,7 +103,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13329107"]
   dblp: "https://dblp.org/rec/conf/ijcci/XiangWB024.html"
-  tags: ["TTP", "RLS", "FFA", "combinatorial_optimization", "NSGA-II", "MOP"]
+  tags: ["TTP", "RLS", "FFA", "local_search", "combinatorial_optimization", "NSGA-II", "MOP", "moptipy", "python"]
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
@@ -120,7 +120,7 @@
   data: ["https://doi.org/10.5281/zenodo.11488348"]
   supplement: ["https://doi.org/10.5281/zenodo.10987573"]
   dblp: "https://dblp.org/rec/conf/ppsn/ThomsonOBLW24.html"
-  tags: ["QAP", "RLS", "FFA", "SA", "combinatorial_optimization"]
+  tags: ["QAP", "RLS", "FFA", "SA", "local_search", "combinatorial_optimization", "moptipy", "python"]
 - key: "LWLvdBTW2024ATTSPWFFAAHA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
   title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"
@@ -137,7 +137,7 @@
   if: 2.5
   data: ["https://doi.org/10.5281/zenodo.10217879"]
   dblp: "https://dblp.org/rec/journals/soco/LiangWLBTW24.html"
-  tags: ["TSP", "RLS", "FFA", "combinatorial_optimization"]
+  tags: ["TSP", "RLS", "FFA", "local_search", "SA", "combinatorial_optimization", "moptipy", "python"]
 - key: "WSCTXZWTCW2024SGCNWSAFSBAR"
   authors: ["wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
   title: "SelfGCN:&nbsp;Graph Convolution Network With Self-Attention for Skeleton-Based Action Recognition"
@@ -157,7 +157,7 @@
   code: ["https://github.com/SunPengP/SelfGCN"]
   dblp: "https://dblp.org/rec/journals/tip/WuSCTXZWTCW24.html"
   arxiv: "2003.05684"
-  tags: ["action_recognition"]
+  tags: ["action_recognition", "CNNs", "attention"]
 - key: "ZLWvdBTW2024RLSOT2RBPPWIR"
   authors: ["zhao_rui", "liang_tianyu", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "weise_thomas"]
   title: "Randomized Local Search on the 2D&nbsp;Rectangular Bin Packing Problem with Item Rotation"
@@ -174,7 +174,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.10901807"]
   dblp: "https://dblp.org/rec/conf/gecco/ZhaoLWBT024.html"
-  tags: ["2DBPP", "RLS", "combinatorial_optimization"]
+  tags: ["2DBPP", "RLS", "combinatorial_optimization", "bin_packing", "local_search", "moptipy", "python"]
 - key: "VHvEJWvdB2024TTPRFVCF"
   authors: ["verduin_kristian", "horn_ruben", "van_eck_okke", "jansen_reitze", "weise_thomas", "van_den_berg_daan"]
   title: "The Traveling Tournament Problem:&nbsp;Rows-First versus Columns-First"
@@ -209,7 +209,7 @@
   data: ["https://doi.org/10.5281/zenodo.5567725"]
   dblp: "https://dblp.org/rec/journals/tec/0001WLCL23.html"
   arxiv: "2112.00229"
-  tags: ["FFA", "(1+1)EA", "discrete"]
+  tags: ["FFA", "(1+1)EA", "local_search", "discrete_optimization", "bit_strings", "onemax", "twomax", "trap", "jump", "leadingones", "nqueens", "plateau", "ising1d", "ising2d", "wmodel", "MaxSat", "aitoa-code", "Java"]
 - key: "RWWTP2023ROFMECOMTICWPNUDU"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "wu_jinsong", "tan_ming", "pardalos_panos_miltiades"]
   title: "Robust Optimization for Minimizing Energy Consumption of Multicast Transmissions in Coded Wireless Packet Networks under Distance Uncertainty"
@@ -225,6 +225,7 @@
   cms: "T2"
   rg: "372857973"
   dblp: "https://dblp.org/rec/journals/jco/RaayatpanahWWTP23.html"
+  tags: ["distributed_systems", "multicast", "linear_programming", "robust_optimization", "energy_consumption"]
 - key: "WW2023RSDEWASSAA"
   authors: ["weise_thomas", "wu_zhize"]
   title: "Replicable Self-Documenting Experiments with Arbitrary Search Spaces and Algorithms"
@@ -239,6 +240,7 @@
   index: ["EI"]
   code: ["https://github.com/thomasWeise/moptipy"]
   dblp: "https://dblp.org/rec/conf/gecco/0001W23a.html"
+  tags: ["benchmarking", "moptipy", "replicable_experiments", "optimization", "python"]
 - key: "WKCJWWTXLZZ2023ALCCVPAMFSSORSI"
   authors: ["wang_xiaofeng", "kang_menglei", "chen_yan", "jiang_wenxiang", "wang_mengyuan", "weise_thomas", "tan_ming", "xu_lixiang", "li_xinlu", "zou_le", "zhang_chen"]
   title: "Adaptive Local Cross-Channel Vector Pooling Attention Module for Semantic Segmentation of Remote Sensing Imagery"
@@ -255,6 +257,7 @@
   index: ["SCIE", "EI"]
   rg: "369936207"
   dblp: "https://dblp.org/rec/journals/remotesensing/WangKCJWWTXLZZ23.html"
+  tags: ["attention", "remote_sensing", "image_segmentation"]
 - key: "VWvdB2023WITTTONSWGA"
   authors: ["verduin_kristian", "weise_thomas", "van_den_berg_daan"]
   title: "Why is the Traveling Tournament Problem not Solved with Genetic Algorithms?"
@@ -267,6 +270,7 @@
   month: 4
   data: ["https://github.com/kristianverduin/Violation-Experiment"]
   code: ["https://github.com/kristianverduin/Violation-Experiment"]
+  tags: ["TTP", "GAs", "combinatorial_optimization"]
 - key: "CJWKWWTXLZ2022LALAFOGCISSNFRSI"
   authors: ["chen_yan", "jiang_wenxiang", "wang_mengyuan", "kang_menglei", "weise_thomas", "wang_xiaofeng", "tan_ming", "xu_lixiang", "zhang_chen"]
   title: "LightFGCNet:&nbsp;A Lightweight and Focusing on Global Context Information Semantic Segmentation Network for Remote Sensing Imagery"
@@ -283,6 +287,7 @@
   index: ["SCIE", "EI"]
   rg: "366088963"
   dblp: "https://dblp.org/rec/journals/remotesensing/ChenJWKWWTXLZ22.html"
+  tags: ["remote_sensing", "image_segmentation"]
 - key: "LWLvdbW2022STTSPUFFA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "weise_thomas"]
   title: "Solving the Traveling Salesperson Problem using Frequency Fitness Assignment"
@@ -296,6 +301,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.6784555"]
   dblp: "https://dblp.org/rec/conf/ssci/LiangWLBW22.html"
+  tags: ["TSP", "FFA", "combinatorial_optimization", "local_search", "RLS", "moptipy", "python"]
 - key: "DXWW2022CSASIICGEFC"
   authors: ["ding_jianwen", "xu_jia", "weise_thomas", "wang_huan"]
   title: "Community Services and Social Involvement in COVID-19 Governance:&nbsp;Evidence from China"
@@ -306,6 +312,7 @@
   month: 11
   issn: "1661-7827"
   rg: "365503268"
+  tags: ["COVID", "governance", "anhui"]
 - key: "RKWP2022ANATSSWMWOA"
   authors: ["raayatpanah_mohammad_ali", "khodayifar_salman", "weise_thomas", "pardalos_panos_miltiades"]
   title: "A&nbsp;Novel Approach to Subgraph Selection with Multiple Weights on Arcs"
@@ -321,6 +328,7 @@
   cms: "T2"
   rg: "356190941"
   dblp:  "https://dblp.org/rec/journals/jco/RaayatpanahKWP22.html"
+  tags: ["subgraph_selection", "combinatorial_optimization"]
 - key: "LWW2022DOPPEIFASABD"
   authors: ["liu_zhiyang", "weise_thomas", "wu_zhize"]
   title: "Detection of Personal Protective Equipment in Factories:&nbsp;A Survey and Benchmark Dataset"
@@ -334,6 +342,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.6551758"]
   dblp: "https://dblp.org/rec/conf/icic/LiuWW22.html"
+  tags: ["object_detection", "benchmarking", "safety"]
 - key: "RWW2022CSSDASAB"
   authors: ["ran_shuoyi", "weise_thomas", "wu_zhize"]
   title: "Chemical Safety Sign Detection:&nbsp;A Survey and Benchmark"
@@ -350,6 +359,7 @@
   issn: "2161-4393"
   data: ["http://doi.org/10.5281/zenodo.5938816"]
   dblp: "https://dblp.org/rec/conf/ijcnn/RanWW22.html"
+  tags: ["object_detection", "benchmarking", "safety"]
 - key: "ZWHWSW2022DRETILSISMAS"
   authors: ["zou_le", "huang_qianjing", "wu_zhize", "song_liangtu", "wang_xiaofeng"]
   title: "Distance Regularization Energy Terms in Level Set Image Segment Model:&nbsp;A Survey"
@@ -367,6 +377,7 @@
   index: ["SCIE", "EI"]
   issn: "0925-2312"
   dblp: "https://dblp.org/rec/journals/ijon/ZouWHWSW22.html"
+  tags: ["image_segmentation"]
 - key: "WXWSTW2022HFADABWSLFODFRSI"
   authors: ["wu_zhize", "xu_jian", "wang_yan", "sun_fei", "tan_ming", "weise_thomas"]
   title: "Hierarchical Fusion and Divergent Activation based Weakly Supervised Learning for Object Detection from Remote Sensing Images"
@@ -383,6 +394,7 @@
   issn: "1566-2535"
   data: ["https://doi.org/10.5281/zenodo.4420286"]
   dblp: "https://dblp.org/rec/journals/inffus/WuXWSTW22.html"
+  tags: ["object_detection", "remote_sensing"]
 - key: "WWZXLW2021HODFVHRSI"
   authors: ["wu_zhize", "wang_xiaofeng", "zou_le", "xu_lixiang", "li_xinlu", "weise_thomas"]
   title: "Hierarchical Object Detection for Very High-Resolution Satellite Images"
@@ -398,6 +410,7 @@
   if: 6.6
   data: ["http://doi.org/10.5281/zenodo.3999174", "http://doi.org/10.5281/zenodo.3999187"]
   dblp: "https://dblp.org/rec/journals/asc/WuWZXLW21.html"
+  tags: ["object_detection", "remote_sensing"]
 - key: "XCWLWNCT2021SSMLCKLIE"
   authors: ["xu_lixiang", "cui_lixin", "weise_thomas", "li_xinlu", "wu_zhize", "nie_feiping", "chen_enhong", "tang_yuanyan"]
   title: "Semi-Supervised Multi-Layer Convolution Kernel Learning in Credit Evaluation"
@@ -415,6 +428,7 @@
   index: ["SCI", "EI"]
   issn: "0031-3203"
   dblp: "https://dblp.org/rec/journals/pr/XuC0LWNCT21.html"
+  tags: ["classification", "finance"]
 - key: "WZWTW2021RARLFRSIR"
   authors: ["wu_zhize", "zou_chang", "wang_yan", "tan_ming", "weise_thomas"]
   title: "Rotation-Aware Representation Learning for Remote Sensing Image Retrieval"
@@ -432,6 +446,7 @@
   index: ["SCI", "EI"]
   issn: "0020-0255"
   dblp: "https://dblp.org/rec/journals/isci/WuZWTW21.html"
+  tags: ["image_retrieval", "remote_sensing"]
 - key: "ZSWHDW2021ASORLSISMBOTEFSM"
   authors: ["zou_le", "song_liangtu", "weise_thomas", "wang_xiaofeng", "huang_qianjing", "deng_rui", "wu_zhize"]
   title: "A&nbsp;Survey on Regional Level Set Image Segmentation Models based on the Energy Functional Similarity Measure"
@@ -449,6 +464,7 @@
   index: ["SCIE", "EI"]
   issn: "0925-2312"
   dblp: "https://dblp.org/rec/journals/ijon/ZouSWWHDW21.html"
+  tags: ["object_detection", "remote_sensing"]
 - key: "WLCW2021SJSSPWUABFGS"
   authors: ["weise_thomas", "li_xinlu", "chen_yan", "wu_zhize"]
   title: "Solving Job Shop Scheduling Problems Without Using a Bias for Good Solutions"
@@ -463,6 +479,7 @@
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/0001LCW21.html"
+  tags: ["JSSP", "FFA", "local_search", "aitoa-code", "Java"]
 - key: "WWLC2021FFAMOAIUBTOTOFV"
   authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan"]
   title: "Frequency Fitness Assignment:&nbsp;Making Optimization Algorithms Invariant under Bijective Transformations of the Objective Function Value"
@@ -483,6 +500,7 @@
   data: ["https://doi.org/10.5281/zenodo.3899474"]
   dblp: "https://dblp.org/rec/journals/tec/0001WLC21.html"
   arxiv: "2001.01416"
+  tags: ["FFA", "(1+1)EA", "local_search", "discrete_optimization", "bit_strings", "onemax", "twomax", "trap", "jump", "leadingones", "plateau", "MaxSat", "aitoa-code", "Java"]
 - key: "W2020AITOA"
   authors: ["weise_thomas"]
   title: "An Introduction to Optimization Algorithms"
@@ -493,6 +511,7 @@
   slides: ["/aitoa-slides"]
   year: 2020
   month: 12
+  tags: ["aitoa", "aitoa-code", "Java"]
 - key: "ZSWWCZ2020ANATNTPIWP"
   authors: ["zou_le", "song_liangtu", "wang_xiaofeng", "weise_thomas", "chen_yanping", "zhang_chen"]
   title: "A&nbsp;New Approach to Newton-Type Polynomial Interpolation with Parameters"
@@ -503,6 +522,7 @@
   month: 11
   issn: "1024-123X"
   rg: "347002646"
+  tags: ["image_segmentation"]
 - key: "WWLZL2020SIOBOCIAITASCJ"
   authors: ["weise_thomas", "wagner_markus", "li_bin", "zhang_xingyi", "lassig_jorg"]
   title: "Special Issue on Benchmarking of Computational Intelligence Algorithms in the Applied Soft Computing Journal&nbsp;(Editorial)"
@@ -518,6 +538,7 @@
   if: 6.6
   rg: "343277440"
   dblp: "https://dblp.org/rec/journals/asc/WeiseWLZL20.html"
+  tags: ["benchmarking", "optimization"]
 - key: "WWWW2020CNNBWSLFADFRSI"
   authors: ["wu_zhize", "weise_thomas", "wang_yan", "wang_yongjun"]
   title: "Convolutional Neural Network based Weakly Supervised Learning for Aircraft Detection from Remote Sensing Images"
@@ -533,6 +554,7 @@
   data: ["http://doi.org/10.5281/zenodo.3843229"]
   rg: "343931719"
   dblp: "https://dblp.org/rec/journals/access/WuWWW20.html"
+  tags: ["CNNs", "object_detection", "remote_sensing"]
 - key: "LXXWZSW2020IRUADABH"
   authors: ["li_xinlu", "xu_mengfei", "xu_jiabo", "weise_thomas", "zou_le", "sun_fei", "wu_zhize"]
   title: "Image Retrieval Using a Deep Attention-Based Hash"
@@ -547,6 +569,7 @@
   issn: "2169-3536"
   rg: "343149456"
   dblp: "https://dblp.org/rec/journals/access/LiXXWZSW20.html"
+  tags: ["image_retrieval", "hash"]
 - key: "WCLW2020SADSOBIFATMPFBBDOA"
   authors: ["weise_thomas", "chen_yan", "li_xinlu", "wu_zhize"]
   title: "Selecting a diverse set of benchmark instances from a tunable model problem for black-box discrete optimization algorithms"
@@ -563,6 +586,7 @@
   data: ["https://doi.org/10.5281/zenodo.1256883"]
   code: ["http://github.com/thomasWeise/BBDOB_W_Model"]
   dblp: "https://dblp.org/rec/journals/asc/WeiseCLW20.html"
+  tags: ["wmodel", "benchmarking", "aitoa-code", "local_search", "FFA", "discrete_optimization", "bitstrings"]
 - key: "TZCWZ2020AIRMFMTMCB"
   authors: ["tu_jing", "zhang_jiarui", "chen_shengbing", "weise_thomas", "zou_le"]
   title: "An&nbsp;Improved Retrieval Method for Multi-Transaction Mode Consortium Blockchain"
@@ -575,6 +599,7 @@
   issn: "2079-9292"
   index: ["EI"]
   rg: "339157154"
+  tags: ["blockchain"]
 - key: "LKMWT2019EELBABRAFWSN"
   authors: ["li_xinlu", "keegan_brian", "mtenzi_frederick", "weise_thomas", "tan_ming"]
   title: "Energy-Efficient Load Balancing Ant Based Routing Algorithm for Wireless Sensor Networks"
@@ -589,6 +614,7 @@
   issn: "2169-3536"
   rg: "335130675"
   dblp: "https://dblp.org/rec/journals/access/LiKMWT19.html"
+  tags: ["distributed_systems", "sensor_networks", "routing", "ACO"]
 - key: "HW2019IDSUCNNACCAFADBODL"
   authors: ["heng_lalin", "weise_thomas"]
   title: "Intrusion Detection System Using Convolutional Neuronal Networks:&nbsp;A Cognitive Computing Approach for Anomaly Detection based on Deep Learning"
@@ -600,6 +626,7 @@
   month: 7
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/IEEEicci/HengW19.html"
+  tags: ["CNNs", "security", "anomaly_detection", "distributed_systems"]
 - key: "WJQL2019ABABBCOFTTSP"
   authors: ["weise_thomas", "jiang_yan", "qi_qi", "liu_weichen"]
   title: "A&nbsp;Branch-and-Bound-Based Crossover Operator for the Traveling Salesman Problem"
@@ -615,6 +642,7 @@
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   rg: "334144299"
   dblp: "https://dblp.org/rec/journals/ijcini/0001JQL19.html"
+  tags: ["branch_and_bound", "combinatorial_optimization", "TSP", "EAs", "recombination", "TSPSuite", "Java"]
 - key: "WWLC2019IIIOADTM"
   authors: ["weise_thomas", "wu_yuezhong", "liu_weichen", "chiong_raymond"]
   title: "Implementation Issues in Optimization Algorithms:&nbsp;Do they matter?"
@@ -629,6 +657,7 @@
   index: ["SCIE", "EI"]
   issn: "0952-813X"
   dblp: "https://dblp.org/rec/journals/jetai/WeiseWLC19.html"
+  tags: ["TSP", "local_search", "TSPSuite", "Java", "benchmarking"]
 - key: "WWW2019AIGBARSWPPFSLS"
   authors: ["weise_thomas", "wu_zijun", "wagner_markus"]
   title: "An&nbsp;Improved Generic Bet-and-Run Strategy with Performance Prediction for Stochastic Local Search"
@@ -648,6 +677,7 @@
   arxiv: "1806.08984"
   url: ["https://ojs.aaai.org/index.php/AAAI/article/view/4082"]
   code: ["https://github.com/thomasWeise/betAndRun"]
+  tags: ["TSP", "bet_and_run", "local_search", "MVC"]
 - key: "WWQLT2018ADCOAAPIBAWATCFEDASAIF"
   authors: ["weise_thomas", "wang_xiaofeng", "qi_qi", "li_bin", "tang_ke"]
   title : "Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features"
@@ -663,7 +693,8 @@
   if: 6.6
   code: ["http://optimizationBenchmarking.github.io", "https://github.com/optimizationBenchmarking"]
   dblp: "https://dblp.org/rec/journals/asc/WeiseWQLT18.html"
-- key: ""
+  tags: ["TSP", "MaxSat", "benchmarking", "optimizationBenchmarking", "TSPSuit", "ACO", "EAs", "local_search"]
+- key: "RZCEGJKLLMOPSTWWWWZ2018WAP"
   title: "Workshops at PPSN&nbsp;2018"
   authors: ["purshouse_robin", "zarges_christine", "cussat_blanc_sylvain", "epitropakis_michael_g", "gallagher_marcus", "jansen_thomas", "kerschke_pascal", "li_xiaodong", "lobo_fernando_g", "miller_julian_francis", "oliveto_pietro_simone", "preuss_mike", "squillero_giovanni", "tonda_alberto", "wagner_markus", "weise_thomas", "wilson_dennis_g", "wrobel_borys", "zamuda_ales"]
   citation: "<em>15th&nbsp;International Conference on Parallel Problem Solving from Nature&nbsp;(PPSN&nbsp;XV),</em> September 8–12, 2018, Coimbra, Portugal, Part&nbsp;II, pages&nbsp;490-497.  Lecture Notes in Computer Science&nbsp;(LNTCS), volume&nbsp;11102. Cham, Switzerland: Springer"
@@ -676,6 +707,7 @@
   year: 2018
   month: 9
   dblp: "https://dblp.org/rec/conf/ppsn/PurshouseZCEG0K18.html"
+  tags: ["optimization"]
 - key: "RW2018VNFPFSFCWMEC"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas"]
   title: "Virtual Network Function Placement for Service Function Chaining with Minimum Energy Consumption"
@@ -687,6 +719,7 @@
   month: 8
   issn: "2836-5984"
   index: ["EI"]
+  tags: ["NFV", "optimization", "linear_programming"]
 - key: "WW2018DFOCOPATTWMBPFST"
   authors: ["weise_thomas", "wu_zijun"]
   title: "Difficult Features of Combinatorial Optimization Problems and the Tunable W-Model Benchmark Problem for Simulating them"
@@ -702,6 +735,7 @@
   index: ["EI"]
   code: ["http://github.com/thomasWeise/BBDOB_W_Model"]
   dblp: "https://dblp.org/rec/conf/gecco/0001W18.html"
+  tags: ["discrete_optimization", "wmodel", "bitstrings", "benchmarking"]
 - key: "UWAL2018AGPIGFDOP"
   authors: ["ullrich_markus", "weise_thomas", "awasthi_abhishek", "lassig_jorg"]
   title: "A&nbsp;Generic Problem Instance Generator for Discrete Optimization Problems"
@@ -716,6 +750,7 @@
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/Ullrich0AL18.html"
+  tags: ["benchmarking", "combinatorial_optimization"]
 - key: "QWL2018OABMASOTTSP"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Optimization Algorithm Behavior Modeling:&nbsp;A Study on the Traveling Salesman Problem"
@@ -728,6 +763,7 @@
   issn: "2572-1038"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/icaci/Qi0L18.html"
+  tags: ["TSP", "TSPSuite", "benchmarking", "TS"]
 - key: "W2017FSDFTSTFOAB"
   authors: ["weise_thomas"]
   title: "From Standardized Data Formats to Standardized Tools for Optimization Algorithm Benchmarking"
@@ -740,6 +776,7 @@
   index: ["EI"]
   code: ["http://optimizationBenchmarking.github.io", "https://github.com/optimizationBenchmarking"]
   dblp: "https://dblp.org/rec/conf/IEEEicci/Weise17.html"
+  tags: ["TSPSuite", "benchmarking"]
 - key: "LWWQ2017CTLSWCAEHAFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "qi_qi"]
   title: "Combining Two Local Searches with Crossover:&nbsp;An Efficient Hybrid Algorithm for the Traveling Salesman Problem"
@@ -755,6 +792,7 @@
   index: ["EI"]
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   dblp: "https://dblp.org/rec/conf/gecco/LiuWWQ17.html"
+  tags: ["TSP", "TSPSuite", "local_search", "recombination"]
 - key: "QWL2017MOARBAIA"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Modeling Optimization Algorithm Runtime Behavior and its Applications"
@@ -769,6 +807,7 @@
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/QiWL17.html"
+  tags: ["MaxSat", "benchmarking", "local_search", "discrete_optimization", "bitstrings"]
 - key: "ALWK2016TCDWPWATLA"
   authors: ["awasthi_abhishek", "lassig_jorg", "weise_thomas", "kramer_oliver"]
   title: "Tackling Common Due Window Problem with a Two-Layered Approach"

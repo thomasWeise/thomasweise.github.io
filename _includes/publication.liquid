@@ -221,6 +221,27 @@
         <div class="publinks">{{- block -}}.</div>
     {%- endunless -%}
 {%- else %} [<a href="/research/publications#{{- thepaper.key -}}">infos</a>]{%- endif -%}
+{%- assign block = "" -%}
+{%- assign block_empty = true -%}
+{%- if thepaper.tags -%}
+    {%- for tag in thepaper.tags -%}
+        {%- assign tag_key = tag | remove: '-' | remove: '_' | normalize_whitespace | strip | remove: ' ' | downcase -%}
+        {%- if site.data.tagmatrix contains tag_key -%}
+            {%- assign tag_text = tag | split: '_' | join: ' ' -%}
+            {%- assign tag_link = site.data.tagmatrix[tag_key] -%}
+            {%- if block_empty -%}
+                {%- assign block_empty = false -%}
+            {%- else -%}
+                {%- assign block = block | append: ", " -%}
+            {%- endif -%}
+            {%- assign block = block | append: '<a class="pubtag" href="' | append: tag_link | append: '">' | append: tag_text | append: '</a>' -%}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endif -%}
+{%- unless block_empty -%}
+    {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
+    <div class="pubtags">{{- block -}}.</div>
+{%- endunless -%}
 </li>
 {%- endcapture -%}
 {{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | strip | normalize_whitespace | replace: " ,", "," | replace: " .", "." | replace: "..", "." | replace: "?.", "?" | replace: "!.", "!" | append: "öäü@" | remove: ".öäü@" | remove: "öäü@" | strip | replace: "?.", "?" | replace: "!.", "!" | replace: ".,", "," -}}
