@@ -235,6 +235,14 @@ defaults:
       author_profile: true
       share: false
       read_time: false
+  - scope:
+      path: ""
+      type: researcharea
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      read_time: false
 
 collections:
   teaching:
@@ -243,6 +251,9 @@ collections:
   research:
     output: true
     permalink: /:collection/:path/
+  researcharea:
+    output: true
+    permalink: /research/areas/:path/
   software:
     output: true
     permalink: /:collection/:path/
