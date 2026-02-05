@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: "Research Areas"
-collection: research
+collection: researcharea
 permalink: /research/areas
 ---
 
