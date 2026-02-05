@@ -238,7 +238,7 @@
         {%- endif -%}
     {%- endfor -%}
 {%- endif -%}
-{%- if block_empty %} [<a class="pubinfos" href="/research/publications#{{- thepaper.key -}}">infos</a>]{%- else -%}
+{%- if block_empty %} <a class="pubinfos" href="/research/publications#{{- thepaper.key -}}">infos</a>{%- else -%}
     {%- unless publong -%}
         {%- assign block = block | append: ', <a class="pubinfos" href="/research/publications#' | append: thepaper.key | append: '">more&nbsp;infos</a>' -%}
     {%- endunless -%}

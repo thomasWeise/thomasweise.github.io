@@ -42,12 +42,20 @@
 
 .pubtag {
     border-style: solid;
+    border-width: thin;
     white-space: nowrap;
+    padding: 0.1em;
+    color: rgba(0, 0, 0, 0.9);
     border-color: rgba(200, 0, 0, 0.6);
     background-color: rgba(200, 0, 0, 0.06);
 }
 
 .pubinfos {
+    border-style: solid;
+    border-width: thin;
     white-space: nowrap;
-    background-color: rgba(0, 128, 0, 0.06);
+    padding: 0.1em;
+    color: rgba(0, 0, 0, 0.9);
+    border-color: rgba(0, 200, 0, 0.6);
+    background-color: rgba(0, 200, 0, 0.06);
 }
