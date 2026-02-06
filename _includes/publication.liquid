@@ -17,7 +17,9 @@
 {%- include persons.liquid persons=thepaper.authors -%}
 {%- if thepaper.authors_are_editors -%}, editors, {% else -%}:&nbsp;{%- endif -%}
 {{- thepaper.title -}}.
-{%- if thepaper.editors %} In&nbsp;{%- include persons.liquid persons=thepaper.editors -%}, editors, {% endif %}
+{%- if publong -%}
+    {%- if thepaper.editors %} In&nbsp;{%- include persons.liquid persons=thepaper.editors -%}, editors, {% endif %}
+{%- endif -%}
 {{ thepaper.citation -}}.
 {%- if publong -%}
     {%- assign block = "" -%}

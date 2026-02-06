@@ -48,7 +48,7 @@
   authors: ["zhao_rui", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "liang_tianyu", "tan_ming", "weise_thomas"]
   title: "Randomized Local Search for Two-Dimensional Bin Packing and a Negative Result for Frequency Fitness Assignment"
   editors: ["marcelloni_francesco", "madani_kurosh", "van_stein_niki", "filipe_joaquim"]
-  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;15-26. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
+  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;15-26. Setúbal, Portugal:&nbsp;SciTePress"
   doi: "10.5220/0012888500003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -63,7 +63,7 @@
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
   editors: ["marcelloni_francesco", "madani_kurosh", "van_stein_niki", "filipe_joaquim"]
-  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;27-37. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
+  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;27-37. Setúbal, Portugal:&nbsp;SciTePress"
   doi: "10.5220/0012888600003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -78,7 +78,7 @@
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
   title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
   editors: ["marcelloni_francesco", "madani_kurosh", "van_stein_niki", "filipe_joaquim"]
-  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;173-180. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
+  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;173-180. Setúbal, Portugal:&nbsp;SciTePress"
   doi: "10.5220/0012888800003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -93,7 +93,7 @@
   authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas", "moptipy", "python"]
   title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
   editors: ["marcelloni_francesco", "madani_kurosh", "van_stein_niki", "filipe_joaquim"]
-  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;38-49. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
+  citation: "<em>International Conference on Evolutionary Computation Theory and Applications&nbsp;(ECTA'2024),</em> part of <em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024),</em> November 20-22, 2024, Porto, Portugal, pages&nbsp;38-49. Setúbal, Portugal:&nbsp;SciTePress"
   doi: "10.5220/0012891500003837"
   issn: "2184-3236"
   isbn: "978-989-758-721-4"
@@ -178,7 +178,7 @@
 - key: "VHvEJWvdB2024TTPRFVCF"
   authors: ["verduin_kristian", "horn_ruben", "van_eck_okke", "jansen_reitze", "weise_thomas", "van_den_berg_daan"]
   title: "The Traveling Tournament Problem:&nbsp;Rows-First versus Columns-First"
-  citation: "<em>26th&nbsp;International Conference on Enterprise Information Systems&nbsp;(ICEIS'2024),</em> April 28-30, 2024, Angers, France, pages&nbsp;447-455. Setúbal, Portugal:&nbsp;SciTePress &ndash; Science and Technology Publications, Lda"
+  citation: "<em>26th&nbsp;International Conference on Enterprise Information Systems&nbsp;(ICEIS'2024),</em> April 28-30, 2024, Angers, France, pages&nbsp;447-455. Setúbal, Portugal:&nbsp;SciTePress"
   issn: "2184-4992"
   isbn: "978-989-758-692-7"
   type: "conference"
