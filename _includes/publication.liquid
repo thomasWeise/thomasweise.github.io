@@ -226,17 +226,17 @@
 {%- assign block = "" -%}
 {%- assign block_empty = true -%}
 {%- if thepaper.tags -%}
-    {%- for tag in thepaper.tags -%}
-        {%- capture tag_text -%}
-            {%- include taglink.liquid tag=tag use_class="pubtag" -%}
+    {%- for the_tag in thepaper.tags -%}
+        {%- capture the_tag_text -%}
+            {%- include taglink.liquid tag=the_tag use_class="pubtag" print_if_empty=false -%}
         {%- endcapture -%}
-        {%- if tag_text and tag_text != '' -%}
+        {%- if the_tag_text and the_tag_text != '' -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
             {%- else -%}
                 {%- assign block = block | append: ", " -%}
             {%- endif -%}
-            {%- assign block = block | append: tag_text | strip -%}
+            {%- assign block = block | append: the_tag_text | strip -%}
         {%- endif -%}
     {%- endfor -%}
 {%- endif -%}
