@@ -739,7 +739,7 @@
 - key: "UWAL2018AGPIGFDOP"
   authors: ["ullrich_markus", "weise_thomas", "awasthi_abhishek", "lassig_jorg"]
   title: "A&nbsp;Generic Problem Instance Generator for Discrete Optimization Problems"
-  citation: "<em>>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2018) Companion,</em> July 15-19, 2018, Kyoto, Japan, pages&nbsp;1761-1768 New York, NY, USA:&nbsp;ACM"
+  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2018) Companion,</em> July 15-19, 2018, Kyoto, Japan, pages&nbsp;1761-1768 New York, NY, USA:&nbsp;ACM"
   isbn: "978-1-4503-5764-7"
   doi: "10.1145/3205651.3208284"
   type: "conference"

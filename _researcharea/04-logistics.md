@@ -32,4 +32,4 @@ In Capacitated Arc Routing Problems&nbsp;({% include taglink.liquid tag="CARP" t
 This product is available at the depot at a sufficient amount.
 The vehicles are limited in their capacity, i.e., the amount of product that they can transport.
 Traversing any road takes a certain time (cost) and the goal is to find tours of minimum cost that satisfy all requirements.
-{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.tags contains 'VRP'" -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
+{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.tags contains 'CARP'" -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
