@@ -228,7 +228,7 @@
 {%- if thepaper.tags -%}
     {%- for the_tag in thepaper.tags -%}
         {%- capture the_tag_text -%}
-            {%- include taglink.liquid tag=the_tag use_class="pubtag" print_if_empty=false -%}
+            {%- include taglink.liquid tag=the_tag class="pubtag" only_link=true -%}
         {%- endcapture -%}
         {%- if the_tag_text and the_tag_text != '' -%}
             {%- if block_empty -%}
