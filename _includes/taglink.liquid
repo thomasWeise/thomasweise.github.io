@@ -1,0 +1,12 @@
+{%- assign use_tag = include.tag -%}
+{%- assign tag_key = use_tag | remove: '-' | remove: '_' | strip | normalize_whitespace | strip | remove: ' ' | downcase -%}
+{%- if site.data.tagmatrix contains tag_key -%}
+    {%- assign tag_text = use_tag | split: '_' | join: '&nbsp;' | strip | normalize_whitespace | strip | remove: ' ' -%}
+    {%- assign tag_text = include.tag_text | default: tag_text -%}
+    {%- assign tag_text = tag_text | strip -%}
+    {%- assign use_class = include.class | default: "" -%}
+    <a{%- if use_class and use_class != '' -%}class="{{- use_class -}}"{%- endif -%}
+    {%- assign tag_link = site.data.tagmatrix[tag_key] %} href="{{- tag_link --}}">{{- tag_text -}}</a>
+{%- else -%}
+    {{- include.tag_text | default: "" | normalize_whitespace | strip -}}
+{%- endif -%}

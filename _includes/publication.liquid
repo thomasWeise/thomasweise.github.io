@@ -227,16 +227,16 @@
 {%- assign block_empty = true -%}
 {%- if thepaper.tags -%}
     {%- for tag in thepaper.tags -%}
-        {%- assign tag_key = tag | remove: '-' | remove: '_' | normalize_whitespace | strip | remove: ' ' | downcase -%}
-        {%- if site.data.tagmatrix contains tag_key -%}
-            {%- assign tag_text = tag | split: '_' | join: '&nbsp;' | strip | normalize_whitespace | strip | remove: ' ' -%}
-            {%- assign tag_link = site.data.tagmatrix[tag_key] -%}
+        {%- capture tag_text -%}
+            {%- include taglink.liquid tag=tag use_class="pubtag" -%}
+        {%- endcapture -%}
+        {%- if tag_text and tag_text != '' -%}
             {%- if block_empty -%}
                 {%- assign block_empty = false -%}
             {%- else -%}
                 {%- assign block = block | append: ", " -%}
             {%- endif -%}
-            {%- assign block = block | append: '<a class="pubtag" href="' | append: tag_link | append: '">' | append: tag_text | append: '</a>' -%}
+            {%- assign block = block | append: tag_text | strip -%}
         {%- endif -%}
     {%- endfor -%}
 {%- endif -%}
