@@ -1,13 +1,42 @@
 main:
   - title: "Home"
-    url: /
+    url: "/"
   - title: "CV"
-    url: /cv/
+    url: "/cv/"
   - title: "Research"
-    url: /research/
+    url: "/research/"
+    children:
+      - title: "Research Areas"
+        url: "/research/areas"
+      - title: "Publications"
+        url: "/research/publications"
+      - title: "Funding"
+        url: "/research/funding"
+      - title: "Organized Events"
+        url: "/research/events"
+      - title: "Professional Activities"
+        url: "/research/activities"
+      - title: "Talks"
+        url: "/research/talks"
   - title: "Teaching"
-    url: /teaching/
+    url: "/teaching/"
+    children:
+      - title: "Supervised Students"
+        url: "/teaching/supervision"
+      - title: "Course: Python"
+        url: "/programmingWithPython"
+      - title: "Course: Databases"
+        url: "/databases"
   - title: "Software"
-    url: /software/
+    url: "/software/"
+    children:
+      - title: "moptipy"
+        url: "/moptipy"
+      - title: "moptipyapps"
+        url: "/moptipyapps"
+      - title: "texgit"
+        url: "/software/texgit"
+      - title: "pycommons"
+        url: "/pycommons"
   - title: "Contact"
-    url: /contact/
+    url: "/contact/"
