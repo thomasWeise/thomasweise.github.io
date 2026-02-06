@@ -7,7 +7,7 @@
 {%- if site.data.tagmatrix contains tag_key -%}
     {%- assign use_class = include.class | default: "" -%}
     <a{%- if use_class and use_class != '' -%}class="{{- use_class -}}"{%- endif -%}
-    {%- assign tag_link = site.data.tagmatrix[tag_key] %} href="{{- tag_link --}}">{{- tag_text -}}</a>
+    {%- assign tag_link = site.data.tagmatrix[tag_key] %} href="{{- tag_link -}}">{{- tag_text -}}</a>
 {%- else -%}
     {%- if print_if_empty -%}{{- tag_text -}}{%- endif -%}
 {%- endif -%}
