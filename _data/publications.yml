@@ -58,7 +58,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324219"]
   dblp: "https://dblp.org/rec/conf/ijcci/ZhaoWBTLT024.html"
-  tags: ["2DBPP", "FFA", "RLS", "combinatorial_optimization", "local_search", "bin_packing", "moptipy", "python"]
+  tags: ["2DBPP", "FFA", "RLS", "combinatorial_optimization", "local_search", "packing", "bin_packing", "moptipy", "python"]
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
@@ -88,7 +88,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324196"]
   dblp: "https://dblp.org/rec/conf/ijcci/LiangWT0024.html"
-  tags: ["TSP", "RLS", "FFA", "local_search", "combinatorial_optimization", "moptipy", "python"]
+  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "combinatorial_optimization", "moptipy", "python"]
 - key: "XWvdBW2024RLSVNVFFAOTTTP"
   authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas", "moptipy", "python"]
   title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
@@ -103,7 +103,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13329107"]
   dblp: "https://dblp.org/rec/conf/ijcci/XiangWB024.html"
-  tags: ["TTP", "RLS", "FFA", "local_search", "combinatorial_optimization", "NSGA-II", "MOP", "moptipy", "python"]
+  tags: ["TTP", "logistics", "RLS", "FFA", "local_search", "combinatorial_optimization", "NSGA-II", "MOP", "moptipy", "python"]
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
@@ -137,7 +137,7 @@
   if: 2.5
   data: ["https://doi.org/10.5281/zenodo.10217879"]
   dblp: "https://dblp.org/rec/journals/soco/LiangWLBTW24.html"
-  tags: ["TSP", "RLS", "FFA", "local_search", "SA", "combinatorial_optimization", "moptipy", "python"]
+  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "SA", "combinatorial_optimization", "moptipy", "python"]
 - key: "WSCTXZWTCW2024SGCNWSAFSBAR"
   authors: ["wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
   title: "SelfGCN:&nbsp;Graph Convolution Network With Self-Attention for Skeleton-Based Action Recognition"
@@ -174,7 +174,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.10901807"]
   dblp: "https://dblp.org/rec/conf/gecco/ZhaoLWBT024.html"
-  tags: ["2DBPP", "RLS", "combinatorial_optimization", "bin_packing", "local_search", "moptipy", "python"]
+  tags: ["2DBPP", "RLS", "combinatorial_optimization", "packing", "bin_packing", "local_search", "moptipy", "python"]
 - key: "VHvEJWvdB2024TTPRFVCF"
   authors: ["verduin_kristian", "horn_ruben", "van_eck_okke", "jansen_reitze", "weise_thomas", "van_den_berg_daan"]
   title: "The Traveling Tournament Problem:&nbsp;Rows-First versus Columns-First"
@@ -188,7 +188,7 @@
   month: 4
   rg: "380307727"
   dblp: "https://dblp.org/rec/conf/iceis/VerduinHEJ0B24.html"
-  tags: ["TTP", "GAs", "combinatorial_optimization"]
+  tags: ["TTP", "logistics", "GAs", "combinatorial_optimization"]
 - key: "WWLCL2023FFAOWBFGSCBE"
   authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan", "lassig_jorg"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization without Bias for Good Solutions can be Efficient"
@@ -270,7 +270,7 @@
   month: 4
   data: ["https://github.com/kristianverduin/Violation-Experiment"]
   code: ["https://github.com/kristianverduin/Violation-Experiment"]
-  tags: ["TTP", "GAs", "combinatorial_optimization"]
+  tags: ["TTP", "logistics", "GAs", "combinatorial_optimization"]
 - key: "CJWKWWTXLZ2022LALAFOGCISSNFRSI"
   authors: ["chen_yan", "jiang_wenxiang", "wang_mengyuan", "kang_menglei", "weise_thomas", "wang_xiaofeng", "tan_ming", "xu_lixiang", "zhang_chen"]
   title: "LightFGCNet:&nbsp;A Lightweight and Focusing on Global Context Information Semantic Segmentation Network for Remote Sensing Imagery"
@@ -301,7 +301,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.6784555"]
   dblp: "https://dblp.org/rec/conf/ssci/LiangWLBW22.html"
-  tags: ["TSP", "FFA", "combinatorial_optimization", "local_search", "RLS", "moptipy", "python"]
+  tags: ["TSP", "logistics", "FFA", "combinatorial_optimization", "local_search", "RLS", "moptipy", "python"]
 - key: "DXWW2022CSASIICGEFC"
   authors: ["ding_jianwen", "xu_jia", "weise_thomas", "wang_huan"]
   title: "Community Services and Social Involvement in COVID-19 Governance:&nbsp;Evidence from China"
@@ -479,7 +479,7 @@
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/0001LCW21.html"
-  tags: ["JSSP", "FFA", "local_search", "aitoa-code", "Java"]
+  tags: ["JSSP", "FFA", "local_search", "aitoa-code", "Java", "scheduling"]
 - key: "WWLC2021FFAMOAIUBTOTOFV"
   authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan"]
   title: "Frequency Fitness Assignment:&nbsp;Making Optimization Algorithms Invariant under Bijective Transformations of the Objective Function Value"
@@ -500,7 +500,7 @@
   data: ["https://doi.org/10.5281/zenodo.3899474"]
   dblp: "https://dblp.org/rec/journals/tec/0001WLC21.html"
   arxiv: "2001.01416"
-  tags: ["FFA", "(1+1)EA", "local_search", "discrete_optimization", "bit_strings", "onemax", "twomax", "trap", "jump", "leadingones", "plateau", "MaxSat", "aitoa-code", "Java"]
+  tags: ["FFA", "(1+1)EA", "local_search", "discrete_optimization", "bit_strings", "onemax", "twomax", "trap", "jump", "leadingones", "plateau", "MaxSat", "JSSP", "scheduling", "aitoa-code", "Java"]
 - key: "W2020AITOA"
   authors: ["weise_thomas"]
   title: "An Introduction to Optimization Algorithms"
@@ -642,7 +642,7 @@
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   rg: "334144299"
   dblp: "https://dblp.org/rec/journals/ijcini/0001JQL19.html"
-  tags: ["branch_and_bound", "combinatorial_optimization", "TSP", "EAs", "recombination", "TSPSuite", "Java"]
+  tags: ["branch_and_bound", "combinatorial_optimization", "TSP", "logistics", "EAs", "recombination", "TSPSuite", "Java"]
 - key: "WWLC2019IIIOADTM"
   authors: ["weise_thomas", "wu_yuezhong", "liu_weichen", "chiong_raymond"]
   title: "Implementation Issues in Optimization Algorithms:&nbsp;Do they matter?"
@@ -657,7 +657,7 @@
   index: ["SCIE", "EI"]
   issn: "0952-813X"
   dblp: "https://dblp.org/rec/journals/jetai/WeiseWLC19.html"
-  tags: ["TSP", "local_search", "TSPSuite", "Java", "benchmarking"]
+  tags: ["TSP", "logistics", "local_search", "TSPSuite", "Java", "benchmarking"]
 - key: "WWW2019AIGBARSWPPFSLS"
   authors: ["weise_thomas", "wu_zijun", "wagner_markus"]
   title: "An&nbsp;Improved Generic Bet-and-Run Strategy with Performance Prediction for Stochastic Local Search"
@@ -677,7 +677,7 @@
   arxiv: "1806.08984"
   url: ["https://ojs.aaai.org/index.php/AAAI/article/view/4082"]
   code: ["https://github.com/thomasWeise/betAndRun"]
-  tags: ["TSP", "bet_and_run", "local_search", "MVC"]
+  tags: ["TSP", "logistics", "bet_and_run", "local_search", "MVC"]
 - key: "WWQLT2018ADCOAAPIBAWATCFEDASAIF"
   authors: ["weise_thomas", "wang_xiaofeng", "qi_qi", "li_bin", "tang_ke"]
   title : "Automatically discovering clusters of algorithm and problem instance behaviors as well as their causes from experimental data, algorithm setups, and instance features"
@@ -693,7 +693,7 @@
   if: 6.6
   code: ["http://optimizationBenchmarking.github.io", "https://github.com/optimizationBenchmarking"]
   dblp: "https://dblp.org/rec/journals/asc/WeiseWQLT18.html"
-  tags: ["TSP", "MaxSat", "benchmarking", "optimizationBenchmarking", "TSPSuit", "ACO", "EAs", "local_search"]
+  tags: ["TSP", "logistics", "MaxSat", "benchmarking", "optimizationBenchmarking", "TSPSuit", "ACO", "EAs", "local_search"]
 - key: "RZCEGJKLLMOPSTWWWWZ2018WAP"
   title: "Workshops at PPSN&nbsp;2018"
   authors: ["purshouse_robin", "zarges_christine", "cussat_blanc_sylvain", "epitropakis_michael_g", "gallagher_marcus", "jansen_thomas", "kerschke_pascal", "li_xiaodong", "lobo_fernando_g", "miller_julian_francis", "oliveto_pietro_simone", "preuss_mike", "squillero_giovanni", "tonda_alberto", "wagner_markus", "weise_thomas", "wilson_dennis_g", "wrobel_borys", "zamuda_ales"]
@@ -750,7 +750,7 @@
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/Ullrich0AL18.html"
-  tags: ["benchmarking", "combinatorial_optimization"]
+  tags: ["benchmarking", "combinatorial_optimization", "TSP", "logistics", "MaxSat"]
 - key: "QWL2018OABMASOTTSP"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Optimization Algorithm Behavior Modeling:&nbsp;A Study on the Traveling Salesman Problem"
@@ -763,7 +763,7 @@
   issn: "2572-1038"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/icaci/Qi0L18.html"
-  tags: ["TSP", "TSPSuite", "benchmarking", "TS"]
+  tags: ["TSP", "TSPSuite", "logistics", "benchmarking", "TS"]
 - key: "W2017FSDFTSTFOAB"
   authors: ["weise_thomas"]
   title: "From Standardized Data Formats to Standardized Tools for Optimization Algorithm Benchmarking"
@@ -792,7 +792,7 @@
   index: ["EI"]
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   dblp: "https://dblp.org/rec/conf/gecco/LiuWWQ17.html"
-  tags: ["TSP", "TSPSuite", "local_search", "recombination"]
+  tags: ["TSP", "TSPSuite", "logistics", "local_search", "recombination"]
 - key: "QWL2017MOARBAIA"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Modeling Optimization Algorithm Runtime Behavior and its Applications"
@@ -818,6 +818,7 @@
   year: 2016
   month: 12
   dblp: "https://dblp.org/rec/conf/cocoa/AwasthiLWK16.html"
+  tags: ["combinatorial_optimization", "scheduling"]
 - key: "WWCTL2016GVLSTIOPSOEAP"
   authors: ["weise_thomas", "wu_yuezhong", "chiong_raymond", "tang_ke", "lassig_jorg"]
   title: "Global versus Local Search:&nbsp;The Impact of Population Sizes on Evolutionary Algorithm Performance"
@@ -833,6 +834,7 @@
   cms: "T2"
   if: 1.7
   index: ["SCI", "EI"]
+  tags: ["TSPSuite", "TSP", "logistics", "EAs", "benchmarking", "local_search"]
   issn: "0925-5001"
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   rg: "294425002"
@@ -852,6 +854,7 @@
   index: ["EI"]
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   dblp: "https://dblp.org/rec/conf/gecco/WuWL16.html"
+  tags: ["TSPSuite", "TSP", "logistics", "local_search", "recombination"]
 - key: "WWWXC2016HECMFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "xu_dan", "chiong_raymond"]
   title: "An Improved Ejection Chain Method and Its Hybrid Versions for Solving the Traveling Salesman Problem"
@@ -862,6 +865,7 @@
   month: 6
   issn: "1546-1955"
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  tags: ["TSPSuite", "TSP", "logistics", "local_search", "recombination"]
 - key: "ALLW2016GBPAFSADD"
   authors: ["awasthi_abhishek", "lassig_jorg", "leuschner_jens", "weise_thomas"]
   title: "GPGPU-based Parallel Algorithms for Scheduling Against Due Date"
@@ -873,6 +877,7 @@
   month: 5
   issn: "2639-3867"
   dblp: "https://dblp.org/rec/conf/ipps/AwasthiLLW16.html"
+  tags: ["combinatorial_optimization", "scheduling"]
 - key: "SWCC2015HPWEPIFSTVRPWTW"
   authors: ["shi_wei", "weise_thomas", "chiong_raymond", "catay_bulent"]
   title: "Hybrid PACO with Enhanced Pheromone Initialization for Solving the Vehicle Routing Problem with Time Windows"
@@ -885,6 +890,7 @@
   issn: "2770-0097"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/ssci/ShiWCC15.html"
+  tags: ["VRP", "ACO", "logistics", "combinatorial_optimization"]
 - key: "GYWL2015AELSHWRWFTUSCP"
   authors: ["gao_chao", "yao_xin", "weise_thomas", "li_jinlong"]
   title: "An Efficient Local Search Heuristic with Row Weighting for the Unicost Set Covering Problem"
@@ -901,6 +907,7 @@
   index: ["SCIE", "EI"]
   issn: "0377-2217"
   dblp: "https://dblp.org/rec/journals/eor/GaoYWL15.html"
+  tags: ["local_search", "SCP", "discrete_optimization"]
 - key: "XWWLC2015AIOHTSFTTSP"
   authors: ["xu_dan", "weise_thomas", "wu_yuezhong", "lassig_jorg", "chiong_raymond"]
   title: "An Investigation of Hybrid Tabu Search for the Traveling Salesman Problem"
@@ -915,6 +922,7 @@
   index: ["EI"]
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   dblp: "https://dblp.org/rec/conf/bic-ta/XuWWLC15.html"
+  tags: ["TSP", "TSPSuite", "logistics", "TS", "local_search"]
 - key: "LWWC2015HECMFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "chiong_raymond"]
   title: "Hybrid Ejection Chain Methods for the Traveling Salesman Problem"
@@ -928,6 +936,7 @@
   index: ["EI"]
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   dblp: "https://dblp.org/rec/conf/bic-ta/LiuWWC15.html"
+  tags: ["TSP", "TSPSuite", "logistics", "local_search"]
 - key: "WWC2015LSFTTSPACS"
   authors: ["wu_yuezhong", "weise_thomas", "chiong_raymond"]
   title: "Local Search for the Traveling Salesman Problem:&nbsp;A Comparative Study"
@@ -941,6 +950,7 @@
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   rg: "282652534"
   dblp: "https://dblp.org/rec/conf/IEEEicci/WuWC15.html"
+  tags: ["TSP", "TSPSuite", "logistics", "local_search", "benchmarking"]
 - key: "WC2015AAWOPSTRWETPOSA"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "An Alternative Way of Presenting Statistical Test Results when Evaluating the Performance of Stochastic Approaches"
@@ -958,6 +968,7 @@
   index: ["SCIE", "EI"]
   issn: "0925-2312"
   dblp: "https://dblp.org/rec/journals/ijon/WeiseC15.html"
+  tags: ["benchmarking"]
 - key: "YLWY2014ANMAWFAFTDTLMICBN"
   authors: ["yuan_bo", "li_bin", "weise_thomas", "yao_xin"]
   title: "A&nbsp;New Memetic Algorithm with Fitness Approximation for the Defect-Tolerant Logic Mapping in Crossbar-Based Nanoarchitectures"
@@ -976,6 +987,7 @@
   issn: "1089-778X"
   index: ["SCI", "EI"]
   dblp: "https://dblp.org/rec/journals/tec/YuanLWY14.html"
+  tags: ["MAs"]
 - key: "JWLCA2014CAHBABAWECMLSATHOTT"
   authors: ["jiang_yan", "weise_thomas", "lassig_jorg", "chiong_raymond", "athauda_rukshan"]
   title: "Comparing a Hybrid Branch and Bound Algorithm with Evolutionary Computation Methods, Local Search and their Hybrids on the TSP"
@@ -990,6 +1002,7 @@
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   rg: "291831120"
   dblp: "https://dblp.org/rec/conf/cipls/JiangWLCA14.html"
+  tags: ["TSP", "TSPSuite", "logistics", "local_search", "branch_and_bound", "EAs", "MAs"]
 - key: "ALKW2014CDWPPAFAGPS"
   authors: ["awasthi_abhishek", "lassig_jorg", "kramer_oliver", "weise_thomas"]
   title: "Common Due-Window Problem: Polynomial Algorithms for a Given Processing Sequence"
@@ -1002,6 +1015,7 @@
   issn: "2770-0097"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cipls/AwasthiLKW14.html"
+  tags: ["scheduling", "combinatorial_optimization"]
 - key: "GWL2014IT3FNLSBRFMFTSCP"
   authors: ["gao_chao", "weise_thomas", "li_jinlong"]
   title: "Improve the 3-flip Neighborhood Local Search by Random Flat Move for the Set Covering Problem"
@@ -1012,6 +1026,7 @@
   year: 2014
   month: 10
   dblp: "https://dblp.org/rec/conf/icsi/GaoWL14.html"
+  tags: ["SCP", "local_search", "discrete_optimization"]
 - key: "WCLTTCMY2014BOAAOSFFTTSP"
   authors: ["weise_thomas", "chiong_raymond", "lassig_jorg", "tang_ke", "tsuitsui_shigeyoshi", "chen_wenxiang", "michalewicz_zbigniew", "yao_xin"]
   title: "Benchmarking Optimization Algorithms:&nbsp;An Open Source Framework for the Traveling Salesman Problem"
@@ -1029,6 +1044,7 @@
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   rg: "263894831"
   dblp: "https://dblp.org/rec/journals/cim/WeiseCLTTCMY14.html"
+  tags: ["TSP", "TSPSuite", "logistics", "local_search", "EAs", "MAs", "ACO", "EDAs", "FFA"]
 - key: "WWTY2014EEIAWGP"
   authors: ["weise_thomas", "wan_mingxu", "tang_ke", "yao_xin"]
   title: "Evolving Exact Integer Algorithms with Genetic Programming"
@@ -1042,6 +1058,7 @@
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cec/WeiseWTY14.html"
   gpbib: "Weise_2014_CEC"
+  tags: ["GP", "FFA", "algorithm_synthesis"]
 - key: "GWL2014AWBLSHAFTSCP"
   authors: ["gao_chao", "weise_thomas", "li_jinlong"]
   title: "A&nbsp;Weighting-Based Local Search Heuristic Algorithm for the Set Covering Problem"
@@ -1054,6 +1071,7 @@
   caai: "C"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cec/GaoWL14.html"
+  tags: ["SCP", "local_search", "discrete_optimization"]
 - key: "ZWL2014FLBAOSFCSPWC"
   authors: ["zhang_kai", "weise_thomas", "li_jinlong"]
   title: "Fitness Level based Adaptive Operator Selection for Cutting Stock Problems with Contiguity"
@@ -1066,6 +1084,7 @@
   caai: "C"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cec/ZhangWL14.html"
+  tags: ["EAs", "cutting_stock", "packing"]
 - key: "WWWTDY2014FFA"
   authors: ["weise_thomas", "wan_mingxu", "tang_ke", "wang_pu", "devert_alexandre", "yao_xin"]
   title: "Frequency Fitness Assignment"
@@ -1085,6 +1104,7 @@
   index: ["SCI", "EI"]
   dblp: "https://dblp.org/rec/journals/tec/WeiseWWTDY14.html"
   gpbib: "Weise_2013_ieeeTEC"
+  tags: ["FFA", "GP", "algorithm_synthesis", "classification", "MaxSat", "EAs", "discrete_optimization", "continuous_optimization"]
 - key: "WKWTY2014MGPFMRP"
   authors: ["wang_pu", "tang_ke", "weise_thomas", "tsang_edward_pk", "yao_xin"]
   title: "Multiobjective Genetic Programming for Maximizing ROC Performance"
@@ -1104,6 +1124,7 @@
   dblp: "https://dblp.org/rec/journals/ijon/WangTWTY14.html"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___home.ustc.edu.cn__wuyou308_doc_mogp.pdf"]
   gpbib: "Wang_2013_Neurocomputing"
+  tags: ["GP", "classification"]
 - key: "SW2013AIAFTV"
   authors: ["shi_wei", "weise_thomas"]
   editors: ["yin_hujun", "tang_ke", "gao_yang", "klawonn_frank", "lee_minho", "weise_thomas", "li_bin", "yao_xin"]
@@ -1116,6 +1137,7 @@
   month: 10
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/ideal/ShiW13.html"
+  tags: ["ACO", "VRP", "logistics"]
 - key: "YTGKLWLY2013IDEAALI2"
   authors: ["yin_hujun", "tang_ke", "gao_yang", "klawonn_frank", "lee_minho", "weise_thomas", "li_bin", "yao_xin"]
   authors_are_editors: true
@@ -1138,6 +1160,7 @@
   year: 2013
   month: 9
   dblp: "https://dblp.org/rec/books/sp/wsf14/WeiseBB14.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "OWDC2013SADAFTSP"
   authors: ["ouyang_jin", "weise_thomas", "devert_alexandre", "chiong_raymond"]
   title: "SDGP:&nbsp;A Developmental Approach for Traveling Salesman Problems"
@@ -1151,6 +1174,7 @@
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cipls/OuyangWDC13.html"
   gpbib: "Ouyang_2013_CIPLS"
+  tags: ["TSP", "logistics", "GP"]
 - key: "AKCW2013GAECS"
   authors: ["abedini_mani", "kirely_michael", "chiong_raymond"]
   title: "GPU Accelerated eXtended Classifier System"
@@ -1163,6 +1187,7 @@
   issn: "2770-0097"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cidm/AbediniKCW13.html"
+  tags: ["classification", "LNCS"]
 - key: "LWWL2013FPDIFDUTSEEA"
   authors: ["li_bin", "wang_yu", "weise_thomas", "long_long"]
   title: "Fixed-Point Digital IIR Filter Design using Two-Stage Ensemble Evolutionary Algorithm"
@@ -1177,6 +1202,7 @@
   index: ["SCIE", "EI"]
   if: 6.6
   dblp: "https://dblp.org/rec/journals/asc/LiWWL13.html"
+  tags: ["continuous_optimization", "digital_filters"]
 - key: "WLW2013TSEMAFOADIFD"
   authors: ["wang_yu", "li_bin", "weise_thomas"]
   title: "Two-Stage Ensemble Memetic Algorithm:&nbsp;Function Optimization and Digital IIR Filter Design"
@@ -1194,6 +1220,7 @@
   index: ["SCI", "EI"]
   issn: "0020-0255"
   dblp: "https://dblp.org/rec/journals/isci/WangLW13.html"
+  tags: ["continuous_optimization", "digital_filters"]
 - key: "WCT2012EOPABT"
   authors: ["weise_thomas", "chiong_raymond", "tang_ke"]
   title: "Evolutionary Optimization:&nbsp;Pitfalls and Booby Traps"
@@ -1210,6 +1237,7 @@
   index: ["EI"]
   issn: "1666-6046"
   dblp: "https://dblp.org/rec/journals/jcst/WeiseCT12.html"
+  tags: ["optimization", "epistasis", "neutrality", "ruggedness", "deceptiveness"]
 - key: "WDT2012ADSTDCARPUGP"
   authors: ["devert_alexandre", "weise_thomas", "tang_ke"]
   title: "A&nbsp;Study on Scalable Representations for Evolutionary Optimization of Ground Structures"
@@ -1228,6 +1256,7 @@
   index: ["SCIE", "EI"]
   issn: "1063-6560"
   dblp: "https://dblp.org/rec/journals/ec/DevertWT12.html"
+  tags: ["continuous_optimization", "structural_design"]
 - key: "DWT2012ASOSRFEOOGS"
   authors: ["weise_thomas", "devert_alexandre", "tang_ke"]
   title: "A&nbsp;Developmental Solution to (Dynamic) Capacitated Arc Routing Problems using Genetic Programming"
@@ -1243,6 +1272,7 @@
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/WeiseDT12.html"
   gpbib: "Weise_2012_GECCO"
+  tags: ["CARP", "logistics", "GP"]
 - key: "BBBBW2012OOTWSCWDACOSWS"
   authors: ["bansal_ajay", "bansal_srividya", "blake_m_brian", "bleul_steffen", "weise_thomas"]
   title: "Overview of the Web Services Challenge&nbsp;(WSC):&nbsp;Discovery and Composition of Semantic Web Services"
@@ -1253,6 +1283,7 @@
   year: 2012
   month: 4
   dblp: "https://dblp.org/rec/books/daglib/p/BansalBBBW12.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "WT2012EDAWGP"
   authors: ["weise_thomas", "tang_ke"]
   title: "Evolving Distributed Algorithms with Genetic Programming"
@@ -1272,6 +1303,7 @@
   index: ["SCI", "EI"]
   dblp: "https://dblp.org/rec/journals/tec/WeiseT12.html"
   gpbib: "Weise_2011_ieeeTEC"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "JCW2012SNTAL"
   authors: ["jovanovic_jelena", "chiong_raymond", "weise_thomas"]
   title: "Social Networking, Teaching, and Learning:&nbsp;Introduction to Special Section on Social Networking, Teaching, and Learning&nbsp;(SNTL)"
@@ -1281,6 +1313,7 @@
   month: 4
   issn: "1555-1229"
   rg: "286939422"
+  tages: ["teaching"]
 - key: "DWZ2012PBDEA"
   authors: ["deng_changshou", "weise_thomas", "zhao_bingyan"]
   title: "Pseudo Binary Differential Evolution Algorithm"
@@ -1289,6 +1322,7 @@
   year: 2012
   month: 3
   issn: "2374-7447"
+  tags: ["discrete_optimization", "DE"]
 - key: "CWM2012VOEAFRWA"
   authors: ["chiong_raymond", "weise_thomas", "michalewicz_zbigniew"]
   authors_are_editors: true
@@ -1300,6 +1334,7 @@
   year: 2012
   month: 1
   dblp: "https://dblp.org/rec/books/sp/chiong12.html"
+  tags: ["EAs"]
 - key: "BCCDJMNW2012EO"
   authors: ["blum_christian", "chiong_raymond", "clerc_maurice", "de_jong_kenneth_alan", "michalewicz_zbigniew", "neri_ferrante", "weise_thomas"]
   title: "Evolutionary Optimization"
@@ -1312,6 +1347,7 @@
   month: 1
   rg: "280385466"
   dblp: "https://dblp.org/rec/books/sp/chiong2012/BlumCCJMNW12.html"
+  tags: ["EAs"]
 - key: "WLWWYT2011SALBPSO"
   authors: ["wang_yu", "li_bin", "weise_thomas", "wang_jianyu", "yuan_bo", "tian_qiongjie"]
   title: "Self-Adaptive Learning Based Particle Swarm Optimization"
@@ -1329,6 +1365,7 @@
   index: ["SCI", "EI"]
   issn: "0020-0255"
   dblp: "https://dblp.org/rec/journals/isci/WangLWWYT11.html"
+  tags: ["continuous_optimization", "PSO"]
 - key: "FTW2012MBOSMFLFID"
   authors: ["fan_xiannian", "tang_ke", "weise_thomas"]
   title: "Margin-Based Over-Sampling Method for Learning From Imbalanced Datasets"
@@ -1343,6 +1380,7 @@
   index: ["EI"]
   rg: "220895078"
   dblp: "https://dblp.org/rec/conf/pakdd/FanTW11.html"
+  tags: ["classification"]
 - key: "WC2011ANEOAFTTDP"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "A&nbsp;Novel Extremal Optimization Approach for the Template Design Problem"
@@ -1354,6 +1392,7 @@
   issn: "1947-9344"
   rg: "220366734"
   dblp: "https://dblp.org/rec/journals/ijoci/WeiseC11.html"
+  tags: ["template_design", "local_search", "packing"]
 - key: "WNCW2011AFFMMEWMR"
   authors: ["weise_thomas", "niemczyk_stefan", "chiong_raymond", "wan_mingxu"]
   title: "A&nbsp;Framework for Multi-Model EDAs with Model Recombination"
@@ -1366,6 +1405,7 @@
   index: ["EI"]
   rg: "220866931"
   dblp: "https://dblp.org/rec/conf/evoW/WeiseNCW11.html"
+  tags: ["continuous_optimization", "EDAs", "clustering"]
 - key: "WWT2011NLSATEOMA"
   authors: ["wan_mingxu", "weise_thomas", "tang_ke"]
   title: "Novel Loop Structures and the Evolution of Mathematical Algorithms"
@@ -1378,6 +1418,7 @@
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/eurogp/WanWT11.html"
   gpbib: "wan_2011_EuroGP"
+  tags: ["GP", "algorithm_synthesis"]
 - key: "CW2012SIOMSHAA"
   authors: ["chiong_raymond", "weise_thomas"]
   title: "Editorial:&nbsp;Special Issue on Modern Search Heuristics and Applications"
@@ -1406,6 +1447,7 @@
   issn: "1864-5909"
   rg: "225153661"
   dblp: "https://dblp.org/rec/journals/evi/WangWC11.html"
+  tags: ["GP", "classification"]
 - key: "WWZKSSLWZ2011POTFOCIAIFD"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "lu_jianhua", "weise_thomas", "zhang_du"]
   title: "Perspectives on the Field of Cognitive Informatics and Its Future Development"
@@ -1434,6 +1476,7 @@
   issn: "2163-2871"
   rg: "224216650"
   dblp: "https://dblp.org/rec/conf/soca/YuWTB10.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "BWB2010WWSCAE"
   authors: ["blake_m_brian", "weise_thomas", "bleul_steffen"]
   title: "WSC-2010:&nbsp;Web Services Composition and Evaluation"
@@ -1448,6 +1491,7 @@
   issn: "2163-2871"
   rg: "224216649"
   dblp: "https://dblp.org/rec/conf/soca/BlakeWB10.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "CWYT2010LSGOUCCWVIL"
   authors: ["chen_wenxiang", "weise_thomas", "yang_zhenyu", "tang_ke"]
   title: "Large-Scale Global Optimization Using Cooperative Coevolution with Variable Interaction Learning"
@@ -1461,6 +1505,7 @@
   caai: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/ppsn/ChenWYT10.html"
+  tags: ["continuous_optimization", "DE", "large_scale"]
 - key: "WNT2010AAOAB"
   authors: ["weise_thomas", "niu_li", "tang_ke"]
   title: "AOAB &mdash; Automated Optimization Algorithm Benchmarking"
@@ -1475,6 +1520,7 @@
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/WeiseNT10.html"
+  tag: ["continuous_optimization", "benchmarking"]
 - key: "WC2010EDMAFRBATBC"
   authors: ["weise_thomas", "chiong_raymond"]
   title: "Evolutionary Data Mining Approaches for Rule-based and Tree-based Classifiers"
@@ -1488,6 +1534,7 @@
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WC2010EDMAFRBATBC.pdf"]
   dblp: "https://dblp.org/rec/conf/IEEEicci/WeiseC10.html"
   gpbib: "Weise_2010_ICCI"
+  tag: ["GP", "classification", "LNCS"]
 - key: "WTWTY2010UGTEDRFCIFDS"
   authors: ["wang_pu", "tsang_edward_pk", "weise_thomas", "tang_ke", "yao_xin"]
   title: "Using GP to Evolve Decision Rules for Classification in Financial Data Sets"
@@ -1502,6 +1549,7 @@
   dblp: "https://dblp.org/rec/conf/IEEEicci/WangTWTY10.html"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WTWTY2010UGPTEDRFCIFDS.pdf"]
   gpbib: "wang_2010_ICCI"
+  tag: ["GP", "classification", "LNCS", "finance"]
 - key: "WWZKSSWZZ2010POCIAIFDSOPPIII"
   authors: ["wang_yingxu", "widrow_bernard", "zhang_bo", "kinsner_witold", "sugawara_kenji", "sun_fuchun", "weise_thomas", "zhong_yixin", "zhang_du"]
   title: "Perspectives on Cognitive Informatics and Its Future Development:&nbsp;Summary of Plenary Panel&nbsp;II of IEEE&nbsp;ICCI'10"
@@ -1531,6 +1579,7 @@
   index: ["SCI", "EI"]
   issn: "0020-0255"
   dblp: "https://dblp.org/rec/journals/isci/WangLW10.html"
+  tag: ["continuous_optimization", "DE", "EDAs", "economic_dispatch"]
 - key: "CWL2009TDUEOWMSO"
   authors: ["chiong_raymond", "weise_thomas", "lau_bee_theng"]
   title: "Template Design using Extremal Optimization with Multiple Search Operators"
@@ -1544,6 +1593,7 @@
   index: ["EI"]
   rg: "232656972"
   dblp: "https://dblp.org/rec/conf/socpar/ChiongWL09.html"
+  tags: ["template_design", "packing", "local_search"]
 - key: "WPG2009SRWVRPWEA"
   authors: ["weise_thomas", "podlich_alexander", "gorldt_christian"]
   editors: ["chiong_raymond",  "dhakal_sandeep"]
@@ -1556,6 +1606,7 @@
   month: 10
   rg: "225788788"
   dblp: "https://dblp.org/rec/series/sci/WeisePG09.html"
+  tags: ["VRP", "logistics", "EAs"]
 - key: "WC2009EAATADS"
   authors: ["weise_thomas", "chiong_raymond"]
   editors: ["chiong_raymond"]
@@ -1568,6 +1619,7 @@
   month: 9
   dblp: "https://dblp.org/rec/books/igi/Chiong10/WeiseC10.html"
   gpbib: "Weise_2010_ISALA"
+  tags: ["EAs", "distributed_systems"]
 - key: "WZ2009EDAWGPE"
   authors: ["weise_thomas", "zapf_michael"]
   title: "Evolving Distributed Algorithms with Genetic Programming:&nbsp;Election"
@@ -1581,6 +1633,7 @@
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WZ2009EDAWGPE.pdf"]
   dblp: "https://dblp.org/rec/conf/gecco/WeiseZ09.html"
   gpbib: "WeiseZ_2009_GEC"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "KBBBW2009W2AQOSOWSC"
   authors: ["kona_srividya", "bansal_ajay", "blake_m_brian", "bleul_steffen", "weise_thomas"]
   title: "WSC-2009:&nbsp;A&nbsp;Quality of Service-Oriented Web Services Challenge"
@@ -1593,6 +1646,7 @@
   issn: "2330-9903"
   rg: "221542482"
   dblp: "https://dblp.org/rec/conf/wecwis/KonaBBBW09.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "WPMG2009OGMEA"
   authors: ["weise_thomas", "podlich_alexander", "menze_manfred", "gorldt_christian"]
   title: "Optimierte Güterverkehrsplanung mit Evolutionären Algorithmen"
@@ -1600,6 +1654,7 @@
   type: "article"
   year: 2009
   month: 6
+  tags: ["EAs", "VRP", "logistics"]
 - key: "CBWG2009AFAFBPM"
   authors: ["comes_diana_elena", "bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "A&nbsp;Flexible Approach for Business Processes Monitoring"
@@ -1611,6 +1666,7 @@
   month: 6
   rg: "220973484"
   dblp: "https://dblp.org/rec/conf/dais/ComesBWG09.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "W2009EDAWGP"
   title: "Evolving Distributed Algorithms with Genetic Programming"
   authors: ["weise_thomas"]
@@ -1620,6 +1676,7 @@
   type: "thesis"
   url: ["https://urn.fi/urn:nbn:de:hebis:34-2009051127217", "http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/https___kobra.bibliothek.uni-kassel.de_bitstream_urn_nbn_de_hebis_34-2009051127217_3_DissertationThomasWeise.pdf"]
   gpbib: "Weise_thesis"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "WZCN2009WIOD"
   authors: ["weise_thomas", "zapf_michael", "chiong_raymond", "nebro_urbaneja_antonio_jesus"]
   title: "Why is optimization difficult?"
@@ -1631,6 +1688,7 @@
   month: 4
   rg: "226934059"
   dblp: "https://dblp.org/rec/series/sci/WeiseZCN09.html"
+  tags: ["optimization", "ruggedness", "deceptiveness", "epistasis", "neutrality"]
 - key: "WPRGG2009EFTP"
   authors: ["weise_thomas", "podlich_alexander", "reinhard_kai", "gorldt_christian", "geihs_kurt"]
   title: "Evolutionary Freight Transportation Planning"
@@ -1643,6 +1701,7 @@
   index: ["EI"]
   slides: ["https://www.researchgate.net/publication/220866768"]
   dblp: "https://dblp.org/rec/conf/evoW/WeisePRGG09.html"
+  tags: ["EAs", "VRP", "logistics"]
 - key: "WZKG2009CGPAMDD"
   authors: ["weise_thomas", "zapf_michael", "khan_mohammad_ullah", "geihs_kurt"]
   title: "Combining Genetic Programming and Model-Driven Development"
@@ -1659,6 +1718,7 @@
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WZKG2009DGPFz.pdf"]
   dblp: "https://dblp.org/rec/journals/ijcia/WeiseZKG09.html"
   gpbib: "Weise_2009_IJCIA"
+  tags: ["GP", "algorithm_synthesis"]
 - key: "PWMG2009IWFDLVM"
   authors: ["podlich_alexander", "weise_thomas", "menze_manfred", "gorldt_christian"]
   title: "Intelligente Wechselbrückensteuerung für die Logistik von Morgen"
@@ -1670,9 +1730,10 @@
   issn: 1863-2122
   rg: "220054418"
   dblp: "https://dblp.org/rec/journals/eceasst/PodlichWMG09.html"
+  tags: ["EAs", "VRP", "logistics"]
 - key: "BWG2009TWSCAROSWSC"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
-  title: "The Web Service Challenge &mdash; A Review on Semantic Web Service Composition"
+  title: "The Web Service Challenge &mdash; A&nbsp;Review on Semantic Web Service Composition"
   citation: "<em>Workshops der Wissenschaftlichen Konferenz Kommunikation in Verteilten Systemen&nbsp;(WowKiVS'2009),</em> March 6, 2009, Kassel, Hesse, Germany In <em>Electronic Communications of the EASST&nbsp;(ECEASST),</em> volume&nbsp;17, Potsdam, Germany:&nbsp;European Association of Software Science and Technology"
   doi: "10.14279/tuj.eceasst.17.204"
   type: "conference"
@@ -1680,6 +1741,7 @@
   month: 3
   rg: "220054131"
   dblp: "https://dblp.org/rec/journals/eceasst/BleulWG09.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "CW2009GOAML"
   authors: ["chiong_raymond", "weise_thomas"]
   title: "Global Optimisation and Mobile Learning"
@@ -1687,6 +1749,7 @@
   type: "article"
   year: 2009
   month: 1
+  tags: ["teaching"]
 - key: "W2009GOEB"
   authors: ["weise_thomas"]
   title: "Global Optimization Algorithms &mdash; Theory and Application"
@@ -1695,6 +1758,7 @@
   type: "book"
   year: 2009
   gpbib: "W2007GOEB"
+  tags: ["optimization", "metaheuristics", "local_search", "GP"]
 - key: "ZW2008CSE"
   authors: ["zapf_michael", "weise_thomas"]
   title: "Can Solutions Emerge?"
@@ -1709,6 +1773,7 @@
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_ZW2008CSE.pdf"]
   gpbib: "Zapf_2008_IWSOS"
   dblp: "https://dblp.org/rec/conf/iwsos/ZapfW08.html"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "ZW2008AOEETDSS"
   authors: ["zapf_michael", "weise_thomas"]
   title: "Applicability of Emergence Engineering to Distributed Systems Scenarios"
@@ -1717,6 +1782,7 @@
   rg: "36410535"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_ZW2008AOEETDSS.pdf"]
   gpbib: "Zapf_2008_eumas"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "BWG2008GSDFMR"
   authors: ["baer_philipp_andreas", "weise_thomas", "geihs_kurt"]
   title: "Geminga:&nbsp;Service Discovery for Mobile Robotics"
@@ -1729,6 +1795,7 @@
   issn: "2163-9019"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/icsnc/BaerWG08.html"
+  tags: ["distributed_systems", "robotics"]
 - key: "WNSRG2008ATMFMOERANFL"
   authors: ["weise_thomas", "niemczyk_stefan", "skubch_hendrik", "reichle_roland", "geihs_kurt"]
   title: "A&nbsp;Tunable Model for Multi-Objective, Epistatic, Rugged, and Neutral Fitness Landscapes"
@@ -1743,6 +1810,7 @@
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/WeiseNSRG08.html"
+  tags: ["benchmarking", "wmoel", "discrete_optimization", "ruggeness", "epistasis", "neutrality", "deceptiveness"]
 - key: "WBKG2008SWSCFSOA"
   authors: ["weise_thomas", "bleul_steffen", "kirchhoff_marc", "geihs_kurt"]
   title: "Semantic Web Service Composition for Service-Oriented Architectures"
@@ -1755,6 +1823,7 @@
   index: ["EI"]
   rg: "221542665"
   dblp: "https://dblp.org/rec/conf/wecwis/WeiseBKG08.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "BBKBWJ2008W0CTWSC"
   authors: ["bansal_ajay", "blake_m_brian", "kona_srividya", "bleul_steffen", "weise_thomas", "jager_michael_c"]
   title: "WSC-08:&nbsp;Continuing the Web Services Challenge"
@@ -1766,6 +1835,7 @@
   month: 7
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/wecwis/BansalBKBWJ08.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "WBCG2008DATSWSC"
   authors: ["weise_thomas", "bleul_steffen", "comes_diana_elena", "geihs_kurt"]
   title: "Different Approaches to Semantic Web Service Composition"
@@ -1779,6 +1849,7 @@
   index: ["EI"]
   rg: "4345875"
   dblp: "https://dblp.org/rec/conf/iciw/WeiseBCG08.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "WZG2008EPAP"
   authors: ["weise_thomas", "zapf_michael", "geihs_kurt"]
   title: "Evolving Proactive Aggregation Protocols"
@@ -1791,6 +1862,7 @@
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/eurogp/WeiseZG08.html"
   gpbib: "conf_eurogp_WeiseZG08"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "ZW2007OEEFAS"
   authors: ["zapf_michael", "weise_thomas"]
   title: "Offline Emergence Engineering For Agent Societies"
@@ -1801,6 +1873,7 @@
   month: 12
   rg: "36410043"
   gpbib: "Weise_2007_HIS"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "WZG2007RBGP"
   authors: ["weise_thomas", "zapf_michael", "geihs_kurt"]
   title: "Rule-based Genetic Programming"
@@ -1814,6 +1887,7 @@
   dblp: "https://dblp.org/rec/conf/bionetics/WeiseZG07.html"
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WZG2007RBGP.pdf"]
   gpbib: "WZG2007DGPFi"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "WZKG2007GPMMDD"
   authors: ["weise_thomas", "zapf_michael", "khan_mohammad_ullah", "geihs_kurt"]
   title: "Genetic Programming meets Model-Driven Development"
@@ -1828,6 +1902,7 @@
   rg: "4279273"
   dblp: "https://dblp.org/rec/conf/his/WeiseZKG07.html"
   gpbib: "Weise_2007_HIS"
+  tags: ["GP", "algorithm_synthesis"]
 - key: "BWG2007MAFSSCSF"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "Making a Fast Semantic Service Composition System Faster"
@@ -1840,6 +1915,7 @@
   index: ["EI"]
   rg: "4266846"
   dblp: "https://dblp.org/rec/conf/wecwis/BleulWG07.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "WGB2007GPFPAP"
   authors: ["weise_thomas", "geihs_kurt", "baer_philipp_andreas"]
   title: "Genetic Programming for Proactive Aggregation Protocols"
@@ -1852,6 +1928,7 @@
   url: ["http://gpbib.cs.ucl.ac.uk/cache/cache/.hidden_13-jun_902516423/http___www.it-weise.de_documents_files_WGB2007DGPFb.pdf"]
   dblp: "https://dblp.org/rec/conf/icannga/WeiseGB07.html"
   gpbib: "WGB2007DGPFb"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "BRZWG2007AGATTDOARS"
   authors: ["baer_philipp_andreas", "reichle_roland", "zapf_michael", "weise_thomas", "geihs_kurt"]
   title: "A&nbsp;Generative Approach to the Development of Autonomous Robot Software"
@@ -1863,6 +1940,7 @@
   month: 3
   index: ["EI"]
   issn: "2168-1864"
+  tags: ["distributed_systems", "robotics"]
 - key: "WG2006DAAFFDMOSAATTGPOSN"
   authors: ["weise_thomas", "geihs_kurt"]
   title: "DGPF &mdash; An Adaptable Framework for Distributed Multi-Objective Search Algorithms Applied to the Genetic Programming of Sensor Networks"
@@ -1874,6 +1952,7 @@
   month: 10
   index: ["EI"]
   gpbib: "WG2006DGPFc"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "BW2006AOFQASD"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "An Ontology for Quality-Aware Service Discovery"
@@ -1884,6 +1963,7 @@
   issn: "2766-483X"
   rg: "228669733"
   dblp: "https://dblp.org/rec/journals/csse/BleulWG06.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "WG2006GPTFSN"
   authors: ["weise_thomas", "geihs_kurt"]
   title: "Genetic Programming Techniques for Sensor Networks"
@@ -1893,6 +1973,7 @@
   year: 2006
   month: 7
   gpbib: "DGPF06b"
+  tags: ["GP", "algorithm_synthesis", "distributed_systems"]
 - key: "BWG2006LSSCISSD"
   authors: ["bleul_steffen", "weise_thomas", "geihs_kurt"]
   title: "Large-Scale Service Composition in Semantic Service Discovery"
@@ -1905,6 +1986,7 @@
   rg: "4245707"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/wecwis/BleulWG06.html"
+  tags: ["distributed_systems", "web_services"]
 - key: "BW2005AOFQASD"
   authors: ["bleul_steffen", "weise_thomas"]
   title: "An Ontology for Quality-Aware Service Discovery"
@@ -1912,6 +1994,7 @@
   type: "conference"
   year: 2005
   month: 12
+  tags: ["distributed_systems", "web_services"]
 - key: "WW2005EPXEFDEUVVELI"
   authors: ["wallnitz_elke", "weise_thomas"]
   title: "Ein plattformunabhängiger XML-Editor für die Erstellung und Verwaltung von E-Learning-Inhalten"
