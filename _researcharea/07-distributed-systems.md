@@ -30,9 +30,9 @@ We won that challenge in 2006, scored second in 2007, and third in 2008.
 Besides working on distributed algorithm synthesis and web services, I also contributed as co-author to several other domains of distributed systems, including routing and virtual network function placement.
 {%- assign other=ds -%}
 {%- for pa in ds -%}
-    {%- assign other=other | remove: pa -%}
+    {%- assign other=other | where_exp: "item", "item != pa" -%}
 {%- endfor -%}
 {%- for pb in ws -%}
-    {%- assign other=other | remove: pb -%}
+    {%- assign other=other | where_exp: "item", "item != pb" -%}
 {%- endfor -%}
 {::nomarkdown}{%- include publications.liquid papers=other shorter=true -%}{:/}
