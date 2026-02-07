@@ -29,7 +29,7 @@ We won that challenge in 2006, scored second in 2007, and third in 2008.
 ## Other Topics
 Besides working on distributed algorithm synthesis and web services, I also contributed as co-author to several other domains of distributed systems, including routing and virtual network function placement.
 {%- assign other=ds -%}
-{%- for pa in ds -%}
+{%- for pa in algopapers -%}
     {%- assign other=other | where_exp: "item", "item != pa" -%}
 {%- endfor -%}
 {%- for pb in ws -%}
