@@ -2,7 +2,7 @@
 title: "Teaching"
 permalink: /research/areas/teaching
 read_time: false
-toc: true
+toc: false
 author_profile: true
 ---
 
