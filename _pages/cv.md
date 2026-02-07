@@ -97,12 +97,12 @@ University of Science and Technology of China&nbsp;(<a href="http://en.ustc.edu.
 Association of German Engineers (Verein Deutscher Ingenieure, VDI) Nordhessen for the PhD dissertation.
 Awarded in 2011.</li>
 <li>{% include person.liquid person="weise_thomas" -%}, {% include person.liquid person="bleul_steffen" -%}, {% include person.liquid person="kirchhoff_marc" -%}, and {% include person.liquid person="geihs_kurt" -%}.
-Ranked third at the international Web Service Challenge (WSC'2008).
+Ranked third at the international {% include taglink.liquid tag="web_services" tag_text="Web Service" %} Challenge (WSC'2008).
 Washington, 2008.</li>
 <li>{% include person.liquid person="bleul_steffen" -%}, {% include person.liquid person="weise_thomas" -%}, and {% include person.liquid person="geihs_kurt" -%}.
-Ranked second at the international Web Service Challenge (WSC'07).
+Ranked second at the international {% include taglink.liquid tag="web_services" tag_text="Web Service" %} Challenge (WSC'07).
 Tokyo, 2007.</li>
 <li>{% include person.liquid person="bleul_steffen" -%}, {% include person.liquid person="weise_thomas" -%}, and {% include person.liquid person="geihs_kurt" -%}.
-Ranked first at the international Web Service Challenge (WSC'06).
+Ranked first at the international {% include taglink.liquid tag="web_services" tag_text="Web Service" %} Challenge (WSC'06).
 San Francisco, 2006.</li>
 </ul>

@@ -6,7 +6,7 @@ toc: false
 author_profile: true
 ---
 
-[`moptipy`](/moptipy)&nbsp;is a library with implementations of metaheuristic optimization methods in Python that also offers an environment for replicable experiments.
+[`moptipy`](/moptipy)&nbsp;is a library with implementations of metaheuristic optimization methods in {% include taglink.liquid tag="Python" %} that also offers an environment for replicable experiments and {% include taglink.liquid tag="benchmarking" -%}.
 Metaheuristic optimization algorithms are methods for solving hard problems.
 [`moptipy`](/moptipy)&nbsp;provides an API, several algorithm implementations, as well as experiment execution and evaluation facilities for metaheuristics.
 Here you can find a small presentation outlining some of the concepts of the system.

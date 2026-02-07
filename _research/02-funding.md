@@ -12,29 +12,29 @@ Here you can find a list of the completed research projects that Prof.&nbsp;Dr.&
 ## Projects as Principal Investigator
 
 ### {% assign project = project | plus: 1 -%}{{- project -}}.&nbsp;Research on the Automatic Performance Analysis of Optimization
-National Natural Science Foundation of China&nbsp;(NSFC), Regular Project *Research on the Automatic Performance Analysis of Optimization,* 2017 to 2020, Principal Investigator was {% include person.liquid person="weise_thomas" %}.<br>
+National Natural Science Foundation of China&nbsp;(NSFC), Regular Project *Research on the {% include taglink.liquid tag="benchmarking" tag_text="Automatic Performance Analysis" %} of Optimization,* 2017 to 2020, Principal Investigator was {% include person.liquid person="weise_thomas" %}.<br>
 国家自然科学基金委员会。面上项目《优化算法性能的自动分析研究》。
 
 ### {% assign project = project | plus: 1 -%}{{- project -}}.&nbsp;A Framework for Next Generation Algorithm Benchmarking: Performance Testing and Community Building
-The University of Newcastle in Callaghan, NSW, Australia, Faculty Strategic Initiatives Research Fund (SIRF) Grant *A Framework for Next Generation Algorithm Benchmarking: Performance Testing and Community Building,* 2014, The joint Principal Investigators were {% include person.liquid person="chiong_raymond" %}, {% include person.liquid person="weise_thomas" %}, and {% include person.liquid person="athauda_rukshan" %}
+The University of Newcastle in Callaghan, NSW, Australia, Faculty Strategic Initiatives Research Fund (SIRF) Grant *A Framework for Next Generation Algorithm {% include taglink.liquid tag="benchmarking" tag_text="Benchmarking" -%}: Performance Testing and Community Building,* 2014, The joint Principal Investigators were {% include person.liquid person="chiong_raymond" %}, {% include person.liquid person="weise_thomas" %}, and {% include person.liquid person="athauda_rukshan" %}
  
 ### {% assign project = project | plus: 1 -%}{{- project -}}.&nbsp;Intelligent Transportation Planning: Benchmarking of Novel Business Analytics Techniques using the Travelling Salesman Problem as a Test-Bed
-The University of Newcastle in Callaghan, NSW, Australia,&nbsp;Faculty Strategic Initiatives Research Fund (SIRF) Grant *Intelligent Transportation Planning: Benchmarking of Novel Business Analytics Techniques using the Travelling Salesman Problem as a Test-Bed,* 2013, The joint Principal Investigators were {% include person.liquid person="chiong_raymond" %}, {% include person.liquid person="weise_thomas" -%}, {% include person.liquid person="cornforth_david" -%}, and {% include person.liquid person="michalewicz_zbigniew" -%}.
+The University of Newcastle in Callaghan, NSW, Australia,&nbsp;Faculty Strategic Initiatives Research Fund (SIRF) Grant *Intelligent {% include taglink.liquid tag="logistics" tag_text="Transportation Planning" -%}: Benchmarking of Novel Business Analytics Techniques using the Travelling Salesman Problem as a Test-Bed,* 2013, The joint Principal Investigators were {% include person.liquid person="chiong_raymond" %}, {% include person.liquid person="weise_thomas" -%}, {% include person.liquid person="cornforth_david" -%}, and {% include person.liquid person="michalewicz_zbigniew" -%}.
 
 ### {% assign project = project | plus: 1 -%}{{- project -}}.&nbsp;Automatic Logistic Planning
-National Natural Science Foundation of China&nbsp;(NSFC), Research Fund for International Young Scientists, *Automatic Logistic Planning,* 2012, Principal Investigator was {% include person.liquid person="weise_thomas" -%}.<br>
+National Natural Science Foundation of China&nbsp;(NSFC), Research Fund for International Young Scientists, *Automatic {% include taglink.liquid tag="logistics" tag_text="Logistic" %} Planning,* 2012, Principal Investigator was {% include person.liquid person="weise_thomas" -%}.<br>
 国家自然科学基金委员会。国际(地区)合作与交流项目,外国青年学者研究基金。
 
 ### {% assign project = project | plus: 1 -%}{{- project -}}.&nbsp;Genetic Programming for Discrete Algorithm Synthesis
-China Postdoctoral Science Foundation, *Genetic Programming for Discrete Algorithm Synthesis,* 2011, Principal Investigator was {% include person.liquid person="weise_thomas" -%}.<br>
+China Postdoctoral Science Foundation, *{% include taglink.liquid tag="GP" tag_text="Genetic Programming" %} for Discrete {% include taglink.liquid tag="algorithm_synthesis" tag_text="Algorithm Synthesis" -%},* 2011, Principal Investigator was {% include person.liquid person="weise_thomas" -%}.<br>
 中国博士后科学基金会。中国博士后科学基金第四批特别资助《基于遗传编程技术的离散算法自动合成》。
 
 ### {% assign project = project | plus: 1 -%}{{- project -}}.&nbsp;Logistic Metamodel, Data Interchange, and Planning
-Chinese Academy of Sciences (CAS), Fellowship for Young International Scientists, *Logistic Metamodel, Data Interchange, and Planning,* 2011, Recipient was {% include person.liquid person="weise_thomas" -%}.<br>
+Chinese Academy of Sciences (CAS), Fellowship for Young International Scientists, *{% include taglink.liquid tag="logistics" tag_text="Logistic" %} Metamodel, Data Interchange, and Planning,* 2011, Recipient was {% include person.liquid person="weise_thomas" -%}.<br>
 中国科学院。中国科学院外籍青年科学家计划。
 
 ### {% assign project = project | plus: 1 -%}{{- project -}}.&nbsp;Low-Epistatic Genetic Programming for Synthesizing Algorithms
-China Postdoctoral Science Foundation, *Low-Epistatic Genetic Programming for Synthesizing Algorithms,* 2010 to 2011, Principal Investigator was {% include person.liquid person="weise_thomas" -%}.<br>
+China Postdoctoral Science Foundation, *Low-Epistatic {% include taglink.liquid tag="GP" tag_text="Genetic Programming" %} for {% include taglink.liquid tag="algorithm_synthesis" tag_text="Synthesizing Algorithms" -%},* 2010 to 2011, Principal Investigator was {% include person.liquid person="weise_thomas" -%}.<br>
 中国博士后科学基金会。中国博士后科学基金面上资助项目《用于自动算法设计的低异位显性遗传规划技术》。
 
 ## Projects as Team Member
