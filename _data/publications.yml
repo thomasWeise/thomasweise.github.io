@@ -10,7 +10,7 @@
   month: 5
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/wiopt/RaayatpanahWEMP25.html"
-  tags: ["mixed_integer", "linear_programming", "distributed_systems", "NFV"]
+  tags: ["mixed_integer", "linear_programming", "distributed_systems", "VNF"]
 - key: "WDWZCLNWW2025DAVFDFCDIC"
   authors: ["wu_zhize", "du_changjiang", "wang_xinqi", "zou_le", "cheng_fan", "li_teng", "nian_fudong", "weise_thomas", "wang_xiaofeng"]
   title: "Domain Adaptation via Feature Disentanglement for Cross-Domain Image Classification"
@@ -35,7 +35,7 @@
   year: 2025
   url: ["/programmingWithPython"]
   type: "book"
-  tags: ["python"]
+  tags: ["python", "teaching"]
 - key: "databases"
   authors: ["weise_thomas"]
   title: "Databases"
@@ -43,7 +43,7 @@
   year: 2025
   url: ["/databases"]
   type: "book"
-  tags: ["databases"]
+  tags: ["databases", "teaching"]
 - key: "ZWvdBTLTW2024RLSFTDBPAANRFFA"
   authors: ["zhao_rui", "wu_zhize", "van_den_berg_daan", "thurer_matthias", "liang_tianyu", "tan_ming", "weise_thomas"]
   title: "Randomized Local Search for Two-Dimensional Bin Packing and a Negative Result for Frequency Fitness Assignment"
@@ -719,7 +719,7 @@
   month: 8
   issn: "2836-5984"
   index: ["EI"]
-  tags: ["NFV", "optimization", "linear_programming"]
+  tags: ["VNF", "optimization", "linear_programming"]
 - key: "WW2018DFOCOPATTWMBPFST"
   authors: ["weise_thomas", "wu_zijun"]
   title: "Difficult Features of Combinatorial Optimization Problems and the Tunable W-Model Benchmark Problem for Simulating them"
@@ -1313,7 +1313,7 @@
   month: 4
   issn: "1555-1229"
   rg: "286939422"
-  tages: ["teaching"]
+  tags: ["teaching"]
 - key: "DWZ2012PBDEA"
   authors: ["deng_changshou", "weise_thomas", "zhao_bingyan"]
   title: "Pseudo Binary Differential Evolution Algorithm"
@@ -2005,6 +2005,7 @@
   isbn: "978-3885793953"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/delfi/WallnitzW05.html"
+  tags: ["teaching"]
 - key: "WW2005PIKEFCELMBOX"
   authors: ["wallnitz_elke", "weise_thomas"]
   title: "Platform-independent KML Editor for Creating E-Learning Modules based on XML"
@@ -2013,6 +2014,7 @@
   type: "conference"
   year: 2005
   month: 6
+  tags: ["teaching"]
 - key: "KFW2005FFDSAMOCROOSC"
   authors: ["kalfa_winfried", "fickert_volker", "weise_thomas"]
   title: "Framework for Distributed Simulation and Measuring of Complex Relations of Operating System Components"
@@ -2021,6 +2023,7 @@
   type: "conference"
   year: 2005
   month: 6
+  tags: ["teaching"]
 - key: "W2005EEWEFDEVLIXF"
   authors: ["weise_thomas"]
   title: "Entwicklung eines WYSIWYG Editors für das Erstellen von Lehrmaterial im XML Format"
@@ -2028,6 +2031,7 @@
   type: "conference"
   year: 2005
   month: 4
+  tags: ["teaching"]
 - key: "WW2005DPKEAWZEVELMADBVX"
   authors: ["wallnitz_elke", "weise_thomas"]
   title: "Der plattformunabhängige KML-Editor als Werkzeug zur Entwicklung von E-Learning-Modulen auf der Basis von XML"
@@ -2037,3 +2041,4 @@
   isbn: "978-3-8322-4649-5"
   year: 2005
   month: 3
+  tags: ["teaching"]

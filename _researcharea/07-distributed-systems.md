@@ -27,7 +27,7 @@ We won that challenge in 2006, scored second in 2007, and third in 2008.
 {::nomarkdown}{%- include publications.liquid papers=ws shorter=true -%}{:/}
 
 ## Other Topics
-Besides working on distributed algorithm synthesis and web services, I also contributed as co-author to several other domains of distributed systems, including routing and virtual network function placement.
+Besides working on distributed algorithm synthesis and web services, I also contributed to several other domains of distributed systems, including {% include taglink.liquid tag="routing" %}, {% include taglink.liquid tag="VNF" tag_text="virtual network function" %} placement, and {% include taglink.liquid tag="robotics" -%}.
 {%- assign other=ds -%}
 {%- for pa in algopapers -%}
     {%- assign other=other | where_exp: "item", "item != pa" -%}

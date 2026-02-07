@@ -6,9 +6,10 @@ toc: true
 author_profile: true
 ---
 
-In the field of optimization, benchmarking is the research area focussed on how to investigate algorithm performance.
+In the field of optimization, benchmarking is the research area focussed on how to investigate algorithm performance experimentally.
 The goal is to get a reliable and replicable impression of how good and how efficient algorithms are.
-This then serves as foundation for the decision which algorithm to use for a given real-world problem and/or how we may improve performance by research. 
+This then serves as foundation for the decision which algorithm to use for a given real-world problem and/or how we may improve performance by research.
+Since this research direction is a mixture of experiments and statistics, it gives me a chance to do some programming for research (yeah!) and contribute packages like [moptipy](/moptipy) which practically implement theoretically-grounded best practices into industry-grade software based on many years of experience. 
 
 ## Introduction
 Optimization problems usually are not singular tasks that can be solved once and then everyone is happy.
@@ -28,7 +29,8 @@ We use experiments to investigate algorithm performance.
 We try to do this in a statistically sound and replicable way.
 And I have worked on this field for quite some years.
 For example, I have [organized several workshops](/research/events) on the topic at international conferences.
-And I also give [talks](/talks) related to it.
+I also give [talks](/talks) related to it.
+And I contributed heaps of open source software, ranging from the modern [moptipy](/moptipy) {% include taglink.liquid tag="Python" %} package over the {% include taglink.liquid tag="TSPSuite" %} and the {% include taglink.liquid tag="optimizationBenchmarking" %} packages to the early [AOAB](/research/publications#WNT2010AAOAB) and the yet-earlier [DGPF](/research/publications#WG2006DAAFFDMOSAATTGPOSN).
 
 ## Publications
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.tags contains 'benchmarking'" -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
