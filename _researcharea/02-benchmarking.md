@@ -33,4 +33,10 @@ I also give [talks](/talks) related to it.
 And I contributed heaps of open source software, ranging from the modern [moptipy](/moptipy) {% include taglink.liquid tag="Python" %} package over the {% include taglink.liquid tag="TSPSuite" %} and the {% include taglink.liquid tag="optimizationBenchmarking" %} packages to the early [AOAB](/research/publications#WNT2010AAOAB) and the yet-earlier [DGPF](/research/publications#WG2006DAAFFDMOSAATTGPOSN).
 
 ## Publications
+
+### Core Papers
+{% assign thepapers = "WW2023RSDEWASSAA,WCLW2020SADSOBIFATMPFBBDOA,WWQLT2018ADCOAAPIBAWATCFEDASAIF" | split: "," -%}
+{%- include publications.liquid papers=thepapers shorter=true %}
+
+### Complete List
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.tags contains 'benchmarking'" -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}

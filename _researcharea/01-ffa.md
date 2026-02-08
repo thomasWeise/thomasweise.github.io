@@ -25,12 +25,49 @@ Instead, it prefers solutions whose objective values (or costs, or quality ratin
 In other words, it does no longer matter whether one solution is better.
 Matter of fact, algorithms using FFA may "optimize" toward worse solutions half of their time.
 
+## Invariance
 Dropping the bias towards better solutions has an interesting consequence:
 Algorithms that use FFA are invariant under all injective transformations of the objective function value.
 This is the strongest theoretically possible invariance property.
 The only other algorithms that have it are random sampling, random walks, and exhaustive enumeration.
 These methods, however, are pretty awful approaches to optimization.
-Not FFA, though, as it turned out to work quite well in domains such as MaxSat, the Traveling Salesperson Problem, the Quadratic Assignment Problem, and on discrete benchmark functions.
+Not FFA, though, as it turned out to work quite well in domains such as {% include taglink.liquid tag="MaxSat" -%}, the {% include taglink.liquid tag="TSP" tag_text="Traveling Salesperson Problem" -%}, the {% include taglink.liquid tag="QAP" tag_text="Quadratic Assignment Problem" %}, and on discrete benchmark functions.
+
+But what does this invariance property mean?
+Imagine that you replace the objective function *f(x)* with a function *g(x)=-f(x)*.
+If you try to solve both functions with an FFA-based algorithm, the algorithm will take the exactly same path through the search space.
+Matter of fact, you could replace *f(x)* with a function that *encrypts* its output and only pass the *encrypted* objective values on to the algorithm.
+It will still take the same path through the search space.
+It would take you to the same optimal solution (from the perspective of *f(x)*) at exactly the same time step as if it was working on *f(x)* directly.
+How weird is that?
+
+## Features of FFA
+
+- **Advantages:**
+  - FFA renders optimization algorithm invariant under all injective transformations of the objective function value.
+  - FFA can prevent premature convergence to local optima.
+  - FFA leads to an optimization process that explores the whole objective space.
+  - FFA increases the chance of finding global optima.
+- **Disadvantages:**
+  - FFA makes the optimization process much slower, because the search effort is distributed evenly over the range of the objective function.
+  - The slowdown caused by FFA seems to be proportional to the number of possible different objective values, i.e., is large if the objective function can take on many different values.
+  - FFA requires a large number of objective function evaluations to reach good solution.
+    100'000'000&nbsp;FEs is a reasonable *minimum* computational budget.
+  - If a problem can already be solved reasonably well by a local search or EA, FFA will make them much slower.
+- **Application Areas:**
+  - FFA can be applied to combinatorial and discrete problems, but will not work for continuous domains.
+  - The objective function should only be able to take on a few possible values, which is the case for many {% include taglink.liquid tag="MaxSat" %} instances, {% include taglink.liquid tag="packing" %} as well as for many {% include taglink.liquid tag="scheduling" %} problems.
+  - It should be possible to perform many objective function evaluations, say 100'000'000, within a reasonable time.
+  - If most candidate solutions have unique objective values, then FFA degenerates to a random walk, i.e., will perform very poorly.
+
+As you can see, right now, we do not have a very wide range of problems where FFA will perform very well.
+However, the unique properties of FFA, such as the invariance property and the simple fact that it actually works, make it highly interesting.
+Consider this:
+If we plug FFA into a simple (1+1)&nbsp;EA, this yields the (1+1)&nbsp;FEA which *does not prefer good solutions*, i.e., puts no search pressure towards finding better solutions.
+Yet, it can solve the MaxSat problems much faster than the (1+1)&nbsp;EA.
+Also, the (1+1)&nbsp;EA needs exponential runtime on deceptive benchmark problems like Trap, TwoMax, and Jump.
+The (1+1)&nbsp;FEA solves them about as fast as the very simple OneMax problem, i.e., in experimentally observed polynomial runtime.
+This odd approach to optimization deserves some more analysis.
 
 ## Publications
 [Here](talks/ffa.pdf) you can find a [talk](talks/ffa.pdf) introducing FFA from the perspective of invariance properties.
