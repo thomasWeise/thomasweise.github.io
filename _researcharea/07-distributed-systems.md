@@ -20,7 +20,7 @@ I tried to automatically generate algorithms for such tasks using {% include tag
 {::nomarkdown}{%- include publications.liquid papers=algopapers shorter=true -%}{:/}
 
 ## Web Services
-{% include taglink.liquid tag="web_services" tag_text="Web Services" %} are another interesting topic in distributed systems.
+Web Services are another interesting topic in distributed systems.
 Here, I was part of our team's participants of the international web service challenge, which tried to find efficient ways to compose semantically annotated web services in the mid-2000s.
 We won that challenge in 2006, scored second in 2007, and third in 2008.
 {%- assign ws=ds | where_exp: "item", "item.tags contains 'web_services'" -%}
