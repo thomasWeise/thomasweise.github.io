@@ -43,14 +43,14 @@
 @mixin pubframed($r: 0, $g: 0, $b: 0) {
     border-style: solid;
     border-width: thin;
-    border-radius: 3px;
+    border-radius: 0.2em;
     white-space: nowrap;
     padding-left: 0.3em;
     padding-right: 0.3em;
     padding-top: 0.08em;
     padding-bottom: 0.08em;
-    margin-top: 0.15em;
-    margin-bottom: 0.15em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
     text-decoration: none;
     color: rgba(0.5 * $r, 0.5 * $g, 0.5 * $b, 0.9);
     border-color: rgba($r, $g, $b, 0.6);
