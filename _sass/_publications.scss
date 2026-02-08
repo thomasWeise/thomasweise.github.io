@@ -40,7 +40,7 @@
 .pubtags {
 }
 
-.pubframed {
+@mixin pubframed($r: 0, $g: 0, $b: 0) {
     border-style: solid;
     border-width: thin;
     border-radius: 0.02em;
@@ -52,64 +52,31 @@
     padding-bottom: 0.08em;
     margin-top: 0.15em;
     margin-bottom: 0.15em;
+
+    color: rgba(0.5 * $r, 0.5 * $g, 0.5 * $b, 0.9);
+    border-color: rgba($r, $g, $b, 0.6);
+    background-color: rgba($r, $g, $b, 0.06);
+
+    &:hover: {
+        color: rgba(0.4 * $r, 0.4 * $g, 0.4 * $b, 0.9);
+        border-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
+        background-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
+    }
+    &focus: {
+        color: rgba(0.4 * $r, 0.4 * $g, 0.4 * $b, 0.9);
+        border-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
+        background-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
+    }
+    &link: {
+    }
+    &visited: {
+    }
 }
 
 .pubtag {
-    @extend .pubframed;
-    color: rgba(100, 0, 0, 0.9);
-    border-color: rgba(200, 0, 0, 0.6);
-    background-color: rgba(200, 0, 0, 0.06);
-}
-
-.pubtag:link {
-    @extend .pubtag;
-}
-
-.pubtag:visited {
-    @extend .pubtag;
-}
-
-.pubtag:hover {
-    @extend .pubtag;
-    color: rgba(80, 0, 0, 0.9);
-    border-color: rgba(180, 0, 0, 0.6);
-    background-color: rgba(180, 0, 0, 0.06);
-}
-
-.pubtag:active {
-    @extend .pubtag;
-}
-
-.pubtag:focous {
-    @extend .pubtag:hover;
+    @include pubframed($r: 200)
 }
 
 .pubinfos {
-    @extend .pubframed;
-    color: rgba(0, 100, 0, 0.9);
-    border-color: rgba(0, 200, 0, 0.6);
-    background-color: rgba(0, 200, 0, 0.06);
-}
-
-.pubinfos:link {
-    @extend .pubinfos;
-}
-
-.pubinfos:visited {
-    @extend .pubinfos;
-}
-
-.pubinfos:hover {
-    @extend .pubinfos;
-    color: rgba(0, 80, 0, 0.9);
-    border-color: rgba(0, 180, 0, 0.6);
-    background-color: rgba(0, 180, 0, 0.06);
-}
-
-.pubinfos:active {
-    @extend .pubinfos;
-}
-
-.pubinfos:focus {
-    @extend .pubinfos:hover;
+    @include pubframed($g: 200)
 }
