@@ -61,17 +61,25 @@
         color: rgba(0.4 * $r, 0.4 * $g, 0.4 * $b, 0.9);
         border-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
         background-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
+        text-decoration: none;
     }
     &:focus {
         color: rgba(0.4 * $r, 0.4 * $g, 0.4 * $b, 0.9);
         border-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
         background-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
+        text-decoration: none;
     }
     &:link {
+        text-decoration: none;
+        color: rgba(0.5 * $r, 0.5 * $g, 0.5 * $b, 0.9);
     }
     &:visited {
+        text-decoration: none;
+        color: rgba(0.5 * $r, 0.5 * $g, 0.5 * $b, 0.9);
     }
     &:active {
+        text-decoration: none;
+        color: rgba(0.5 * $r, 0.5 * $g, 0.5 * $b, 0.9);
     }
 }
 
