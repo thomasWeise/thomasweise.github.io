@@ -43,16 +43,15 @@
 @mixin pubframed($r: 0, $g: 0, $b: 0) {
     border-style: solid;
     border-width: thin;
-    border-radius: 0.02em;
+    border-radius: 3px;
     white-space: nowrap;
-    text-decoration: none;
     padding-left: 0.3em;
     padding-right: 0.3em;
     padding-top: 0.08em;
     padding-bottom: 0.08em;
     margin-top: 0.15em;
     margin-bottom: 0.15em;
-
+    text-decoration: none;
     color: rgba(0.5 * $r, 0.5 * $g, 0.5 * $b, 0.9);
     border-color: rgba($r, $g, $b, 0.6);
     background-color: rgba($r, $g, $b, 0.06);
@@ -76,6 +75,8 @@
     &:visited {
         text-decoration: none;
         color: rgba(0.5 * $r, 0.5 * $g, 0.5 * $b, 0.9);
+        border-color: rgba(math.max(0.9 * $r, 0.9 * math.max($r, $g, $b)), math.max(0.9 * $g, 0.9 * math.max($r, $g, $b)), math.max(0.9 * $b, 0.9 * math.max($r, $g, $b)), 0.6);
+        background-color: rgba(math.max($r, 0.9*math.max($r, $g, $b)), math.max($g, 0.9*math.max($r, $g, $b)), math.max($b, 0.9*math.max($r, $g, $b)), 0.06);
     }
     &:active {
         text-decoration: none;
