@@ -74,7 +74,7 @@
     }
     &:visited {
         text-decoration: none;
-        color: rgba(0.5 * $r, 0.5 * $g, 0.5 * $b, 0.9);
+        color: rgba(max(0.5 * $r, 0.4 * max($r, $g, $b)), max(0.5 * $g, 0.4 * max($r, $g, $b)), max(0.5 * $b, 0.4 * max($r, $g, $b)), 0.9);
         border-color: rgba(max(0.9 * $r, 0.9 * max($r, $g, $b)), max(0.9 * $g, 0.9 * max($r, $g, $b)), max(0.9 * $b, 0.9 * max($r, $g, $b)), 0.6);
         background-color: rgba(max($r, 0.9*max($r, $g, $b)), max($g, 0.9*max($r, $g, $b)), max($b, 0.9*max($r, $g, $b)), 0.06);
     }
