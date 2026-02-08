@@ -57,9 +57,9 @@
     background-color: rgba($r, $g, $b, 0.06);
 
     &:hover {
-        color: rgba(0.4 * $r, 0.4 * $g, 0.4 * $b, 0.9);
-        border-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
-        background-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
+        color: rgba(0.4 * $r, 0.4 * $g, 0.4 * $b, 0.9) !important;
+        border-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6) !important;
+        background-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6) !important;
         text-decoration: none !important;
         border-radius: 0.4em;
     }
