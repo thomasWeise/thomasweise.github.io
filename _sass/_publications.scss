@@ -61,6 +61,8 @@
         border-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
         background-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
         text-decoration: none !important;
+        font-weight: bold;
+        border-width: medium;
     }
     &:focus {
         color: rgba(0.4 * $r, 0.4 * $g, 0.4 * $b, 0.9);
