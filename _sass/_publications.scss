@@ -57,19 +57,21 @@
     border-color: rgba($r, $g, $b, 0.6);
     background-color: rgba($r, $g, $b, 0.06);
 
-    &:hover: {
+    &:hover {
         color: rgba(0.4 * $r, 0.4 * $g, 0.4 * $b, 0.9);
         border-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
         background-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
     }
-    &focus: {
+    &:focus {
         color: rgba(0.4 * $r, 0.4 * $g, 0.4 * $b, 0.9);
         border-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
         background-color: rgba(0.9 * $r, 0.9 * $g, 0.9 * $b, 0.6);
     }
-    &link: {
+    &:link {
     }
-    &visited: {
+    &:visited {
+    }
+    &:active {
     }
 }
 
