@@ -40,74 +40,76 @@
 .pubtags {
 }
 
-.pubtag {
+.pubframed {
     border-style: solid;
     border-width: thin;
+    border-radius: 0.02em;
     white-space: nowrap;
     text-decoration: none;
     padding-left: 0.3em;
     padding-right: 0.3em;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
+    padding-top: 0.08em;
+    padding-bottom: 0.08em;
     margin-top: 0.15em;
     margin-bottom: 0.15em;
+}
+
+.pubtag {
+    @extend .pubframed;
     color: rgba(100, 0, 0, 0.9);
     border-color: rgba(200, 0, 0, 0.6);
     background-color: rgba(200, 0, 0, 0.06);
 }
 
 .pubtag:link {
-    text-decoration: none;
-    color: rgba(100, 0, 0, 0.9);
+    @extend .pubtag;
 }
 
 .pubtag:visited {
-    text-decoration: none;
-    color: rgba(100, 0, 0, 0.9);
+    @extend .pubtag;
 }
 
 .pubtag:hover {
-    text-decoration: none;
-    color: rgba(100, 0, 0, 0.9);
+    @extend .pubtag;
+    color: rgba(80, 0, 0, 0.9);
+    border-color: rgba(180, 0, 0, 0.6);
+    background-color: rgba(180, 0, 0, 0.06);
 }
 
 .pubtag:active {
-    text-decoration: none;
-    color: rgba(100, 0, 0, 0.9);
+    @extend .pubtag;
+}
+
+.pubtag:focous {
+    @extend .pubtag:hover;
 }
 
 .pubinfos {
-    border-style: solid;
-    border-width: thin;
-    white-space: nowrap;
-    text-decoration: none;
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
-    margin-top: 0.15em;
-    margin-bottom: 0.15em;
+    @extend .pubframed;
     color: rgba(0, 100, 0, 0.9);
     border-color: rgba(0, 200, 0, 0.6);
     background-color: rgba(0, 200, 0, 0.06);
 }
 
 .pubinfos:link {
-    text-decoration: none;
-    color: rgba(0, 100, 0, 0.9);
+    @extend .pubinfos;
 }
 
 .pubinfos:visited {
-    text-decoration: none;
-    color: rgba(0, 100, 0, 0.9);
+    @extend .pubinfos;
 }
 
 .pubinfos:hover {
-    text-decoration: none;
-    color: rgba(0, 100, 0, 0.9);
+    @extend .pubinfos;
+    color: rgba(0, 80, 0, 0.9);
+    border-color: rgba(0, 180, 0, 0.6);
+    background-color: rgba(0, 180, 0, 0.06);
 }
 
 .pubinfos:active {
-    text-decoration: none;
-    color: rgba(0, 100, 0, 0.9);
+    @extend .pubinfos;
+}
+
+.pubinfos:focus {
+    @extend .pubinfos:hover;
 }
