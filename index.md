@@ -8,7 +8,7 @@ related: false
 last_modified_at: 2026-02-08
 ---
 
-This is the academic website of Dr.&nbsp;{%- include person.liquid person="weise_thomas" -%}, full professor at [Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" link="https://www.hfuu.edu.cn" %} located in the beautiful city of Hefei&nbsp;{%- include lang.liquid text="合肥市" %} in the Anhui Province&nbsp;{%- include lang.liquid text="安徽省" %} in China.
+This is the academic website of Dr.&nbsp;{%- include person.liquid person="weise_thomas" -%}, full professor at [Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %} located in the beautiful city of Hefei&nbsp;{%- include lang.liquid text="合肥市" %} in the Anhui Province&nbsp;{%- include lang.liquid text="安徽省" %} in China.
 
 My [research area](/research/areas) is metaheuristic optimization and operations research.
 I mainly focus on discrete and combinatorial problems from domains such as {% include taglink.liquid tag="logistics" %}, production planning, {% include taglink.liquid tag="scheduling" -%}, and {% include taglink.liquid tag="packing" -%}.
