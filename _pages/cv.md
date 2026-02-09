@@ -21,7 +21,7 @@ last_modified_at: 2026-02-07
   <li>When: 2009–2014</li>
   <li>Where: School of Software Engineering&nbsp;(<a href="http://sse.ustc.edu.cn">中国科学技术大学软件学院</a>), University of Science and Technology of China&nbsp;(<a href="http://en.ustc.edu.cn">USTC</a>, {% include lang.liquid text="中国科学技术大学" url="http://www.ustc.edu.cn" nowrap=true -%}) in Hefei&nbsp;{%- include lang.liquid text="合肥市" -%}, Anhui&nbsp;{%- include lang.liquid text="安徽省" -%}, China&nbsp;{%- include lang.liquid text="中国" -%}</li>
   <li>What: teaching</li></ul></li>
-<li>Postdoctoral Researcher&nbsp;(PostDoc, 博士后)<ul>
+<li>Postdoctoral Researcher&nbsp;(PostDoc, {% include lang.liquid text="博士后" nowrap=true -%})<ul>
   <li>When: 2009–2011</li>
   <li>Where: <a href="http://en.cs.ustc.edu.cn">School of Computer Science and Technology</a>&nbsp;{%- include lang.liquid text="计算机科学与技术学院" url="http://cs.ustc.edu.cn" -%}, University of Science and Technology of China&nbsp;(<a href="http://en.ustc.edu.cn">USTC</a>, {% include lang.liquid text="中国科学技术大学" url="http://www.ustc.edu.cn" nowrap=true -%}) in Hefei&nbsp;{%- include lang.liquid text="合肥市" -%}, Anhui&nbsp;{%- include lang.liquid text="安徽省" -%}, China&nbsp;{%- include lang.liquid text="中国" -%}</li>
   <li>What: research, teaching, and co-supervising undergraduate and graduate students</li>
@@ -44,13 +44,13 @@ last_modified_at: 2026-02-07
 
 ## Education and Training
 <ul>
-<li>Postdoctoral Researcher (PostDoc, 博士后)<ul>
+<li>Postdoctoral Researcher (PostDoc, {% include lang.liquid text="博士后" nowrap=true -%})<ul>
   <li>When: 2009–2011</li>
   <li>Where: <a href="http://en.cs.ustc.edu.cn">School of Computer Science and Technology</a>&nbsp;{%- include lang.liquid text="计算机科学与技术学院" url="http://cs.ustc.edu.cn" -%}, University of Science and Technology of China&nbsp;(<a href="http://en.ustc.edu.cn">USTC</a>, {% include lang.liquid text="中国科学技术大学" url="http://www.ustc.edu.cn" nowrap=true -%}) in Hefei&nbsp;{%- include lang.liquid text="合肥市" -%}, Anhui&nbsp;{%- include lang.liquid text="安徽省" -%}, China&nbsp;{%- include lang.liquid text="中国" -%}</li>
   <li>Topics: Evolutionary Computation, Benchmarking, Logistics, Genetic Programming</li>
   <li>What: research, teaching, and co-supervising undergraduate and graduate students</li>
   <li>Supervisor: {% include person.liquid person="yao_xin" %}</li></ul></li>
-<li>Doktor der Ingenieurwissenschaften (Dr.-Ing., 博士)<ul>
+<li>Doktor der Ingenieurwissenschaften (Dr.-Ing., {% include lang.liquid text="博士" nowrap=true -%})<ul>
   <li>When: 2005–2009</li>
   <li>Where: <a href="http://www.uni-kassel.de/eecs/vs">Distributed Systems Group</a>, <a href="http://www.uni-kassel.de/eecs">Fachbereich 16:&nbsp;Elektrotechnik/Informatik</a>, <a href="http://www.uni-kassel.de">University of Kassel</a>&nbsp;{%- include lang.liquid text="德国卡塞尔大学" %} in Kassel, Hessen, Germany</li>
   <li>Topic: Synthesis of distributed algorithms using Evolutionary Computation and Genetic Programming.</li>
@@ -70,27 +70,27 @@ last_modified_at: 2026-02-07
 ## Awards and Honors
 <ul>
 <li>{% include person.liquid person="weise_thomas" -%}.
-Huangshan Friendship Award of Anhui Province (安徽省黄山友谊奖).
-Anhui Provincial People's Government (安徽省人民政府).
+Huangshan Friendship Award of Anhui Province&nbsp;{% include lang.liquid text="安徽省黄山友谊奖" -%}.
+Anhui Provincial People's Government&nbsp;{% include lang.liquid text="安徽省人民政府" -%}.
 April 2025.</li>
-<li>Hefei University&nbsp;(合肥大学) and {% include person.liquid person="weise_thomas" -%}.
-Hefei Foreign Expert Studio 2021 (合肥市外国专家工作室).
-Hefei City Foreign Experts and Technology Talent Management Service Office (合肥市外国专家与科技人才管理服务处).
+<li>Hefei University&nbsp;{%- include lang.liquid text="合肥大学" %} and {% include person.liquid person="weise_thomas" -%}.
+Hefei Foreign Expert Studio 2021&nbsp;{%- include lang.liquid text="合肥市外国专家工作室" -%}.
+Hefei City Foreign Experts and Technology Talent Management Service Office&nbsp;{%- include lang.liquid text="合肥市外国专家与科技人才管理服务处" -%}.
 2022.</li>
 <li>{% include person.liquid person="weise_thomas" -%}.
-Hefei City Friendship Award (外国专家“友谊奖”).
-Hefei Municipal Government (合肥市人民政府).
+Hefei City Friendship Award&nbsp;{%- include lang.liquid text="外国专家" -%}.
+Hefei Municipal Government&nbsp;{%- include lang.liquid text="合肥市人民政府" -%}.
 December 2020.</li>
 <li>{% include person.liquid person="weise_thomas" -%}.
-Hefei Specially Recruited Foreign Expert (合肥市特聘外国专家证书) within the First Hefei Recruitment Program of Talented Foreigners (首批市"引进外国高端人才计划").
-Hefei Municipal Bureau of Science and Technology (合肥市科学技术局), Hefei Municipal Bureau of Foreign Experts Affairs (合肥市外国专家局).
+Hefei Specially Recruited Foreign Expert&nbsp;{%- include lang.liquid text="合肥市特聘外国专家证书" %} within the First Hefei Recruitment Program of Talented Foreigners&nbsp;{%- include lang.liquid text="引进外国高端人才计划" -%}.
+Hefei Municipal Bureau of Science and Technology&nbsp;{%- include lang.liquid text="合肥市科学技术局" -%}, Hefei Municipal Bureau of Foreign Experts Affairs&nbsp;{%- include lang.liquid text="合肥市外国专家局" -%}.
 2019.</li>
 <li>{% include person.liquid person="weise_thomas" -%}.
-Second Hefei Economic and Technological Development Area Friendship Award (第二届合肥经济技术开发区友谊奖).
-Administration Committee of the Hefei Economic and Technological Development Area (合肥经济技术开发区管理委员会).
+Second Hefei Economic and Technological Development Area Friendship Award&nbsp;{%- include lang.liquid text="第二届合肥经济技术开发区友谊奖" -%}.
+Administration Committee of the Hefei Economic and Technological Development Area&nbsp;{%- include lang.liquid text="合肥经济技术开发区管理委员会" -%}.
 2018.</li>
 <li>{% include person.liquid person="weise_thomas" -%}.
-HP&nbsp;Information Science Award for Young Teachers (惠普信息科学青年教师奖).
+HP&nbsp;Information Science Award for Young Teachers&nbsp;{%- include lang.liquid text="惠普信息科学青年教师奖" -%}.
 University of Science and Technology of China&nbsp;(<a href="http://en.ustc.edu.cn">USTC</a>, {% include lang.liquid text="中国科学技术大学" url="http://www.ustc.edu.cn" nowrap=true -%}).
 2016</li>
 <li>{% include person.liquid person="weise_thomas" -%}.
