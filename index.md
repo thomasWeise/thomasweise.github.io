@@ -12,7 +12,7 @@ This is the academic website of Dr.&nbsp;{%- include person.liquid person="weise
 My [research area](/research/areas) is metaheuristic optimization and operations research.
 I mainly focus on discrete and combinatorial problems from domains such as {% include taglink.liquid tag="logistics" %}, production planning, {% include taglink.liquid tag="scheduling" -%}, and {% include taglink.liquid tag="packing" -%}.
 
-My current main research interest is a technique called *Frequency Fitness Assignment*&nbsp;({%- include taglink.liquid tag="FFA" -%}), 频率适应度分配), which is an "Algorithm Plugin" that removes the bias towards better solutions from its host algorithm and makes it invariant under all injective transformations of the objective function value.
+My current main research interest is a technique called *Frequency Fitness Assignment*&nbsp;({%- include taglink.liquid tag="FFA" -%}, 频率适应度分配), which is an "Algorithm Plugin" that removes the bias towards better solutions from its host algorithm and makes it invariant under all injective transformations of the objective function value.
 This is the strongest theoretically possible invariance property and the only other algorithms that possess it are random sampling, random walks, and exhaustive enumeration.
 These methods are very bad optimization methods.
 Yet, if we plug it into the (1+1)&nbsp;EA, for instance, it leads to a speed-up of *three orders of magnitude* on the NP-hard MaxSat problem.
