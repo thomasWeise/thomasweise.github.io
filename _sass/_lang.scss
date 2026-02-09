@@ -1,5 +1,5 @@
 .langOuter {
-    color: lighten($text-color, 15%);
+    color: mix($text-color, $background-color, 70%);
 }
 
 .langInner {
