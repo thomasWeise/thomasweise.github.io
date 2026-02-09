@@ -388,6 +388,7 @@ qi_qi:
 raayatpanah_mohammad_ali:
   name: "Mohammad Ali Raayatpanah"
   name_cn: "محمدعلی رعایت پناه"
+  lang_cn: "fa"
   url: "https://gs.khu.ac.ir/cv/220/english"
   orcid: "0000-0002-3303-0981"
 ran_shuoyi:
@@ -409,6 +410,7 @@ shir_ofer_m:
 skubch_hendrik:
   name: "Hendrik Skubch"
   name_cn: "ヘンドリック スクバ"
+  lang_cn: "ja"
   url_cn: "https://thinkit.co.jp/author/10366"
 song_liangtu:
   name: "Liang-Tu SONG"
