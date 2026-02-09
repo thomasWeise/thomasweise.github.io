@@ -4,7 +4,7 @@ permalink: /cv/
 read_time: false
 toc: true
 author_profile: true
-last_modified_at: 2026-02-07
+last_modified_at: 2026-02-09
 ---
 
 ## Work Experience
@@ -58,7 +58,7 @@ last_modified_at: 2026-02-07
   <li>Result: summa cum laude</li>
   <li>Meaning: Comparable to the Doctor of Engineering, Engineering Doctorate, Doctor of Science, or a PhD degree.</li>
   <li>ISCED'2011 Level: 844</li></ul></li>
-<li>Diplom-Informatiker (Dipl.-Inf., 学士+硕士)<ul>
+<li>Diplom-Informatiker&nbsp;{%- include lang.liquid text="学士+硕士" -%}<ul>
   <li>When: 2001–2005</li>
   <li>Where: <a href="https://osg.informatik.tu-chemnitz.de/?&lang=en">Chair of Operating Systems</a>, <a href="http://www.tu-chemnitz.de/informatik/index.php.en">Department of Computer Science</a>, <a href="http://www.tu-chemnitz.de/en">Chemnitz University of Technology</a>&nbsp;{%- include lang.liquid text="德国开姆尼茨工业大学" %} in Chemnitz, Sachsen, Germany</li>
   <li>Supervisor: {% include person.liquid person="kalfa_winfried" %}</li>

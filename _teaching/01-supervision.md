@@ -9,7 +9,7 @@ I have supervised students at three different universities.
 Here you can find a list of these students, together with the papers we published together.
 
 {%- assign student = 0 %}
-## Current Students at Hefei University&nbsp;(合肥大学)
+## Current Students at Hefei University&nbsp;(<span lang="zh-Hans">合肥大学</span>)
 ### Master's Students at Hefei University
 
 #### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Ms. {% include person.liquid person="ding_yunfei" no_links=true %}
@@ -36,7 +36,7 @@ Here you can find a list of these students, together with the papers we publishe
 
 
 ## Alumni
-### At Hefei University&nbsp;(合肥大学)
+### At Hefei University&nbsp;(<span lang="zh-Hans">合肥大学</span>)
 #### Master's Students at Hefei University
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person="zhao_rui" no_links=true %}
@@ -81,8 +81,8 @@ Here you can find a list of these students, together with the papers we publishe
 - Duration: Summer 2019
 
 
-### At the University of Science and Technology of China (USTC, 中国科学技术大学)
-#### Master's Student at the University of Science and Technology of China (USTC, 中国科学技术大学)
+### At the University of Science and Technology of China (USTC, <span lang="zh-Hans">中国科学技术大学</span>)
+#### Master's Student at USTC
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Ms. {% include person.liquid person="qi_qi" no_links=true %}
 - Topic: Algorithm Behavior Modeling and Prediction
@@ -122,7 +122,7 @@ Here you can find a list of these students, together with the papers we publishe
 - Co-Supervisor: {% include person.liquid person="weise_thomas" %}
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'wan_mingxu'" -%}{%- include publications.liquid  papers=papers shorter=true -%}{:/}
 
-#### Bachelor's Student at the University of Science and Technology of China (USTC, 中国科学技术大学)
+#### Bachelor's Student at USTC
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Ms. {% include person.liquid person="ma_lu" no_links=true %}
 - Topic: Extremal-Dynamics based Local Search Algorithms for the Traveling Salesperson Problem
@@ -145,7 +145,7 @@ Here you can find a list of these students, together with the papers we publishe
     - Price Winner at 12th National Chinese Annual Challenge Cup ("Science Olympics")
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'chen_wenxiang'" -%}{%- include publications.liquid  papers=papers shorter=true -%}{:/}
 
-#### Research Assistants at the University of Science and Technology of China (USTC, 中国科学技术大学)
+#### Research Assistants at USTC
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person="xu_dan" no_links=true %}
 - Topic: Traveling Salesperson Problem
@@ -158,9 +158,9 @@ Here you can find a list of these students, together with the papers we publishe
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'ouyang_jin'" -%}{%- include publications.liquid  papers=papers shorter=true -%}{:/}
 
 
-### At the University of Kassel&nbsp;(德国卡塞尔大学), Germany
+### At the University of Kassel&nbsp;(<span lang="zh-Hans">德国卡塞尔大学</span>), Germany
 
-#### Master's Student at the University of Kassel, Germany
+#### Master's Student at the University of Kassel
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person="podlich_alexander" no_links=true %}
 - Topic: Intelligent Control of Swap Body-based Logistics on Road and Rail
@@ -174,7 +174,7 @@ Here you can find a list of these students, together with the papers we publishe
 - Supervisor: {% include person.liquid person="weise_thomas" %}
 - Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'niemczyk_stefan'" -%}{%- include publications.liquid  papers=papers shorter=true -%}{:/}
 
-#### Bachelor's Student at the University of Kassel, Germany
+#### Bachelor's Student at the University of Kassel
 
 ##### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person="voigtmann_christian" no_links=true %}
 - Topic: Integration of Evolutionary (trained) Classifiers into Weka
