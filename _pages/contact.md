@@ -14,7 +14,7 @@ GitHub:&nbsp;[thomasWeise](https://github.com/thomasWeise)
 
 ## Address in English
 <p>
-Thomas Weise (汤卫思教授)
+Thomas Weise&nbsp;{%- include lang.liquid text="汤卫思教授" -%}<br/>
 <a href="https://www.hfuu.edu.cn/english/c0/3e/c6081a114750/page.htm">School of Artificial Intelligence and Big Data</a><br/>
 <a href="https://www.hfuu.edu.cn/english">Hefei University</a> South Campus 2, Jinxiu Dadao 99<br/>
 Comprehensive Laboratory Building (Building 53)<br/>
@@ -24,7 +24,7 @@ Shushan District, Hefei 230601, Anhui, China
 
 ## Address in Chinese (中文的地址)
 <p lang="zh-Hans">
-Thomas Weise (汤卫思教授)<br/>
+汤卫思教授&nbsp;{%- include lang.liquid text="Thomas Weise" lang="de" -%}<br/>
 <a href="https://www.hfuu.edu.cn">合肥大学</a><br/>
 <a href="https://www.hfuu.edu.cn/aibd">人工智能与大数据学院</a><br/>
 中国 安徽省 合肥市 230601 蜀山区 经济技术开发区<br/>
