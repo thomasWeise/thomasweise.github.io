@@ -1,14 +1,15 @@
+{%- assign thearray = include.array -%}
+{%- assign size = thearray | size -%}
 {%- capture thelongarraytext -%}
-    {%- assign size = include.array | size -%}
     {%- if size == 1 -%}
-        {{- include.array[0] | strip | normalize_whitespace -}}
+        {{- thearray[0] | strip | normalize_whitespace -}}
     {%- else -%}
         {%- if size == 2 -%}
-            {{- include.array[0]  | strip | normalize_whitespace }} and {{ include.array[1]  | strip | normalize_whitespace }}
+            {{- thearray[0]  | strip | normalize_whitespace }} and {{ thearray[1]  | strip | normalize_whitespace }}
         {%- else -%}
             {%- assign sizemo = size | minus: 1 -%}
             {%- assign index = 1 -%}
-            {%- for item in include.array -%}
+            {%- for item in thearray -%}
                 {{- item | strip | normalize_whitespace -}}
                 {%- if index < size -%}
                     {%- if index < sizemo -%}, {% else -%}, and {% endif -%}
@@ -18,4 +19,4 @@
         {%- endif -%}
     {%- endif -%}
 {%- endcapture -%}
-{{- thelongarraytext | strip | normalize_whitespace -}}
+{{- thelongarraytext | strip | normalize_whitespace | strip -}}

@@ -1,8 +1,8 @@
 {%- if include.url and include.url != "" -%}
-    {%- assign opentag = '<a href="' | append: include.url | append: '" ' -%}
+    {%- assign opentag = '<a href="' | append: include.url | append: '" class="langInnerA" ' -%}
     {%- assign closetag = '</a>' -%}
 {%- else -%}
-    {%- assign opentag = '<span ' -%}
+    {%- assign opentag = '<span class="langInnerS" ' -%}
     {%- assign closetag = '</span>' -%}
 {%- endif -%}
-{{- opentag -}}class="langInner" lang="{%- if include.lang and include.lang != "" -%}{{- include.lang -}}{%- else -%}zh-Hans{%- endif -%}">{{- include.text -}}{{- closetag -}}
+{{- opentag -}}lang="{%- if include.lang and include.lang != "" -%}{{- include.lang -}}{%- else -%}zh-Hans{%- endif -%}">{{- include.text -}}{{- closetag -}}

@@ -2,9 +2,12 @@
     color: mix($text-color, $background-color, 80%);
 }
 
-.langInner {
+.langInnerS {
     font-size: 95%;
+}
 
+.langInnerA {
+    font-size: 95%;
     &:hover {
         color: mix($link-color-hover, $background-color, 80%) !important;
     }

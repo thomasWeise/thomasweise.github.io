@@ -3,7 +3,8 @@
     {%- capture thepersonstr -%}
         {%- include person.liquid person=theperson -%}
     {%- endcapture -%}
-    {%- assign thepersonary = thepersonstr | strip | normalize_whitespace | split: "äü@ß" -%}
+    {%- assign thepersonstr = thepersonstr | strip | normalize_whitespace | strip -%}
+    {%- assign thepersonary = thepersonstr | split: "äü@ß" -%}
     {%- assign thearray = thearray | concat: thepersonary -%}
 {%- endfor -%}
 {%- include print_array.liquid array=thearray -%}
