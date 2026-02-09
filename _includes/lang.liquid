@@ -1,4 +1,4 @@
-{%- nowrap=include.nowrap | default: false -%}
+{%- assign nowrap=include.nowrap | default: false -%}
 {%- if nowrap -%}
     {%- if include.url and include.url != "" -%}
         {%- assign opentag = '<a href="' | append: include.url | append: '" class="langwrp langlnk" ' -%}
