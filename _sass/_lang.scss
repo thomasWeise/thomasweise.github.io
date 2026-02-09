@@ -1,7 +1,23 @@
 .langOuter {
-    color: mix($text-color, $background-color, 77%);
+    color: mix($text-color, $background-color, 80%);
 }
 
 .langInner {
     font-size: 95%;
+
+    &:hover {
+        color: mix($link-color-hover, $background-color, 80%) !important;
+    }
+    &:focus {
+        color: mix($link-color-hover, $background-color, 80%) !important;
+    }
+    &:link {
+        color: mix($link-color, $background-color, 80%) !important;
+    }
+    &:visited {
+        color: mix($link-color-visited, $background-color, 80%) !important;
+    }
+    &:active {
+        color: mix($link-color, $background-color, 80%) !important;
+    }
 }
