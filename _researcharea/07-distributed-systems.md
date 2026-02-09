@@ -4,6 +4,7 @@ permalink: /research/areas/distributed-systems
 read_time: false
 toc: true
 author_profile: true
+last_modified_at: 2026-02-08
 ---
 
 Distributed systems comprise a wide range of interacting components, such as computer networks, network applications, or multi-agent systems.

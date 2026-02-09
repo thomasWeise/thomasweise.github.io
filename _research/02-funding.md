@@ -4,6 +4,7 @@ permalink: /research/funding
 read_time: false
 toc: true
 author_profile: true
+last_modified_at: 2026-02-07
 ---
 
 Here you can find a list of the completed research projects that Prof.&nbsp;Dr.&nbsp;{% include person.liquid person="weise_thomas" %} was part of.

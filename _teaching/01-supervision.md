@@ -2,6 +2,7 @@
 title: "Supervised Students"
 permalink: /teaching/supervision
 toc: true
+last_modified_at: 2026-01-28
 ---
 
 I have supervised students at three different universities.

@@ -4,6 +4,7 @@ permalink: /research/areas/benchmarking
 read_time: false
 toc: true
 author_profile: true
+last_modified_at: 2026-02-08
 ---
 
 In the field of optimization, benchmarking is the research area focussed on how to investigate algorithm performance experimentally.

@@ -4,6 +4,7 @@ permalink: /research/areas/teaching
 read_time: false
 toc: false
 author_profile: true
+last_modified_at: 2026-02-08
 ---
 
 Teaching lies on the fringes of my research interests.

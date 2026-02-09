@@ -4,6 +4,7 @@ permalink: /research/events
 read_time: false
 toc: true
 author_profile: true
+last_modified_at: 2026-02-07
 ---
 
 Here you can find the academic events that I have organized or co-organized.

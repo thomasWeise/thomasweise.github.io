@@ -4,6 +4,7 @@ permalink: /talks
 read_time: false
 toc: false
 author_profile: false
+last_modified_at: 2026-01-23
 ---
 
 Here you can find a collection of recent talks given by Prof.&nbsp;Dr.&nbsp;{% include person.liquid person=site.data.people.weise_thomas -%}.

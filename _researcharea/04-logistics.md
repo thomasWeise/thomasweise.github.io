@@ -4,6 +4,7 @@ permalink: /research/areas/logistics
 read_time: false
 toc: true
 author_profile: true
+last_modified_at: 2026-02-08
 ---
 
 Logistics is a huge area that poses a wide range of different optimization problems.

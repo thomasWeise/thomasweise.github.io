@@ -4,6 +4,7 @@ permalink: /research/areas/tsp
 read_time: false
 toc: true
 author_profile: true
+last_modified_at: 2026-02-08
 ---
 
 The Traveling Salesperson Problem&nbsp;(TSP) is one of the most important combinatorial optimization tasks, one of the classical tasks from the field of Operations Research.

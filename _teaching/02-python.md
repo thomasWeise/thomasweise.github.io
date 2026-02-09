@@ -4,6 +4,7 @@ permalink: /programmingWithPython
 read_time: false
 toc: false
 author_profile: false
+last_modified_at: 2026-01-28
 ---
 
 [Programming with Python](/programmingWithPython) (Python程序设计) is a course on Python programming.

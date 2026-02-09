@@ -468,7 +468,7 @@
 - key: "WLCW2021SJSSPWUABFGS"
   authors: ["weise_thomas", "li_xinlu", "chen_yan", "wu_zhize"]
   title: "Solving Job Shop Scheduling Problems Without Using a Bias for Good Solutions"
-  citation: "<em>Genetic and Evolutionary Computation Conference Companion&nbsp;(GECCO'21) Companion,</em> July 10-14, 2021, Lille, France. New York, NY, USA:&nbso;ACM"
+  citation: "<em>Genetic and Evolutionary Computation Conference Companion&nbsp;(GECCO'21) Companion,</em> July 10-14, 2021, Lille, France. New York, NY, USA:&nbsp;ACM"
   isbn: "978-1-4503-8351-6"
   doi: "10.1145/3449726.3463124"
   type: "conference"
