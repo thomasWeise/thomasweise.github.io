@@ -60,7 +60,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '中国计算机学会' | append: thepaper.ccf | append: '类' -%}
+        {%- assign block = block | append: '<span lang="zh-Hans">中国计算机学会' | append: thepaper.ccf | append: '类</span>' -%}
     {%- endif -%}
     {%- if thepaper.cas -%}
         {%- if block_empty -%}
@@ -68,7 +68,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '中国科学院分' | append: thepaper.cas | append: '区' -%}
+        {%- assign block = block | append: '<span lang="zh-Hans">中国科学院分' | append: thepaper.cas | append: '区</span>' -%}
     {%- endif -%}
     {%- if thepaper.caa -%}
         {%- if block_empty -%}
@@ -76,7 +76,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '中国自动化学会' | append: thepaper.caa | append: '类' -%}
+        {%- assign block = block | append: '<span lang="zh-Hans">中国自动化学会' | append: thepaper.caa | append: '类</span>' -%}
     {%- endif -%}
     {%- if thepaper.caai -%}
         {%- if block_empty -%}
@@ -84,7 +84,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '中国人工智能学会' | append: thepaper.caai | append: '类' -%}
+        {%- assign block = block | append: '<span lang="zh-Hans">中国人工智能学会' | append: thepaper.caai | append: '类</span>' -%}
     {%- endif -%}
     {%- if thepaper.thcpl -%}
         {%- if block_empty -%}
@@ -92,7 +92,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: '清华大学计算机学科' | append: thepaper.thcpl | append: '群' -%}
+        {%- assign block = block | append: '<span lang="zh-Hans">清华大学计算机学科' | append: thepaper.thcpl | append: '群</span>' -%}
     {%- endif -%}
     {%- if thepaper.fms -%}
         {%- if block_empty -%}
@@ -100,7 +100,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'FMS-' | append: thepaper.fms | append: '类' -%}
+        {%- assign block = block | append: '<span lang="zh-Hans">FMS-' | append: thepaper.fms | append: '类</span>' -%}
     {%- endif -%}
     {%- if thepaper.cms -%}
         {%- if block_empty -%}
@@ -108,7 +108,7 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign block = block | append: 'CMS-' | append: thepaper.cms | append: '类' -%}
+        {%- assign block = block | append: '<span lang="zh-Hans">CMS-' | append: thepaper.cms | append: '类</span>' -%}
     {%- endif -%}
     {%- if thepaper.if -%}
         {%- if block_empty -%}

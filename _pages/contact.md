@@ -4,7 +4,7 @@ permalink: /contact/
 read_time: false
 toc: true
 author_profile: true
-last_modified_at: 2026-02-03
+last_modified_at: 2026-02-09
 ---
 
 ## Electronic Contact
@@ -13,17 +13,21 @@ Web:&nbsp;<https://thomasweise.github.io><br>
 GitHub:&nbsp;[thomasWeise](https://github.com/thomasWeise)
 
 ## Address in English
-Thomas Weise (汤卫思教授)<br>
-[School of Artificial Intelligence and Big Data](https://www.hfuu.edu.cn/english/c0/3e/c6081a114750/page.htm)<br>
-[Hefei University](https://www.hfuu.edu.cn/english), South Campus 2, Jinxiu Dadao 99<br>
-Comprehensive Laboratory Building (Building 53)<br>
-Hefei Economic and Technological Development Area<br>
+<p>
+Thomas Weise (汤卫思教授)
+<a href="https://www.hfuu.edu.cn/english/c0/3e/c6081a114750/page.htm">School of Artificial Intelligence and Big Data</a><br/>
+<a href="https://www.hfuu.edu.cn/english">Hefei University</a> South Campus 2, Jinxiu Dadao 99<br/>
+Comprehensive Laboratory Building (Building 53)<br/>
+Hefei Economic and Technological Development Area<br/>
 Shushan District, Hefei 230601, Anhui, China
+</p>
 
 ## Address in Chinese (中文的地址)
-Thomas Weise (汤卫思教授)<br>
-[合肥大学](https://www.hfuu.edu.cn)<br>
-[人工智能与大数据学院](https://www.hfuu.edu.cn/aibd)<br>
-中国 安徽省 合肥市 230601 蜀山区 经济技术开发区<br>
-南2区/南艳湖校区 锦绣大道99号<br>
+<p lang="zh-Hans">
+Thomas Weise (汤卫思教授)<br/>
+<a href="https://www.hfuu.edu.cn">合肥大学</a><br/>
+<a href="https://www.hfuu.edu.cn/aibd">人工智能与大数据学院</a><br/>
+中国 安徽省 合肥市 230601 蜀山区 经济技术开发区<br/>
+南2区/南艳湖校区 锦绣大道99号<br/>
 53栋 合肥大学综合实验楼
+</p>

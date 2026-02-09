@@ -1,0 +1,23 @@
+{%- nowrap=include.nowrap | default: false -%}
+{%- if nowrap -%}
+    {%- if include.url and include.url != "" -%}
+        {%- assign opentag = '<a href="' | append: include.url | append: '" class="langwrp langlnk" ' -%}
+        {%- assign closetag = '</a>' -%}
+    {%- else -%}
+        {%- assign opentag = '<span class="langwrp" ' -%}
+        {%- assign closetag = '</span>' -%}
+    {%- endif -%}
+    {{- opentag -}}lang="{%- if include.lang and include.lang != "" -%}{{- include.lang -}}{%- else -%}zh-Hans{%- endif -%}">{{- include.text -}}{{- closetag -}}
+{%- else -%}
+<span class="langwrp">(
+    {%- if include.url and include.url != "" -%}
+        {%- assign opentag = '<a href="' | append: include.url | append: '" class="langlnk" ' -%}
+        {%- assign closetag = '</a>' -%}
+    {%- else -%}
+        {%- assign opentag = '<span ' -%}
+        {%- assign closetag = '</span>' -%}
+    {%- endif -%}
+    {{- opentag -}}lang="{%- if include.lang and include.lang != "" -%}{{- include.lang -}}{%- else -%}zh-Hans{%- endif -%}">{{- include.text -}}{{- closetag -}}
+)</span>
+{%- else -%}
+{%- endif -%}

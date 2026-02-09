@@ -1,26 +1,24 @@
-.langOuter {
-    color: mix($text-color, $background-color, 80%);
-}
+lang-color: mix($text-color, $background-color, 80%);
 
-.langInnerS {
+.langwrp {
+    color: $lang-color;
     font-size: 95%;
 }
 
-.langInnerA {
-    font-size: 95%;
+.langlnk {
     &:hover {
-        color: mix($link-color-hover, $background-color, 80%) !important;
+        color: mix($link-color-hover, $lang-color, 80%) !important;
     }
     &:focus {
-        color: mix($link-color-hover, $background-color, 80%) !important;
+        color: mix($link-color-hover, $lang-color, 80%) !important;
     }
     &:link {
-        color: mix($link-color, $background-color, 80%) !important;
+        color: mix($link-color, $lang-color, 80%) !important;
     }
     &:visited {
-        color: mix($link-color-visited, $background-color, 80%) !important;
+        color: mix($link-color-visited, $lang-color, 80%) !important;
     }
     &:active {
-        color: mix($link-color, $background-color, 80%) !important;
+        color: mix($link-color, $lang-color, 80%) !important;
     }
 }

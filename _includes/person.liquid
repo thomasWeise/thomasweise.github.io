@@ -19,4 +19,4 @@
 {%- if p_url -%}<a href="{{- p_url -}}">{%- endif -%}
 {{- person.name -}}
 {%- if p_url -%}</a>{%- endif -%}
-{%- if person.name_cn -%}&nbsp;{%- include langouter.liquid text=person.name_cn url=p_url_cn lang=person.lang_cn -%}{%- endif -%}
+{%- if person.name_cn -%}&nbsp;{%- include lang.liquid text=person.name_cn url=p_url_cn lang=person.lang_cn -%}{%- endif -%}
