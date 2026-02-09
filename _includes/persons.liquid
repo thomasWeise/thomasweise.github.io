@@ -1,4 +1,4 @@
-{%- assign thearray="" -%}
+{%- assign thearray="" | split: "äü@ß" -%}
 {%- for theperson in include.persons -%}
     {%- capture thepersonstr -%}
         {%- include person.liquid person=theperson -%}
