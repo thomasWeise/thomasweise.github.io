@@ -3,6 +3,8 @@ search: false
 ---
 @charset "utf-8";
 
+$text-color: black !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 

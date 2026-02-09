@@ -9,11 +9,11 @@ last_modified_at: 2026-02-07
 
 ## Work Experience
 <ul>
-<li>Full Professor&nbsp;(教授)<ul>
+<li>Full Professor&nbsp;{%- include lang.liquid text="教授" -%}<ul>
   <li>When: since 2016 (ongoing)</li>
   <li>Where: <a href="https://www.hfuu.edu.cn/english/c0/3e/c6081a114750/page.htm">School of Artificial Intelligence and Big Data</a>&nbsp;{%- include lang.liquid text="人工智能与大数据学院" url="https://www.hfuu.edu.cn/aibd" -%}, <a href="https://www.hfuu.edu.cn/english">Hefei University</a>&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" -%} in Hefei&nbsp;{%- include lang.liquid text="合肥市" -%}, Anhui&nbsp;{%- include lang.liquid text="安徽省" -%}, China&nbsp;{%- include lang.liquid text="中国" -%}</li>
   <li>What: research, teaching, and supervising students</li></ul></li>
-<li>Associate Professor&nbsp;(副教授)<ul>
+<li>Associate Professor&nbsp;{%- include lang.liquid text="副教授" -%}<ul>
   <li>When: 2011–2016</li>
   <li>Where: <a href="http://en.cs.ustc.edu.cn">School of Computer Science and Technology</a>&nbsp;{%- include lang.liquid text="计算机科学与技术学院" url="http://cs.ustc.edu.cn" -%}, University of Science and Technology of China&nbsp;(<a href="http://en.ustc.edu.cn">USTC</a>, {% include lang.liquid text="中国科学技术大学" url="http://www.ustc.edu.cn" nowrap=true -%}) in Hefei&nbsp;{%- include lang.liquid text="合肥市" -%}, Anhui&nbsp;{%- include lang.liquid text="安徽省" -%}, China&nbsp;{%- include lang.liquid text="中国" -%}</li>
   <li>What: research, teaching, and supervising undergraduate and graduate students</li></ul></li>

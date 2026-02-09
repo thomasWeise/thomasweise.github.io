@@ -31,7 +31,7 @@
 - key: "programmingWithPython"
   authors: ["weise_thomas"]
   title: "Programming with Python"
-  citation: 'Self-published open-source electronic book for the course <em>"Python Programming"</em> (Python程序设计) at Hefei University&nbsp;(合肥大学) starting in Semester&nbsp;2, 2025.'
+  citation: 'Self-published open-source electronic book for the course <em>"Python Programming"</em>&nbsp;<span style="langwrp">(<span lang="zh-Hans">Python程序设计</span>)</span> at Hefei University&nbsp;<span style="langwrp">(<span lang="zh-Hans">合肥大学</span>)</span> starting in Semester&nbsp;2, 2025.'
   year: 2025
   url: ["/programmingWithPython"]
   type: "book"
@@ -39,7 +39,7 @@
 - key: "databases"
   authors: ["weise_thomas"]
   title: "Databases"
-  citation: 'Self-published open-source electronic book for the course <em>"Database Principles and Applications"</em> (数据库原理与应用) at Hefei University&nbsp;(合肥大学) starting in Semester&nbsp;2, 2025.'
+  citation: 'Self-published open-source electronic book for the course <em>"Database Principles and Applications"</em>&nbsp;<span style="langwrp">(<span lang="zh-Hans">数据库原理与应用</span>)</span> at Hefei University&nbsp;<span style="langwrp">(<span lang="zh-Hans">合肥大学</span>)</span> starting in Semester&nbsp;2, 2025.'
   year: 2025
   url: ["/databases"]
   type: "book"
