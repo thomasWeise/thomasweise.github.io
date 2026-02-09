@@ -7,7 +7,7 @@ author_profile: true
 last_modified_at: 2026-02-08
 ---
 
-Frequency Fitness Assignment&nbsp(FFA, 频率适应度分配) is a novel approach to metaheuristic optimization.
+Frequency Fitness Assignment&nbsp(FFA, {% include lang.liquid text="频率适应度分配" nowrap=true -%}) is a novel approach to metaheuristic optimization.
 Actually, it abandons the very core principles of metaheuristic optimization.
 And yet, it works.
 
