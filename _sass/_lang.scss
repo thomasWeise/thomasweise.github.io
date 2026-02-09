@@ -1,7 +1,5 @@
-@use 'sass:color';
-
 .langOuter {
-    color: color.scale($text-color, $lightness: 15%);
+    color: lighten($text-color, 15%);
 }
 
 .langInner {
