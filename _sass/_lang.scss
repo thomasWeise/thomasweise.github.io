@@ -1,4 +1,4 @@
-lang-color: mix($text-color, $background-color, 80%);
+$lang-color: mix($text-color, $background-color, 80%);
 
 .langwrp {
     color: $lang-color;
