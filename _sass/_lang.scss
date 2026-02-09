@@ -1,6 +1,9 @@
+@use 'sass:color';
+
 .langOuter {
-    color: rgba(20, 20, 20, 0.8)
+    color: color.scale($text-color, $lightness: 15%);
 }
+
 .langInner {
     font-size: 95%;
 }
