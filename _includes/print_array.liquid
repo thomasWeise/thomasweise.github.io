@@ -1,18 +1,21 @@
-{%- assign size = include.array | size -%}
-{%- if size == 1 -%}
-    {{- include.array[0] -}}
-{%- else -%}
-    {%- if size == 2 -%}
-        {{- include.array[0] }} and {{ include.array[1] }}
+{%- capture thelongarraytext -%}
+    {%- assign size = include.array | size -%}
+    {%- if size == 1 -%}
+        {{- include.array[0] | strip | normalize_whitespace -}}
     {%- else -%}
-        {%- assign sizemo = size | minus: 1 -%}
-        {%- assign index = 1 -%}
-        {%- for item in include.array -%}
-            {{- item -}}
-            {%- if index < size -%}
-                {%- if index < sizemo -%}, {% else -%}, and {% endif -%}
-            {%- endif -%}
-        {%- assign index = index | plus: 1 -%}
-        {% endfor -%}
+        {%- if size == 2 -%}
+            {{- include.array[0]  | strip | normalize_whitespace }} and {{ include.array[1]  | strip | normalize_whitespace }}
+        {%- else -%}
+            {%- assign sizemo = size | minus: 1 -%}
+            {%- assign index = 1 -%}
+            {%- for item in include.array -%}
+                {{- item | strip | normalize_whitespace -}}
+                {%- if index < size -%}
+                    {%- if index < sizemo -%}, {% else -%}, and {% endif -%}
+                {%- endif -%}
+            {%- assign index = index | plus: 1 -%}
+            {% endfor -%}
+        {%- endif -%}
     {%- endif -%}
-{%- endif -%}
+{%- endcapture -%}
+{{- thelongarraytext | strip | normalize_whitespace -}}

@@ -1,9 +1,9 @@
-{%- assign thearray="" | split: "," -%}
+{%- assign thearray="" -%}
 {%- for theperson in include.persons -%}
     {%- capture thepersonstr -%}
         {%- include person.liquid person=theperson -%}
     {%- endcapture -%}
-    {%- assign thepersonary = thepersonstr | split: "äü@ß" -%}
+    {%- assign thepersonary = thepersonstr | strip | normalize_whitespace | split: "äü@ß" -%}
     {%- assign thearray = thearray | concat: thepersonary -%}
 {%- endfor -%}
 {%- include print_array.liquid array=thearray -%}
