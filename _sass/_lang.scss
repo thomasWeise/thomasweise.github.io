@@ -1,7 +1,7 @@
 $lang-color: mix($text-color, $background-color, 80%);
-$lang-link: mix($link-color, $background-color, 80%);
-$lang-link-hover: mix($link-color-hover, $background-color, 80%);
-$lang-link-visited: mix($link-color-visited, $background-color, 80%);
+$lang-link: mix($link-color, $background-color, 70%);
+$lang-link-hover: mix($link-color-hover, $background-color, 70%);
+$lang-link-visited: mix($link-color-visited, $background-color, 70%);
 
 .langwrp {
     color: $lang-color;
