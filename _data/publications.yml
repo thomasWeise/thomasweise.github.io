@@ -34,6 +34,8 @@
   citation: 'Self-published open-source electronic book for the course <em>"Python Programming"</em>&nbsp;<span style="langwrp">(<span lang="zh-Hans">Python程序设计</span>)</span> at Hefei University&nbsp;<span style="langwrp">(<span lang="zh-Hans">合肥大学</span>)</span> starting in Semester&nbsp;2, 2025.'
   year: 2025
   url: ["/programmingWithPython"]
+  slides: ["/programmingWithPython/#k7"]
+  code: ["https://github.com/thomasWeise/programmingWithPythonCode", "https://github.com/thomasWeise/programmingWithPython"]
   type: "book"
   tags: ["python", "teaching"]
 - key: "databases"
@@ -42,6 +44,8 @@
   citation: 'Self-published open-source electronic book for the course <em>"Database Principles and Applications"</em>&nbsp;<span style="langwrp">(<span lang="zh-Hans">数据库原理与应用</span>)</span> at Hefei University&nbsp;<span style="langwrp">(<span lang="zh-Hans">合肥大学</span>)</span> starting in Semester&nbsp;2, 2025.'
   year: 2025
   url: ["/databases"]
+  slides: ["/databases/#k7"]
+  code: ["https://github.com/thomasWeise/databasesCode", "https://github.com/thomasWeise/databases"]
   type: "book"
   tags: ["databases", "teaching"]
 - key: "ZWvdBTLTW2024RLSFTDBPAANRFFA"
