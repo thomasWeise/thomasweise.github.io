@@ -1152,6 +1152,7 @@
   dblp: "https://dblp.org/rec/conf/ideal/2013.html"
 - key: "WBB2013SWSCTWSCP"
   authors: ["weise_thomas", "blake_m_brian", "bleul_steffen"]
+  editors: ["bouguettaya_athman", "sheng_quan_z", "daniel_florian"]
   title: "Semantic Web Service Composition:&nbsp;The Web Service Challenge Perspective"
   citation: "<em>Web Services Foundations &mdash; Part&nbsp;1:&nbsp;Foundations of Web Services,</em> chapter&nbsp;7, pages&nbsp;161-187. Secaucus, NJ, USA: Springer-Verlag New York, Inc.  September 2013 / Copyright 2014"
   isbn: "978-1-4614-7517-0"

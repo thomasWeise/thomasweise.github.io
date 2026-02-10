@@ -35,6 +35,9 @@ blum_christian:
 bossek_jakob:
   name: "Jakob Bossek"
   url: "http://jakobbossek.de"
+bouguettaya_athman:
+  name: "Athman Bouguettaya"
+  url: "http://scslab.net/our-team/athman-bouguettaya"
 branke_jurgen:
   name: "Jürgen Branke"
   url: "https://www.wbs.ac.uk/about/person/juergen-branke"
@@ -101,6 +104,9 @@ cui_lixin:
 cussat_blanc_sylvain:
   name: "Sylvain Cussat-Blanc"
   url: "https://www.irit.fr/~Sylvain.Cussat-Blanc"
+daniel_florian:
+  name: "Florian Daniel"
+  url: "https://www.floriandaniel.it"
 de_jong_kenneth_alan:
   name: "Kenneth Alan De Jong"
   url: "https://ieeexplore.ieee.org/author/37276171300"
@@ -401,6 +407,9 @@ reichle_roland:
   name: "Roland Reichle"
 reinhard_kai:
   name: "Kai Reinhard"
+sheng_quan_z:
+  name: "Quan Z. (Michael) Sheng"
+  url: "https://web.science.mq.edu.au/~qsheng"
 shi_wei:
   name: "Wei SHI"
   name_cn: "施玮"
