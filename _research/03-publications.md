@@ -78,20 +78,6 @@ Prof.&nbsp;Weise is author or coauthor of {{ cas_1 -}}&nbsp;papers in <span lang
 {{ ei -}}&nbsp;of his papers are indexed by&nbsp;EI and {{ scie -}}&nbsp;are in the SCI(E) index.
 His works appeared in journals such as the <em>IEEE Transactions on Evolutionary Computation,</em> the <em>IEEE Transactions on Image Processing, </em> <em>Information Fusion,</em> the <em>IEEE Computational Intelligence Magazine,</em> <em>Evolutionary Computation,</em> <em>Information Sciences,</em> the <em>Applied Soft Computing Journal,</em> the <em>Journal of Combinatorial Optimization,</em> the <em>Journal of Global Optimization,</em> and the <em>European Journal of Operational Research,</em> among others, as well as at conferences such as the <em>AAAI Conference on Artificial Intelligence,</em> <em>Parallel Problem Solving from Nature,</em> and the <em> Genetic and Evolutionary Computation Conference</em>, among others.
 
-## Scholarly Profiles
-Several facets of my research work can also be accessed from the following profiles:
-
-- <a href="http://scholar.google.com/citations?user=rT9StgcAAAAJ">Google Scholar</a>
-- <a href="https://www.kiphub.com/author/666223137bda79841927fc0d">KipHub Scholarly</a>
-- <a href="https://dblp.org/pid/38/1046">DBLP</a>
-- <a href="https://www.semanticscholar.org/author/8950208">SemanticScholar</a>
-- <a href="https://www.researchgate.net/profile/Thomas-Weise-3">ResearchGate</a>
-- <a href="https://dl.acm.org/profile/81317502373">ACM Author Page</a>
-- <a href="https://ieeexplore.ieee.org/author/37297069700">IEEE Author Page</a>
-- ORCID:&nbsp;<a href="https://orcid.org/0000-0002-9687-8509">0000-0002-9687-8509</a>
-- <a href="https://arxiv.org/a/0000-0002-9687-8509.html">arXiv</a>
-- <a href="http://gpbib.cs.ucl.ac.uk/gp-html/ThomasWeise.html">GP Bibliography</a>
-
 ## 2025
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2025" -%}{%- include publications.liquid papers=papers -%}{:/}
 ## 2024
