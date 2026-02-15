@@ -4,14 +4,15 @@ permalink: /research/activities
 read_time: false
 toc: true
 author_profile: true
-last_modified_at: 2026-01-27
+last_modified_at: 2026-02-15
 ---
 
 Here you can find a list of my voluntary scientific activities.
 
-## Connections to the Industry
-Prof.&nbsp;Weise is a [member](https://www.complexica.com/dr-thomas-weise) of the [Scientific Advisory Board](http://www.complexica.com/about/people) of [Complexica](http://www.complexica.com), an Artificial Intelligence software company hat helps large organizations sell more products and services, and reduce their labor costs and headcount through the use of automated analytics.
-Complexica is a leading provider of Artificial Intelligence software for optimizing sales and marketing activities, ranging from promotional planning, pricing, and product mix optimization, through to sales force automation, CRM, and multi-channel quoting and order processing.
+## Official Functions
+- [Member](https://www.complexica.com/dr-thomas-weise) of the [Scientific Advisory Board](http://www.complexica.com/about/people) of [Complexica](http://www.complexica.com), an Artificial Intelligence software company hat helps large organizations sell more products and services, and reduce their labor costs and headcount through the use of automated analytics.
+  Complexica is a leading provider of Artificial Intelligence software for optimizing sales and marketing activities, ranging from promotional planning, pricing, and product mix optimization, through to sales force automation, CRM, and multi-channel quoting and order processing.
+- [Ambassador](https://www.tu-chemnitz.de/tu/alumni/ambassador_china.php.en) of [Chemnitz University of Technology](http://www.tu-chemnitz.de/en)&nbsp;{%- include lang.liquid text="德国开姆尼茨工业大学" %} for China
 
 ## Memberships in Societies
 - China Computer Federation&nbsp;([CCF](https://www.ccf.org.cn/en)) [中国计算机学会](http://www.ccf.org.cn/sites/ccf)&nbsp;(Member since 2012)
