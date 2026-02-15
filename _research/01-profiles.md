@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Academic Profiles"
 permalink: /research/profiles
 read_time: false
 toc: false
@@ -7,7 +7,7 @@ author_profile: true
 last_modified_at: 2026-02-15
 ---
 
-Several facets of my research work can also be accessed from the following profiles:
+Several facets of my research work can also be accessed from the following profiles.
 
 - [Google Scholar](http://scholar.google.com/citations?user=rT9StgcAAAAJ)
 - [KipHub Scholarly](https://www.kiphub.com/author/666223137bda79841927fc0d)
