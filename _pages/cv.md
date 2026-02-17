@@ -10,12 +10,12 @@ last_modified_at: 2026-02-17
 
 ## Work Experience
 
-### Full Professor&nbsp;{%- include lang.liquid text="教授" -%}
+### Full Professor&nbsp;{%- include lang.liquid text="教授" %}
 - When: since 2016 (ongoing)
 - Where: [School of Artificial Intelligence and Big Data](https://www.hfuu.edu.cn/english/c0/3e/c6081a114750/page.htm)&nbsp;{%- include lang.liquid text="人工智能与大数据学院" url="https://www.hfuu.edu.cn/aibd" -%}, [Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %} in Hefei&nbsp;{%- include lang.liquid text="合肥市" -%}, Anhui&nbsp;{%- include lang.liquid text="安徽省" -%}, China&nbsp;{%- include lang.liquid text="中国" %}
 - What: [research](/research), [teaching](/teaching), and [supervising students](/teaching/supervision)
 
-### Associate Professor&nbsp;{%- include lang.liquid text="副教授" -%}
+### Associate Professor&nbsp;{%- include lang.liquid text="副教授" %}
 - When: 2011–2016
 - Where: [School of Computer Science and Technology](http://en.cs.ustc.edu.cn)&nbsp;{%- include lang.liquid text="计算机科学与技术学院" url="http://cs.ustc.edu.cn" -%}, University of Science and Technology of China&nbsp;([USTC](http://en.ustc.edu.cn), {% include lang.liquid text="中国科学技术大学" url="http://www.ustc.edu.cn" nowrap=true -%}) in Hefei&nbsp;{%- include lang.liquid text="合肥市" -%}, Anhui&nbsp;{%- include lang.liquid text="安徽省" -%}, China&nbsp;{%- include lang.liquid text="中国" %}
 - What: [research](/research), [teaching](/teaching), and [supervising students](/teaching/supervision)
@@ -78,7 +78,7 @@ last_modified_at: 2026-02-17
 - {% include person.liquid person="weise_thomas" -%}.
   Huangshan Friendship Award of Anhui Province&nbsp;{% include lang.liquid text="安徽省黄山友谊奖" -%}.
   Anhui Provincial People's Government&nbsp;{% include lang.liquid text="安徽省人民政府" -%}.
-  April 2025.
+  April&nbsp;2025.
 - Hefei University&nbsp;{%- include lang.liquid text="合肥大学" %} and {% include person.liquid person="weise_thomas" -%}.
   Hefei Foreign Expert Studio 2021&nbsp;{%- include lang.liquid text="合肥市外国专家工作室" -%}.
   Hefei City Foreign Experts and Technology Talent Management Service Office&nbsp;{%- include lang.liquid text="合肥市外国专家与科技人才管理服务处" -%}.
@@ -86,7 +86,7 @@ last_modified_at: 2026-02-17
 - {% include person.liquid person="weise_thomas" -%}.
   Hefei City Friendship Award&nbsp;{%- include lang.liquid text="外国专家" -%}.
   Hefei Municipal Government&nbsp;{%- include lang.liquid text="合肥市人民政府" -%}.
-  December 2020.
+  December&nbsp;2020.
 - {% include person.liquid person="weise_thomas" -%}.
   Hefei Specially Recruited Foreign Expert&nbsp;{%- include lang.liquid text="合肥市特聘外国专家证书" %} within the First Hefei Recruitment Program of Talented Foreigners&nbsp;{%- include lang.liquid text="引进外国高端人才计划" -%}.
   Hefei Municipal Bureau of Science and Technology&nbsp;{%- include lang.liquid text="合肥市科学技术局" -%}, Hefei Municipal Bureau of Foreign Experts Affairs&nbsp;{%- include lang.liquid text="合肥市外国专家局" -%}.
