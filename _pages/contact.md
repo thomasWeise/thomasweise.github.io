@@ -45,3 +45,4 @@ You could print the following text and show it to a taxi driver:
 ## Map
 - [Baidu Maps](https://j.map.baidu.com/9a/7Mgi)&nbsp;{%- include lang.liquid text="百度地图" %}
 - [Bing Maps](https://cn.bing.com/maps?rtp=pos.31.747285_117.257758)&nbsp;{%- include lang.liquid text="必应地图" %} 
+- [Tencent Maps](https://map.qq.com/?isopeninfowin=1&markertype=1&name=%E5%90%88%E8%82%A5%E5%A4%A7%E5%AD%A6(%E4%B8%89%E6%9C%9F%E6%A0%A1%E5%8C%BA)-%E5%8D%97%E9%97%A8&pointx=117.257744&pointy=31.747358&type=marker)&nbsp;{%- include lang.liquid text="腾讯地图" %}
