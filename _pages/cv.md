@@ -22,7 +22,7 @@ last_modified_at: 2026-02-17
 
 ### Lecture Services
 - When: 2009–2014
-- Where: School of Software Engineering&nbsp;{%- include lang.liquit text="中国科学技术大学软件学院" url="http://sse.ustc.edu.cn" -%}, University of Science and Technology of China&nbsp;([USTC](http://en.ustc.edu.cn), {% include lang.liquid text="中国科学技术大学" url="http://www.ustc.edu.cn" nowrap=true -%}) in Hefei&nbsp;{%- include lang.liquid text="合肥市" -%}, Anhui&nbsp;{%- include lang.liquid text="安徽省" -%}, China&nbsp;{%- include lang.liquid text="中国" %}
+- Where: School of Software Engineering&nbsp;{%- include lang.liquid text="中国科学技术大学软件学院" url="http://sse.ustc.edu.cn" -%}, University of Science and Technology of China&nbsp;([USTC](http://en.ustc.edu.cn), {% include lang.liquid text="中国科学技术大学" url="http://www.ustc.edu.cn" nowrap=true -%}) in Hefei&nbsp;{%- include lang.liquid text="合肥市" -%}, Anhui&nbsp;{%- include lang.liquid text="安徽省" -%}, China&nbsp;{%- include lang.liquid text="中国" %}
 - What: [teaching](/teaching)
 
 ### Postdoctoral Researcher&nbsp;(PostDoc, {% include lang.liquid text="博士后" nowrap=true -%})
