@@ -5,6 +5,7 @@ read_time: false
 comments: false
 share: false
 related: false
+date: 2026-01-18
 last_modified_at: 2026-02-08
 ---
 
