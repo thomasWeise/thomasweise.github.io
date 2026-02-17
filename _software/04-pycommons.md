@@ -4,6 +4,8 @@ permalink: /pycommons
 read_time: false
 toc: false
 author_profile: true
+date: 2026-01-28
+last_modified_at: 2026-01-28
 ---
 
 In the [`pycommons`](/pycommons) project, several Python functions that are shared between my Python projects are provided.

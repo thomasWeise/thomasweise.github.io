@@ -3,6 +3,7 @@ layout: collection
 title: "Research"
 collection: research
 permalink: /research/
+date: 2026-01-20
 ---
 
 Prof.&nbsp;Dr.&nbsp;{% include person.liquid person=site.data.people.weise_thomas %} has contributed research to [different areas](/research/areas) of optimization and operations research at four different universities, publishing the first of his [{{ site.data.publications | size -}}&nbsp;works](/research/publications) back in&nbsp;2005.

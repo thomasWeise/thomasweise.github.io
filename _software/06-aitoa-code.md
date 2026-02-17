@@ -4,6 +4,8 @@ permalink: /aitoa-code
 read_time: false
 toc: true
 author_profile: true
+date: 2026-02-03
+last_modified_at: 2026-02-03
 ---
 
 **This project is no longer actively developed or maintained.

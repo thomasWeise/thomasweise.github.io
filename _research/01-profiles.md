@@ -4,6 +4,7 @@ permalink: /research/profiles
 read_time: false
 toc: false
 author_profile: true
+date: 2026-02-15
 last_modified_at: 2026-02-15
 ---
 

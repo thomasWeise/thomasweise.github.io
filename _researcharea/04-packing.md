@@ -4,7 +4,8 @@ permalink: /research/areas/packing
 read_time: false
 toc: true
 author_profile: true
-last_modified_at: 2026-02-08
+date: 2026-02-06
+last_modified_at: 2026-02-10
 ---
 
 Packing is a research field very closely related to {% include taglink.liquid tag="logistics" -%}.
