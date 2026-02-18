@@ -1,4 +1,5 @@
-{%- if page.use_math | default: false -%}
+{%- assign use_math = page.use_math | default: false -%}
+{%- if use_math -%}
 <link rel="stylesheet" href="/assets/katex/katex.min.css">
 <script defer src="/assets/katex/katex.min.js"></script>
 <script defer src="/assets/katex/contrib/auto-render.min.js"></script>
