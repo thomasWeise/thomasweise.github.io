@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Download KaTeX
+        run: ./_scripts_/downloadKaTeX.sh
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build
