@@ -10,9 +10,9 @@ use_math: true
 ---
 
 The Traveling Salesperson Problem&nbsp;(TSP) is one of the most important combinatorial optimization tasks, one of the classical tasks from the field of Operations Research.
-Here, the goal is to find the shortest round-trip tour through *n*&nbsp;cities and back to the origin.
+Here, the goal is to find the shortest round-trip tour through $n$&nbsp;cities and back to the origin.
 A TSP instance is defined by the number of cities and their distances.
-In a symmetric instance, the distance from $A$ to $B$ is the same as the distance from *B* to *A*, in an asymmetric instance, this is not necessarily true.
+In a symmetric instance, the distance from $A$ to $B$ is the same as the distance from $B$ to $A$, in an asymmetric instance, this is not necessarily true.
 
 ## Publications
 ### Core Papers

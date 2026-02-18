@@ -6,6 +6,7 @@ toc: true
 author_profile: true
 date: 2026-02-05
 last_modified_at: 2026-02-09
+use_math: true
 ---
 
 Frequency Fitness Assignment&nbsp(FFA, {% include lang.liquid text="频率适应度分配" nowrap=true -%}) is a novel approach to metaheuristic optimization.
@@ -36,11 +37,11 @@ These methods, however, are pretty awful approaches to optimization.
 Not FFA, though, as it turned out to work quite well in domains such as {% include taglink.liquid tag="MaxSat" -%}, the {% include taglink.liquid tag="TSP" tag_text="Traveling Salesperson Problem" -%}, the {% include taglink.liquid tag="QAP" tag_text="Quadratic Assignment Problem" %}, and on discrete benchmark functions.
 
 But what does this invariance property mean?
-Imagine that you replace the objective function *f(x)* with a function *g(x)=-f(x)*.
+Imagine that you replace the objective function $f(x)$ with a function $g(x)=-f(x)$.
 If you try to solve both functions with an FFA-based algorithm, the algorithm will take the exactly same path through the search space.
-Matter of fact, you could replace *f(x)* with a function that *encrypts* its output and only pass the *encrypted* objective values on to the algorithm.
+Matter of fact, you could replace $f(x)$ with a function that *encrypts* its output and only pass the *encrypted* objective values on to the algorithm.
 It will still take the same path through the search space.
-It would take you to the same optimal solution (from the perspective of *f(x)*) at exactly the same time step as if it was working on *f(x)* directly.
+It would take you to the same optimal solution (from the perspective of $f(x)$) at exactly the same time step as if it was working on $f(x)$ directly.
 How weird is that?
 
 ## Features of FFA
