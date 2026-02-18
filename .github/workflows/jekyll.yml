@@ -25,7 +25,9 @@ jobs:
       - name: Minifying Files External Resources
         run: minify --recursive --all --html-keep-document-tags ./_external_resources/ -o ./_site_minified/
       - name: Including Non-Minified Files
-        run: cp --recursive --update=none --verbose ./_site/* ./_site_minified/
+        run: |
+              cp --recursive --update=none --verbose ./_site/* ./_site_minified/
+              cp --recursive --update=none --verbose ./_external_resources/* ./_site_minified/
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
