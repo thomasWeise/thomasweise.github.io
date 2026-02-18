@@ -34,6 +34,8 @@ for release in "latest" "279773203"; do
 			tar -xf "katex.tar.gz"
 			mv katex/katex.min.* "$destDir/"
 			mv katex/fonts "$destDir/"
+			mkdir -p "$destDir/contrib"
+			mv "katex/contrib/auto-render.min.js" "$destDir/contrib/"
 			echo "$(date +'%0Y-%0m-%0d %0R:%0S'): Done."
 			exit 0
 		elif [[ $file == *katex.zip ]]; then
