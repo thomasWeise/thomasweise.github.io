@@ -16,18 +16,20 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build
         uses: actions/jekyll-build-pages@v1
-      - name: Download KaTeX
-        run: ./_scripts_/downloadKaTeX.sh
+      - name: Downloading KaTeX
+        run: ./_scripts_/downloadKaTeX.sh "./_external_resources/assets/katex"
       - name: Installing minifier
         run: sudo apt-get install minify
-      - name: Minifying files
-        run: minify --recursive --all --html-keep-document-tags ./_site/ -o ./_site_mini/
+      - name: Minifying Files Created Files
+        run: minify --recursive --all --html-keep-document-tags ./_site/ -o ./_site_minified/
+      - name: Minifying Files External Resources
+        run: minify --recursive --all --html-keep-document-tags ./_external_resources/ -o ./_site_minified/
       - name: Including Non-Minified Files
-        run: cp --recursive --update=none --verbose ./_site/* ./_site_mini/
-      - name: Upload artifact
+        run: cp --recursive --update=none --verbose ./_site/* ./_site_minified/
+      - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site_mini/
+          path: ./_site_minified/
   deploy:
     runs-on: ubuntu-latest
     needs: build

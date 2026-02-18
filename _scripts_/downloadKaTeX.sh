@@ -8,9 +8,7 @@ set -o errexit   # set -e : exit the script if any statement returns a non-true 
 
 echo "$(date +'%0Y-%0m-%0d %0R:%0S'): Welcome to using the KaTeX download script."
 
-scriptDir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-echo "$(date +'%0Y-%0m-%0d %0R:%0S'): The script directory is '$scriptDir'."
-destDir="$scriptDir/../_site/assets/katex"
+destDir="$1"
 mkdir -p "$destDir"
 destDir="$( cd "$destDir" && pwd )"
 echo "$(date +'%0Y-%0m-%0d %0R:%0S'): The destination directory is '$destDir'."
