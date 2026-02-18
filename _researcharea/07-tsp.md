@@ -19,5 +19,5 @@ In a symmetric instance, the distance from $A$ to $B$ is the same as the distanc
 {% assign thepapers = "WCLTTCMY2014BOAAOSFFTTSP,WWCTL2016GVLSTIOPSOEAP,WWLC2019IIIOADTM" | split: "," -%}
 {%- include publications.liquid papers=thepapers shorter=true %}
 
-## Complete List
+### Complete List
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.tags contains 'TSP'" -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
