@@ -1,4 +1,13 @@
 {%- assign text=include.text | default: "" -%}
-{%- assign lines=text | strip | newline_to_br | replace: "<br />", "<br>" | replace: "<br/>", "<br>" | strip_newlines | split: "<br>" -%}
+{%- assign text=text | strip | newline_to_br | replace: "<br />", "<br>" | replace: "<br/>", "<br>" | strip_newlines | normalize_whitespace | replace: "<br> ", "<br>" %-}
+{%- for indent in (1..20 -%}
+    {%- assign repl=indent | times: 4 | append: "em" %-}
+    {%- assign repl='<span style="width:' | append: repl | append: ';min-width:' | append: repl | append: '">&nbsp;</span>' -%}
+    {%- assign search="@" | append: indent | append: ": " -%}
+    {%- assign text=text | replace: search, repl -%}
+    {%- assign search="@" | append: indent | append: ":" -%}
+    {%- assign text=text | replace: search, repl -%}
+{%- endfor -%}
+{%- assign lines=text | split: "<br>" -%}
 <pre class="algorithm">{%- for line in lines -%}<span class="algoN"></span><span class="algoC">{{ line }}</span>
 {% endfor -%}</pre>

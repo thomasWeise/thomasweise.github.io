@@ -86,8 +86,8 @@ This odd approach to optimization deserves some more analysis.
 First, we set $x\gets23^2$
 Then, we compute $y=x^2-\log{x}$
 For $i\gets 1$ to x:
-  $y\gets y*i$
-  $z\gets 3y$
+@1: $y\gets y*i$
+@1: $z\gets 3y$
 EndFor
 {%- endcapture -%}
 {%- include algorithm.liquid text=myalgo -%}{:/}
