@@ -1,0 +1,3 @@
+{%- assign text=include.text | default: "" -%}
+{%- assign lines=text | strip | split: "\n" -%}
+<pre class="algorithm">{%- for line in lines -%}<span class="algoN"></span><span class="algoC">{{ line -}}</span><br>{%- endfor -%}</pre>
