@@ -82,7 +82,7 @@ This odd approach to optimization deserves some more analysis.
 ### Complete List
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.tags contains 'FFA'" -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
 
-{%- capture myalgo -%}
+{::nomarkdown}{%- capture myalgo -%}
 First, we set $x\gets23^2$
 Then, we compute $y=x^2-\log{x}$
 For $i\gets 1$ to x:
@@ -90,4 +90,4 @@ For $i\gets 1$ to x:
   $z\gets 3y$
 EndFor
 {%- endcapture -%}
-{%- include algorithm.liquid text=myalgo -%}
+{%- include algorithm.liquid text=myalgo -%}{:/}
