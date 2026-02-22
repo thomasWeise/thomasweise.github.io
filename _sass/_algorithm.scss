@@ -1,4 +1,4 @@
-$algo-base: rgb(230, 230, 255)
+$algo-base: rgb(230, 230, 255);
 $algo-background: mix($algo-base, $background-color, 80%);
 $algo-line-number: mix($algo-base, $text-color, 60%);
 $algo-text: mix($algo-base, $text-color, 20%);
