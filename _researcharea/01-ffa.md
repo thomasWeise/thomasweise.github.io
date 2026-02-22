@@ -85,9 +85,9 @@ This odd approach to optimization deserves some more analysis.
 {::nomarkdown}{%- capture myalgo -%}
 First, we set $x\gets23^2$
 Then, we compute $y=x^2-\log{x}$
-For $i\gets 1$ to x:
+@[For@] $i\gets 1$ @[to@] x:
 @1: $y\gets y*i$
 @1: $z\gets 3y$
-EndFor
+@[EndFor@]
 {%- endcapture -%}
 {%- include algorithm.liquid text=myalgo -%}{:/}

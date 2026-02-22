@@ -50,6 +50,10 @@ $algo-font: "KaTeX_Main";
         &:before {
             content: counter(algostep);
         }
+
+        .algoKw {
+            font-weight: bold;
+        }
     }
 
     &:before {

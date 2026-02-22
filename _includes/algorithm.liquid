@@ -12,6 +12,7 @@
     {%- assign search="@" | append: indent | append: ":" -%}
     {%- assign text=text | replace: search, repl -%}
 {%- endfor -%}
+{%- assign text=text | replace "@[", '<span class="algoKw">' | replace "@]", "</span>" -%}
 {%- assign lines=text | split: "<br>" -%}
 <pre class="algorithm">{%- for line in lines -%}<span class="algoN"></span><span class="algoC">{{ line }}</span>
 {% endfor -%}</pre>
