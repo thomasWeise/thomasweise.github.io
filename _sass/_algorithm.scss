@@ -1,8 +1,8 @@
 $algo-base-color: rgb(230, 230, 255);
-$algo-background-color: mix($algo-base, $background-color, 80%);
-$algo-line-number-color: mix($algo-base, $text-color, 60%);
-$algo-line-number-sep-color: mix($algo-base, $text-color, 60%);
-$algo-text-color: mix($algo-base, $text-color, 20%);
+$algo-background-color: mix($algo-base-color, $background-color, 80%);
+$algo-line-number-color: mix($algo-base-color, $text-color, 60%);
+$algo-line-number-sep-color: mix($algo-base-color, $text-color, 60%);
+$algo-text-color: mix($algo-base-color, $text-color, 20%);
 $algo-font: "KaTeX_Main";
 
 .algorithm {
