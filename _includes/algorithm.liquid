@@ -5,7 +5,7 @@
     {%- for adder in (1..4) -%}
         {%- assign theindent=theindent | append: "&nbsp;" -%}
     {%- endfor -%}
-    {%- assign repl=indent | times: 4 | append: "en" -%}
+    {%- assign repl=indent | times: 4 | append: "em" -%}
     {%- assign repl='<span style="display:inline-block;width:' | append: repl | append: '">' | append: theindent | append: '</span>' -%}
     {%- assign search="@" | append: indent | append: ": " -%}
     {%- assign text=text | replace: search, repl -%}
