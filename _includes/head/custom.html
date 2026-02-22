@@ -1,5 +1,6 @@
 {%- assign use_math = page.use_math | default: false -%}
-{%- if use_math -%}
+{%- assign use_algorithm = page.use_algorithm | default: false -%}
+{%- if use_math or use_algorithm -%}
 <link rel="stylesheet" href="/assets/katex/katex.min.css">
 <script defer src="/assets/katex/katex.min.js"></script>
 <script defer src="/assets/katex/contrib/auto-render.min.js"></script>
@@ -9,7 +10,8 @@
           delimiters: [
               {left: '$$', right: '$$', display: true},
               {left: '$', right: '$', display: false},
-          ]
+          ]{%- if use_algorithm -%},
+          ignoredTags: ["script", "noscript", "style", "code", "textarea", "option"]{%- endif -%}
         });
     });
 </script>

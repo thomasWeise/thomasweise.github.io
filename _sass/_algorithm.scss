@@ -1,0 +1,25 @@
+$algo-base: rgb(230, 230, 255)
+$algo-background: mix($algo-base, $background-color, 80%);
+$algo-line-number: mix($algo-base, $text-color, 60%);
+$algo-text: mix($algo-base, $text-color, 20%);
+$algo-font: "KaTeX_Main";
+
+.algorithm {
+    font-family: $sans-serif;
+    background: $algo-background;
+    margin: 50px auto;
+    white-space: pre-wrap;
+    counter-reset: algostep;
+    counter-increment: algostep 0;
+    .l {
+        &:before {
+            content: counter(algostep);
+            counter-increment: algostep;
+            font-family: $sans-serif;
+            font-size: 85%;
+            color: $algo-line-number;
+        }
+        font-family: $algo-font;
+        color: $algo-text;
+    }
+}

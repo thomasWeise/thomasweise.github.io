@@ -179,6 +179,9 @@ gao_yang:
 geihs_kurt:
   name: "Kurt Geihs"
   url: "https://geihs.de"
+goh_say_leng:
+  name: "Say Leng Goh"
+  orcid: "0000-0003-4562-2519"
 gong_maoguo:
   name: "Maoguo GONG"
   name_cn: "公茂果"
@@ -204,6 +207,10 @@ jansen_reitze:
 jansen_thomas:
   name: "Thomas Jansen"
   url: "https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/thj10"
+jasser_muhammed_basheer:
+  name: "Muhammed Basheer Jasser"
+  url: "https://www.sunwayuniversity.edu.my/school-of-computing-and-artificial-intelligence/staff-profiles/dr-muhammed-basheer-jasser"
+  orcid: "0000-0001-5292-465X"
 jiang_wenxiang:
   name: "Wenxiang JIANG"
   orcid: "0000-0001-9450-3415"
@@ -274,6 +281,9 @@ li_jinlong:
   name_cn: "李金龙"
   url_cn: "https://staff.ustc.edu.cn/~jlli"
   url: "http://staff.ustc.edu.cn/~jlli/index_en.html"
+li_mingxuan:
+  name: "Mingxuan Li"
+  orcid: "0009-0006-9735-2900"
 li_teng:
   name: "Teng LI"
   orcid: "0000-0003-1150-088X"
