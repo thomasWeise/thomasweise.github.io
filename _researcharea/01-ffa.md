@@ -7,7 +7,6 @@ author_profile: true
 date: 2026-02-05
 last_modified_at: 2026-02-18
 use_math: true
-use_algorithm: true
 ---
 
 Frequency Fitness Assignment&nbsp;(FFA, {% include lang.liquid text="频率适应度分配" nowrap=true -%}) is a novel approach to metaheuristic optimization.
@@ -44,12 +43,6 @@ Matter of fact, you could replace $f(x)$ with a function that *encrypts* its out
 It will still take the same path through the search space.
 It would take you to the same optimal solution (from the perspective of $f(x)$) at exactly the same time step as if it was working on $f(x)$ directly.
 How weird is that?
-
-<pre class="algorithm">
-<span class="l">This is a test A</span>
-<span class="l">This is a test B</span>
-<span class="l">This is a test C</span>
-</pre>
 
 ## Features of FFA
 
