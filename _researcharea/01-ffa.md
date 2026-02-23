@@ -7,7 +7,6 @@ author_profile: true
 date: 2026-02-05
 last_modified_at: 2026-02-18
 use_math: true
-algorithms: ["testlabel", "testlabel2"]
 ---
 
 Frequency Fitness Assignment&nbsp;(FFA, {% include lang.liquid text="频率适应度分配" nowrap=true -%}) is a novel approach to metaheuristic optimization.
@@ -73,6 +72,11 @@ Also, the (1+1)&nbsp;EA needs exponential runtime on deceptive benchmark problem
 The (1+1)&nbsp;FEA solves them about as fast as the very simple OneMax problem, i.e., in experimentally observed polynomial runtime.
 This odd approach to optimization deserves some more analysis.
 
+## Posts
+{% for post in site.tags["FFA"] -%}
+- [{{- post.title -}}]({{- post.url -}})
+{%- endfor %}
+
 ## Publications
 [Here](talks/ffa.pdf) you can find a [talk](talks/ffa.pdf) introducing FFA from the perspective of invariance properties.
 
@@ -81,28 +85,3 @@ This odd approach to optimization deserves some more analysis.
 
 ### Complete List
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.tags contains 'FFA'" -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
-
-The first procedure is {% include algorithm_link.liquid id="testlabel" -%}.
-
-{::nomarkdown}{%- capture myalgo -%}
-First, we set $x\gets23^2$
-Then, we compute $y=x^2-\log{x}$
-@[For@] $i\gets 1$ @[to@] x:
-@1: $y\gets y*i$
-@1: $z\gets 3y$
-@[EndFor@]
-{%- endcapture -%}
-{%- include algorithm.liquid text=myalgo id="testlabel" caption="my algorithm caption" -%}{:/}
-
-{::nomarkdown}{%- capture myalgo -%}
-First, we set $x\gets5$
-Then, we compute $y=x^2-\log{x}$
-@[For@] $i\gets 1$ @[to@] x:
-@1: $y\gets y*i$
-@1: $z\gets 3y$
-@2: $g\gets h$
-@[EndFor@]
-{%- endcapture -%}
-{%- include algorithm.liquid text=myalgo id="testlabel2" caption="my algorithm caption" -%}{:/}
-
-We also present {% include algorithm_link.liquid id="testlabel2" -%}.
