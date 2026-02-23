@@ -10,10 +10,7 @@ $algo-font: "KaTeX_Main";
     border: 1px solid $algo-line-number-sep-color;
     padding: 4px;
     display: table;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1em;
 
     .algorithm {
         font-family: $sans-serif;
