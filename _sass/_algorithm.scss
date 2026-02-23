@@ -11,9 +11,9 @@ $algo-font: "KaTeX_Main";
     padding: 4px;
     display: table;
     margin: 1em;
+    width: 100%;
 
     .algorithm {
-        width: 100%;
         font-family: $sans-serif;
         text-align: left;
         white-space: pre-wrap;
