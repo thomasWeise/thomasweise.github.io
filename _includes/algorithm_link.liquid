@@ -16,7 +16,7 @@
 {%- endfor -%}
 {%- if algo_print_text == "" -%}
     {%- assign algo_print_text="Algorithm&nbsp;" | append: algo_find_index -%}
-    {%- algo_lst=algo_lst | concat: def_algo_lst -%}
+    {%- assign algo_lst=algo_lst | concat: def_algo_lst -%}
     {%- assign page.internal_algo_lst=algo_lst -%}
 {%- endif -%}
 {%- if put_as_label -%}
