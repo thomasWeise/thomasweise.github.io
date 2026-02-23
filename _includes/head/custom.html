@@ -1,5 +1,5 @@
 {%- assign use_math = page.use_math | default: false -%}
-{%- assign use_algorithm = page.use_algorithm | default: false -%}
+{%- assign use_algorithm = page.algorithms | default: false -%}
 {%- if use_math or use_algorithm -%}
 <link rel="stylesheet" href="/assets/katex/katex.min.css">
 <script defer src="/assets/katex/katex.min.js"></script>

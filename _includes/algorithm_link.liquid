@@ -1,29 +1,20 @@
 {%- assign put_as_label=include.algo_put_as_label | default: false -%}
-{%- assign use_class=include.algo_use_class | default: "" -%}
-{%- assign use_class=use_class | strip | strip_html | strip_newlines | normalize_whitespace | replace: " ", "" -%}
-{%- assign the_algo_id=include.id | default: "algo" -%}
+{%- assign the_algo_id=include.id | default: "" -%}
 {%- assign the_algo_id=the_algo_id | strip | strip_html | strip_newlines | normalize_whitespace | replace: " ", "" -%}
-{%- assign def_algo_lst=the_algo_id | split: "äöü@" -%}
-{%- assign algo_lst=page.internal_algo_lst | default: def_algo_lst -%}
-{{ algo_lst | join: " -- " }}
+{%- assign algo_lst=page.algorithms -%}
 {%- assign algo_find_index=1 -%}
 {%- assign algo_print_text="" -%}
 {%- for algo_id_in_list in algo_lst -%}
     {%- if algo_id_in_list == the_algo_id -%}
         {%- assign algo_print_text="Algorithm&nbsp;" | append: algo_find_index -%}
-        FOUND
         {%- break -%}
     {%- endif -%}
     {%- assign algo_find_index=algo_find_index | plus: 1 -%}
 {%- endfor -%}
-{%- if algo_print_text == "" -%}
-    {%- assign algo_print_text="Algorithm&nbsp;" | append: algo_find_index -%}
-    {%- assign algo_lst=algo_lst | concat: def_algo_lst -%}
-    CREATED
-{%- endif -%}
-{%- assign page.internal_algo_lst=algo_lst -%}
-{%- if put_as_label -%}
-<span{%- if use_class != "" %} class="{{- use_class -}}"{%- endif -%} id="{{- the_algo_id -}}">{{- algo_print_text -}}.</span>
-{%- else -%}
-<a{%- if use_class != "" %} class="{{- use_class -}}"{%- endif %} href="#{{- the_algo_id -}}">{{- algo_print_text -}}</a>
+{%- if algo_print_text != "" -%}
+    {%- if put_as_label -%}
+        <span class="algoNum" id="{{- the_algo_id -}}">{{- algo_print_text -}}.</span>
+    {%- else -%}
+        <a href="#{{- the_algo_id -}}">{{- algo_print_text -}}</a>
+    {%- endif -%}
 {%- endif -%}
