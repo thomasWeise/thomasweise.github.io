@@ -13,6 +13,7 @@ $algo-font: "KaTeX_Main";
     margin: 1em;
 
     .algorithm {
+        width: 100%;
         font-family: $sans-serif;
         text-align: left;
         white-space: pre-wrap;
