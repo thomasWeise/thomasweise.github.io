@@ -4,7 +4,7 @@ date: 2026-02-23
 last_modified_at: 2026-02-23
 use_math: true
 tags: ["FFA", "local_search", "metaheuristics", "RLS", "(1+1) EA", "FRLS", "(1+1) FEA"]
-algorithms: ["metaheuristic", "RLS"]
+algorithms: ["metaheuristic", "RLS", "FRLS"]
 ---
 
 ## Metaheuristic Optimization
@@ -32,7 +32,7 @@ We try different solutions for problem and look how good they work.
 Then we continue with slightly modified versions the solution that we liked best in order to find even better.
 This iterative procedure of trial and error with a bias for better solutions is foundation of metaheuristic optimization.
 
-## Randomized Local Search
+## Randomized Local Search (RLS)
 Let us consider the simplest metaheuristic, namely *Randomized Local Search*&nbsp;(RLS).
 RLS&nbsp;begins by sampling one candidate solution&nbsp;$x_c$ from the solution space&nbsp;$\mathbb{X}$ uniformly at random.
 It computes the objective value&nbsp;$y_c$ of&nbsp;$x_c$ by evaluating the objective function&nbsp;$f:\mathbb{X}\mapsto\mathbb{R}$.
@@ -57,8 +57,29 @@ Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
 $y_c\gets f(x_c)$.
 @[Until@] computational budget exhausted @[repeat@]
 @1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
-@1: @[If@] $y_n \leq x_n$ @[then@]
+@1: @[If@] $y_n \leq y_c$ @[then@]
 @2: $x_c\gets x_n$; $y_c\gets y_n$.
-@[Return@] $x_c, y_c$
+@[Return@] $x_c, y_c$.
 {%- endcapture -%}
 {%- include algorithm.liquid text=myalgo id="RLS" caption="The randomized local search&nbsp;(RLS)." -%}{:/}
+
+## Randomized Local Search with FFA (FRLS)
+Now let's plug FFA into the RLS algorithm and we obtain the FRLS.
+We first provide FRLS as {% include algorithm_link.liquid id="FRLS" -%} and then discuss it step-by-step.
+It should be noted upfront that this algorithm will *only* work if the objective function is discrete, i.e., takes on a finite (and ideally small) number of different values.
+
+{::nomarkdown}{%- capture myalgo -%}
+<span style="color:violet">$H\gets (0, 0, \dots, 0)</span>.
+Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
+$y_c\gets f(x_c)$.
+<span style="color:blue">$x_b\gets x_c$; $y_b\gets y_c$.</span>
+@[Until@] computational budget exhausted @[repeat@]
+@1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
+@1: <span style="color:violet">$H[y_c]\gets H[y_c]+1$; $H[y_n]\gets H[y_n]+1$.</span>
+@1: <span style="color:violet">@[If@] $H[y_n] \leq H[y_c]$ @[then@]</span>
+@2: $x_c\gets x_n$; $y_c\gets y_n$.
+@2: <span style="color:blue">@[If@] $y_n < y_b$ @[then@]</span>
+@3: <span style="color:blue">$x_b\gets x_n$; $y_b\gets y_n$.</span>
+@[Return@] <span style="color:blue">$x_b, y_b$.</span>
+{%- endcapture -%}
+{%- include algorithm.liquid text=myalgo id="FRLS" caption="The randomized local search with FFA, i.e., the FRLS algorithm." -%}{:/}
