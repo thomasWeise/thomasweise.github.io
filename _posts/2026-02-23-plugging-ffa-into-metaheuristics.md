@@ -1,9 +1,5 @@
 ---
 title: "Plugging Frequency Fitness Assignment into Metaheuristics"
-layout: post
-read_time: true
-toc: true
-author_profile: true
 date: 2026-02-23
 last_modified_at: 2026-02-23
 use_math: true
@@ -13,7 +9,7 @@ algorithms: ["metaheuristic"]
 
 ## Metaheuristic Optimization
 Frequency Fitness Assignment&nbsp;({%- include taglink.liquid tag="FFA" -%}) is a technique that redefines how we do metaheuristic optimization.
-Metaheuristic algorithms, like Evolutionary Algorithms&nbsp(EAs), local search, Simulated Annealing&nbsp;(SA), or Tabu Search&nbsp(TS) proceed iteratively according to the cycle given in {% include algorithm_link.liquid id="metaheuristic" -%}.
+Metaheuristic algorithms, like Evolutionary Algorithms&nbsp;(EAs), local search, Simulated Annealing&nbsp;(SA), or Tabu Search&nbsp;(TS) proceed iteratively according to the cycle given in {% include algorithm_link.liquid id="metaheuristic" -%}.
 At each iteration&nbsp;$\tau$, they maintain a set&nbsp;$S_{\tau}$ of interesting candidate solutions&nbsp;$x\in S_{\tau}$ from the solution space&nbsp;$\mathbb{X}$.
 They use these selected solutions in one way or another to sample a set&nbsp;$N_{\tau}$ of new solutions.
 This may happen via a unary search operator&nbsp;(called "mutation" in EA-lingo) or a binary operator&nbsp;(often called "crossover" or "recombination") or in any other imaginable way.
