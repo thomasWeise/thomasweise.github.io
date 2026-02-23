@@ -57,7 +57,7 @@ Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
 $y_c\gets f(x_c)$.
 @[Until@] computational budget exhausted @[repeat@]
 @1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
-@1: @[If] $y_n \leq x_n$ @[then@]
+@1: @[If@] $y_n \leq x_n$ @[then@]
 @2: $x_c\gets x_n$; $y_c\gets y_n$.
 @[Return@] $x_c, y_c$
 {%- endcapture -%}
