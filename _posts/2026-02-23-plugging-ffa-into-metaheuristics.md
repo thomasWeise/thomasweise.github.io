@@ -1,5 +1,5 @@
 ---
-title: "Plugging Frequency Fitness Assignment into Local Search"
+title: "Plugging Frequency Fitness Assignment into Metaheuristics"
 read_time: true
 toc: true
 author_profile: true
@@ -23,11 +23,11 @@ Then, $S_{\tau}$ and $N_{\tau}$ are combined into a set&nbsp;$P_{\tau}=S_{\tau}\
 Now, normally, the better a solution&nbsp;$x\in P_{\tau}$ relative to the other members of&nbs;$P_{\tau}$, the higher its chance to be selected into&nbsp;$S_{\tau+1}$.
 
 {::nomarkdown}{%- capture myalgo -%}
-Sample set&nbsp;$S_1$ of initial solutions from the solution space~$\mathbb{X}$.
+Sample set&nbsp;$S_1$ of initial solutions from the solution space&nbsp;$\mathbb{X}$.
 @[For@] $\tau$ @[from@] 1 @[to@]$\dots$
-@1: Create set&nbsp;$N_{\tau}$ of new solutions based on&nbsp;$S_{\tau$.
+@1: Create set&nbsp;$N_{\tau}$ of new solutions based on&nbsp;$S_{\tau}$.
 @1: $P_{\tau}\gets S_{\tau}\cup N_{\tau}$.
-@1: Select set $S_{\tau+1}$ from $P_{\tau}$ according to some policy that usually chooses solutions&nbsp;$x\in P_{\tau}$ with better objective values&nbsp;$f(x)$ with higher probability.
+@1: Select set $S_{\tau+1}$ from $P_{\tau}$ according to some policy.
 {%- endcapture -%}
 {%- include algorithm.liquid text=myalgo id="metaheuristic" caption="The normal cycle of metaheuristic algorithms." -%}{:/}
 
