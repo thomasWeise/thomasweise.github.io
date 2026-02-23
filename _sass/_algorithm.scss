@@ -7,6 +7,10 @@ $algo-font: "KaTeX_Main";
 
 
 .algoFig {
+    border: 1px solid $algo-line-number-sep-color;
+    padding: 4px;
+    display: table;
+    margin: auto;
 
     .algorithm {
         font-family: $sans-serif;
@@ -66,9 +70,12 @@ $algo-font: "KaTeX_Main";
 
     .algoCapt {
         font-style: italic;
+        text-align: center;
+        display: table-caption;
+        caption-side: top;
+    }
 
-        .algoNum {
-            font-weight: bold;
-        }
+    .algoNum {
+        font-weight: bold;
     }
 }
