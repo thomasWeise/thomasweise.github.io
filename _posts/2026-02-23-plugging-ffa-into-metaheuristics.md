@@ -14,8 +14,8 @@ algorithms: ["metaheuristic"]
 ## Metaheuristic Optimization
 Frequency Fitness Assignment&nbsp;({%- include taglink.liquid tag="FFA" -%}) is a technique that redefines how we do metaheuristic optimization.
 Metaheuristic algorithms, like Evolutionary Algorithms&nbsp(EAs), local search, Simulated Annealing&nbsp;(SA), or Tabu Search&nbsp(TS) proceed iteratively according to the cycle given in {% include algorithm_link.liquid id="metaheuristic" -%}.
-At each iteration&nbsp;$\tau$, they maintain a set~$S_{\tau}$ of interesting candidate solutions~$x\in S_{\tau}$ from the solution space~$\mathbb{X}$.
-They use these selected solutions in one way or another to sample a set~$N_{\tau}$ of new solutions.
+At each iteration&nbsp;$\tau$, they maintain a set&nbsp;$S_{\tau}$ of interesting candidate solutions&nbsp;$x\in S_{\tau}$ from the solution space&nbsp;$\mathbb{X}$.
+They use these selected solutions in one way or another to sample a set&nbsp;$N_{\tau}$ of new solutions.
 This may happen via a unary search operator&nbsp;(called "mutation" in EA-lingo) or a binary operator&nbsp;(often called "crossover" or "recombination") or in any other imaginable way.
 Either way, we get a set of new solutions&nbsp;$N_{\tau}$.
 Then, $S_{\tau}$ and $N_{\tau}$ are combined into a set&nbsp;$P_{\tau}=S_{\tau}\cup N_{\tau}$ and the set&nbsp;$S_{\tau+1}\subseteq P_{\tau}$ for the next iteration is chosen from it.
