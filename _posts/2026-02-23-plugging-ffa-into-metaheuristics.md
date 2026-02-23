@@ -1,5 +1,6 @@
 ---
 title: "Plugging Frequency Fitness Assignment into Metaheuristics"
+layout: post
 read_time: true
 toc: true
 author_profile: true
