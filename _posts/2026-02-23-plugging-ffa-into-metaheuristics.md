@@ -78,7 +78,7 @@ $y_c\gets f(x_c)$.
 @1: <span style="color:violet">$H[y_c]\gets H[y_c]+1$; $H[y_n]\gets H[y_n]+1$.</span>
 @1: <span style="color:violet">@[If@] $H[y_n] \leq H[y_c]$ @[then@]</span>
 @2: $x_c\gets x_n$; $y_c\gets y_n$.
-@2: <span style="color:blue">@[If@] $y_n < y_b$ @[then@]</span>
+@2: <span style="color:blue">@[If@] $y_n &lt; y_b$ @[then@]</span>
 @3: <span style="color:blue">$x_b\gets x_n$; $y_b\gets y_n$.</span>
 @[Return@] <span style="color:blue">$x_b, y_b$.</span>
 {%- endcapture -%}
