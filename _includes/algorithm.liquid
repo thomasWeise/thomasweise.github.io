@@ -1,6 +1,6 @@
 {%- assign text=include.text | default: "" -%}
 {%- assign caption=include.caption | default: "" -%}
-{%- assign label=include.label | default: "" -%}
+{%- assign id=include.id | default: "" -%}
 {%- assign text=text | strip | newline_to_br | replace: "<br />", "<br>" | replace: "<br/>", "<br>" | strip_newlines | normalize_whitespace | replace: "<br> ", "<br>" -%}
 {%- for indent in (1..20) -%}
     {%- assign repl=indent | times: 4 | append: "em" -%}
@@ -12,11 +12,10 @@
 {%- endfor -%}
 {%- assign text=text | replace: "@[", '<span class="algoKw">' | replace: "@]", "</span>" -%}
 {%- assign lines=text | split: "<br>" -%}
-{%- assign algo_count=page.algo_count | default: 0 -%}
-{%- assign algo_count=algo_count | plus: 1 -%}
-{%- assign page.algo_count=algo_count -%}
 {%- capture fulltext -%}
 {%- for line in lines -%}<span class="algoN"></span><span class="algoC">{{ line | strip }}</span>
 {% endfor -%}
 {%- endcapture -%}
-<figure class="algoFig"{%- if label != "" %} id="{{- label -}}"{%- endif -%}>{%- if caption != "" -%}<figcaption class="algCapt"><span class="algoNum">Algorithm&nbsp;{{- algo_count -}}.</span>&nbsp;{{- caption | strip | normalize_whitespace -}}</figcaption>{%- endif -%}<pre class="algorithm">{{- fulltext | strip -}}</pre></figure>
+{%- assign def_algo_lst=id | split: "äöü@" -%}
+{%- assign algo_lst=page.algo_lst | default: def_algo_lst -%}
+<figure class="algoFig"{%- if label != "" %} id="{{- label -}}"{%- endif -%}>{%- if caption != "" -%}<figcaption class="algCapt">{%- algorithm_link.liquid id=id algo_use_class="algoNum" algo_put_as_label=true -%}&nbsp;{{- caption | strip | normalize_whitespace -}}</figcaption>{%- endif -%}<pre class="algorithm">{{- fulltext | strip -}}</pre></figure>
