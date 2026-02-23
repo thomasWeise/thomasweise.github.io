@@ -17,10 +17,10 @@
 {%- if algo_print_text == "" -%}
     {%- assign algo_print_text="Algorithm&nbsp;" | append: algo_find_index -%}
     {%- assign algo_lst=algo_lst | concat: def_algo_lst -%}
-    {%- assign page.internal_algo_lst=algo_lst -%}
 {%- endif -%}
+{%- assign page.internal_algo_lst=algo_lst -%}
 {%- if put_as_label -%}
 <span{%- if use_class != "" %} class="{{- use_class -}}"{%- endif -%} id="{{- the_algo_id -}}">{{- algo_print_text -}}.</span>
 {%- else -%}
-<a{%- if use_class != "" %} class="{{- use_class -}}"{%- endif -%} href="#{{- the_algo_id -}}">{{- algo_print_text -}}</a>
+<a{%- if use_class != "" %} class="{{- use_class -}}"{%- endif %} href="#{{- the_algo_id -}}">{{- algo_print_text -}}</a>
 {%- endif -%}
