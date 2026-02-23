@@ -4,7 +4,7 @@ date: 2026-02-23
 last_modified_at: 2026-02-23
 use_math: true
 tags: ["FFA", "local_search", "metaheuristics", "RLS", "(1+1) EA", "FRLS", "(1+1) FEA"]
-algorithms: ["metaheuristic"]
+algorithms: ["metaheuristic", "RLS"]
 ---
 
 ## Metaheuristic Optimization
@@ -31,3 +31,34 @@ This is how trial-and-error works:
 We try different solutions for problem and look how good they work.
 Then we continue with slightly modified versions the solution that we liked best in order to find even better.
 This iterative procedure of trial and error with a bias for better solutions is foundation of metaheuristic optimization.
+
+## Randomized Local Search
+Let us consider the simplest metaheuristic, namely *Randomized Local Search*&nbsp;(RLS).
+RLS&nbsp;begins by sampling one candidate solution&nbsp;$x_c$ from the solution space&nbsp;$\mathbb{X}$ uniformly at random.
+It computes the objective value&nbsp;$y_c$ of&nbsp;$x_c$ by evaluating the objective function&nbsp;$f:\mathbb{X}\mapsto\mathbb{R}$.
+Let's assume that&nbsp;$f$ is subject to minimization, i.e., represents some sort of cost or amount of consumed resource.
+$y_c\gets f(x_c)$&nbsp;then is the quality of the current solution&nbsp;$x_c$ and&nbsp;$x_c$ is the better, the smaller&nbsp;$y_c$ is.
+In the scheme given in {% include algorithm_link.liquid id="metaheuristic" -%}, we would basically have&nbsp;$S_i=\{x_c\}$.
+
+Now, in its main loop, RLS creates a slightly modified copy&nbsp;$x_n$ of the&nbsp;$x_c$.
+It does so by applying a unary operator&nbsp;$\mathit{op1}$ to&nbsp;$x_c$.
+$\mathit{op1}$&nbsp;is usually randomized, meaning that it copies&nbsp;$x_c$ and then randomly changes one or multiple components of that copy.
+Either way, we get a new solution&nbsp;$x_n\gets\mathit{op1}(x_n)$.
+This solution is then also evaluated and we obtain its objective value&nbsp;$y_n\gets f(x_n)$.
+In the scheme given in {% include algorithm_link.liquid id="metaheuristic" -%}, we would basically have&nbsp;$N_i=\{x_n\}$.
+
+In its selection step, RLS retains&nbsp;$x_n$ if it is not worse than&nbsp;$x_c$.
+This means that, if&nbsp;$y_n\leq y_c$, $x_c\gets\x_n$ and $y_c\gets y_n$.
+After the complete computational budget is exhausted, the algorithm returns the best solution that it has discovered&nbsp;(namely&nbsp;$x_c$) as well as its quality&nbsp;$y_c$.
+This process is illustrated as {% include algorithm_link.liquid id="RLS" -%}.
+
+{::nomarkdown}{%- capture myalgo -%}
+Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
+$y_c\gets f(x_c)$.
+@[Until@] computational budget exhausted @[repeat@]
+@1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
+@1: @[If] $y_n \leq x_n$ @[then@]
+@2: $x_c\gets x_n$; $y_c\gets y_n$.
+@[Return@] $x_c, y_c$
+{%- endcapture -%}
+{%- include algorithm.liquid text=myalgo id="RLS" caption="The randomized local search&nbsp;(RLS)." -%}{:/}
