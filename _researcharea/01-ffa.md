@@ -90,4 +90,4 @@ Then, we compute $y=x^2-\log{x}$
 @1: $z\gets 3y$
 @[EndFor@]
 {%- endcapture -%}
-{%- include algorithm.liquid text=myalgo -%}{:/}
+{%- include algorithm.liquid text=myalgo label="test label" caption="my algorithm caption" -%}{:/}
