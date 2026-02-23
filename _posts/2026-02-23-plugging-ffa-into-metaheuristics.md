@@ -10,8 +10,6 @@ tags: ["FFA", "local_search", "metaheuristics", "RLS", "(1+1) EA", "FRLS", "(1+1
 algorithms: ["metaheuristic"]
 ---
 
-# Plugging Frequency Fitness Assignment into Metaheuristics
-
 ## Metaheuristic Optimization
 Frequency Fitness Assignment&nbsp;({%- include taglink.liquid tag="FFA" -%}) is a technique that redefines how we do metaheuristic optimization.
 Metaheuristic algorithms, like Evolutionary Algorithms&nbsp(EAs), local search, Simulated Annealing&nbsp;(SA), or Tabu Search&nbsp(TS) proceed iteratively according to the cycle given in {% include algorithm_link.liquid id="metaheuristic" -%}.
