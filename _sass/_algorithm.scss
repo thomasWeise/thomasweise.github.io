@@ -22,6 +22,7 @@ $algo-font: "KaTeX_Main";
         align-items: start;
         grid-template-columns: min-content 1fr;
         background: $algo-background-color;
+        margin-bottom: 0pt;
 
         .algoC {
             padding-left: calc(2em + 5px);
