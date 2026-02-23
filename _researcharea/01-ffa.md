@@ -82,6 +82,8 @@ This odd approach to optimization deserves some more analysis.
 ### Complete List
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.tags contains 'FFA'" -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
 
+The first procedure is {% include algorithm_link.liquid id="testlabel" -%}.
+
 {::nomarkdown}{%- capture myalgo -%}
 First, we set $x\gets23^2$
 Then, we compute $y=x^2-\log{x}$
@@ -91,3 +93,16 @@ Then, we compute $y=x^2-\log{x}$
 @[EndFor@]
 {%- endcapture -%}
 {%- include algorithm.liquid text=myalgo id="testlabel" caption="my algorithm caption" -%}{:/}
+
+{::nomarkdown}{%- capture myalgo -%}
+First, we set $x\gets5$
+Then, we compute $y=x^2-\log{x}$
+@[For@] $i\gets 1$ @[to@] x:
+@1: $y\gets y*i$
+@1: $z\gets 3y$
+@2: $g\gets h$
+@[EndFor@]
+{%- endcapture -%}
+{%- include algorithm.liquid text=myalgo id="testlabel2" caption="my algorithm caption" -%}{:/}
+
+We also present {% include algorithm_link.liquid id="testlabel2" -%}.

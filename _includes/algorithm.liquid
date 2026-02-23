@@ -3,7 +3,7 @@
 {%- assign id=include.id | default: "" -%}
 {%- assign text=text | strip | newline_to_br | replace: "<br />", "<br>" | replace: "<br/>", "<br>" | strip_newlines | normalize_whitespace | replace: "<br> ", "<br>" -%}
 {%- for indent in (1..20) -%}
-    {%- assign repl=indent | times: 4 | append: "em" -%}
+    {%- assign repl=indent | times: 3 | append: "em" -%}
     {%- assign repl='<span style="display:inline-block;width:' | append: repl | append: '">&nbsp;</span>' -%}
     {%- assign search="@" | append: indent | append: ": " -%}
     {%- assign text=text | replace: search, repl -%}
