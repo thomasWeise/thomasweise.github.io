@@ -69,14 +69,14 @@ We first provide FRLS as {% include algorithm_link.liquid id="FRLS" -%} and then
 It should be noted upfront that this algorithm will *only* work if the objective function is discrete, i.e., takes on a finite (and ideally small) number of different values.
 
 {::nomarkdown}{%- capture myalgo -%}
-<span style="color:violet">$H\gets (0, 0, \dots, 0)</span>.
+<span style="color:DarkViolet">$H\gets (0, 0, \dots, 0)$.</span>
 Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
 $y_c\gets f(x_c)$.
 <span style="color:blue">$x_b\gets x_c$; $y_b\gets y_c$.</span>
 @[Until@] computational budget exhausted @[repeat@]
 @1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
-@1: <span style="color:violet">$H[y_c]\gets H[y_c]+1$; $H[y_n]\gets H[y_n]+1$.</span>
-@1: <span style="color:violet">@[If@] $H[y_n] \leq H[y_c]$ @[then@]</span>
+@1: <span style="color:DarkViolet">$H[y_c]\gets H[y_c]+1$; $H[y_n]\gets H[y_n]+1$.</span>
+@1: <span style="color:DarkViolet">@[If@] $H[y_n] \leq H[y_c]$ @[then@]</span>
 @2: $x_c\gets x_n$; $y_c\gets y_n$.
 @2: <span style="color:blue">@[If@] $y_n &lt; y_b$ @[then@]</span>
 @3: <span style="color:blue">$x_b\gets x_n$; $y_b\gets y_n$.</span>
