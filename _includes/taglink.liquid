@@ -7,11 +7,14 @@
 
 {%- assign tag_link = "" -%}
 {%- if site.data.tagmatrix contains tag_key -%}
-    {%- assign tag_link=site.data.tagmatrix[tag_key].url -%}
+    {%- if site.data.tagmatrix[tag_key].url and site.data.tagmatrix[tag_key].url != "" -%}
+        {%- assign tag_link=site.data.tagmatrix[tag_key].url -%}
+    {%- endif -%}
     {%- if site.data.tagmatrix[tag_key].name and site.data.tagmatrix[tag_key].name != "" -%}
         {%- assign tag_text = site.data.tagmatrix[tag_key].name -%}
     {%- endif -%}
-{%- else -%}
+{%- endif -%}
+{%- if tag_link == "" -%}
     {%- if site.tags contains use_tag -%}
         {%- assign tag_key = use_tag -%}
     {%- endif -%}

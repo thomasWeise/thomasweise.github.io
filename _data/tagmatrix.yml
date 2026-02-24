@@ -37,6 +37,9 @@ packing:
 python:
   url: "/programmingWithPython"
   name: "Python"
+rls:
+  name: "RLS"
+  full: "Randomized Local Search"
 scheduling:
   url: "/research/areas/scheduling"
 teaching:
