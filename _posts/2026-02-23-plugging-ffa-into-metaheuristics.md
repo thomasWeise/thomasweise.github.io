@@ -3,7 +3,7 @@ title: "Plugging Frequency Fitness Assignment into Metaheuristics"
 date: 2026-02-23
 last_modified_at: 2026-02-23
 use_math: true
-tags: ["FFA", "local_search", "metaheuristics", "RLS", "(1+1) EA", "FRLS", "(1+1) FEA"]
+tags: ["FFA", "local search", "metaheuristics", "RLS", "(1+1) EA", "FRLS", "(1+1) FEA"]
 algorithms: ["metaheuristic", "RLS", "FRLS"]
 ---
 
