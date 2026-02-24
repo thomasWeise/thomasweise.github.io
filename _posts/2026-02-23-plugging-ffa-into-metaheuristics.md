@@ -16,7 +16,7 @@ If we try to solve an optimization problem, then we have at least the following 
 
 We then try to find the values&nbsp;$x^{\star}$ for which the objective function&nbsp;$f$ takes on the smallest possible value.
 Of course, finding such points is very hard and may not be possible within reasonable time if&nbsp;$\mathbb{X}$ is big.
-Therefore, wt least we try to find some&nbsp;$x$ for which&nbsp;$f(x)$ gets as small as possible.
+Therefore, at least we try to find some&nbsp;$x$ for which&nbsp;$f(x)$ gets as small as possible.
 
 ## Metaheuristic Optimization
 Metaheuristic algorithms, like Evolutionary Algorithms&nbsp;(EAs), local search, Simulated Annealing&nbsp;(SA), or Tabu Search&nbsp;(TS) do this by proceeding iteratively according to the cycle given in {% include algorithm_link.liquid id="metaheuristic" -%}.
@@ -48,7 +48,7 @@ FFA is a modification that can be introduced into existing algorithms.
 In order to see how that works, we first look at one concrete metaheuristic method and then plug FFA into it.
 
 ## Randomized Local Search (RLS)
-Let us thus consider the simplest metaheuristic, namely *Randomized Local Search*&nbsp;(RLS).
+Let us thus consider the simplest metaheuristic, namely *Randomized Local Search*&nbsp;({%- include taglink.liquid tag="RLS" -%}).
 RLS&nbsp;begins by sampling one candidate solution&nbsp;$x_c$ from the solution space&nbsp;$\mathbb{X}$ uniformly at random.
 It computes the objective value&nbsp;$y_c$ of&nbsp;$x_c$ by evaluating the objective function&nbsp;$f:\mathbb{X}\mapsto\mathbb{R}$.
 Let's assume that&nbsp;$f$ is subject to minimization, i.e., represents some sort of cost or amount of consumed resource.
@@ -79,7 +79,7 @@ $y_c\gets f(x_c)$.
 {%- include algorithm.liquid text=myalgo id="RLS" caption="The randomized local search&nbsp;(RLS)." -%}{:/}
 
 ## Randomized Local Search with FFA (FRLS)
-Now let's plug FFA into the RLS algorithm and we obtain the FRLS.
+Now let's plug FFA into the RLS algorithm and we obtain the {% include taglink.liquid tag="FRLS" -%}.
 We first provide FRLS as {% include algorithm_link.liquid id="FRLS" %} and then discuss it step-by-step.
 It should be noted upfront that this algorithm will *only* work if the objective function is discrete, i.e., takes on a finite (and ideally small) number of different values.
 
@@ -136,3 +136,20 @@ Otherwise, it has been encountered already at least once before, so it might hav
 Anyway, neither&nbsp;$x_b$ nor&nbsp;$y_b$ influence the search in any way.
 They are strictly used to remember the best-so-far solutions, but have no impact on where the search will take us next.
 That is entirely decided by the frequency table&nbsp;$H$.
+
+## Features of FRLS
+The {% include taglink.liquid tag="FRLS" %} has several interesting features.
+
+1. Its search is unbiased.
+   The probability of being selected of a solution depends on how often its objective value has entered the selection stage before.
+   It does not depend on whether the objective value is good or bad.
+2. The path that the algorithm takes through the search space remains the same if we replace&nbsp;$f(x)$ with any&nbsp;$g(f(x))$ as long as $g$&nbsp;is an injective function.
+   The objective values are only used as indices into the frequency table&nbsp;$H$.
+   It does not matter whether they are high or low, only their identity matters.
+3. Since the FRLS algorithm does not care whether a solution is good or bad, it tends to optimize into the "wrong direction" half of the time and oscillate between searching good and bad solutions.
+4. This makes the search much slower, but it also adds a very strong explorative character.
+5. If there are many different possible objective values, the search will degenerate to a random walk.
+   FRLS can only work if there is only a relatively small set of possible objective values.
+
+## More
+[Here](/research/areas/ffa) you can learn more about FFA and the latest research that we do on this odd topic. 

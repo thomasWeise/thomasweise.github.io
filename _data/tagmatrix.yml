@@ -21,6 +21,9 @@ ffa:
   url: "/research/areas/ffa"
   name: "FFA"
   full: "Frequency Fitness Assignment"
+frls:
+  name: "FRLS"
+  full: "Randomized Local Search with Frequency Fitness Assignment"
 gp:
   url: "/research/areas/gp"
   name: "GP"
