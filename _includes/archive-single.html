@@ -30,7 +30,7 @@
       {%- assign use_excerpt = use_excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip | remove: '<p>' | remove: '</p>' | strip -%}
       {%- assign use_excerpt = use_excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | strip | normalize_whitespace | strip -%}
       {%- for hx in (1..5) -%}
-        {%- assign splitA = "<h" | append: hx | append: ">" -%}
+        {%- assign splitA = "<h" | append: hx -%}
         {%- assign splitB = "</h" | append: hx | append: ">" -%}
         {%- assign parts = use_excerpt | split: splitA -%}
         {%- assign use_excerpt = "" -%}
@@ -43,7 +43,7 @@
           {%- endif -%}
         {%- endfor -%}
       {%- endfor -%}
-      {%- use_excerpt = use_excerpt | strip | normalize_whitespace | strip | normalize_whitespace | strip -%}
+      {%- assign use_excerpt = use_excerpt | strip | normalize_whitespace | strip | normalize_whitespace | strip -%}
       {%- if use_excerpt != "" -%}
           <p class="archive__item-excerpt" itemprop="description">{{- use_excerpt -}}</p>
       {%- endif -%}
