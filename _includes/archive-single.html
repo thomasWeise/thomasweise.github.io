@@ -28,7 +28,7 @@
     {%- if post.excerpt -%}
       {%- assign use_excerpt = post.excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip -%}
       {%- assign excerpt_lines = use_excerpt | split: "\n" -%}
-      {%- assign filtered_lines = "" | split: "," -%}
+      {%- assign filtered_lines = "test" | split: "," -%}
       {%- for line_item in excerpt_lines -%}
         {%- assign temp_array = line_item | split: "äöü@" -%}
         {%- if line_item == "" -%}
