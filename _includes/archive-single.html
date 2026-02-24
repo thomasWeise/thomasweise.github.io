@@ -24,7 +24,17 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{- post.excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | strip | normalize_whitespace -}}</p>{% endif %}
+    {%- include page__meta.html type=include.type -%}
+    {%- if post.excerpt -%}
+      {%- use_excerpt = post.excerpt | strip  | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip -%}
+      {%- assign excerpt_lines = use_excerpt | split: "\n" | where_exp: "item", "item != nil and item != '' and item.first != '#' -%}
+      {%- if excerpt_lines.size > 0 -%}
+        {%- assign use_excerpt = excerpt_lines | join: "\n" -%}
+        {%- assign use_excerpt = use_excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip -%}
+        {%- if use_excerpt != "" -%}
+          <p class="archive__item-excerpt" itemprop="description">{{- use_excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | strip | normalize_whitespace -}}</p>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
   </article>
 </div>
