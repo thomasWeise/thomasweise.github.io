@@ -6,6 +6,7 @@ toc: false
 author_profile: true
 date: 2026-02-07
 last_modified_at: 2026-02-10
+tags: ["teaching"]
 ---
 
 Teaching lies on the fringes of my research interests.
