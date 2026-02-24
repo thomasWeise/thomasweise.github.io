@@ -10,7 +10,7 @@ algorithms: ["metaheuristic", "RLS", "FRLS"]
 ## Optimization
 If we try to solve an optimization problem, then we have at least the following components available: 
 
-- a data structure called the solution space&nbsp;$\mathbb{X}$, which contains the possible candidate solutions&nbsp;$x\in\mathbb{X}%,
+- a data structure called the solution space&nbsp;$\mathbb{X}$, which contains the possible candidate solutions&nbsp;$x\in\mathbb{X}$,
 - the objective function&nbsp;$f:\mathbb{X}\mapsto\mathbb{R}$, which rates the candidate solutions and which we here consider to be subject to minimization, i.e., smaller values are better, i.e., $f(x_1)<f(x_2)$ means that&nbsp;$x_1$ is better than&nbsp;$x_2$, and
 - some way to instantiate the data structure&nbsp;$\mathbb{X}$, usually either fully randomly or by copying and slightly (randomly) an existing instance&nbsp;$x$. 
 
