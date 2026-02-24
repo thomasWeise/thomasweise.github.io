@@ -28,21 +28,22 @@
     {%- if post.excerpt -%}
       {%- assign use_excerpt = post.excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip -%}
       {%- assign excerpt_lines = use_excerpt | split: "\n" -%}
-      {%- assign filtered_lines = "test" | split: "," -%}
+      {%- assign filtered_lines = "" | split: "," -%}
       {%- for line_item in excerpt_lines -%}
         {%- assign temp_array = line_item | split: "äöü@" -%}
         {%- if line_item == "" -%}
           {%- assign filtered_lines = filtered_lines | concat: temp_array %}
         {%- else -%}
-          {%- unless line_item contains "#" -%}
+          {%- unless line_item contains "#" or line_item contains "<h" -%}
             {%- assign filtered_lines = filtered_lines | concat: temp_array %}
           {%- endunless -%}
         {%- endif -%}
       {%- endfor -%}
       {%- assign use_excerpt = filtered_lines | join: "\n" -%}
-      {%- assign use_excerpt = use_excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip -%}
+      {%- assign use_excerpt = use_excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip | remove: '<p>' | remove: '</p>' | strip -%}
       {%- if use_excerpt != "" -%}
-        <p class="archive__item-excerpt" itemprop="description">{{- use_excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | strip | normalize_whitespace -}}</p>
+        {%- assign use_excerpt = use_excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | strip | normalize_whitespace -%}
+        <p class="archive__item-excerpt" itemprop="description">{{- use_excerpt -}}</p>
       {%- endif -%}
     {%- endif -%}
   </article>
