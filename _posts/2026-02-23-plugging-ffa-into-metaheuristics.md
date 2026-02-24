@@ -3,7 +3,7 @@ title: "Plugging Frequency Fitness Assignment into Metaheuristics"
 date: 2026-02-23
 last_modified_at: 2026-02-23
 use_math: true
-tags: ["FFA", "local search", "metaheuristics", "RLS", "(1+1) EA", "FRLS", "(1+1) FEA"]
+tags: ["FFA", "local search", "metaheuristics", "RLS", "FRLS", "optimization"]
 algorithms: ["metaheuristic", "RLS", "FRLS"]
 ---
 
@@ -80,7 +80,7 @@ $y_c\gets f(x_c)$.
 
 ## Randomized Local Search with FFA (FRLS)
 Now let's plug FFA into the RLS algorithm and we obtain the FRLS.
-We first provide FRLS as {% include algorithm_link.liquid id="FRLS" -%} and then discuss it step-by-step.
+We first provide FRLS as {% include algorithm_link.liquid id="FRLS" %} and then discuss it step-by-step.
 It should be noted upfront that this algorithm will *only* work if the objective function is discrete, i.e., takes on a finite (and ideally small) number of different values.
 
 {::nomarkdown}{%- capture myalgo -%}
