@@ -6,6 +6,7 @@ toc: true
 author_profile: true
 date: 2026-02-03
 last_modified_at: 2026-02-03
+tags: ["software", "Java", "metaheuristics", "benchmarking"]
 ---
 
 **This project is no longer actively developed or maintained.

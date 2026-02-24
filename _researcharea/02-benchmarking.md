@@ -6,6 +6,7 @@ toc: true
 author_profile: true
 date: 2026-02-06
 last_modified_at: 2026-02-09
+tags: ["benchmarking", "optimization", "metaheuristics"]
 ---
 
 In the field of optimization, benchmarking is the research area focussed on how to investigate algorithm performance experimentally.

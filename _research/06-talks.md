@@ -6,6 +6,7 @@ toc: false
 author_profile: false
 date: 2026-01-23
 last_modified_at: 2026-02-15
+tags: ["teaching", "FFA", "moptipy", "benchmarking"]
 ---
 
 Here you can find a collection of recent talks given by Prof.&nbsp;Dr.&nbsp;{% include person.liquid person=site.data.people.weise_thomas -%}.

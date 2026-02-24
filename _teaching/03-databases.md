@@ -6,6 +6,7 @@ toc: false
 author_profile: false
 date: 2026-01-18
 last_modified_at: 2026-02-09
+tags: ["teaching", "databases"]
 ---
 
 [Databases](/databases)&nbsp;{%- include lang.liquid text="数据库原理及应用" %} is a course on, well, databases at [Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %}.

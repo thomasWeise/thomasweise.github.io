@@ -6,6 +6,7 @@ toc: true
 author_profile: true
 date: 2026-02-06
 last_modified_at: 2026-02-10
+tags: ["optimization", "packing", "cutting"]
 ---
 
 Packing is a research field very closely related to {% include taglink.liquid tag="logistics" -%}.
