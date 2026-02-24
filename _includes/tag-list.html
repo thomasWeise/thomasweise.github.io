@@ -12,13 +12,7 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].tags_label | default: "Tags:" }} </strong>
     <span itemprop="keywords">
     {%- for tag_word in tags_sorted -%}
-      {%- assign tag_key=tag_word | remove: '-' | remove: '_' | strip | normalize_whitespace | strip | remove: ' ' | downcase -%}
-      {%- if site.data.tagmatrix contains tag_key -%}
-        {%- assign tag_link = site.data.tagmatrix[tag_key] -%}
-      {%- else -%}
-        {%- assign tag_link=tag_word | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url -%}
-      {%- endif -%}
-      <a href="{{- tag_link -}}" class="page__taxonomy-item p-category" rel="tag">{{- tag_word -}}</a>{%- unless forloop.last -%}<span class="sep">, </span>{%- endunless -%}
+       {%- include taglink.liquid tag=tag_word class="pubtag" -%}{%- unless forloop.last -%}, {% endunless -%}
     {%- endfor -%}
     </span>
   </p>
