@@ -10,13 +10,13 @@ algorithms: ["metaheuristic", "RLS", "FRLS"]
 ## Optimization
 If we try to solve an optimization problem, then we have at least the following components available: 
 
-- a data structure called the solution space~$\mathbb{X}$, which contains the possible candidate solutions~$x\in\mathbb{X}%,
-- the objective function~$f:\mathbb{X}\mapsto\mathbb{R}$, which rates the candidate solutions and which we here consider to be subject to minimization, i.e., smaller values are better, i.e., $f(x_1)<f(x_2)$ means that~$x_1$ is better than~$x_2$, and
-- some way to instantiate the data structure~$\mathbb{X}$, usually either fully randomly or by copying and slightly (randomly) an existing instance~$x$. 
+- a data structure called the solution space&nbsp;$\mathbb{X}$, which contains the possible candidate solutions&nbsp;$x\in\mathbb{X}%,
+- the objective function&nbsp;$f:\mathbb{X}\mapsto\mathbb{R}$, which rates the candidate solutions and which we here consider to be subject to minimization, i.e., smaller values are better, i.e., $f(x_1)<f(x_2)$ means that&nbsp;$x_1$ is better than&nbsp;$x_2$, and
+- some way to instantiate the data structure&nbsp;$\mathbb{X}$, usually either fully randomly or by copying and slightly (randomly) an existing instance&nbsp;$x$. 
 
-We then try to find the values~$x^{\star}$ for which the objective function~$f$ takes on the smallest possible value.
-Of course, finding such points is very hard and may not be possible within reasonable time if~$\mathbb{X}$ is big.
-Therefore, wt least we try to find some~$x$ for which~$f(x)$ gets as small as possible.
+We then try to find the values&nbsp;$x^{\star}$ for which the objective function&nbsp;$f$ takes on the smallest possible value.
+Of course, finding such points is very hard and may not be possible within reasonable time if&nbsp;$\mathbb{X}$ is big.
+Therefore, wt least we try to find some&nbsp;$x$ for which&nbsp;$f(x)$ gets as small as possible.
 
 ## Metaheuristic Optimization
 Metaheuristic algorithms, like Evolutionary Algorithms&nbsp;(EAs), local search, Simulated Annealing&nbsp;(SA), or Tabu Search&nbsp;(TS) do this by proceeding iteratively according to the cycle given in {% include algorithm_link.liquid id="metaheuristic" -%}.
@@ -25,7 +25,7 @@ They use these selected solutions in one way or another to sample a set&nbsp;$N_
 This may happen via a unary search operator&nbsp;(called "mutation" in EA-lingo) or a binary operator&nbsp;(often called "crossover" or "recombination") or in any other imaginable way.
 Either way, we get a set of new solutions&nbsp;$N_i$.
 Then, $S_i$ and $N_i$ are combined into a set&nbsp;$P_i=S_i\cup N_i$ and the set&nbsp;$S_{i+1}\subseteq P_i$ for the next iteration is chosen from it.
-Now, normally, the better a solution&nbsp;$x\in P_i$ relative to the other members of&nbs;$P_i$, meaning the smaller its corresponding objective value~$f(x)$, the higher its chance to be selected into&nbsp;$S_{i+1}$.
+Now, normally, the better a solution&nbsp;$x\in P_i$ relative to the other members of&nbs;$P_i$, meaning the smaller its corresponding objective value&nbsp;$f(x)$, the higher its chance to be selected into&nbsp;$S_{i+1}$.
 
 {::nomarkdown}{%- capture myalgo -%}
 Sample set&nbsp;$S_1$ of initial solutions from the solution space&nbsp;$\mathbb{X}$.
@@ -100,23 +100,23 @@ $y_c\gets f(x_c)$.
 {%- include algorithm.liquid text=myalgo id="FRLS" caption="The randomized local search with FFA, i.e., the FRLS algorithm." -%}{:/}
 
 Let us first discuss the core changes when transitioning to FFA, which are marked with <span style="color:DarkViolet">violet</span> color.
-The algorithm now uses a frequency table~$H$.
-$H$~counts how often each objective value was encountered during the selection step.
+The algorithm now uses a frequency table&nbsp;$H$.
+$H$&nbsp;counts how often each objective value was encountered during the selection step.
 It could be implemented a simple array or a hash map.
 We denote the initialization of this data structure by symbolically writing $H\gets (0, 0, \dots, 0)$.
 
-The creation and evaluation of the initial solution~$x_c$ and the new solution~$x_n$ sampled in each iteration stay exactly the same.
+The creation and evaluation of the initial solution&nbsp;$x_c$ and the new solution&nbsp;$x_n$ sampled in each iteration stay exactly the same.
 However, before the selection step, i.e., before we decide which of the two we want to keep, a new line appears:
-$H[y_c]\gets H[y_c]+1$&nbsp;and $H[y_n]\gets H[y_n]+1$ increment the frequency counters of the objective values~$y_c$ and~$y_n$ of~$x_c$ and~$x_n$, respectively.
-In other words, $H[y_c]$~now represents how often a solution with objective value~$y_c$ took place in the selection.
-And, of course, $H[y_n]$~now represents how often a solution with objective value~$y_n$ took place in the selection.
+$H[y_c]\gets H[y_c]+1$&nbsp;and $H[y_n]\gets H[y_n]+1$ increment the frequency counters of the objective values&nbsp;$y_c$ and&nbsp;$y_n$ of&nbsp;$x_c$ and&nbsp;$x_n$, respectively.
+In other words, $H[y_c]$&nbsp;now represents how often a solution with objective value&nbsp;$y_c$ took place in the selection.
+And, of course, $H[y_n]$&nbsp;now represents how often a solution with objective value&nbsp;$y_n$ took place in the selection.
 
 The selection decision is also changed:
-Instead of comparing~$y_n\leq y_c$, we now compare~$H[y_n] \leq H[y_c]$.
-If this comparison yields true, then~$x_n$ replaces~$x_c$ and~$y_c$ is overwritten with~$y_n$.
+Instead of comparing&nbsp;$y_n\leq y_c$, we now compare&nbsp;$H[y_n] \leq H[y_c]$.
+If this comparison yields true, then&nbsp;$x_n$ replaces&nbsp;$x_c$ and&nbsp;$y_c$ is overwritten with&nbsp;$y_n$.
 What does this mean?
-In RLS, we select the new solution~$x_n$ if it is either better than the current solution~$x_c$ or equally good.
-In FRLS, we select the new solution~$x_n$ if its objective value~$y_n$ was encountered more rarely or equally often in the selection decisions compared to the objective value~$y_c$ of the current solution~$x_c$.
+In RLS, we select the new solution&nbsp;$x_n$ if it is either better than the current solution&nbsp;$x_c$ or equally good.
+In FRLS, we select the new solution&nbsp;$x_n$ if its objective value&nbsp;$y_n$ was encountered more rarely or equally often in the selection decisions compared to the objective value&nbsp;$y_c$ of the current solution&nbsp;$x_c$.
 From a simplified perspective, this means that we accept the new solution if its objective value appares to be more rare than the objective value of the current solution.
 
 This means that, in FRLS, it does not really matter whether the new solution is better than the current solution.
@@ -127,12 +127,12 @@ It also means that the best solution that this algorithm discovers is likely to 
 This can never happen in RLS.
 But in FRLS, it can.
 And thus, we need the <span style="color:blue">blue</span> part.
-We remember the best-ever encountered solution in an additional variable~$x_b$ and its objective value in a variable~$y_b$.
+We remember the best-ever encountered solution in an additional variable&nbsp;$x_b$ and its objective value in a variable&nbsp;$y_b$.
 These two values are returned when the algorithm has finished, e.g., exhausted its computational budget.
 They are initialized right at the beginning of the algorithm.
-We check whether they should be updated when~$H[y_n] \leq H[y_c]$, because only if~$y_n$ was encountered less often than~$y_c$, it can represent a new best-so-far solution.
+We check whether they should be updated when&nbsp;$H[y_n] \leq H[y_c]$, because only if&nbsp;$y_n$ was encountered less often than&nbsp;$y_c$, it can represent a new best-so-far solution.
 Otherwise, it has been encountered already at least once before, so it might have corresponded to a new best-so-far solution back then, but not now.
 
-Anyway, neither~$x_b$ nor~$y_b$ influence the search in any way.
+Anyway, neither&nbsp;$x_b$ nor&nbsp;$y_b$ influence the search in any way.
 They are strictly used to remember the best-so-far solutions, but have no impact on where the search will take us next.
-That is entirely decided by the frequency table~$H$.
+That is entirely decided by the frequency table&nbsp;$H$.
