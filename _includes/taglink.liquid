@@ -12,10 +12,10 @@
         {%- assign tag_text = site.data.tagmatrix[tag_key].name -%}
     {%- endif -%}
 {%- else -%}
-    {%- if site.tag contains use_tag -%}
+    {%- if site.tags contains use_tag -%}
         {%- assign tag_key = use_tag -%}
     {%- endif -%}
-    {%- if site.tag contains tag_key -%}
+    {%- if site.tags contains tag_key -%}
         {%- case site.tag_archive.type -%}
           {%- when "liquid" -%}
             {%- assign path_type = "#" -%}
@@ -27,7 +27,7 @@
 {%- endif -%}
 
 {%- assign tag_text = include.tag_text | default: tag_text -%}
-{%- assign tag_text = tag_text | strip -%}
+{%- assign tag_text = tag_text | strip | normalize_whitespace | strip -%}
 
 {%- if tag_link and tag_link != "" -%}
     <a{%- if use_class and use_class != '' %} class="{{- use_class -}}"{%- endif %} href="{{- tag_link -}}" rel="tag">{{- tag_text -}}</a>
