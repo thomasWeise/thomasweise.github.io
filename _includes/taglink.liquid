@@ -1,13 +1,36 @@
 {%- assign use_tag = include.tag -%}
+{%- assign use_class = include.class | default: "" -%}
+{%- assign only_link = include.only_link | default: false -%}
+
 {%- assign tag_key = use_tag | remove: '-' | remove: '_' | strip | normalize_whitespace | strip | remove: ' ' | downcase -%}
 {%- assign tag_text = use_tag | normalize_whitespace | strip | replace: ' ', '_' | split: '_' | join: '&nbsp;' | strip | normalize_whitespace | strip | remove: ' ' -%}
+
+{%- assign tag_link = "" -%}
+{%- if site.data.tagmatrix contains tag_key -%}
+    {%- assign tag_link=site.data.tagmatrix[tag_key].url -%}
+    {%- if site.data.tagmatrix[tag_key].name and site.data.tagmatrix[tag_key].name != "" -%}
+        {%- assign tag_text = site.data.tagmatrix[tag_key].name -%}
+    {%- endif -%}
+{%- else -%}
+    {%- if site.tag contains use_tag -%}
+        {%- assign tag_key = use_tag -%}
+    {%- endif -%}
+    {%- if site.tag contains tag_key -%}
+        {%- case site.tag_archive.type -%}
+          {%- when "liquid" -%}
+            {%- assign path_type = "#" -%}
+          {%- when "jekyll-archives" -%}
+            {%- assign path_type = nil -%}
+        {%- endcase -%}
+        {%- assign tag_link=tag_key | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url -%}
+    {%- endif -%}
+{%- endif -%}
+
 {%- assign tag_text = include.tag_text | default: tag_text -%}
 {%- assign tag_text = tag_text | strip -%}
-{%- assign only_link = include.only_link | default: false -%}
-{%- if site.data.tagmatrix contains tag_key -%}
-    {%- assign use_class = include.class | default: "" -%}
-    <a{%- if use_class and use_class != '' %} class="{{- use_class -}}"{%- endif -%}
-    {%- assign tag_link = site.data.tagmatrix[tag_key] %} href="{{- tag_link -}}">{{- tag_text -}}</a>
+
+{%- if tag_link and tag_link != "" -%}
+    <a{%- if use_class and use_class != '' %} class="{{- use_class -}}"{%- endif %} href="{{- tag_link -}}" rel="tag">{{- tag_text -}}</a>
 {%- else -%}
     {%- unless only_link -%}{{- tag_text -}}{%- endunless -%}
 {%- endif -%}

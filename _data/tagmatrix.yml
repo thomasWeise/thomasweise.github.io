@@ -1,21 +1,60 @@
-aitoa: "/aitoa"
-aitoacode: "/aitoa-code"
-algorithmsynthesis: "/research/areas/gp#algorithm-synthesis"
-benchmarking: "/research/areas/benchmarking"
-carp: "/research/areas/logistics#arc-routing-problems"
-databases: "/databases"
-distributedsystems: "/research/areas/distributed-systems"
-ffa: "/research/areas/ffa"
-gp: "/research/areas/gp"
-logistics: "/research/areas/logistics"
-moptipy: "/moptipy"
-optimizationbenchmarking: "https://optimizationbenchmarking.github.io"
-packing: "/research/areas/packing"
-python: "/programmingWithPython"
-scheduling: "/research/areas/scheduling"
-teaching: "/research/areas/teaching"
-tsp: "/research/areas/tsp"
-tspsuite: "https://github.com/optimizationBenchmarking/tspSuite"
-ttp: "/research/areas/logistics#traveling-tournament-problemttp"
-vrp: "/research/areas/logistics#vehicle-routing-problemsvrps"
-webservices: "/research/areas/distributed-systems#web-services"
+aitoa:
+  url: "/aitoa"
+aitoacode:
+  url: "/aitoa-code"
+  name: "aitoa-code"
+algorithmsynthesis:
+  url: "/research/areas/gp#algorithm-synthesis"
+  name: "algorithm synthesis"
+benchmarking:
+  url: "/research/areas/benchmarking"
+carp:
+  url: "/research/areas/logistics#arc-routing-problems"
+  name: "CARP"
+  full: "Capacitated Arc Routing Problem"
+databases:
+  url: "/databases"
+distributedsystems:
+  url: "/research/areas/distributed-systems"
+  name: "distributed systems"
+ffa:
+  url: "/research/areas/ffa"
+  name: "FFA"
+  full: "Frequency Fitness Assignment"
+gp:
+  url: "/research/areas/gp"
+  name: "GP"
+  full: "Genetic Programming"
+logistics:
+  url: "/research/areas/logistics"
+moptipy:
+  url: "/moptipy"
+optimizationbenchmarking:
+  url: "https://optimizationbenchmarking.github.io"
+  name: "optimizationBenchmarking"
+packing:
+  url: "/research/areas/packing"
+python:
+  url: "/programmingWithPython"
+  name: "Python"
+scheduling:
+  url: "/research/areas/scheduling"
+teaching:
+  url: "/research/areas/teaching"
+tsp:
+  url: "/research/areas/tsp"
+  name: "TSP"
+tspsuite:
+  url: "https://github.com/optimizationBenchmarking/tspSuite"
+  name: "TSP&nbsp;Suite"
+ttp:
+  url: "/research/areas/logistics#traveling-tournament-problemttp"
+  name: "TTP"
+  full: "Traveling Tournament Problem"
+vrp:
+  url: "/research/areas/logistics#vehicle-routing-problemsvrps"
+  name: "VRP"
+  full: "Vehicle Routing Problem"
+webservices:
+  url: "/research/areas/distributed-systems#web-services"
+  name: "Web Services"
