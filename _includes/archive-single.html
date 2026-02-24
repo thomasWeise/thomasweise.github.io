@@ -27,7 +27,7 @@
     {%- include page__meta.html type=include.type -%}
     {%- if post.excerpt -%}
       {%- assign use_excerpt = post.excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip -%}
-      {%- assign excerpt_lines = use_excerpt | split: "\n" | where_exp: "item", "item != nil and item != '' and item.first != '#' -%}
+      {%- assign excerpt_lines = use_excerpt | split: "\n" | where_exp: "item", "item != nil and item != '' and item.first != '#'" -%}
       {%- if excerpt_lines.size > 0 -%}
         {%- assign use_excerpt = excerpt_lines | join: "\n" -%}
         {%- assign use_excerpt = use_excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip -%}
