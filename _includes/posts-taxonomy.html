@@ -9,7 +9,7 @@
   {% for i in (1..items_max) reversed %}
     {% for item in include.taxonomies %}
       {% if item[1].size == i %}
-        {%- tag_text = item[0] -%}
+        {%- assign tag_text = item[0] -%}
         {%- assign tag_key = tag_text | remove: '-' | remove: '_' | strip | normalize_whitespace | strip | remove: ' ' | downcase -%}
         {%- if site.data.tagmatrix contains tag_key -%}
           {%- if site.data.tagmatrix[tag_key].name and site.data.tagmatrix[tag_key].name != "" -%}
@@ -33,7 +33,7 @@
 {% for i in (1..items_max) reversed %}
   {% for taxonomy in include.taxonomies %}
     {% if taxonomy[1].size == i %}
-      {%- tag_text = taxonomy[0] -%}
+      {%- assign tag_text = taxonomy[0] -%}
       <section id="{{ tag_text | slugify }}" class="taxonomy__section">
         {%- assign tag_key = tag_text | remove: '-' | remove: '_' | strip | normalize_whitespace | strip | remove: ' ' | downcase -%}
         {%- if site.data.tagmatrix contains tag_key -%}
