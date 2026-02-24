@@ -25,7 +25,7 @@ They use these selected solutions in one way or another to sample a set&nbsp;$N_
 This may happen via a unary search operator&nbsp;(called "mutation" in EA-lingo) or a binary operator&nbsp;(often called "crossover" or "recombination") or in any other imaginable way.
 Either way, we get a set of new solutions&nbsp;$N_i$.
 Then, $S_i$ and $N_i$ are combined into a set&nbsp;$P_i=S_i\cup N_i$ and the set&nbsp;$S_{i+1}\subseteq P_i$ for the next iteration is chosen from it.
-Now, normally, the better a solution&nbsp;$x\in P_i$ relative to the other members of&nbs;$P_i$, meaning the smaller its corresponding objective value&nbsp;$f(x)$, the higher its chance to be selected into&nbsp;$S_{i+1}$.
+Now, normally, the better a solution&nbsp;$x\in P_i$ relative to the other members of&nbsp;$P_i$, meaning the smaller its corresponding objective value&nbsp;$f(x)$, the higher its chance to be selected into&nbsp;$S_{i+1}$.
 
 {::nomarkdown}{%- capture myalgo -%}
 Sample set&nbsp;$S_1$ of initial solutions from the solution space&nbsp;$\mathbb{X}$.
