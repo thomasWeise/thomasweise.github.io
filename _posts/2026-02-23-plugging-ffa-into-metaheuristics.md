@@ -1,7 +1,7 @@
 ---
 title: "Plugging Frequency Fitness Assignment into Metaheuristics"
 date: 2026-02-23
-last_modified_at: 2026-02-23
+last_modified_at: 2026-02-25
 use_math: true
 tags: ["FFA", "local search", "metaheuristics", "RLS", "FRLS", "optimization"]
 algorithms: ["metaheuristic", "RLS", "FRLS"]
@@ -70,7 +70,7 @@ This process is illustrated as {% include algorithm_link.liquid id="RLS" -%}.
 {::nomarkdown}{%- capture myalgo -%}
 Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
 $y_c\gets f(x_c)$.
-@[Until@] computational budget exhausted @[repeat@]
+@[Until@] $\lnot$&nbsp;should terminate @[repeat@]
 @1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
 @1: @[If@] $y_n \leq y_c$ @[then@]
 @2: $x_c\gets x_n$; $y_c\gets y_n$.
@@ -88,7 +88,7 @@ It should be noted upfront that this algorithm will *only* work if the objective
 Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
 $y_c\gets f(x_c)$.
 <span style="color:blue">$x_b\gets x_c$; $y_b\gets y_c$.</span>
-@[Until@] computational budget exhausted @[repeat@]
+@[Until@] $\lnot$&nbsp;should terminate @[repeat@]
 @1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
 @1: <span style="color:DarkViolet">$H[y_c]\gets H[y_c]+1$; $H[y_n]\gets H[y_n]+1$.</span>
 @1: <span style="color:DarkViolet">@[If@] $H[y_n] \leq H[y_c]$ @[then@]</span>
@@ -136,6 +136,52 @@ Otherwise, it has been encountered already at least once before, so it might hav
 Anyway, neither&nbsp;$x_b$ nor&nbsp;$y_b$ influence the search in any way.
 They are strictly used to remember the best-so-far solutions, but have no impact on where the search will take us next.
 That is entirely decided by the frequency table&nbsp;$H$.
+
+## Basic References
+### Bit-String based Search Spaces
+First, let us consider the problem type where all solutions&nbsp;$x$ are bit strings of length&nbsp;$n$. 
+
+{::nomarkdown}{%- assign papers="WWLCL2023FFAOWBFGSCBE,WWLC2021FFAMOAIUBTOTOFV" | split: "," -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
+
+In the two papers above, we introduce FFA into the (1+1)&nbsp;EA.
+The RLS and the (1+1)&nbsp;EA are basically the same algorithm but differ in their unary search operator&nbsp;$\mathit{Op1}$.
+Usually, when we talk about the (1+1)&nbsp;EA, the search or solution space&nbsp;$\mathbb{X}$ corresponds to bit strings of length&nbsp;$n$, i.e., $\{`0`,`1`\}^n$.
+Here, each decision variable is either `0`&nbsp;(meaning&nbsp;`False`) or `1`&nbsp;(meaning&nbsp;`True`).
+When we consider this domain, the terms "RLS" and "(1+1)&nbsp;EA" have the following meaning:
+
+- In the RLS, the unary operator&nbsp;$\mathit{Op1}(x_c)$ creates a copy of&nbsp;$x_c$, then randomly chooses one bit and flips it.
+- In the (1+1)&nbsp;EA, the unary operator&nbsp;$\mathit{Op1}(x_c)$ creates a copy of&nbsp;$x_c$ and then, for each of the $n$&nbsp;bits, decides randomly whether it should be flipped.
+  Usually, the per-bit flipping probability is&nbsp;$1/n$.
+  Usually, it is ensured that at least one bit is flipped.
+
+Otherwise, both algorithms have exactly the same procedure as detailed in {% include algorithm_link.liquid id="RLS" -%}.
+Either way, we plugged FFA into this (1+1)&nbsp;EA and obtained the (1+1)&nbsp;FEA, which is basically equivalent to the {% include algorithm_link.liquid id="FRLS" -%}.
+And then we did lots of experiments with it.
+And found that it actually works quite well.
+And more you can read in the papers.
+
+### Other Domains
+If the search domain is not bit strings, then we can use the terms RLS and (1+1)&nbsp;EA more or less synonymously.
+Sometimes, one may use "RLS" to indicate that the search operator&nbsp;$\mathit{Op1}(x_c)$ has a fixed neighborhood from which solutions are sampled uniformly.
+Then, "(1+1)&nbsp;EA" may be used for situations where basically every possible solution can be reached within a single step, albeit at different probabilities.
+
+Some examples, i.e., a subset of our work on FFA, can be found here (:
+
+- Permutations:
+  The Search Space&nbsp;$\mathbb{X}$ corresponds to permutations of the first&nbsp;$n$ natural numbers.
+  + Traveling Salesperson Problem&nbsp;({% include taglink.liquid tag="TSP" %})
+    {::nomarkdown}{%- assign papers="LWLvdBTW2024ATTSPWFFAAHA,LWTWW2024GSIWIFFTTSP,LWLvdbW2022STTSPUFFA" | split: "," -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
+  + Quadratic Assignment Problem&nbsp;({% include taglink.liquid tag="QAP" %})
+    {::nomarkdown}{%- assign papers="CWTW2024FFAOWBFGSORLSOTQAP,TOvdBLW2024ESTAEFFFA" | split: "," -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
+  + Traveling Tournament Problem&nbsp;({% include taglink.liquid tag="TTP" %})
+    {::nomarkdown}{%- assign papers="XWvdBW2024RLSVNVFFAOTTTP" | split: "," -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
+- Permutations with Repetitions:
+  Each one of the first&nbsp;$n$ natural numbers occurs exactly a per-number specific amount of times in the permutations.
+  + Job Shop Scheduling Problem({% include taglink.liquid tag="JSSP" %})
+    {::nomarkdown}{%- assign papers="WLCW2021SJSSPWUABFGS,WWLC2021FFAMOAIUBTOTOFV" | split: "," -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
+  + Two-Dimensional Bin&nbsp;({% include taglink.liquid tag="packing" tag_text="Packing" %})
+    {::nomarkdown}{%- assign papers="ZWvdBTLTW2024RLSFTDBPAANRFFA,ZLWvdBTW2024RLSOT2RBPPWIR" | split: "," -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
+    
 
 ## Features of FRLS
 The {% include taglink.liquid tag="FRLS" %} has several interesting features.
