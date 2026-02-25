@@ -697,7 +697,7 @@
   if: 6.6
   code: ["http://optimizationBenchmarking.github.io", "https://github.com/optimizationBenchmarking"]
   dblp: "https://dblp.org/rec/journals/asc/WeiseWQLT18.html"
-  tags: ["TSP", "logistics", "MaxSat", "benchmarking", "optimizationBenchmarking", "TSPSuit", "ACO", "EAs", "local_search"]
+  tags: ["TSP", "logistics", "MaxSat", "benchmarking", "optimizationBenchmarking", "TSPSuit", "ACO", "EAs", "local_search", "tabu_search"]
 - key: "RZCEGJKLLMOPSTWWWWZ2018WAP"
   title: "Workshops at PPSN&nbsp;2018"
   authors: ["purshouse_robin", "zarges_christine", "cussat_blanc_sylvain", "epitropakis_michael_g", "gallagher_marcus", "jansen_thomas", "kerschke_pascal", "li_xiaodong", "lobo_fernando_g", "miller_julian_francis", "oliveto_pietro_simone", "preuss_mike", "squillero_giovanni", "tonda_alberto", "wagner_markus", "weise_thomas", "wilson_dennis_g", "wrobel_borys", "zamuda_ales"]
@@ -767,7 +767,7 @@
   issn: "2572-1038"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/icaci/Qi0L18.html"
-  tags: ["TSP", "TSPSuite", "logistics", "benchmarking", "TS"]
+  tags: ["TSP", "TSPSuite", "logistics", "benchmarking", "tabu_search"]
 - key: "W2017FSDFTSTFOAB"
   authors: ["weise_thomas"]
   title: "From Standardized Data Formats to Standardized Tools for Optimization Algorithm Benchmarking"
@@ -926,7 +926,7 @@
   index: ["EI"]
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   dblp: "https://dblp.org/rec/conf/bic-ta/XuWWLC15.html"
-  tags: ["TSP", "TSPSuite", "logistics", "TS", "local_search"]
+  tags: ["TSP", "TSPSuite", "logistics", "tabu_search", "local_search"]
 - key: "LWWC2015HECMFTTSP"
   authors: ["liu_weichen", "weise_thomas", "wu_yuezhong", "chiong_raymond"]
   title: "Hybrid Ejection Chain Methods for the Traveling Salesman Problem"

@@ -69,6 +69,8 @@ scheduling:
 si:
   name: "SI"
   full: "Swarm Inteligence"
+tabu_search:
+  name: "Tabu Search"
 teaching:
   url: "/research/areas/teaching"
 tsp:
