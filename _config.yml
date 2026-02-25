@@ -132,7 +132,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-tagories
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -141,7 +140,6 @@ whitelist:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-tagories
 
 
 # Archives
@@ -203,16 +201,6 @@ defaults:
       comments: false
       share: false
       related: true
-  - scope:
-      path: ""
-      type: collection
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
   - scope:
       path: ""
       type: teaching
