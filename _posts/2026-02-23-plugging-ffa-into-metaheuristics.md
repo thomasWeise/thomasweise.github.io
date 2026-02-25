@@ -70,7 +70,7 @@ This solution is then also evaluated and we obtain its objective value&nbsp;$y_n
 In the scheme given in {% include algorithm_link.liquid id="metaheuristic" -%}, we would basically have&nbsp;$N_i=\{x_n\}$.
 
 In its selection step, RLS retains&nbsp;$x_n$ if it is not worse than&nbsp;$x_c$.
-This means that, if&nbsp;$y_n\leq y_c$, $x_c\gets\x_n$ and $y_c\gets y_n$.
+This means that, if&nbsp;$y_n\leq y_c$, $x_c\gets x_n$ and $y_c\gets y_n$.
 After the complete computational budget is exhausted, the algorithm returns the best solution that it has discovered&nbsp;(namely&nbsp;$x_c$) as well as its quality&nbsp;$y_c$.
 This process is illustrated as {% include algorithm_link.liquid id="RLS" -%}.
 
