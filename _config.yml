@@ -127,19 +127,21 @@ pagination:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-tagories
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+  - jekyll-tagories
 
 
 # Archives
