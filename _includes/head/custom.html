@@ -18,4 +18,8 @@
 <style>
     .katex { font-size: 1.1em; }
 </style>
+{%- assign fonts = "KaTeX_Main-Regular,KaTeX_Main-Italic" | split: "," -%}
+{%- for font in fonts -%}
+    <link rel="preload" href="assets/katex/fonts/{{- font -}}.woff2" as="font" type="font/woff2">
+{%- endfor -%}
 {%- endif -%}
