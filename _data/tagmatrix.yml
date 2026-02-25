@@ -1,3 +1,6 @@
+aco:
+  name: "ACO"
+  full: "Ant Colony Optimization"
 aitoa:
   url: "/aitoa"
 aitoacode:
@@ -12,11 +15,23 @@ carp:
   url: "/research/areas/logistics#arc-routing-problems"
   name: "CARP"
   full: "Capacitated Arc Routing Problem"
+ci:
+  name: "CI"
+  full: "Computational Intelligence"
 databases:
   url: "/databases"
 distributedsystems:
   url: "/research/areas/distributed-systems"
   name: "distributed systems"
+eas:
+  name: "EAs"
+  full: "Evolutionary Algorithms"
+ec:
+  name: "EC"
+  full: "Evolutionary Computation"
+edas:
+  name: "EDAs"
+  full: "Estimation of Distribution Algorithm"
 ffa:
   url: "/research/areas/ffa"
   name: "FFA"
@@ -24,6 +39,9 @@ ffa:
 frls:
   name: "FRLS"
   full: "Randomized Local Search with Frequency Fitness Assignment"
+gas:
+  name: "GAs"
+  full: "Genetic Algorithms"
 gp:
   url: "/research/areas/gp"
   name: "GP"
@@ -37,6 +55,9 @@ optimizationbenchmarking:
   name: "optimizationBenchmarking"
 packing:
   url: "/research/areas/packing"
+pso:
+  name: "PSO"
+  full: "Particle Swarm Optimization"
 python:
   url: "/programmingWithPython"
   name: "Python"
@@ -45,6 +66,9 @@ rls:
   full: "Randomized Local Search"
 scheduling:
   url: "/research/areas/scheduling"
+si:
+  name: "si"
+  full: "Swarm Inteligence"
 teaching:
   url: "/research/areas/teaching"
 tsp:
