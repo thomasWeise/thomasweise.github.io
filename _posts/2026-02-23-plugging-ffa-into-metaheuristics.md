@@ -165,7 +165,7 @@ If the search domain is not bit strings, then we can use the terms RLS and (1+1)
 Sometimes, one may use "RLS" to indicate that the search operator&nbsp;$\mathit{Op1}(x_c)$ has a fixed neighborhood from which solutions are sampled uniformly.
 Then, "(1+1)&nbsp;EA" may be used for situations where basically every possible solution can be reached within a single step, albeit at different probabilities.
 
-Some examples, i.e., a subset of our work on FFA, can be found here (:
+Some examples, i.e., a subset of our work on FFA, can be found here:
 
 - Permutations:
   The Search Space&nbsp;$\mathbb{X}$ corresponds to permutations of the first&nbsp;$n$ natural numbers.
