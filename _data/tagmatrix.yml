@@ -67,13 +67,14 @@ rls:
 scheduling:
   url: "/research/areas/scheduling"
 si:
-  name: "si"
+  name: "SI"
   full: "Swarm Inteligence"
 teaching:
   url: "/research/areas/teaching"
 tsp:
   url: "/research/areas/tsp"
   name: "TSP"
+  full: "Traveling Salesperson Problem"
 tspsuite:
   url: "https://github.com/optimizationBenchmarking/tspSuite"
   name: "TSP&nbsp;Suite"

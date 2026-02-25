@@ -6,6 +6,7 @@ comments: false
 share: false
 related: false
 date: 2026-01-18
+use_math: true
 last_modified_at: 2026-02-08
 ---
 
@@ -17,7 +18,7 @@ I mainly focus on discrete and combinatorial problems from domains such as {% in
 My current main research interest is a technique called *Frequency Fitness Assignment*&nbsp;({%- include taglink.liquid tag="FFA" -%}, {% include lang.liquid text="频率适应度分配" nowrap=true -%}), which is an "Algorithm Plugin" that removes the bias towards better solutions from its host algorithm and makes it invariant under all injective transformations of the objective function value.
 This is the strongest theoretically possible invariance property and the only other algorithms that possess it are random sampling, random walks, and exhaustive enumeration.
 These methods are very bad optimization methods.
-Yet, if we plug it into the (1+1)&nbsp;EA, for instance, it leads to a speed-up of *three orders of magnitude* on the NP-hard MaxSat problem.
+Yet, if we plug it into the (1+1)&nbsp;EA, for instance, it leads to a speed-up of *three orders of magnitude* on the $\mathcal{NP}$-hard MaxSat problem.
 While I currently focus on finding the limits, advantages, drawbacks, and use cases of {% include taglink.liquid tag="FFA" %}, I also contribute to a [wide range of topics](/research/areas) in optimization.
 
 Besides doing research, I [supervise great students](/teaching/supervision), [teach classes](/teaching), write [open source software](/software), sometimes give [talks](/talks), and contribute to the research community as [reviewer and editor](/research/activities).  
