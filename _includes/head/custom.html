@@ -6,13 +6,9 @@
 <script defer src="/assets/katex/contrib/auto-render.min.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-          delimiters: [
-              {left: '$$', right: '$$', display: true},
-              {left: '$', right: '$', display: false},
-          ]{%- if use_algorithm -%},
-          ignoredTags: ["script", "noscript", "style", "code", "textarea", "option"]{%- endif -%}
-        });
+        renderMathInElement(document.body, {%- if use_algorithm -%}{
+          ignoredTags: ["script", "noscript", "style", "code", "textarea", "option"]
+        }{%- endif -%});
     });
 </script>
 <style>
