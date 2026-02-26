@@ -11,6 +11,12 @@ algorithmsynthesis:
   name: "algorithm synthesis"
 benchmarking:
   url: "/research/areas/benchmarking"
+bab:
+  name: "B&amp;B"
+  full: "Branch and Bound"
+bpp:
+  name: "BPP"
+  full: "Bin Packing Problem"
 carp:
   url: "/research/areas/logistics#arc-routing-problems"
   name: "CARP"
@@ -50,6 +56,11 @@ logistics:
   url: "/research/areas/logistics"
 moptipy:
   url: "/moptipy"
+local_search:
+  name: "local search"
+mas:
+  name: "MAs"
+  full: "Memetic Algorithms"
 optimizationbenchmarking:
   url: "https://optimizationbenchmarking.github.io"
   name: "optimizationBenchmarking"

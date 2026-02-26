@@ -1,0 +1,20 @@
+{%- assign put_as_label=include.img_put_as_label | default: false -%}
+{%- assign the_img_id=include.id | default: "" -%}
+{%- assign the_img_id=the_img_id | strip | strip_html | strip_newlines | normalize_whitespace | replace: " ", "" -%}
+{%- assign img_lst=page.images -%}
+{%- assign img_find_index=1 -%}
+{%- assign img_print_text="" -%}
+{%- for img_id_in_list in img_lst -%}
+    {%- if img_id_in_list == the_img_id -%}
+        {%- assign img_print_text="Image&nbsp;" | append: img_find_index -%}
+        {%- break -%}
+    {%- endif -%}
+    {%- assign img_find_index=img_find_index | plus: 1 -%}
+{%- endfor -%}
+{%- if img_print_text != "" -%}
+    {%- if put_as_label -%}
+        <span class="imgNum" id="{{- the_img_id -}}">{{- img_print_text -}}.</span>
+    {%- else -%}
+        <a href="#{{- the_img_id -}}">{{- img_print_text -}}</a>
+    {%- endif -%}
+{%- endif -%}

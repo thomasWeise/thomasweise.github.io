@@ -62,7 +62,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324219"]
   dblp: "https://dblp.org/rec/conf/ijcci/ZhaoWBTLT024.html"
-  tags: ["2DBPP", "FFA", "RLS", "combinatorial_optimization", "local_search", "packing", "bin_packing", "moptipy", "python"]
+  tags: ["2DBPP", "BPP", "FFA", "RLS", "combinatorial optimization", "local_search", "packing", "bin_packing", "moptipy", "python"]
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
@@ -77,7 +77,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324662"]
   dblp: "https://dblp.org/rec/conf/ijcci/ChenWT024.html"
-  tags: ["FFA", "QAP", "RLS", "combinatorial_optimization", "local_search", "moptipy", "python"]
+  tags: ["FFA", "QAP", "RLS", "combinatorial optimization", "local_search", "moptipy", "python"]
 - key: "LWTWW2024GSIWIFFTTSP"
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
   title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
@@ -92,7 +92,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324196"]
   dblp: "https://dblp.org/rec/conf/ijcci/LiangWT0024.html"
-  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "combinatorial_optimization", "moptipy", "python"]
+  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "combinatorial optimization", "moptipy", "python"]
 - key: "XWvdBW2024RLSVNVFFAOTTTP"
   authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas", "moptipy", "python"]
   title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
@@ -107,7 +107,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13329107"]
   dblp: "https://dblp.org/rec/conf/ijcci/XiangWB024.html"
-  tags: ["TTP", "logistics", "RLS", "FFA", "local_search", "combinatorial_optimization", "NSGA-II", "MOP", "moptipy", "python"]
+  tags: ["TTP", "logistics", "RLS", "FFA", "local_search", "combinatorial optimization", "NSGA-II", "MOP", "moptipy", "python"]
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
@@ -124,7 +124,7 @@
   data: ["https://doi.org/10.5281/zenodo.11488348"]
   supplement: ["https://doi.org/10.5281/zenodo.10987573"]
   dblp: "https://dblp.org/rec/conf/ppsn/ThomsonOBLW24.html"
-  tags: ["QAP", "RLS", "FFA", "SA", "local_search", "combinatorial_optimization", "moptipy", "python"]
+  tags: ["QAP", "RLS", "FFA", "SA", "local_search", "combinatorial optimization", "moptipy", "python"]
 - key: "LWLvdBTW2024ATTSPWFFAAHA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
   title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"
@@ -141,7 +141,7 @@
   if: 2.5
   data: ["https://doi.org/10.5281/zenodo.10217879"]
   dblp: "https://dblp.org/rec/journals/soco/LiangWLBTW24.html"
-  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "SA", "combinatorial_optimization", "moptipy", "python"]
+  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "SA", "combinatorial optimization", "moptipy", "python"]
 - key: "WSCTXZWTCW2024SGCNWSAFSBAR"
   authors: ["wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
   title: "SelfGCN:&nbsp;Graph Convolution Network With Self-Attention for Skeleton-Based Action Recognition"
@@ -178,7 +178,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.10901807"]
   dblp: "https://dblp.org/rec/conf/gecco/ZhaoLWBT024.html"
-  tags: ["2DBPP", "RLS", "combinatorial_optimization", "packing", "bin_packing", "local_search", "moptipy", "python"]
+  tags: ["2DBPP", "BPP", "RLS", "combinatorial optimization", "packing", "bin_packing", "local_search", "moptipy", "python"]
 - key: "VHvEJWvdB2024TTPRFVCF"
   authors: ["verduin_kristian", "horn_ruben", "van_eck_okke", "jansen_reitze", "weise_thomas", "van_den_berg_daan"]
   title: "The Traveling Tournament Problem:&nbsp;Rows-First versus Columns-First"
@@ -192,7 +192,7 @@
   month: 4
   rg: "380307727"
   dblp: "https://dblp.org/rec/conf/iceis/VerduinHEJ0B24.html"
-  tags: ["TTP", "logistics", "GAs", "combinatorial_optimization"]
+  tags: ["TTP", "logistics", "GAs", "combinatorial optimization"]
 - key: "WWLCL2023FFAOWBFGSCBE"
   authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan", "lassig_jorg"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization without Bias for Good Solutions can be Efficient"
@@ -274,7 +274,7 @@
   month: 4
   data: ["https://github.com/kristianverduin/Violation-Experiment"]
   code: ["https://github.com/kristianverduin/Violation-Experiment"]
-  tags: ["TTP", "logistics", "GAs", "combinatorial_optimization"]
+  tags: ["TTP", "logistics", "GAs", "combinatorial optimization"]
 - key: "CJWKWWTXLZ2022LALAFOGCISSNFRSI"
   authors: ["chen_yan", "jiang_wenxiang", "wang_mengyuan", "kang_menglei", "weise_thomas", "wang_xiaofeng", "tan_ming", "xu_lixiang", "zhang_chen"]
   title: "LightFGCNet:&nbsp;A Lightweight and Focusing on Global Context Information Semantic Segmentation Network for Remote Sensing Imagery"
@@ -305,7 +305,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.6784555"]
   dblp: "https://dblp.org/rec/conf/ssci/LiangWLBW22.html"
-  tags: ["TSP", "logistics", "FFA", "combinatorial_optimization", "local_search", "RLS", "moptipy", "python"]
+  tags: ["TSP", "logistics", "FFA", "combinatorial optimization", "local_search", "RLS", "moptipy", "python"]
 - key: "DXWW2022CSASIICGEFC"
   authors: ["ding_jianwen", "xu_jia", "weise_thomas", "wang_huan"]
   title: "Community Services and Social Involvement in COVID-19 Governance:&nbsp;Evidence from China"
@@ -332,7 +332,7 @@
   cms: "T2"
   rg: "356190941"
   dblp:  "https://dblp.org/rec/journals/jco/RaayatpanahKWP22.html"
-  tags: ["subgraph_selection", "combinatorial_optimization"]
+  tags: ["subgraph_selection", "combinatorial optimization"]
 - key: "LWW2022DOPPEIFASABD"
   authors: ["liu_zhiyang", "weise_thomas", "wu_zhize"]
   title: "Detection of Personal Protective Equipment in Factories:&nbsp;A Survey and Benchmark Dataset"
@@ -646,7 +646,7 @@
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   rg: "334144299"
   dblp: "https://dblp.org/rec/journals/ijcini/0001JQL19.html"
-  tags: ["branch_and_bound", "combinatorial_optimization", "TSP", "logistics", "EAs", "recombination", "TSPSuite", "Java"]
+  tags: ["bab", "combinatorial optimization", "TSP", "logistics", "EAs", "recombination", "TSPSuite", "Java"]
 - key: "WWLC2019IIIOADTM"
   authors: ["weise_thomas", "wu_yuezhong", "liu_weichen", "chiong_raymond"]
   title: "Implementation Issues in Optimization Algorithms:&nbsp;Do they matter?"
@@ -754,7 +754,7 @@
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/Ullrich0AL18.html"
-  tags: ["benchmarking", "combinatorial_optimization", "TSP", "logistics", "MaxSat"]
+  tags: ["benchmarking", "combinatorial optimization", "TSP", "logistics", "MaxSat"]
 - key: "QWL2018OABMASOTTSP"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Optimization Algorithm Behavior Modeling:&nbsp;A Study on the Traveling Salesman Problem"
@@ -822,7 +822,7 @@
   year: 2016
   month: 12
   dblp: "https://dblp.org/rec/conf/cocoa/AwasthiLWK16.html"
-  tags: ["combinatorial_optimization", "scheduling"]
+  tags: ["combinatorial optimization", "scheduling"]
 - key: "WWCTL2016GVLSTIOPSOEAP"
   authors: ["weise_thomas", "wu_yuezhong", "chiong_raymond", "tang_ke", "lassig_jorg"]
   title: "Global versus Local Search:&nbsp;The Impact of Population Sizes on Evolutionary Algorithm Performance"
@@ -881,7 +881,7 @@
   month: 5
   issn: "2639-3867"
   dblp: "https://dblp.org/rec/conf/ipps/AwasthiLLW16.html"
-  tags: ["combinatorial_optimization", "scheduling"]
+  tags: ["combinatorial optimization", "scheduling"]
 - key: "SWCC2015HPWEPIFSTVRPWTW"
   authors: ["shi_wei", "weise_thomas", "chiong_raymond", "catay_bulent"]
   title: "Hybrid PACO with Enhanced Pheromone Initialization for Solving the Vehicle Routing Problem with Time Windows"
@@ -894,7 +894,7 @@
   issn: "2770-0097"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/ssci/ShiWCC15.html"
-  tags: ["VRP", "ACO", "logistics", "combinatorial_optimization"]
+  tags: ["VRP", "ACO", "logistics", "combinatorial optimization"]
 - key: "GYWL2015AELSHWRWFTUSCP"
   authors: ["gao_chao", "yao_xin", "weise_thomas", "li_jinlong"]
   title: "An Efficient Local Search Heuristic with Row Weighting for the Unicost Set Covering Problem"
@@ -1006,7 +1006,7 @@
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   rg: "291831120"
   dblp: "https://dblp.org/rec/conf/cipls/JiangWLCA14.html"
-  tags: ["TSP", "TSPSuite", "logistics", "local_search", "branch_and_bound", "EAs", "MAs"]
+  tags: ["TSP", "TSPSuite", "logistics", "local_search", "bab", "EAs", "MAs"]
 - key: "ALKW2014CDWPPAFAGPS"
   authors: ["awasthi_abhishek", "lassig_jorg", "kramer_oliver", "weise_thomas"]
   title: "Common Due-Window Problem: Polynomial Algorithms for a Given Processing Sequence"
@@ -1019,7 +1019,7 @@
   issn: "2770-0097"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cipls/AwasthiLKW14.html"
-  tags: ["scheduling", "combinatorial_optimization"]
+  tags: ["scheduling", "combinatorial optimization"]
 - key: "GWL2014IT3FNLSBRFMFTSCP"
   authors: ["gao_chao", "weise_thomas", "li_jinlong"]
   title: "Improve the 3-flip Neighborhood Local Search by Random Flat Move for the Set Covering Problem"

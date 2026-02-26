@@ -1,5 +1,6 @@
 {%- assign text=include.text | default: "" -%}
 {%- assign caption=include.caption | default: "" -%}
+[%- assign caption=caption | strip | normalize_whitespace -%}
 {%- assign id=include.id | default: "" -%}
 {%- assign text=text | strip | newline_to_br | replace: "<br />", "<br>" | replace: "<br/>", "<br>" | strip_newlines | normalize_whitespace | replace: "<br> ", "<br>" -%}
 {%- for indent in (1..20) -%}
@@ -18,4 +19,10 @@
 {%- endcapture -%}
 {%- assign def_algo_lst=id | split: "äöü@" -%}
 {%- assign algo_lst=page.algo_lst | default: def_algo_lst -%}
-<figure class="algoFig"{%- if label != "" %} id="{{- label -}}"{%- endif -%}>{%- if caption != "" -%}<figcaption class="algCapt">{%- include algorithm_link.liquid id=id algo_use_class="algoNum" algo_put_as_label=true -%}&nbsp;{{- caption | strip | normalize_whitespace -}}</figcaption>{%- endif -%}<pre class="algorithm">{{- fulltext | strip -}}</pre></figure>
+<figure class="algoFig"{%- if label != "" %} id="{{- label -}}"{%- endif -%}>
+    {%- if caption != "" -%}
+        <figcaption class="algCapt">
+            {%- include algorithm_link.liquid id=id algo_put_as_label=true -%}&nbsp;{{- caption -}}
+        </figcaption>
+    {%- endif -%}
+<pre class="algorithm">{{- fulltext | strip -}}</pre></figure>
