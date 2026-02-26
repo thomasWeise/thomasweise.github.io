@@ -45,11 +45,11 @@ For each problem, we want to use the best method (algorithm) to solve it.
 For different problems, there are different best algorithms and these have a different time complexity.
 
 ### Simple Problems: Polynomial Time Complexity
-As first example, consider sorting a set of $s$&nbsp;numbers.
-This can be done in the scale of $s*\mathop{log}(s)$ steps.
+As first example, consider sorting a set of $n$&nbsp;numbers.
+This can be done in the scale of {::nomarkdown}$n\log{n}${:/}&nbsp;steps.
 As second example, assume that we have map with $e$&nbsp;streets and $v$&nbsp;intersections.
 We know how many cars can go on each street per minute.
-The maximum amount of cars which can drive from a source intersection&nbsp;$A$ to a target intersection&nbsp;$B$ can be determined using the Edmonds-Karp algorithm within a number of steps roughly proportional to&nbsp;$v*e^2$.
+The maximum amount of cars which can drive from a source intersection&nbsp;$A$ to a target intersection&nbsp;$B$ can be determined using the Edmonds-Karp algorithm within a number of steps roughly proportional to&nbsp;{::nomarkdown}$v*e^2${:/}.
 
 Clearly, the number of steps we need to get the solution of these problems depends on their size&nbsp;(called scale).
 The more streets we have on the map, the longer it takes to find how many cars we can send from&nbsp;$A$ to&nbsp;$B$ per time unit.
