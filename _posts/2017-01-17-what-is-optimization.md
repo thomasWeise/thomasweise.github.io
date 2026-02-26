@@ -287,3 +287,7 @@ As you can see, optimization can be everything and anything.
 It is a really wide field, ranging from trivial problems over problems which we can solve with the right tools to tasks where we can only find approximate solutions in reasonable time.
 How we solve these problems depends on the structure of the solution space&nbsp;$\mathbb{X}$ as well as the features of the objective function(s)&nbsp;$f$ as well as the algorithms that we are able to apply.
 But this will be the topic of another time.
+
+One of my [talks](/talks) is *"[An Introduction to Optimization](/talks/optimization.pdf)"*.
+If you are interested in more information about this topic, you can check out these slides.
+Our [moptipy](/moptipy) package offers implementations of several metaheuristic optimization algorithms in [Python](/programmingWithPython).
