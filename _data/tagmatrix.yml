@@ -56,7 +56,7 @@ logistics:
   url: "/research/areas/logistics"
 moptipy:
   url: "/moptipy"
-local_search:
+localsearch:
   name: "local search"
 mas:
   name: "MAs"
@@ -80,7 +80,7 @@ scheduling:
 si:
   name: "SI"
   full: "Swarm Inteligence"
-tabu_search:
+tabuearch:
   name: "Tabu Search"
 teaching:
   url: "/research/areas/teaching"
