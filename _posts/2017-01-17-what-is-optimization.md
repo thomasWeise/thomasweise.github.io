@@ -14,7 +14,7 @@ It provides us with a set of tools, mostly from the areas of computer science an
 Every question that asks for a thing with a superlative feature is an optimization problem.
 Constructing the fastest car, finding the most profitable investment plan, finding a way to discover diseases as early and reliable as possible, scheduling your work so that you have the most spare time left for gaming -- all of these are optimization tasks.
 
-In this post, we will explore what an optimization problem in more detail.
+In this post, we will explore in more detail what an optimization problem is.
 We will distinguish hard from easy problems and discuss what implications come from "hardness."
 We will discuss how exact and approximate algorithms tackle hard problems, give a slightly more formal definition of optimization problem, and list some more examples for optimization tasks.
 
