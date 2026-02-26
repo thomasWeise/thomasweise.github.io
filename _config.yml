@@ -201,6 +201,7 @@ defaults:
       comments: false
       share: false
       related: true
+      toc: true
   - scope:
       path: ""
       type: teaching
@@ -216,7 +217,7 @@ defaults:
       layout: single
       author_profile: true
       share: false
-      read_time: false
+      read_time: true
   - scope:
       path: ""
       type: software
@@ -224,7 +225,7 @@ defaults:
       layout: single
       author_profile: true
       share: false
-      read_time: false
+      read_time: true
   - scope:
       path: ""
       type: researcharea
@@ -232,7 +233,7 @@ defaults:
       layout: single
       author_profile: true
       share: false
-      read_time: false
+      read_time: true
 
 collections:
   posts:

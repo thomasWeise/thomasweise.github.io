@@ -206,4 +206,4 @@ The {% include taglink.liquid tag="FRLS" %} has several interesting features.
 
 ## More
 [Here](/research/areas/ffa) you can learn more about FFA and the latest research that we do on this odd topic. 
-We also provide implementations of the (1+1)&nbsp;EA/RLS as well as of the (1+1)&nbsp;FEA/FRLS in our Python framework [moptipy](/moptipy).
+We also provide implementations of the (1+1)&nbsp;EA/RLS as well as of the (1+1)&nbsp;FEA/FRLS in our Python framework {% include taglink.liquid tag="moptipy" -%}.

@@ -290,4 +290,4 @@ But this will be the topic of another time.
 
 One of my [talks](/talks) is *"[An Introduction to Optimization](/talks/optimization.pdf)"*.
 If you are interested in more information about this topic, you can check out these slides.
-Our [moptipy](/moptipy) package offers implementations of several metaheuristic optimization algorithms in [Python](/programmingWithPython).
+Our {% include taglink.liquid tag="moptipy" %} package offers implementations of several metaheuristic optimization algorithms in [Python](/programmingWithPython).
