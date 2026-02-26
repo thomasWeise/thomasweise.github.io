@@ -2,7 +2,7 @@
 title: "Measuring the Runtime of (Optimization) Algorithms "
 date: 2017-02-16
 last_modified_at: 2026-02-27
-tags: ["optimization", "metaheuristics", "local_search", "EAs", "TSP", "benchmarking", "ACO", "local_search"]
+tags: ["optimization", "metaheuristics", "local_search", "EAs", "TSP", "benchmarking", "ACO", "local_search", "tspsuite"]
 use_math: true
 ---
 My research area is metaheuristic optimization, i.e., algorithms that can find good approximate solutions for computationally hard problems in feasible time.
