@@ -6,7 +6,7 @@
 {%- assign img_print_text="" -%}
 {%- for img_id_in_list in img_lst -%}
     {%- if img_id_in_list == the_img_id -%}
-        {%- assign img_print_text="Image&nbsp;" | append: img_find_index -%}
+        {%- assign img_print_text="Figure&nbsp;" | append: img_find_index -%}
         {%- break -%}
     {%- endif -%}
     {%- assign img_find_index=img_find_index | plus: 1 -%}
