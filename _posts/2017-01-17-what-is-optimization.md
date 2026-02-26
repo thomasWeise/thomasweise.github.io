@@ -46,7 +46,7 @@ For different problems, there are different best algorithms and these have a dif
 
 ### Simple Problems: Polynomial Time Complexity
 As first example, consider sorting a set of $s$&nbsp;numbers.
-This can be done in the scale of $s*\ln{s}$ steps.
+This can be done in the scale of $s*\log s$ steps.
 As second example, assume that we have map with $e$&nbsp;streets and $v$&nbsp;intersections.
 We know how many cars can go on each street per minute.
 The maximum amount of cars which can drive from a source intersection&nbsp;$A$ to a target intersection&nbsp;$B$ can be determined using the Edmonds-Karp algorithm within a number of steps roughly proportional to&nbsp;$v*e^2$.
