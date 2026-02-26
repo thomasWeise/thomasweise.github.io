@@ -46,7 +46,7 @@ For different problems, there are different best algorithms and these have a dif
 
 ### Simple Problems: Polynomial Time Complexity
 As first example, consider sorting a set of $s$&nbsp;numbers.
-This can be done in the scale of $s*\log{s}$&nbsp;steps.
+This can be done in the scale of $s*{\log{s}}$ steps.
 As second example, assume that we have map with $e$&nbsp;streets and $v$&nbsp;intersections.
 We know how many cars can go on each street per minute.
 The maximum amount of cars which can drive from a source intersection&nbsp;$A$ to a target intersection&nbsp;$B$ can be determined using the Edmonds-Karp algorithm within a number of steps roughly proportional to&nbsp;$v*e^2$.
@@ -59,7 +59,7 @@ As long as the number of required steps of an algorithm does not grow much faste
 ### Hard Problems: Exponential Time Complexity
 Unfortunately, there is a class of problems where the number of steps needed to&nbsp;(guarantee to get) get the exact globally best solution may rise exponentially with the problem scale&nbsp;(in the worst case)!
 
-{%- include image.liquid src="/assets/images/function_growth.svg" caption="A log-log-scaled plot of different functions (including polynomially and exponentially growing ones as well as the factorial) to illustrate the speed of growth of these functions." id="function_growth" -%}
+{% include image.liquid src="/assets/images/function_growth.svg" caption="A log-log-scaled plot of different functions (including polynomially and exponentially growing ones as well as the factorial) to illustrate the speed of growth of these functions." id="function_growth" %}
 
 What this means is that if you have such a problem of a reasonable size and want to get the best-possible solution, you may need to wait far too long.
 And there are many such problems, including the following examples:
@@ -115,7 +115,7 @@ On the other hand, finding the best-possible solution may take far too long to b
 
 Such a situation is not satisfying and if we face it, what we would want is something in between.
 
-{% include image.liquid src="/assets/images/runtime_quality_tradeoff.svg" caption="A sketch of the time-quality trade-off we make with optimization on the example of random and optimal solutions for the Traveling Salesperson Problem." id="runtime_quality_tradeoff" -%}
+{% include image.liquid src="/assets/images/runtime_quality_tradeoff.svg" caption="A sketch of the time-quality trade-off we make with optimization on the example of random and optimal solutions for the Traveling Salesperson Problem." id="runtime_quality_tradeoff" %}
 
 ## Optimization: Getting Good Approximate Solutions in Reasonable Time
 This "in between" is one of the things that metaheuristic optimization does.
@@ -242,9 +242,7 @@ Due to the lack of structure in the solution space, I would probably have to enu
 ### Function Minimization
 Another, this time purely artificial, optimization task is to find the minimum of a five-dimensional variant of [Ackley's function](https://www.sfu.ca/~ssurjano/ackley.html)&nbsp;$a(x):\mathbb{R}^5\mapsto\mathbb{R}$ with
 
-$$
-f(x)=-a \exp{\left(-b \sqrt{\frac{1}{5} \sum_{i=1}^5 x_i^2 } \right)} -\exp{\left( \frac{1}{5} \sum_{i=1}^5 \cos{(cx_i)} \right)}+1+e
-$$
+$$f(x)=-a \exp{\left(-b \sqrt{\frac{1}{5} \sum_{i=1}^5 x_i^2 } \right)} -\exp{\left( \frac{1}{5} \sum_{i=1}^5 \cos{(cx_i)} \right)}+1+e$$
 
 The space of possible solutions here is a subset of the five-dimensional Euclidean space&nbsp;$\mathbb{R}^5$, e.g.,&nbsp;$X_B=[-10,10]^5$.
 A candidate solution would be a five-dimensional real vector.
