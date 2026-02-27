@@ -4,7 +4,7 @@
 {%- assign posts = site.tags[use_tag].last | default: empty_list %}
 {%- assign tag_key = use_tag | remove: '-' | remove: '_' | strip | normalize_whitespace | strip | remove: ' ' | downcase -%}
 {%- if tag_key != use_tag -%}
-    {%- assign lst = site.tags[use_tag].last | default: empty_list %-}
+    {%- assign lst = site.tags[use_tag].last | default: empty_list -%}
     {%- assign posts = posts | concat: lst -%}
 {%- endif -%}
 {%- assign posts = posts | compact | uniq -%}
