@@ -34,9 +34,11 @@ eas:
   name: "EAs"
   full: "Evolutionary Algorithms"
 ec:
+  url: "/tags/ec"
   name: "EC"
   full: "Evolutionary Computation"
 edas:
+  url: "/tags/edas"
   name: "EDAs"
   full: "Estimation of Distribution Algorithm"
 ffa:
@@ -58,6 +60,7 @@ logistics:
 moptipy:
   url: "/moptipy"
 localsearch:
+  url: "/tags/local_search"
   name: "local search"
 mas:
   name: "MAs"

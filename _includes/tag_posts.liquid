@@ -1,8 +1,13 @@
-{%- assign entries_layout = page.entries_layout | default: 'list' -%}
-{%- assign use_tag=include.tag | strip -%}
-{%- assign base_tag=include.base_tag | default: "h3" -%}
-<div class="entries-{{ entries_layout }}">
-    {%- for post in site.tags[use_tag] -%}
-        {%- include archive-single.html base_tag=base_tag -%}
-    {%- endfor -%}
-</div>
+{%- assign posts=site.tags[use_tag] -%}
+{%- if posts and posts.size > 0 -%}
+    {%- assign prefix=include.prefix | default: "" -%}
+    {%- if prefix != "" -}{{- prefix -}}{%- endif -%}
+    {%- assign entries_layout = page.entries_layout | default: 'list' -%}
+    {%- assign use_tag=include.tag | strip -%}
+    {%- assign base_tag=include.base_tag | default: "h3" -%}
+    <div class="entries-{{ entries_layout }}">
+        {%- for post in posts -%}
+            {%- include archive-single.html base_tag=base_tag -%}
+        {%- endfor -%}
+    </div>
+{%- endif -%}

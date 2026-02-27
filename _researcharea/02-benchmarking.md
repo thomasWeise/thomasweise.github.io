@@ -33,7 +33,7 @@ We try to do this in a statistically sound and replicable way.
 And I have worked on this field for quite some years.
 For example, I have [organized several workshops](/research/events) on the topic at international conferences.
 I also give [talks](/talks) related to it.
-And I contributed heaps of open source software, ranging from the modern [moptipy](/moptipy) {% include taglink.liquid tag="Python" %} package over the {% include taglink.liquid tag="TSPSuite" %} and the {% include taglink.liquid tag="optimizationBenchmarking" %} packages to the early [AOAB](/research/publications#WNT2010AAOAB) and the yet-earlier [DGPF](/research/publications#WG2006DAAFFDMOSAATTGPOSN).
+And I contributed heaps of open source software, ranging from the modern {% include taglink.liquid tag="moptipy" %} {% include taglink.liquid tag="Python" %} package over the {% include taglink.liquid tag="TSPSuite" %} and the {% include taglink.liquid tag="optimizationBenchmarking" %} packages to the early [AOAB](/research/publications#WNT2010AAOAB) and the yet-earlier [DGPF](/research/publications#WG2006DAAFFDMOSAATTGPOSN).
 
 ## Posts
 {% include tag_posts.liquid tag="benchmarking" %}
