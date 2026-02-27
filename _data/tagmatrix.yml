@@ -30,6 +30,7 @@ distributedsystems:
   url: "/research/areas/distributed-systems"
   name: "distributed systems"
 eas:
+  url: "/tags/eas"
   name: "EAs"
   full: "Evolutionary Algorithms"
 ec:
