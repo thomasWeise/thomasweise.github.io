@@ -1,7 +1,8 @@
 {%- assign entries_layout = page.entries_layout | default: 'list' -%}
 {%- assign use_tag=include.tag | strip -%}
+{%- assign base_tag=include.base_tag | default: "h3" -%}
 <div class="entries-{{ entries_layout }}">
     {%- for post in site.tags[use_tag] -%}
-        {%- include archive-single.html -%}
+        {%- include archive-single.html base_tag=base_tag -%}
     {%- endfor -%}
 </div>

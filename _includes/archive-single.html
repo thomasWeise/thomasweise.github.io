@@ -11,12 +11,12 @@
 {% endif %}
 
 {%- if page.layout == "tags" -%}
-  {%- assign base_tag_open="<h3" -%}
-  {%- assign base_tag_close="</h3>" -%}
+  {%- base_tag = include.base_tag | default: "h3" -%}
 {%- else -%}
-  {%- assign base_tag_open="<h2" -%}
-  {%- assign base_tag_close="</h2>" -%}
+  {%- base_tag = include.base_tag | default: "h2" -%}
 {%- endif -%}
+{%- assign base_tag_open="<" | append: base_tag -%}
+{%- assign base_tag_close="</"  | append: base_tag | append: ">" -%}
 
 <div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{%- endif -%}>
