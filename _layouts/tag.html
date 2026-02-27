@@ -9,7 +9,7 @@ layout: single
 {%- assign prefix="" -%}
 {::nomarkdown}
 {%- assign papers=site.data.publications | where_exp: "item", "item.tags contains tag" -%}
-{%- if papers.size > 0 %-}
+{%- if papers.size > 0 -%}
 <h2>Publications</h2>
 {%- include publications.liquid papers=papers shorter=true -%}
 {%- assign base_tag="h3" -%}
