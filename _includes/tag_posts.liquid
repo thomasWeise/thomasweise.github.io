@@ -1,9 +1,7 @@
 {%- assign entries_layout = page.entries_layout | default: 'list' -%}
 {%- assign use_tag=include.tag | strip -%}
-{%- assign empty_list="" | split: "äöü" -%}
-{%- assign posts = site.tags[use_tag].last -%}
 <div class="entries-{{ entries_layout }}">
-    {%- for post in posts -%}
-      {% include archive-single.html %}
+    {%- for post in site.tags[use_tag] -%}
+        {%- include archive-single.html -%}
     {%- endfor -%}
 </div>
