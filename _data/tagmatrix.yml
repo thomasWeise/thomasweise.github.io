@@ -13,6 +13,7 @@ algorithmsynthesis:
 benchmarking:
   url: "/research/areas/benchmarking"
 bab:
+  url: "/tags/bab"
   name: "B&amp;B"
   full: "Branch and Bound"
 bpp:
@@ -87,11 +88,16 @@ rls:
   full: "Randomized Local Search"
 scheduling:
   url: "/research/areas/scheduling"
+sa:
+  url: "/tags/sa"
+  name: "SA"
+  full: "Simulated Annealing"
 si:
   url: "/tags/si"
   name: "SI"
   full: "Swarm Inteligence"
-tabuearch:
+tabusearch:
+  url: "/tags/ts"
   name: "Tabu Search"
 teaching:
   url: "/research/areas/teaching"

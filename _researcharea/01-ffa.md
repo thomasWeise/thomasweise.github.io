@@ -22,7 +22,7 @@ However, they tend to be quite fast in giving us *good* solutions and sometimes 
 
 They are based on the simple principle of *"trial and error."*
 All of them have in common that they repeatedly sample candidate solutions in one way or another, pick the better ones of these candidates with higher probability, and use those as basis to sample new solutions similar to them.
-Regardless if you have a local search, an Evolutionary Algorithm, Simulated Annealing, Tabu Search or even Estimation of Distribution algorithms &mdash; they all adopt this principle to prefer better solutions as basis for sampling new solutions.
+Regardless if you have a {% include taglink.liquid tag="local_search" -%}, an {% include taglink.liquid tag="ea" tag_text="Evolutionary Algorithm" -%}, {% include taglink.liquid tag="SA" tag_text="Simulated Annealing" -%}, {% include taglink.liquid tag="tabu_search" -%}, or even {% include taglink.liquid tag="EDAs" tag_text="Estimation of Distribution Algorithms" %} &mdash; they all adopt this principle to prefer better solutions as basis for sampling new solutions.
 
 Frequency Fitness Assignment&nbsp(FFA) abandons this bias toward better solutions.
 Instead, it prefers solutions whose objective values (or costs, or quality rating, whatever you prefer) have been encountered less frequently in the selection decisions during the search.
