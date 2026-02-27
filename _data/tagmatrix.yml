@@ -1,4 +1,5 @@
 aco:
+  url: "/tags/aco"
   name: "ACO"
   full: "Ant Colony Optimization"
 aitoa:
@@ -46,9 +47,11 @@ ffa:
   name: "FFA"
   full: "Frequency Fitness Assignment"
 frls:
+  url: "/tags/frls"
   name: "FRLS"
   full: "Randomized Local Search with Frequency Fitness Assignment"
 gas:
+  url: "/tags/gas"
   name: "GAs"
   full: "Genetic Algorithms"
 gp:
@@ -63,6 +66,7 @@ localsearch:
   url: "/tags/local_search"
   name: "local search"
 mas:
+  url: "/tags/mas"
   name: "MAs"
   full: "Memetic Algorithms"
 optimizationbenchmarking:
@@ -71,17 +75,20 @@ optimizationbenchmarking:
 packing:
   url: "/research/areas/packing"
 pso:
+  url: "/tags/pso"
   name: "PSO"
   full: "Particle Swarm Optimization"
 python:
   url: "/programmingWithPython"
   name: "Python"
 rls:
+  url: "/tags/rls"
   name: "RLS"
   full: "Randomized Local Search"
 scheduling:
   url: "/research/areas/scheduling"
 si:
+  url: "/tags/si"
   name: "SI"
   full: "Swarm Inteligence"
 tabuearch:

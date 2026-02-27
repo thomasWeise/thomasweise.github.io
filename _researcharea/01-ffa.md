@@ -73,10 +73,9 @@ Also, the (1+1)&nbsp;EA needs exponential runtime on deceptive benchmark problem
 The (1+1)&nbsp;FEA solves them about as fast as the very simple OneMax problem, i.e., in experimentally observed polynomial runtime.
 This odd approach to optimization deserves some more analysis.
 
+
 ## Posts
-{% for post in site.tags["FFA"] -%}
-- [{{- post.title -}}]({{- post.url -}})
-{%- endfor %}
+{% include tag_posts.liquid tag="FFA" %}
 
 ## Publications
 [Here](talks/ffa.pdf) you can find a [talk](talks/ffa.pdf) introducing FFA from the perspective of invariance properties.

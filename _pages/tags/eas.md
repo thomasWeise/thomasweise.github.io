@@ -4,7 +4,7 @@ date: 2026-02-27
 print_tag: "EAs"
 layout: "tag"
 permalink: "/tags/eas"
-tags: ["metaheuristics", "GAs"]
+tags: ["metaheuristics", "GAs", "EC"]
 use_math: true
 ---
 
