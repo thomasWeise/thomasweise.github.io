@@ -11,9 +11,9 @@
 {% endif %}
 
 {%- if page.layout == "tags" -%}
-  {%- base_tag = include.base_tag | default: "h3" -%}
+  {%- assign base_tag = include.base_tag | default: "h3" -%}
 {%- else -%}
-  {%- base_tag = include.base_tag | default: "h2" -%}
+  {%- assign base_tag = include.base_tag | default: "h2" -%}
 {%- endif -%}
 {%- assign base_tag_open="<" | append: base_tag -%}
 {%- assign base_tag_close="</"  | append: base_tag | append: ">" -%}
