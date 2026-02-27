@@ -5,6 +5,7 @@ print_tag: "local_search"
 layout: "tag"
 permalink: "/tags/local_search"
 tags: ["metaheuristics", "RLS"]
+use_math: true
 ---
 
 Local search algorithms are {% include taglink.liquid tag="metaheuristic" tag_text="metaheuristics" %} that maintain one single solution and sample a new one in each iteration.
