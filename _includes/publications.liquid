@@ -5,7 +5,7 @@
             {%- include publication.liquid paper=paper short=pubsshort -%}
         {%- endfor -%}
     {%- endcapture -%}
-    {%- pubtext=pubtext | strip -%}
+    {%- assign pubtext=pubtext | strip -%}
     {%- if pubtext != "" -%}
     <ul class="publist">
         {{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," -}}
