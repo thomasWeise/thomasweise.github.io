@@ -1,7 +1,7 @@
 {%- assign posts=site.tags[use_tag] -%}
 {%- if posts and posts.size > 0 -%}
     {%- assign prefix=include.prefix | default: "" -%}
-    {%- if prefix != "" -}{{- prefix -}}{%- endif -%}
+    {%- if prefix != "" -%}{{- prefix -}}{%- endif -%}
     {%- assign entries_layout = page.entries_layout | default: 'list' -%}
     {%- assign use_tag=include.tag | strip -%}
     {%- assign base_tag=include.base_tag | default: "h3" -%}
