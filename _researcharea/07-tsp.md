@@ -15,6 +15,9 @@ Here, the goal is to find the shortest round-trip tour through $n$&nbsp;cities a
 A TSP instance is defined by the number of cities and their distances.
 In a symmetric instance, the distance from $A$ to $B$ is the same as the distance from&nbsp;$B$ to&nbsp;$A$, in an asymmetric instance, this is not necessarily true.
 
+## Posts
+{% include tag_posts.liquid tag="TSP" %}
+
 ## Publications
 ### Core Papers
 {% assign thepapers = "WCLTTCMY2014BOAAOSFFTTSP,WWCTL2016GVLSTIOPSOEAP,WWLC2019IIIOADTM" | split: "," -%}
