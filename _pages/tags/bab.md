@@ -9,7 +9,7 @@ use_math: true
 ---
 
 Branch and Bound&nbsp;(B&amp;B) algorithms are exact anytime {% include taglink.liquid tag="optimization" %} algorithms.
-They iteratively divide the search space&nbsp;${\mathbb{X}}% into smaller and smaller subsets&nbsp;$X\subseteq\mathbb{X}$.
+They iteratively divide the search space&nbsp;${\mathbb{X}}$ into smaller and smaller subsets&nbsp;$X\subseteq\mathbb{X}$.
 For each subset&nbsp;$X$, they maintain a lower bound&nbsp;$L(X)$ for the objective values of any element&nbsp;$x\in X$.
 They also maintain an upper bound&nbsp;$U$ of the objective value of the best possible solution.
 Initially,&nbsp;$U=\infty$.
