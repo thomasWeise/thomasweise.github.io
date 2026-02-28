@@ -7,7 +7,7 @@ tags: ["FFA", "local_search", "metaheuristics", "RLS", "FRLS", "optimization"]
 algorithms: ["metaheuristic", "RLS", "FRLS"]
 ---
 
-Frequency Fitness Assignment&nbsp;({%- include taglink.liquid tag="FFA" -%}) is a technique that fundamentally changes how (metaheuristic) optimization algorithms work.
+Frequency Fitness Assignment&nbsp;({%- include taglink.liquid tag="FFA" -%}, {% include lang.liquid text="频率适应度分配" nowrap=true -%}) is a technique that fundamentally changes how (metaheuristic) optimization algorithms work.
 The goal of this post is to explore how this technique can be plugged into an existing algorithm.
 We first discuss optimization and the general pattern of metaheuristics in general.
 We then discuss the simplest local search algorithm -- randomized local search, or {% include taglink.liquid tag="RLS" %} for short.
