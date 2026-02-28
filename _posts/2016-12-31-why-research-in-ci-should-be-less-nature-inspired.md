@@ -183,7 +183,7 @@ Maybe these could be used more consciously and more often.
 | Crossover, Recombination    | Binary Search Operator                                              |
 | Ant (in ACO)                | Depending on situation: Point in search space or candidate solution |
 | Pheromone Matrix            | Model (à la EDA)                                                    |
-| Genotype-Phenotype Mapping  | decoding                                                            |
+| Genotype-Phenotype Mapping  | decoding function                                                   |
 | Individual                  | ?                                                                   |
 | Population                  | ?                                                                   |
 | Memetic Algorithm           | Hybrid Algorithm                                                    |
