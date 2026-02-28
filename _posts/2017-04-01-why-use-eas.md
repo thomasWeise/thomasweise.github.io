@@ -1,6 +1,6 @@
 ---
 title: "Why you should use Evolutionary Algorithms to solve your optimization problems (and why not)."
-date: 2017-01-17
+date: 2017-04-01
 last_modified_at: 2026-02-28
 tags: ["optimization", "metaheuristics", "EAs", "EC", "local_search", "RLS"]
 use_math: true
