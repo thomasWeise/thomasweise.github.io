@@ -70,6 +70,8 @@ mas:
   url: "/tags/mas"
   name: "MAs"
   full: "Memetic Algorithms"
+optimization:
+  url: "/tags/optimization"
 optimizationbenchmarking:
   url: "https://optimizationbenchmarking.github.io"
   name: "optimizationBenchmarking"
