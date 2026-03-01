@@ -8,7 +8,7 @@ algorithms: ["RLS", "FRLS"]
 ---
 
 Frequency Fitness Assignment&nbsp;({%- include taglink.liquid tag="FFA" -%}, {% include lang.liquid text="频率适应度分配" nowrap=true -%}) is an "algorithm plugin" that *fundamentally* changes how the selection step in {% include taglink.liquid tag="metaheuristics" %} works.
-Recently, we discussed [how FFA can be plugged]({%- post_url "2026-02-23-plugging-ffa-into-metaheuristics" -%}) into the simple {%- include taglink.liquid tag="local_search" -%} algorithm {%- include taglink.liquid tag="RLS" -%}, yielding the {%- include taglink.liquid tag="FRLS" -%}.
+Recently, we discussed [how FFA can be plugged]({%- post_url 2026-02-23-plugging-ffa-into-metaheuristics -%}) into the simple {%- include taglink.liquid tag="local_search" -%} algorithm {%- include taglink.liquid tag="RLS" -%}, yielding the {%- include taglink.liquid tag="FRLS" -%}.
 According to my claim above, the FRLS should work *fundamentally* different from the RLS.
 That's a pretty bold claim.
 Let me substantiate it a bit.

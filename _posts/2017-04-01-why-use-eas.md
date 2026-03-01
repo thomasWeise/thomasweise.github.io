@@ -5,7 +5,7 @@ last_modified_at: 2026-02-28
 tags: ["optimization", "metaheuristics", "EAs", "EC", "local_search", "RLS"]
 use_math: true
 ---
-[Some time ago]({%- post_url "2017-01-26-global-vs-local-search" -%}), I discussed why global optimization with an Evolutionary Algorithm&nbsp;({% include taglink.liquid tag="EAs" tag_text="EA" %}) is not necessarily better than local search.
+[Some time ago]({%- post_url 2017-01-26-global-vs-local-search -%}), I discussed why global optimization with an Evolutionary Algorithm&nbsp;({% include taglink.liquid tag="EAs" tag_text="EA" %}) is not necessarily better than local search.
 Actually, I was asked "Why should I use an EA?" quite a few times.
 Thus, today, it is time to write down a few ideas about why and why not you may benefit from using an EA.
 I tried to be objective, which is not entirely easy since I work in that domain.
@@ -103,7 +103,7 @@ In terms of function evaluations, pure EAs often need much longer to achieve the
 ### Global search does not necessarily beat local search.
 EAs are global search algorithms and one argument for using them is "Given enough time, a global search will always give you better&nbsp;(or similarly good) results as a&nbsp;(specialized) local search method."
 This argument is not necessarily true.
-[Actually, it is often wrong]({%- post_url "2017-01-26-global-vs-local-search" -%}).
+[Actually, it is often wrong]({%- post_url 2017-01-26-global-vs-local-search -%}).
 
 ### Many problems can better be solved with different optimization algorithms.
 For many problems, we have tailor-made algorithms that perform quite well, better than a naive implementation of an EA could, anyway.
