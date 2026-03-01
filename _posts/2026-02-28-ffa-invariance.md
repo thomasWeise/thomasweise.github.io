@@ -26,7 +26,7 @@ $y_c\gets f(x_c)$.
 {%- endcapture -%}
 {%- include algorithm.liquid text=myalgo id="RLS" caption="The randomized local search&nbsp;(RLS)." -%}{:/}
 
-The RLS starts by sampling an initial best-so-far solution&nbsp;$x_c$ randomly from the search space&nbsp;$\mathbb{X}%.
+The RLS starts by sampling an initial best-so-far solution&nbsp;$x_c$ randomly from the search space&nbsp;$\mathbb{X}$.
 In each iteration, it applies the unary search operator&nbsp;$\mathit{Op1}(x_c)$ to it and obtains a modified copy&nbsp;$x_n$ of&nbsp;$x_c$.
 If&nbsp;$x_n$ is not worse than&nbsp;$x_c$, then it is accepted and replaces&nbsp;$x_c$.
 Otherwise, it is discarded.

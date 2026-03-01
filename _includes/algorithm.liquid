@@ -1,6 +1,6 @@
 {%- assign text=include.text | default: "" -%}
 {%- assign caption=include.caption | default: "" -%}
-[%- assign caption=caption | strip | normalize_whitespace -%}
+{%- assign caption=caption | strip | normalize_whitespace -%}
 {%- assign id=include.id | default: "" -%}
 {%- assign text=text | strip | newline_to_br | replace: "<br />", "<br>" | replace: "<br/>", "<br>" | strip_newlines | normalize_whitespace | replace: "<br> ", "<br>" -%}
 {%- for indent in (1..20) -%}
