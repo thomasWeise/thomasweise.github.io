@@ -8,7 +8,7 @@ algorithms: ["RLS", "FRLS"]
 ---
 
 Frequency Fitness Assignment&nbsp;({%- include taglink.liquid tag="FFA" -%}, {% include lang.liquid text="频率适应度分配" nowrap=true -%}) is an "algorithm plugin" that *fundamentally* changes how the selection step in {% include taglink.liquid tag="metaheuristics" %} works.
-Recently, we discussed [how FFA can be plugged]({%- post_url 2026-02-23-plugging-ffa-into-metaheuristics -%}) into the simple {%- include taglink.liquid tag="local_search" -%} algorithm {%- include taglink.liquid tag="RLS" -%}, yielding the {%- include taglink.liquid tag="FRLS" -%}.
+Recently, we discussed [how FFA can be plugged]({%- post_url 2026-02-23-plugging-ffa-into-metaheuristics -%}) into the simple {% include taglink.liquid tag="local_search" %} algorithm {% include taglink.liquid tag="RLS" -%}, yielding the {% include taglink.liquid tag="FRLS" -%}.
 According to my claim above, the FRLS should work *fundamentally* different from the RLS.
 That's a pretty bold claim.
 Let me substantiate it a bit.
@@ -110,7 +110,7 @@ None of them are good optimization methods.
 But algorithms using FFA can, in some domains, deliver better solutions than their original, objective-guided host algorithms.
 
 Notice that, while we here explained this invariance property on the example of the FRLS, it will hold for *all* algorithms where the selection decision is guided purly by FFA.
-You could plug it into an {% include taglink.liquid tag="EAs" tag_text="EA" %} or {% include taglink.liquid tag="MAs" tag_text="MA" %} or even {%- include taglink.liquid tag="SA" -%} &hellip; and they would become invariant under all injective transformations of the objective function value.
+You could plug it into an {% include taglink.liquid tag="EAs" tag_text="EA" %} or {% include taglink.liquid tag="MAs" tag_text="MA" %} or even {% include taglink.liquid tag="SA" %} &hellip; and they would become invariant under all injective transformations of the objective function value.
 
 ## Further Reading
 {::nomarkdown}{%- assign papers="WWLCL2023FFAOWBFGSCBE,WWLC2021FFAMOAIUBTOTOFV" | split: "," -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
