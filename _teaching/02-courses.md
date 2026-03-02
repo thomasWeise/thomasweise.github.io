@@ -7,6 +7,8 @@ last_modified_at: 2026-03-02
 tags: ["teaching"]
 ---
 
+I have taught courses at both undergraduate and graduate level and at different universities.
+
 ## Programming with Python&nbsp;(<span lang="zh-Hans">Python程序设计</span>)
 - Material: [fully available here](/programmingWithPython)
 - Where: [Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %}
