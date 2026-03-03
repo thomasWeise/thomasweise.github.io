@@ -243,10 +243,10 @@ collections:
     output: true
     permalink: /:collection/:path/
     order:
-      - 01-supervision.md
-      - 02-courses.md
-      - 03-python.md
-      - 04-databases.md
+      - _teaching/01-supervision.md
+      - _teaching/02-courses.md
+      - _teaching/03-python.md
+      - _teaching/04-databases.md
   research:
     output: true
     permalink: /:collection/:path/
