@@ -242,7 +242,6 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-    sort_by: order_key
   research:
     output: true
     permalink: /:collection/:path/

@@ -4,28 +4,26 @@ permalink: /research/areas/ffa
 read_time: false
 toc: true
 author_profile: true
-date: 2026-02-05
-last_modified_at: 2026-02-25
 use_math: true
 tags: ["FFA", "optimization", "metaheuristics"]
 ---
 
 Frequency Fitness Assignment&nbsp;(FFA, {% include lang.liquid text="频率适应度分配" nowrap=true -%}) is a novel approach to metaheuristic optimization.
-Actually, it abandons the very core principles of metaheuristic optimization.
+Actually, it abandons the very core principles of {% include taglink.liquid tag="metaheuristics" tag_text="metaheuristic" %} optimization.
 And yet, it works.
 
 ## Introduction
-Many important problems in optimization and operations research are NP-hard, which means that algorithms that can guarantee to always find their optimal solution may take a runtime exponential in the problem size in the worst case.
+Many important problems in optimization and operations research are ${\mathcal{NP}}$-hard, which means that algorithms that can guarantee to always find their optimal solution may take a runtime exponential in the problem size in the worst case.
 In layman's terms, this simply means *"If an algorithm guarantees you to find the best possible solution for a given problem, it might take waaaaay to long on some instances of these problems."*
 Metaheuristic optimization algorithms are methods that do not guarantee to find the optimal solutions.
 However, they tend to be quite fast in giving us *good* solutions and sometimes even find the optimal solutions anyway.
 
 They are based on the simple principle of *"trial and error."*
 All of them have in common that they repeatedly sample candidate solutions in one way or another, pick the better ones of these candidates with higher probability, and use those as basis to sample new solutions similar to them.
-Regardless if you have a {% include taglink.liquid tag="local_search" -%}, an {% include taglink.liquid tag="ea" tag_text="Evolutionary Algorithm" -%}, {% include taglink.liquid tag="SA" tag_text="Simulated Annealing" -%}, {% include taglink.liquid tag="tabu_search" -%}, or even {% include taglink.liquid tag="EDAs" tag_text="Estimation of Distribution Algorithms" %} &mdash; they all adopt this principle to prefer better solutions as basis for sampling new solutions.
+Regardless if you have a {% include taglink.liquid tag="local_search" -%}, an {% include taglink.liquid tag="EAs" tag_text="Evolutionary Algorithm" -%}, {% include taglink.liquid tag="SA" tag_text="Simulated Annealing" -%}, {% include taglink.liquid tag="tabu_search" -%}, or even {% include taglink.liquid tag="EDAs" tag_text="Estimation of Distribution Algorithms" %} &mdash; they all adopt this principle to prefer better solutions as basis for sampling new solutions.
 
 Frequency Fitness Assignment&nbsp(FFA) abandons this bias toward better solutions.
-Instead, it prefers solutions whose objective values (or costs, or quality rating, whatever you prefer) have been encountered less frequently in the selection decisions during the search.
+Instead, it prefers solutions whose objective values&nbsp;(or costs, or quality rating, whatever you prefer)&nbsp;have been encountered less frequently in the selection decisions during the search.
 In other words, it does no longer matter whether one solution is better.
 Matter of fact, algorithms using FFA may "optimize" toward worse solutions half of their time.
 

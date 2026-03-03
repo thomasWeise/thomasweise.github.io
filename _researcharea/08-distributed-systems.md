@@ -4,8 +4,6 @@ permalink: /research/areas/distributed-systems
 read_time: false
 toc: true
 author_profile: true
-date: 2026-02-06
-last_modified_at: 2026-02-10
 tags: ["distributed systems", "distributed algorithms", "web services"]
 ---
 

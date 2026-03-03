@@ -4,8 +4,6 @@ permalink: /moptipyapps
 read_time: false
 toc: false
 author_profile: true
-date: 2026-01-28
-last_modified_at: 2026-02-07
 tags: ["moptipy", "software", "Python", "moptipyapps", "QAP", "TSP", "TTP", "packing"]
 ---
 

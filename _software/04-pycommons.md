@@ -4,8 +4,6 @@ permalink: /pycommons
 read_time: false
 toc: false
 author_profile: true
-date: 2026-01-28
-last_modified_at: 2026-01-28
 tags: ["software", "Python", "pycommons"]
 ---
 

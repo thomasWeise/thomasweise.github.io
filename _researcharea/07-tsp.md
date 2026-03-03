@@ -4,8 +4,6 @@ permalink: /research/areas/tsp
 read_time: false
 toc: true
 author_profile: true
-date: 2026-02-06
-last_modified_at: 2026-02-18
 use_math: true
 tags: ["optimization", "TSP", "metaheuristics"]
 ---

@@ -4,8 +4,6 @@ permalink: /bookbase
 read_time: false
 toc: false
 author_profile: true
-date: 2026-01-29
-last_modified_at: 2026-02-07
 tags: ["software", "teaching", "LaTeX", "Python"]
 ---
 

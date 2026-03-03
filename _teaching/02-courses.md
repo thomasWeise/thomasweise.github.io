@@ -2,10 +2,7 @@
 title: "Courses"
 permalink: /teaching/courses
 toc: true
-date: 2026-03-02
-last_modified_at: 2026-03-02
 tags: ["teaching"]
-order_key: 2
 ---
 
 I have taught courses at both undergraduate and graduate level and at different universities.

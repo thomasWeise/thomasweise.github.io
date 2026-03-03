@@ -4,8 +4,6 @@ permalink: /research/areas/logistics
 read_time: false
 toc: true
 author_profile: true
-date: 2026-02-06
-last_modified_at: 2026-02-10
 tags: ["optimization", "logistics", "TSP", "VRP", "TTP", "CARP"]
 ---
 

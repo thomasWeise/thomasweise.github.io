@@ -4,8 +4,6 @@ permalink: /research/publications
 read_time: false
 toc: true
 author_profile: true
-date: 2026-01-20
-last_modified_at: 2026-02-15
 ---
 
 Here you can find the academic profiles and the list of publications of Prof.&nbsp;Dr.&nbsp;{%- include person.liquid person="weise_thomas" %}.
