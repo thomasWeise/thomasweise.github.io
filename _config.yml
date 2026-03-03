@@ -242,11 +242,7 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-    order:
-      - _teaching/01-supervision.md
-      - _teaching/02-courses.md
-      - _teaching/03-python.md
-      - _teaching/04-databases.md
+    sort_by: order_key
   research:
     output: true
     permalink: /:collection/:path/

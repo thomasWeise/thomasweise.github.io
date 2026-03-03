@@ -1,10 +1,11 @@
 ---
-title: "Courses Taught"
+title: "Courses"
 permalink: /teaching/courses
 toc: true
 date: 2026-03-02
 last_modified_at: 2026-03-02
 tags: ["teaching"]
+order_key: 2
 ---
 
 I have taught courses at both undergraduate and graduate level and at different universities.
@@ -12,14 +13,14 @@ I have taught courses at both undergraduate and graduate level and at different 
 ## Programming with Python&nbsp;(<span lang="zh-Hans">Python程序设计</span>)
 - Material: [fully available here](/programmingWithPython)
 - Where: [Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %}
-- When: Winter Semester 2025/2026, Summer Semester 2026
+- When: Winter Semester [2025/2026](https://github.com/thomasWeise/programmingWithPython/releases/download/2025.11.17/programmingWithPython_2025_11_17.tar.xz), Summer Semester 2026
 - Level: Undergraduate
 - Language: German
 
 ## Databases&nbsp;(<span lang="zh-Hans">数据库原理及应用</span>)
 - Material: [fully available here](/databases)
 - Where: [Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %}
-- When: Winter Semester 2025/2026
+- When: Winter Semester [2025/2026](https://github.com/thomasWeise/databases/releases/download/2025.12.12/databases_2025_12_12.tar.xz)
 - Level: Undergraduate
 - Language: German
 
