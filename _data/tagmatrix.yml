@@ -61,6 +61,8 @@ gp:
   full: "Genetic Programming"
 logistics:
   url: "/research/areas/logistics"
+metaheuristics:
+  url: "/tags/metaheuristics"
 moptipy:
   url: "/moptipy"
 localsearch:

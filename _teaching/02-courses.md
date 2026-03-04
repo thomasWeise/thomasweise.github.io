@@ -8,17 +8,17 @@ tags: ["teaching"]
 I have taught courses at both undergraduate and graduate level and at different universities.
 
 ## Programming with Python&nbsp;(<span lang="zh-Hans">Python程序设计</span>)
-- Material:&nbsp;[fully available here](/programmingWithPython)
+- Material:&nbsp;[fully and freely available online](/programmingWithPython)
 - Where:&nbsp;[Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %}
-- When:&nbsp;Winter Semester [2025/2026](https://github.com/thomasWeise/programmingWithPython/releases/download/2025.11.17/programmingWithPython_2025_11_17.tar.xz), Summer Semester 2026
+- When:&nbsp;[Winter Semester 2025/2026](https://github.com/thomasWeise/programmingWithPython/releases/download/2025.11.17/programmingWithPython_2025_11_17.tar.xz), [Summer Semester 2026](https://github.com/thomasWeise/programmingWithPython/releases/download/2026.03.04/programmingWithPython_2026_03_04.tar.xz)
 - Level:&nbsp;Undergraduate
 - Language:&nbsp;German
 - Tags:&nbsp;{%- include taglink.liquid tag="python" class="pubtag" only_link=true %}
 
 ## Databases&nbsp;(<span lang="zh-Hans">数据库原理及应用</span>)
-- Material:&nbsp;[fully available here](/databases)
+- Material:&nbsp;[fully and freely available online](/databases)
 - Where:&nbsp;[Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %}
-- When:&nbsp;Winter Semester [2025/2026](https://github.com/thomasWeise/databases/releases/download/2025.12.12/databases_2025_12_12.tar.xz)
+- When:&nbsp;[Winter Semester 2025/2026](https://github.com/thomasWeise/databases/releases/download/2025.12.12/databases_2025_12_12.tar.xz)
 - Level:&nbsp;Undergraduate
 - Language:&nbsp;German
 
