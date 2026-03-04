@@ -6,7 +6,7 @@ tags: ["optimization", "metaheuristics", "local_search", "EAs", "TSP"]
 use_math: true
 images: ["ea_ls_progress_tsp_kroa200"]
 ---
-Sometimes, when discussing the benefits of Evolutionary Algorithms&nbsp;({%- include taglink.liquid tag="EAs" -%}), their special variant Genetic Algorithms&nbsp;({%- include taglink.liquid tag="GAs" -%}) with bit-string based search spaces, or other {% include taglink.liquid tag="metaheuristic" %} global search algorithms in general, statements like the following may be made:
+Sometimes, when discussing the benefits of Evolutionary Algorithms&nbsp;({%- include taglink.liquid tag="EAs" -%}), their special variant Genetic Algorithms&nbsp;({%- include taglink.liquid tag="GAs" -%}) with bit-string based search spaces, or other {% include taglink.liquid tag="metaheuristics" tag_text="metaheuristic" %} global search algorithms in general, statements like the following may be made:
 {%- assign span_large_ps='<span style="color:red">' -%}
 {%- assign span_large_budget='<span style="color:blue">' -%}
 {%- assign span_diversity='<span style="color:green">' -%}
