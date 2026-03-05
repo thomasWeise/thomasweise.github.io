@@ -19,7 +19,7 @@ Before I do that, let me briefly illustrate the RLS as {% include algorithm_link
 Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
 $y_c\gets f(x_c)$.
 @[Until@] $\lnot$&nbsp;should terminate @[repeat@]
-@1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
+@1: $x_n\gets\mathit{op1}(x_c)$; $y_n\gets f(x_n)$.
 @1: @[If@] $y_n \leq y_c$ @[then@]
 @2: $x_c\gets x_n$; $y_c\gets y_n$.
 @[Return@] $x_c, y_c$.
@@ -27,7 +27,7 @@ $y_c\gets f(x_c)$.
 {%- include algorithm.liquid text=myalgo id="RLS" caption="The randomized local search&nbsp;(RLS)." -%}{:/}
 
 The RLS starts by sampling an initial best-so-far solution&nbsp;$x_c$ randomly from the search space&nbsp;$\mathbb{X}$.
-In each iteration, it applies the unary search operator&nbsp;$\mathit{Op1}(x_c)$ to it and obtains a modified copy&nbsp;$x_n$ of&nbsp;$x_c$.
+In each iteration, it applies the unary search operator&nbsp;$\mathit{op1}(x_c)$ to it and obtains a modified copy&nbsp;$x_n$ of&nbsp;$x_c$.
 If&nbsp;$x_n$ is not worse than&nbsp;$x_c$, then it is accepted and replaces&nbsp;$x_c$.
 Otherwise, it is discarded.
 This is repeated until the algorithm terminates. 
@@ -38,7 +38,7 @@ Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
 $y_c\gets f(x_c)$.
 $x_b\gets x_c$; $y_b\gets y_c$.
 @[Until@] $\lnot$&nbsp;should terminate @[repeat@]
-@1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
+@1: $x_n\gets\mathit{op1}(x_c)$; $y_n\gets f(x_n)$.
 @1: $H[y_c]\gets H[y_c]+1$; $H[y_n]\gets H[y_n]+1$.
 @1: @[If@] $H[y_n] \leq H[y_c]$ @[then@]
 @2: $x_c\gets x_n$; $y_c\gets y_n$.

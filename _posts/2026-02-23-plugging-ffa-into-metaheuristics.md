@@ -64,7 +64,7 @@ In the scheme given in {% include algorithm_link.liquid id="metaheuristic" -%}, 
 
 Now, in its main loop, RLS creates a slightly modified copy&nbsp;$x_n$ of the&nbsp;$x_c$.
 It does so by applying a unary operator&nbsp;$\mathit{op1}$ to&nbsp;$x_c$.
-$\mathit{op1}$&nbsp;is usually randomized, meaning that it copies&nbsp;$x_c$ and then randomly changes one or multiple components of that copy.
+$\mathit{op1}$&nbsp;is usually randomized, meaning that it first copies&nbsp;$x_c$ and then randomly changes one or multiple components of that copy.
 Either way, we get a new solution&nbsp;$x_n\gets\mathit{op1}(x_n)$.
 This solution is then also evaluated and we obtain its objective value&nbsp;$y_n\gets f(x_n)$.
 In the scheme given in {% include algorithm_link.liquid id="metaheuristic" -%}, we would basically have&nbsp;$N_i=\{x_n\}$.
@@ -78,7 +78,7 @@ This process is illustrated as {% include algorithm_link.liquid id="RLS" -%}.
 Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
 $y_c\gets f(x_c)$.
 @[Until@] $\lnot$&nbsp;should terminate @[repeat@]
-@1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
+@1: $x_n\gets\mathit{op1}(x_c)$; $y_n\gets f(x_n)$.
 @1: @[If@] $y_n \leq y_c$ @[then@]
 @2: $x_c\gets x_n$; $y_c\gets y_n$.
 @[Return@] $x_c, y_c$.
@@ -96,7 +96,7 @@ Sample solution&nbsp;$x_c$ uniformly at random from&nbsp;$\mathbb{X}$.
 $y_c\gets f(x_c)$.
 <span style="color:blue">$x_b\gets x_c$; $y_b\gets y_c$.</span>
 @[Until@] $\lnot$&nbsp;should terminate @[repeat@]
-@1: $x_n\gets\mathit{Op1}(x_c)$; $y_n\gets f(x_n)$.
+@1: $x_n\gets\mathit{op1}(x_c)$; $y_n\gets f(x_n)$.
 @1: <span style="color:DarkViolet">$H[y_c]\gets H[y_c]+1$; $H[y_n]\gets H[y_n]+1$.</span>
 @1: <span style="color:DarkViolet">@[If@] $H[y_n] \leq H[y_c]$ @[then@]</span>
 @2: $x_c\gets x_n$; $y_c\gets y_n$.
@@ -124,7 +124,7 @@ If this comparison yields true, then&nbsp;$x_n$ replaces&nbsp;$x_c$ and&nbsp;$y_
 What does this mean?
 In RLS, we select the new solution&nbsp;$x_n$ if it is either better than the current solution&nbsp;$x_c$ or equally good.
 In FRLS, we select the new solution&nbsp;$x_n$ if its objective value&nbsp;$y_n$ was encountered more rarely or equally often in the selection decisions compared to the objective value&nbsp;$y_c$ of the current solution&nbsp;$x_c$.
-From a simplified perspective, this means that we accept the new solution if its objective value appares to be more rare than the objective value of the current solution.
+From a simplified perspective, this means that we accept the new solution if its objective value appears to be more rare than the objective value of the current solution.
 
 This means that, in FRLS, it does not really matter whether the new solution is better than the current solution.
 Indeed, the algorithm may well accept worse solutions and in experiments "optimizes" into the "wrong" direction about half of the time.
@@ -140,7 +140,7 @@ They are initialized right at the beginning of the algorithm.
 We check whether they should be updated when&nbsp;$H[y_n] \leq H[y_c]$, because only if&nbsp;$y_n$ was encountered less often than&nbsp;$y_c$, it can represent a new best-so-far solution.
 Otherwise, it has been encountered already at least once before, so it might have corresponded to a new best-so-far solution back then, but not now.
 
-Anyway, neither&nbsp;$x_b$ nor&nbsp;$y_b$ influence the search in any way.
+Neither&nbsp;$x_b$ nor&nbsp;$y_b$ influence the search in any way.
 They are strictly used to remember the best-so-far solutions, but have no impact on where the search will take us next.
 That is entirely decided by the frequency table&nbsp;$H$.
 
@@ -151,13 +151,13 @@ First, let us consider the problem type where all solutions&nbsp;$x$ are bit str
 {::nomarkdown}{%- assign papers="WWLCL2023FFAOWBFGSCBE,WWLC2021FFAMOAIUBTOTOFV" | split: "," -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
 
 In the two papers above, we introduce FFA into the (1+1)&nbsp;EA.
-The RLS and the (1+1)&nbsp;EA are basically the same algorithm but differ in their unary search operator&nbsp;$\mathit{Op1}$.
+The RLS and the (1+1)&nbsp;EA are basically the same algorithm but differ in their unary search operator&nbsp;$\mathit{op1}$.
 Usually, when we talk about the (1+1)&nbsp;EA, the search or solution space&nbsp;$\mathbb{X}$ corresponds to bit strings of length&nbsp;$n$, i.e., $\{`0`,`1`\}^n$.
 Here, each decision variable is either `0`&nbsp;(meaning&nbsp;`False`) or `1`&nbsp;(meaning&nbsp;`True`).
 When we consider this domain, the terms "RLS" and "(1+1)&nbsp;EA" have the following meaning:
 
-- In the RLS, the unary operator&nbsp;$\mathit{Op1}(x_c)$ creates a copy of&nbsp;$x_c$, then randomly chooses one bit and flips it.
-- In the (1+1)&nbsp;EA, the unary operator&nbsp;$\mathit{Op1}(x_c)$ creates a copy of&nbsp;$x_c$ and then, for each of the $n$&nbsp;bits, decides randomly whether it should be flipped.
+- In the RLS, the unary operator&nbsp;$\mathit{op1}(x_c)$ creates a copy of&nbsp;$x_c$, then randomly chooses one bit and flips it.
+- In the (1+1)&nbsp;EA, the unary operator&nbsp;$\mathit{op1}(x_c)$ creates a copy of&nbsp;$x_c$ and then, for each of the $n$&nbsp;bits, decides randomly whether it should be flipped.
   Usually, the per-bit flipping probability is&nbsp;$1/n$.
   Usually, it is ensured that at least one bit is flipped.
 
@@ -169,7 +169,7 @@ And more you can read in the papers.
 
 ### Other Domains
 If the search domain is not bit strings, then we can use the terms RLS and (1+1)&nbsp;EA more or less synonymously.
-Sometimes, one may use "RLS" to indicate that the search operator&nbsp;$\mathit{Op1}(x_c)$ has a fixed neighborhood from which solutions are sampled uniformly.
+Sometimes, one may use "RLS" to indicate that the search operator&nbsp;$\mathit{op1}(x_c)$ has a fixed neighborhood from which solutions are sampled uniformly.
 Then, "(1+1)&nbsp;EA" may be used for situations where basically every possible solution can be reached within a single step, albeit at different probabilities.
 
 Some examples, i.e., a subset of our work on FFA, can be found here:
