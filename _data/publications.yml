@@ -62,7 +62,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324219"]
   dblp: "https://dblp.org/rec/conf/ijcci/ZhaoWBTLT024.html"
-  tags: ["2DBPP", "BPP", "FFA", "RLS", "combinatorial optimization", "local_search", "packing", "bin_packing", "moptipy", "python"]
+  tags: ["2DBPP", "BPP", "FFA", "RLS", "FRLS", "combinatorial optimization", "local_search", "packing", "bin_packing", "moptipy", "python"]
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
@@ -77,7 +77,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324662"]
   dblp: "https://dblp.org/rec/conf/ijcci/ChenWT024.html"
-  tags: ["FFA", "QAP", "RLS", "combinatorial optimization", "local_search", "moptipy", "python"]
+  tags: ["FFA", "QAP", "RLS", "FRLS", "combinatorial optimization", "local_search", "moptipy", "python"]
 - key: "LWTWW2024GSIWIFFTTSP"
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
   title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
@@ -107,7 +107,7 @@
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13329107"]
   dblp: "https://dblp.org/rec/conf/ijcci/XiangWB024.html"
-  tags: ["TTP", "logistics", "RLS", "FFA", "local_search", "combinatorial optimization", "NSGA-II", "MOP", "moptipy", "python"]
+  tags: ["TTP", "logistics", "RLS", "FRLS", "FFA", "local_search", "combinatorial optimization", "NSGA-II", "MOP", "moptipy", "python"]
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
@@ -124,7 +124,7 @@
   data: ["https://doi.org/10.5281/zenodo.11488348"]
   supplement: ["https://doi.org/10.5281/zenodo.10987573"]
   dblp: "https://dblp.org/rec/conf/ppsn/ThomsonOBLW24.html"
-  tags: ["QAP", "RLS", "FFA", "SA", "local_search", "combinatorial optimization", "moptipy", "python", "SA"]
+  tags: ["QAP", "RLS", "FRLS", "FFA", "SA", "local_search", "combinatorial optimization", "moptipy", "python", "SA"]
 - key: "LWLvdBTW2024ATTSPWFFAAHA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
   title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"

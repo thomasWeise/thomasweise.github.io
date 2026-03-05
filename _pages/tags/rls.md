@@ -1,5 +1,5 @@
 ---
-title: "Randomized Local Search (FRLS)"
+title: "Randomized Local Search (RLS)"
 date: 2026-02-27
 print_tag: "RLS"
 layout: "tag"
