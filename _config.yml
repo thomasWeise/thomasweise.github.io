@@ -10,6 +10,12 @@ description: "The website of Thomas Weise (汤卫思)."
 url: "https://thomasweise.github.io"
 baseurl: ""
 
+search: true
+search_full_content: true
+search_provider: lunr
+lunr:
+  search_within_pages: true
+
 liquid:
   error_mode: strict
   strict_filters: true
