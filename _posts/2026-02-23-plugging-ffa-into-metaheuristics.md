@@ -1,7 +1,7 @@
 ---
 title: "Plugging Frequency Fitness Assignment into Metaheuristics"
 date: 2026-02-23
-last_modified_at: 2026-02-25
+last_modified_at: 2026-03-08
 use_math: true
 tags: ["FFA", "local_search", "metaheuristics", "RLS", "FRLS", "optimization"]
 algorithms: ["metaheuristic", "RLS", "FRLS"]
@@ -27,19 +27,19 @@ Therefore, at least we try to find some&nbsp;$x$ for which&nbsp;$f(x)$ gets as s
 
 ## Metaheuristic Optimization
 Metaheuristic algorithms, like Evolutionary Algorithms&nbsp;({%- include taglink.liquid tag="EAs" -%}), {% include taglink.liquid tag="local_search" -%}, Simulated Annealing&nbsp;({%- include taglink.liquid tag="SA" -%}), or {% include taglink.liquid tag="tabu_search" -%} do this by proceeding iteratively according to the cycle given in {% include algorithm_link.liquid id="metaheuristic" -%}.
-At each iteration&nbsp;$i$, they maintain a set&nbsp;$S_i$ of interesting candidate solutions&nbsp;$x\in S_i$ from the solution space&nbsp;$\mathbb{X}$.
-They use these selected solutions in one way or another to sample a set&nbsp;$N_i$ of new solutions.
+At each iteration&nbsp;$i$, they maintain a collection&nbsp;$S_i$ of interesting candidate solutions&nbsp;$x\in S_i$ from the solution space&nbsp;$\mathbb{X}$.
+They use these selected solutions in one way or another to sample a collection&nbsp;$N_i$ of new solutions.
 This may happen via a unary search operator&nbsp;(called "mutation" in EA-lingo) or a binary operator&nbsp;(often called "crossover" or "recombination") or by using any other imaginable method.
-Either way, we get a set of new solutions&nbsp;$N_i$.
-Then, $S_i$ and $N_i$ are combined into a set&nbsp;$P_i=S_i\cup N_i$ and the set&nbsp;$S_{i+1}\subseteq P_i$ for the next iteration is chosen from it.
+Either way, we get a collection of new solutions&nbsp;$N_i$.
+Then, $S_i$ and $N_i$ are combined into a collection&nbsp;$P_i=S_i\cup N_i$ and the collection&nbsp;$S_{i+1}\subseteq P_i$ for the next iteration is chosen from it.
 Now, normally, the better a solution&nbsp;$x\in P_i$ relative to the other members of&nbsp;$P_i$, meaning the smaller its corresponding objective value&nbsp;$f(x)$, the higher its chance to be selected into&nbsp;$S_{i+1}$.
 
 {::nomarkdown}{%- capture myalgo -%}
-Sample set&nbsp;$S_1$ of initial solutions from the solution space&nbsp;$\mathbb{X}$.
+Sample collection&nbsp;$S_1$ of initial solutions from the solution space&nbsp;$\mathbb{X}$.
 @[For@] $i$ @[from@] 1 @[to@]$\dots$
-@1: Create set&nbsp;$N_i$ of new solutions based on&nbsp;$S_i$.
+@1: Create collection&nbsp;$N_i$ of new solutions based on&nbsp;$S_i$.
 @1: $P_i\gets S_i\cup N_i$.
-@1: Select set $S_{i+1}$ from $P_i$ according to some policy.
+@1: Select collection $S_{i+1}$ from $P_i$ according to some policy.
 {%- endcapture -%}
 {%- include algorithm.liquid text=myalgo id="metaheuristic" caption="The normal cycle of metaheuristic algorithms." -%}{:/}
 
