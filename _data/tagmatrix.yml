@@ -10,6 +10,9 @@ aitoacode:
 algorithmsynthesis:
   url: "/research/areas/gp#algorithm-synthesis"
   name: "algorithm synthesis"
+bash:
+  url: "tags/bash"
+  name: "Bash"
 benchmarking:
   url: "/research/areas/benchmarking"
 bab:
@@ -59,6 +62,9 @@ gp:
   url: "/research/areas/gp"
   name: "GP"
   full: "Genetic Programming"
+linux:
+  url: "tags/linux"
+  name: "Linux"
 logistics:
   url: "/research/areas/logistics"
 metaheuristics:
