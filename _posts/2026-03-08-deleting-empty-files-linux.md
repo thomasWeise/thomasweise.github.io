@@ -3,6 +3,7 @@ title: "Recursively Deleting Empty Files and Directories under Linux"
 date: 2026-03-08
 last_modified_at: 2026-03-08
 tags: ["linux", "bash"]
+toc: false
 ---
 
 Sometimes, we have the need to delete empty files and empty directories under {% include taglink.liquid tag="linux" -%}.
