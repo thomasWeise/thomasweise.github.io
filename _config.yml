@@ -244,7 +244,7 @@ defaults:
 collections:
   posts:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:slug/
   teaching:
     output: true
     permalink: /:collection/:path/
