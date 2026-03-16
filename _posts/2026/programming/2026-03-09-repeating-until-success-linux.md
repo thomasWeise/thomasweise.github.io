@@ -1,7 +1,7 @@
 ---
 title: "Repeating a Command until it Succeeds under Linux"
 date: 2026-03-09
-last_modified_at: 2026-03-09
+last_modified_at: 2026-03-16
 tags: ["linux", "bash"]
 toc: false
 ---
@@ -14,7 +14,7 @@ If we know that the URL is reachable, then the command should succeed.
 However, maybe there is a lost connection or other temporary disturbance.
 Another such command could be a build process which downloads and installs dependencies.
 
-Here I post a small {% include taglink.liquid tag="bash" %} script that you may store as file `try_forever.sh`.
+Here I post a small {% include taglink.liquid tag="bash" %} script that you may store as file [`tryForever.sh`](https://thomasweise.github.io/scripts/linux/tryForever.sh).
 It will repeat a command until it succeeds.
 It has two parameters:
 
@@ -24,48 +24,11 @@ It has two parameters:
    If no such base is provided, the command's output appears in the terminal just normally.
    If you provide something, say `"/tmp/log"`, then the stdout and stderr of the first attempt to run the command goes to `"/tmp/log1.txt"`, for the second attempt, it goes `"/tmp/log2.txt"`, and so on. 
 
-Thus, you could try something like `try_forever.sh "wget https://thomasweise.github.io" "/tmp/log"` and it would try to download the website until it succeeds.
+Thus, you could try something like `tryForever.sh "wget https://thomasweise.github.io" "/tmp/log"` and it would try to download the website until it succeeds.
 Obviously, this script will loop forever for commands that cannot succeed.
 So it should only be used as a shortcut to not running the same program again and again by hand, while you are actually sitting in front of the terminal&hellip;
+[Here](https://thomasweise.github.io/scripts/linux/tryForever.sh) you can download this script.
 
 {% highlight bash %}
-#!/bin/bash
-
-# Try a command forever.
-
-# strict error handling
-set -o pipefail  # trace ERR through pipes
-set -o errtrace  # trace ERR through 'time command' and other functions
-set -o nounset   # set -u : exit the script if you try to use an uninitialized variable
-set -o errexit   # set -e : exit the script if any statement returns a non-true return value
-
-echo "$(date +'%0Y-%0m-%0d %0R:%0S'): Welcome to the forever-trying script."
-
-command="$1"
-echo "$(date +'%0Y-%0m-%0d %0R:%0S'): The command is '$command'."
-
-logBase="${2:-}"
-if [ -n "$logBase" ]; then
-    echo "$(date +'%0Y-%0m-%0d %0R:%0S'): The log base is '$logBase'."
-    cycle=1
-    log="$logBase${cycle}.txt"
-    echo "$(date +'%0Y-%0m-%0d %0R:%0S'): Now doing attempt $cycle and log file '$log'."
-    while ! $command 1>"$log" 2>&1 ; do
-        cycle=$((cycle+1))
-        log="$logBase${cycle}.txt"
-        sleep 20s
-        echo "$(date +'%0Y-%0m-%0d %0R:%0S'): Now doing attempt $cycle and log file '$log'."
-    done
-else
-    echo "$(date +'%0Y-%0m-%0d %0R:%0S'): Logging to stdout."
-    cycle=1
-    echo "$(date +'%0Y-%0m-%0d %0R:%0S'): Now doing attempt $cycle."
-    while ! $command 2>&1 ; do
-        cycle=$((cycle+1))
-        sleep 20s
-        echo "$(date +'%0Y-%0m-%0d %0R:%0S'): Now doing attempt $cycle."
-    done
-fi
-
-echo "$(date +'%0Y-%0m-%0d %0R:%0S'): We have finished the process."
+{{download https://thomasweise.github.io/scripts/linux/tryForever.sh}}
 {% endhighlight %}
