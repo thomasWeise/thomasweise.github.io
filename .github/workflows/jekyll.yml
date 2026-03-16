@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Resolving download tags.
+        run: ./_scripts_/inclueExternal.sh
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build
