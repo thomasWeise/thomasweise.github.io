@@ -6,6 +6,7 @@ toc: true
 author_profile: true
 use_math: true
 tags: ["optimization", "TSP", "metaheuristics"]
+last_modified_at: 2026-03-16
 ---
 
 The Traveling Salesperson Problem&nbsp;(TSP) is one of the most important combinatorial optimization tasks, one of the classical tasks from the field of Operations Research.

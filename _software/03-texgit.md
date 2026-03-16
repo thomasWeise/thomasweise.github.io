@@ -5,6 +5,7 @@ read_time: false
 toc: false
 author_profile: true
 tags: ["software", "LaTeX", "Python"]
+last_modified_at: 2026-03-16
 ---
 
 `texgit` is a preprocessor for accessing files from `git`&nbsp;repositories from LaTeX.

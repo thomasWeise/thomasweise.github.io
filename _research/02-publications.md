@@ -4,6 +4,7 @@ permalink: /research/publications
 read_time: false
 toc: true
 author_profile: true
+last_modified_at: 2026-03-16
 ---
 
 Here you can find the academic profiles and the list of publications of Prof.&nbsp;Dr.&nbsp;{%- include person.liquid person="weise_thomas" %}.
@@ -78,6 +79,8 @@ Prof.&nbsp;Weise is author or coauthor of {{ cas_1 -}}&nbsp;papers in <span lang
 {{ ei -}}&nbsp;of his papers are indexed by&nbsp;EI and {{ scie -}}&nbsp;are in the SCI(E) index.
 His works appeared in journals such as the <em>IEEE Transactions on Evolutionary Computation,</em> the <em>IEEE Transactions on Image Processing, </em> <em>Information Fusion,</em> the <em>IEEE Computational Intelligence Magazine,</em> <em>Evolutionary Computation,</em> <em>Information Sciences,</em> the <em>Applied Soft Computing Journal,</em> the <em>Journal of Combinatorial Optimization,</em> the <em>Journal of Global Optimization,</em> and the <em>European Journal of Operational Research,</em> among others, as well as at conferences such as the <em>AAAI Conference on Artificial Intelligence,</em> <em>Parallel Problem Solving from Nature,</em> and the <em> Genetic and Evolutionary Computation Conference</em>, among others.
 
+## 2026
+{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2026" -%}{%- include publications.liquid papers=papers -%}{:/}
 ## 2025
 {::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.year==2025" -%}{%- include publications.liquid papers=papers -%}{:/}
 ## 2024

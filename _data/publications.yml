@@ -1,3 +1,17 @@
+- key: "RWJFO2026SOFCAND"
+  authors: ["raayatpanah_mohammad_ali", "weise_thomas", "elias_jocelyne", "martignon_fabio", "pimpinella_andrea"]
+  title: "Scalable Optimization for Congestion-Aware NFV Deployment"
+  citation: "<em>Computer Networks</em>. Accepted on March&nbsp;11, 2026. Preprint Online."
+  type: "article"
+  year: 2026
+  cas: 3
+  ccf: "B"
+  thcpl: "B"
+  if: 4.6
+  issn: "1389-1286"
+  index: ["SCIE", "EI"]
+  doi: "10.1016/j.comnet.2026.112216"
+  tags: ["mixed_integer", "nonlinear_programming", "distributed_systems", "VNF"]
 - key: "RWEMP2025AMILPAFCAOND"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "elias_jocelyne", "martignon_fabio", "pimpinella_andrea"]
   title: "A&nbsp;Mixed-Integer Linear Programming Approach for Congestion-Aware Optimized NFV Deployment"

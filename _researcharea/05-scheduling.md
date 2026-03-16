@@ -5,6 +5,7 @@ read_time: false
 toc: false
 author_profile: true
 tags: ["optimization", "scheduling"]
+last_modified_at: 2026-03-16
 ---
 
 Scheduling is the wide area of determining when things should be done.

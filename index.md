@@ -7,7 +7,7 @@ share: false
 related: false
 date: 2026-01-18
 use_math: true
-last_modified_at: 2026-02-08
+last_modified_at: 2026-03-16
 ---
 
 This is the academic website of Dr.&nbsp;{%- include person.liquid person="weise_thomas" -%}, full professor at [Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %} located in the beautiful city of Hefei&nbsp;{%- include lang.liquid text="合肥市" %} in the Anhui Province&nbsp;{%- include lang.liquid text="安徽省" %} in China.

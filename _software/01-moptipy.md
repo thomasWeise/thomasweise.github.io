@@ -5,6 +5,7 @@ read_time: false
 toc: false
 author_profile: true
 tags: ["moptipy", "software", "Python", "benchmarking", "metaheuristics", "RLS", "local_search"]
+last_modified_at: 2026-03-16
 ---
 
 [`moptipy`](/moptipy)&nbsp;is a library with implementations of metaheuristic optimization methods in {% include taglink.liquid tag="Python" %} that also offers an environment for replicable experiments and {% include taglink.liquid tag="benchmarking" -%}.

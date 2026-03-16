@@ -5,6 +5,7 @@ read_time: false
 toc: false
 author_profile: false
 tags: ["teaching", "Python"]
+last_modified_at: 2026-03-16
 ---
 
 [Programming with Python](/programmingWithPython)&nbsp;{%- include lang.liquid text="Python程序设计" %} is a course on Python programming at [Hefei University](https://www.hfuu.edu.cn/english)&nbsp;{%- include lang.liquid text="合肥大学" url="https://www.hfuu.edu.cn" %}.

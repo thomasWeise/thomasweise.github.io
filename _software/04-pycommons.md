@@ -5,6 +5,7 @@ read_time: false
 toc: false
 author_profile: true
 tags: ["software", "Python", "pycommons"]
+last_modified_at: 2026-03-16
 ---
 
 In the [`pycommons`](/pycommons) project, several Python functions that are shared between my Python projects are provided.

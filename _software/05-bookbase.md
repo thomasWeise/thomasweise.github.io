@@ -5,6 +5,7 @@ read_time: false
 toc: false
 author_profile: true
 tags: ["software", "teaching", "LaTeX", "Python"]
+last_modified_at: 2026-03-16
 ---
 
 These are the shared files in my book and {% include taglink.liquid tag="teaching" tag_text="teaching material" %} building projects.

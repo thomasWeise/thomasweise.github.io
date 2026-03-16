@@ -5,6 +5,7 @@ read_time: false
 toc: true
 author_profile: true
 tags: ["optimization", "logistics", "TSP", "VRP", "TTP", "CARP"]
+last_modified_at: 2026-03-16
 ---
 
 Logistics is a huge area that poses a wide range of different optimization problems.

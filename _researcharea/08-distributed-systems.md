@@ -5,6 +5,7 @@ read_time: false
 toc: true
 author_profile: true
 tags: ["distributed systems", "distributed algorithms", "web services"]
+last_modified_at: 2026-03-16
 ---
 
 Distributed systems comprise a wide range of interacting components, such as computer networks, network applications, or multi-agent systems.

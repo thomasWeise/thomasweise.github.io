@@ -5,6 +5,7 @@ read_time: false
 toc: false
 author_profile: true
 tags: ["moptipy", "software", "Python", "moptipyapps", "QAP", "TSP", "TTP", "packing"]
+last_modified_at: 2026-03-16
 ---
 
 [`moptipyapps`](/moptipyapps)&nbsp;is a Python library that implements algorithms, benchmark instances, search spaces, encodings, and other tools for various important problems from the domain of optimization and operations research based on the [`moptipy`](/moptipy) package.

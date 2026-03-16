@@ -3,6 +3,7 @@ title: "Supervised Students"
 permalink: /teaching/supervision
 toc: true
 tags: ["teaching"]
+last_modified_at: 2026-03-16
 ---
 
 I have supervised students at three different universities.

@@ -3,6 +3,7 @@ title: "Courses"
 permalink: /teaching/courses
 toc: true
 tags: ["teaching"]
+last_modified_at: 2026-03-16
 ---
 
 I have taught courses at both undergraduate and graduate level and at different universities.
