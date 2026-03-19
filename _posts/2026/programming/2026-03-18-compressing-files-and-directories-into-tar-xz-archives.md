@@ -1,5 +1,5 @@
 ---
-title: "Compressing Files and Directories into Archives: tar.xz"
+title: "Compressing Files and Directories into tar.xz Archives"
 date: 2026-03-18
 last_modified_at: 2026-03-18
 tags: ["linux", "bash"]

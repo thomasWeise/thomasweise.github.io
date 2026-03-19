@@ -1,5 +1,5 @@
 ---
-title: "Compressing Files and Directories into Archives: zip"
+title: "Compressing Files and Directories into zip Archives"
 date: 2026-03-19
 last_modified_at: 2026-03-19
 tags: ["linux", "bash"]
