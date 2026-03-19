@@ -30,8 +30,8 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign theisbn=thepaper.isbn | strip -%}
-        {%- assign block = block | append: 'ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/' | append: theisbn | append: '">' | append: thepaper.isbn | append: "</a>" -%}
+        {%- assign theisbn = thepaper.isbn | strip -%}
+        {%- assign block = block | append: 'ISBN:&nbsp;<a href="https://isbnsearch.org/isbn/' | append: theisbn | append: '">' | append: theisbn | append: "</a>" -%}
     {%- endif -%}
     {%- if thepaper.issn -%}
         {%- if block_empty -%}
@@ -39,8 +39,8 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign theissn=thepaper.issn | strip -%}
-        {%- assign block = block | append: 'ISSN:&nbsp;<a href="https://portal.issn.org/resource/ISSN/" | append: theissn | append: '">' | append: thepaper.issn | append: '</a>' -%}
+        {%- assign theissn = thepaper.issn | strip -%}
+        {%- assign block = block | append: 'ISSN:&nbsp;<a href="https://portal.issn.org/resource/ISSN/' | append: theissn | append: '">' | append: theissn | append: '</a>' -%}
     {%- endif -%}
     {%- if thepaper.doi -%}
         {%- if block_empty -%}
@@ -48,8 +48,8 @@
         {%- else -%}
             {%- assign block = block | append: ", " -%}
         {%- endif -%}
-        {%- assign thedoi=thepaper.doi | strip -%}
-        {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: thepaper.doi | append: '">' | append: thedoi | append: '</a>' -%}
+        {%- assign thedoi = thepaper.doi | strip -%}
+        {%- assign block = block | append: 'doi:<a href="https://doi.org/' | append: thedoi | append: '">' | append: thedoi | append: '</a>' -%}
     {%- endif -%}
     {%- unless block_empty -%}
         {%- assign block = block | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace -%}
