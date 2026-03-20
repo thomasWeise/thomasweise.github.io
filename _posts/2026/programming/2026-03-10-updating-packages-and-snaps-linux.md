@@ -1,7 +1,7 @@
 ---
 title: "Updating all Packages and Snaps"
 date: 2026-03-10
-last_modified_at: 2026-03-18
+last_modified_at: 2026-03-20
 tags: ["linux", "bash"]
 toc: false
 ---
@@ -15,7 +15,7 @@ If for whatever reason one update would require another first and that could onl
 It also sleeps for one second between each two update steps, just in case.
 I usually run something like `sudo update.sh && shutdown now`, which then shuts down my computer.
 So I do not really need to care how long the script needs anyway.
-[Here](https://thomasweise.github.io/scripts/linux/update.sh) you can download this script.
+[Here](https://thomasweise.github.io/scripts/linux/update.sh) you can download this script and the complete collection of my personal scripts is available [here](http://thomasweise.github.io/scripts/scripts.tar.xz).
 
 {% highlight bash %}
 {{download https://thomasweise.github.io/scripts/linux/update.sh}}

@@ -1,7 +1,7 @@
 ---
 title: "Recursively Deleting Empty Files and Directories under Linux"
 date: 2026-03-08
-last_modified_at: 2026-03-17
+last_modified_at: 2026-03-20
 tags: ["linux", "bash"]
 toc: false
 ---
@@ -15,7 +15,7 @@ It will delete all of them.
 Then, it will recursively look for empty directories, i.e., directories that do not contain files or other directories.
 It will delete them as well.
 All files and directories that get deleted are also printed, so you can see what happened.
-[Here](https://thomasweise.github.io/scripts/linux/deleteZeroSizeFiles.sh) you can download this script.
+[Here](https://thomasweise.github.io/scripts/linux/deleteZeroSizeFiles.sh) you can download this script and the complete collection of my personal scripts is available [here](http://thomasweise.github.io/scripts/scripts.tar.xz).
 
 {% highlight bash %}
 {{download https://thomasweise.github.io/scripts/linux/deleteZeroSizeFiles.sh}}

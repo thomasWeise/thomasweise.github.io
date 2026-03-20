@@ -1,7 +1,7 @@
 ---
 title: "Repeating a Command until it Succeeds under Linux"
 date: 2026-03-09
-last_modified_at: 2026-03-16
+last_modified_at: 2026-03-20
 tags: ["linux", "bash"]
 toc: false
 ---
@@ -27,7 +27,7 @@ It has two parameters:
 Thus, you could try something like `tryForever.sh "wget https://thomasweise.github.io" "/tmp/log"` and it would try to download the website until it succeeds.
 Obviously, this script will loop forever for commands that cannot succeed.
 So it should only be used as a shortcut to not running the same program again and again by hand, while you are actually sitting in front of the terminal&hellip;
-[Here](https://thomasweise.github.io/scripts/linux/tryForever.sh) you can download this script.
+[Here](https://thomasweise.github.io/scripts/linux/tryForever.sh) you can download this script and the complete collection of my personal scripts is available [here](http://thomasweise.github.io/scripts/scripts.tar.xz).
 
 {% highlight bash %}
 {{download https://thomasweise.github.io/scripts/linux/tryForever.sh}}

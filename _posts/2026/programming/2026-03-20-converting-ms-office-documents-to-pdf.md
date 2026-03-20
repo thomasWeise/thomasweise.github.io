@@ -14,7 +14,7 @@ All you have to do is to provide the path to the office document as parameter to
 It will then create a PDF with the same base name in the current folder, e.g., `office2pdf.sh mydoc.docx` creates the file `mydoc.pdf` in the current folder.
 This should work with extensions such as `.doc`, `.docx`, `.ppt`, `.pptx`, `.xls`, and `.xlsx`.
 If LibreOffice is not yet installed, it will automatically install it.
-[Here](https://thomasweise.github.io/scripts/linux/office2pdf.sh) you can download this script.
+[Here](https://thomasweise.github.io/scripts/linux/office2pdf.sh) you can download this script and the complete collection of my personal scripts is available [here](http://thomasweise.github.io/scripts/scripts.tar.xz).
 
 {% highlight bash %}
 {{download https://thomasweise.github.io/scripts/linux/office2pdf.sh}}
