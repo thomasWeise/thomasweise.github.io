@@ -8,7 +8,7 @@ toc: false
 
 Sometimes you have a Microsoft Office document, say an MS Word or MS PowerPoint file, and want to convert it to PDF.
 If you do not have Microsoft Office installed, then you can do this via [LibreOffice](https://www.libreoffice.org), which is free open source.
-Here I provide the little {% include taglink.liquid tag="bash" %} script [`office2pdf.sh`](https://thomasweise.github.io/scripts/linux/office2pdf.sh), which does this in the {% include taglink.liquid tag="linux" -%} terminal.
+Here I provide the little {% include taglink.liquid tag="bash" %} script [`office2pdf.sh`](https://thomasweise.github.io/scripts/linux/office2pdf.sh), which does this in the {% include taglink.liquid tag="linux" %} terminal.
 It basically just executes LibreOffice with the correct parameters.
 
 All you have to do is to provide the path to the office document as parameter to the script.

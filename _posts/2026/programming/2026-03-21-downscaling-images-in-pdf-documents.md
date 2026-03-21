@@ -10,7 +10,7 @@ Sometimes we have PDF document and want to submit through a web form, but it is 
 Often, this size is caused by the images inside the PDF.
 We may reduce their resolution, their "dots per inch"&nbsp;(DPI) value, and then the PDF gets smaller.
 This can be done via [Ghostscript](https://www.ghostscript.com).
-Here I provide the little {% include taglink.liquid tag="bash" %} script [`scalePdf.sh`](https://thomasweise.github.io/scripts/linux/scalePdf.sh), which does this in the {% include taglink.liquid tag="linux" -%} terminal.
+Here I provide the little {% include taglink.liquid tag="bash" %} script [`scalePdf.sh`](https://thomasweise.github.io/scripts/linux/scalePdf.sh), which does this in the {% include taglink.liquid tag="linux" %} terminal.
 It basically just executes Ghostscript with the correct parameters.
 
 All you have to do is to provide the path to the source PDF document and the DPI to which you want to scale it.
