@@ -1,12 +1,12 @@
 ---
 title: "Compressing Files and Directories into zip Archives"
 date: 2026-03-19
-last_modified_at: 2026-03-20
+last_modified_at: 2026-03-23
 tags: ["linux", "bash"]
 toc: false
 ---
 
-In [this recent post]({%- post_url 2026-03-18-compressing-files-and-directories-into-tar-xz-archives -%}), I gave a small script for packing files and folders into [`tar`](https://www.gnu.org/software/tar).[`xz`](https://tukaani.org/xz) archives.
+In [this recent post]({%- post_url 2026/programming/2026-03-18-compressing-files-and-directories-into-tar-xz-archives -%}), I gave a small script for packing files and folders into [`tar`](https://www.gnu.org/software/tar).[`xz`](https://tukaani.org/xz) archives.
 To the best of my knowledge, this offers the best compression ratio.
 However, sadly, not everybody knows how to deal with `tar.xz` archives and there might be situations where we must provide data as `zip` archives.
 These usually have a much worse compression ratio, but are fast to compress and uncompress and widely accepted.

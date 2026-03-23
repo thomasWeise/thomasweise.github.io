@@ -1,7 +1,7 @@
 ---
 title: "Converting MS Office Documents to PDF"
 date: 2026-03-20
-last_modified_at: 2026-03-21
+last_modified_at: 2026-03-23
 tags: ["linux", "bash"]
 toc: false
 ---
@@ -17,8 +17,15 @@ This should work with extensions such as `.doc`, `.docx`, `.ppt`, `.pptx`, `.xls
 Additionally, you can also provide a destination path as optional second argument.
 `office2pdf.sh mydoc.docx ../result.pdf` creates the document `result.pdf` in the parent folder of the current folder. 
 
-If LibreOffice is not yet installed, the script will automatically install it.
+The script will check if LibreOffice is installed and abort if not.
+In that case, an appropriate error message is printed.
+You can install LibreOffice via `sudo apt-get install libreoffice`.
+The script will also fail with an error if either the input file does not exist or if the expected output file is not produced for some reason.
+
 [Here](https://thomasweise.github.io/scripts/linux/office2pdf.sh) you can download this script and the complete collection of my personal scripts is available [here](http://thomasweise.github.io/scripts/scripts.tar.xz).
+In that collection, there also is a script [`convertTo.sh`](https://thomasweise.github.io/scripts/linux/convertTo.sh), which bundles different conversion scripts between different formats.
+It decides based on the file extensions which scripts to use&nbsp;(or fails if no fitting script is available).
+Another related script is [`office2pdf.sh`]({%- post_url 2026/programming/2026-03-23-converting-vector-graphics-formats -%}).
 
 {% highlight bash %}
 {{download https://thomasweise.github.io/scripts/linux/office2pdf.sh}}

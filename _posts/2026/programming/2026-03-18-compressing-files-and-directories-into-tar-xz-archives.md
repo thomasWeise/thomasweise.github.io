@@ -1,7 +1,7 @@
 ---
 title: "Compressing Files and Directories into tar.xz Archives"
 date: 2026-03-18
-last_modified_at: 2026-03-20
+last_modified_at: 2026-03-23
 tags: ["linux", "bash"]
 toc: false
 ---
@@ -14,7 +14,7 @@ They take a longer time to create, but the compression is usually best, often mu
 
 Here you can find the {% include taglink.liquid tag="linux" -%}/{% include taglink.liquid tag="bash" %} script [`xzCompress.sh`](https://thomasweise.github.io/scripts/linux/xzCompress.sh) that can compress one or multiple files or directories into such an archive.
 You can download the script from [here](https://thomasweise.github.io/scripts/linux/xzCompress.sh) and the complete collection of my personal scripts is available [here](http://thomasweise.github.io/scripts/scripts.tar.xz).
-A similar and drop-in compatible script for producing `zip` archives is discussed [here]({%- post_url 2026-03-19-compressing-files-and-directories-into-zip-archives -%}).
+A similar and drop-in compatible script for producing `zip` archives is discussed [here]({%- post_url 2026/programming/2026-03-19-compressing-files-and-directories-into-zip-archives -%}).
 
 Using it is fairly simple:
 If you want to compress a single file or folder named `X`, just invoke `xzCompress.sh "X"` and this will create the archive `X.tar.xz`.

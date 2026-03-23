@@ -1,12 +1,12 @@
 ---
 title: "(Down)scaling Images in PDF Documents"
 date: 2026-03-21
-last_modified_at: 2026-03-21
+last_modified_at: 2026-03-23
 tags: ["linux", "bash"]
 toc: false
 ---
 
-Sometimes we have PDF document and want to submit through a web form, but it is too big.
+Sometimes we have [PDF](https://pdf-lib.js.org/assets/with_large_page_count.pdf) documents and want to submit through a web form, but it is too big.
 Often, this size is caused by the images inside the PDF.
 We may reduce their resolution, their "dots per inch"&nbsp;(DPI) value, and then the PDF gets smaller.
 This can be done via [Ghostscript](https://www.ghostscript.com).
@@ -20,7 +20,11 @@ Invoking `scalePdf.sh mydoc.pdf 33 ../result.pdf` creates the document `result.p
 This new document would be the same as `mydoc.pdf`, but with all images inside scaled to 33&nbsp;DPI.
 You can play around with different resolutions&nbsp;(DPI values) until you reach an acceptable file size.
 
-If Ghostscript is not yet installed, the script will automatically install it.
+The script will check if GhostScript is installed and abort if not.
+In that case, an appropriate error message is printed.
+You can install GhostScript via `sudo apt-get install ghostscript`.
+The script will also fail with an error if either the input file does not exist or if the expected output file is not produced for some reason. 
+
 [Here](https://thomasweise.github.io/scripts/linux/scalePdf.sh) you can download this script and the complete collection of my personal scripts is available [here](http://thomasweise.github.io/scripts/scripts.tar.xz).
 
 {% highlight bash %}
