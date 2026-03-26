@@ -1,7 +1,7 @@
 ---
 title: "Compressing Files and Directories into tar.xz Archives"
 date: 2026-03-18
-last_modified_at: 2026-03-23
+last_modified_at: 2026-03-26
 tags: ["linux", "bash"]
 toc: false
 ---
