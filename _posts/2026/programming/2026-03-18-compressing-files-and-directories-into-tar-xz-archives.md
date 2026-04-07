@@ -1,7 +1,7 @@
 ---
 title: "Compressing Files and Directories into tar.xz Archives"
 date: 2026-03-18
-last_modified_at: 2026-03-26
+last_modified_at: 2026-04-07
 tags: ["linux", "bash"]
 toc: false
 ---
@@ -17,8 +17,9 @@ You can download the script from [here](https://thomasweise.github.io/scripts/li
 A similar and drop-in compatible script for producing `zip` archives is discussed [here]({%- post_url 2026/programming/2026-03-19-compressing-files-and-directories-into-zip-archives -%}).
 
 Using it is fairly simple:
-If you want to compress a single file or folder named `X`, just invoke `xzCompress.sh "X"` and this will create the archive `X.tar.xz`.
+If you want to compress a single file or folder named `X`, just invoke `xzCompress.sh "X"` and this will create the archive `X.tar.xz` in the current folder.
 If you want to store multiple files or folders, say, `A`, `B`, and `C`, into an archive named `Y.tar.xz`, then you would write `xzCompress.sh "Y" "A" "B" "C"`.
+Here, `Y` can be a fully-qualified path to which `.tar.xz` will be appended.
 
 The script will try to use a reasonable number of CPU cores, trying to strike a balance between speed and keeping the computer well usable during compression.
 Still, if you have lots of data, the compression can take quite some time.

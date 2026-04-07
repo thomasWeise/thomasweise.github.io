@@ -1,7 +1,7 @@
 ---
 title: "Compressing Files and Directories into zip Archives"
 date: 2026-03-19
-last_modified_at: 2026-03-26
+last_modified_at: 2026-04-07
 tags: ["linux", "bash"]
 toc: false
 ---
@@ -14,8 +14,9 @@ I here present the small {% include taglink.liquid tag="linux" -%}/{% include ta
 It attempts to produce the strongest `zip` compression possible with the built-in tools.
 You can download the script from [here](https://thomasweise.github.io/scripts/linux/zipCompress.sh) and the complete collection of my personal scripts is available [here](http://thomasweise.github.io/scripts/scripts.tar.xz).
 
-If you want to compress a single file or folder named `X`, just invoke `zipCompress.sh "X"` and this will create the archive `X.zip`.
+If you want to compress a single file or folder named `X`, just invoke `zipCompress.sh "X"` and this will create the archive `X.zip` in the current folder.
 If you want to store multiple files or folders, say, `A`, `B`, and `C`, into an archive named `Y.zip`, then you would write `zipCompress.sh "Y" "A" "B" "C"`.
+Here, `Y` can be a fully-qualified path to which `.zip` will be appended.
 
 The resulting archives `Z.zip` can later be unpacked using `unzip Z.zip`.
 
