@@ -27,17 +27,12 @@ author:
   bio: "A professor at Hefei University."
   location: "Hefei, Anhui, China"
   email: "tweise@hfuu.edu.cn"
+  github: "thomasWeise"
   links:
-    gitHub:
-      url: "https://github.com/thomasWeise"
-      label: "GitHub"
-      icon: "fab fa-fw fa-github icon-pad-right"
-    orcid:
-      url: "https://orcid.org/0000-0002-9687-8509"
+    - url: "https://orcid.org/0000-0002-9687-8509"
       label: "ORCID"
       icon: "ai ai-orcid ai-fw icon-pad-right"
-    researchGate:
-      url: "https://www.researchgate.net/profile/Thomas-Weise-3"
+    - url: "https://www.researchgate.net/profile/Thomas-Weise-3"
       label: "ResearchGate"
       icon: "fab fa-fw fa-researchgate icon-pad-right"
 
