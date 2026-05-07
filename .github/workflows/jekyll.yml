@@ -20,6 +20,8 @@ jobs:
         uses: actions/jekyll-build-pages@v1
       - name: Downloading KaTeX
         run: ./_scripts_/downloadKaTeX.sh "./_external_resources/assets/katex"
+      - name: Downloading KaTeX
+        run: ./_scripts_/downloadAcademicIcons.sh "./_external_resources/assets/ai"
       - name: Installing minifier
         run: sudo apt-get install minify
       - name: Minifying Files Created Files

@@ -15,11 +15,11 @@ echo "$(date +'%0Y-%0m-%0d %0R:%0S'): The destination directory is '$destDir'."
 
 cd /tmp/
 
-for release in "latest" "279773203"; do
+for release in "latest" "305425010" "279773203"; do
     echo "$(date +'%0Y-%0m-%0d %0R:%0S'): Getting files of KaTeX release='$release' to download."
+    set +o errexit
     data="$(curl -s https://api.github.com/repos/KaTeX/KaTeX/releases/$release)"
     files="$(grep browser_download_url <<< "$data" | sed -re 's/.*: "([^"]+)".*/\1/')"
-    set +o errexit
     retcode="$?"
     set -o errexit
     if [ "$retcode" -ne 0 ]; then
