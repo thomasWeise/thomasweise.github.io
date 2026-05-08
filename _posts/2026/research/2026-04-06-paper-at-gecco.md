@@ -25,7 +25,7 @@ First, FFA is designed to be maximally explorative.
 We expected that it would produce a search that could never prematurely converge, a search that would keep exploring the search space forever.
 In the paper, we proof the exact conditions under which FFA can get stuck.
 We show that this might even happen in a very simple scenario:
-The {%- include taglink.liquid tag="FRLS" -%}, i.e., the {%- include taglink.liquid tag="RLS" -%} with a search operator always flipping exactly one bit, can get stuck on OneMax.
+The {% include taglink.liquid tag="FRLS" %}, i.e., the {% include taglink.liquid tag="RLS" %} with a search operator always flipping exactly one bit, can get stuck on OneMax.
 
 Second, we also tackled the low-autocorrelation binary sequence problem&nbsp;(LABS).
 This is the $\mathcal{NP}$-hard problem of finding a binary sequence of length&nbsp;$n$ whose autocorrelation is as low as possible.
