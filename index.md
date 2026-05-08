@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: home
 author_profile: true
 read_time: false
 comments: false
