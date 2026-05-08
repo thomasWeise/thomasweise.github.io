@@ -22,6 +22,7 @@ Here you can find a list of these students, together with the papers we publishe
 - Topic: Frequency Fitness Assignment, Discrete Problem Domains, Low-Autocorrelation Binary Sequences
 - Supervisor: {% include person.liquid person="weise_thomas" %} 
 - Duration: 2024-2027
+- Joint Publications:{::nomarkdown}{%- assign papers=site.data.publications | where_exp: "item", "item.authors contains 'zeng_jiazheng'" -%}{%- include publications.liquid  papers=papers shorter=true -%}{:/}
 
 #### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Mr. {% include person.liquid person="cao_xiang" no_links=true %}
 - Topic: Traveling Tournament Problem

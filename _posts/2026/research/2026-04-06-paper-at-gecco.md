@@ -10,6 +10,7 @@ Our paper&nbsp;*When Frequency Fitness Assignment Fails: Trapped States in Frequ
  
 {::nomarkdown}{%- assign papers="ZWWW2026WFFAFTSIFGLS" | split: "," -%}{%- include publications.liquid papers=papers shorter=true -%}{:/}
 
+## Introduction
 Frequency Fitness Assignment&nbsp;({%- include taglink.liquid tag="FFA" -%}, {% include lang.liquid text="频率适应度分配" nowrap=true -%}) is an "algorithm plugin" that *fundamentally* changes how the selection step in {% include taglink.liquid tag="metaheuristics" %} works.
 We already discussed the [invariance properties]({%- post_url 2026-02-28-ffa-invariance -%}) of FFA and [how FFA can be plugged]({%- post_url 2026-02-23-plugging-ffa-into-metaheuristics -%}) into {% include taglink.liquid tag="local_search" %} in previous posts.
 
@@ -18,6 +19,7 @@ Discrete benchmark functions&nbsp;$f:\mathbb{X}\mapsto\mathbb{N}$ are defined ov
 There exist very simple benchmarks, like OneMax, where the goal is to maximize the number of `1`&nbsp;bits in the strings.
 There also are hard benchmarks, like the Trap function, which is similar to OneMax but where the "gradient" is flipped so that it points away from the optimum.
 
+## Interesting New Findings
 In our new paper, we make some interesting findings:
 First, FFA is designed to be maximally explorative.
 We expected that it would produce a search that could never prematurely converge, a search that would keep exploring the search space forever.
@@ -26,7 +28,7 @@ We show that this might even happen in a very simple scenario:
 The {%- include taglink.liquid tag="FRLS" -%}, i.e., the {%- include taglink.liquid tag="RLS" -%} with a search operator always flipping exactly one bit, can get stuck on OneMax.
 
 Second, we also tackled the low-autocorrelation binary sequence problem&nbsp;(LABS).
-This is the $\mathcal{NP}$&nbsp;hard problem of finding a binary sequence of length&nbsp;$n$ whose autocorrelation is as low as possible.
+This is the $\mathcal{NP}$-hard problem of finding a binary sequence of length&nbsp;$n$ whose autocorrelation is as low as possible.
 We wanted to use it as a benchmark, but discovered several new best-known solutions for some&nbsp;$n\geq600$.
 
 Finally, in the hybrid algorithms combining FFA- and objective-guided search, we introduced a binary operator, i.e., uniform crossover, to transfer information from the FFA-guided to the objective-guided algorithm strand.
