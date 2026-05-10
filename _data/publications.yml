@@ -3,7 +3,7 @@
   title: "When Frequency Fitness Assignment Fails: Trapped States in Frequency-Guided Local Search"
   abstract: "Frequency Fitness Assignment (FFA) offers an alternative take on metaheuristic optimization. Here, the encounter frequencies of objective values are used to make the selection decisions. This leads to a variety of interesting algorithm features, such as an invariance under all injective transformations of the objective function value and a very strong focus on exploration of the search space. In this article, for the first time, we discover a condition under which purely FFA-guided search can actually get stuck, even on
 a problem as simple as OneMax. To tackle this issue, we suggest hybrid approaches combining objective-guided and FFA-guided search. We propose using crossover for solution transfer between the two component algorithms of the hybrids. Our experiments show that (1) the original FFA allows us to solve problems like Trap, TwoMax, and Jump in (experimentally observed) polynomial time; (2) the suggested hybrids address FFA's shortcomings and are occasionally orders of magnitude faster; and (3) we report several new best-known solutions for the NP-hard low-autocorrelation binary sequences problem."
-  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2026)</em>, July 13-17, 2026, San Jose, Costa Rica. New York, NY, USA:&nbsp;ACM"
+  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2026)</em>, July 13-17, 2026, San José, Costa Rica. New York, NY, USA:&nbsp;ACM"
   doi: "10.1145/3795095.3805098"
   isbn: "979-8-4007-2487-9"
   type: "conference"
