@@ -1,9 +1,19 @@
+- key: "LWADGY2026IHLSWLRSFUCTWSS"
+- authors: ["li_mingxuan", "weise_thomas", "abdipoor_sina", "dorville_jourdan", "goh_say_leng", "yaakob_razali"]
+  title: "Integrative Hybrid Local Search with Luby's Restart Strategy for University Course Timetabling with Student Sectioning"
+  abstract: "The optimal balance between exploitation and exploratory capabilities of optimization algorithms plays a vital role in the convergence on combinatorial optimization problems. While hybridizing diversification and intensification has been proven effective in scheduling tasks, the mechanism for switching between them during different stages of the search remains less explored. In this study, a restart strategy based on Luby's universal sequence is adopted as a neighborhood structure guidance strategy to manage the transition between exploration and exploitation, guided by theoretical indications of its efficacy. To validate this, a diversification approach based on Random Search is hybridized with an intensification approach based on Hill Climbing. This methodology is applied to a university course timetabling with student sectioning benchmark as a proof of concept. When tested on the International Timetabling Competition 2019 dataset, the empirical results align with theoretical expectations and outperform the individual building block elements at a faster pace, finding 80% more feasible candidate solutions. Beyond the specific experiment, these findings are significant for balancing search algorithms within Operations Research in general and contribute to other optimization tasks."
+  citation: "<em>15th&nbsp;Conference on the Practice and Theory of Automated Timetabling&nbsp;(<a href='https://patatconference.org/patat2026'>PATAT'2026</a>), </em>, August 25-28, 2026, University of Nottingham, UK. Accepted for Publication."
+  type: "conference"
+  year: 2026
+  month: 8
+  index: ["EI"]
+  tags: ["RLS", "scheduling"]
 - key: "ZWWW2026WFFAFTSIFGLS"
   authors: ["zeng_jiazheng", "weise_thomas", "wu_zhize", "wagner_markus"]
   title: "When Frequency Fitness Assignment Fails: Trapped States in Frequency-Guided Local Search"
   abstract: "Frequency Fitness Assignment (FFA) offers an alternative take on metaheuristic optimization. Here, the encounter frequencies of objective values are used to make the selection decisions. This leads to a variety of interesting algorithm features, such as an invariance under all injective transformations of the objective function value and a very strong focus on exploration of the search space. In this article, for the first time, we discover a condition under which purely FFA-guided search can actually get stuck, even on
 a problem as simple as OneMax. To tackle this issue, we suggest hybrid approaches combining objective-guided and FFA-guided search. We propose using crossover for solution transfer between the two component algorithms of the hybrids. Our experiments show that (1) the original FFA allows us to solve problems like Trap, TwoMax, and Jump in (experimentally observed) polynomial time; (2) the suggested hybrids address FFA's shortcomings and are occasionally orders of magnitude faster; and (3) we report several new best-known solutions for the NP-hard low-autocorrelation binary sequences problem."
-  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2026)</em>, July 13-17, 2026, San José, Costa Rica. New York, NY, USA:&nbsp;ACM"
+  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2026),</em> July 13-17, 2026, San José, Costa Rica. New York, NY, USA:&nbsp;ACM. Accepted for Publication."
   doi: "10.1145/3795095.3805098"
   isbn: "979-8-4007-2487-9"
   type: "conference"

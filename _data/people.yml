@@ -140,6 +140,10 @@ doerr_benjamin:
 doerr_carola:
   name: "Carola Doerr"
   url: "https://doerr.perso.lip6.fr"
+dorville_jourdan:
+   name: "Jourdan D'orville"
+   orcid: "0000-0002-2060-5758"
+   url: "https://sunwayuniversity.edu.my/school-of-mathematical-sciences/staff-profiles/dr-jourdan-dorville"
 dreo_johann:
   name: "Johann Dreo"
   url: "http://johann.dreo.fr"
@@ -619,6 +623,9 @@ xu_jiabo:
   name: "Jiabo XU"
 xu_mengfei:
   name: "Mengfei Xu"
+yaakob_razali:
+  name: "Razali Yaakob"
+  orcid: "0000-0002-8228-5753"
 yang_zhenyu:
   name: "Zhenyu YANG"
   name_cn: "杨振宇"
