@@ -1,18 +1,46 @@
 - key: "LWADGY2026IHLSWLRSFUCTWSS"
   authors: ["li_mingxuan", "weise_thomas", "abdipoor_sina", "dorville_jourdan", "goh_say_leng", "yaakob_razali"]
   title: "Integrative Hybrid Local Search with Luby's Restart Strategy for University Course Timetabling with Student Sectioning"
-  abstract: "The optimal balance between exploitation and exploratory capabilities of optimization algorithms plays a vital role in the convergence on combinatorial optimization problems. While hybridizing diversification and intensification has been proven effective in scheduling tasks, the mechanism for switching between them during different stages of the search remains less explored. In this study, a restart strategy based on Luby's universal sequence is adopted as a neighborhood structure guidance strategy to manage the transition between exploration and exploitation, guided by theoretical indications of its efficacy. To validate this, a diversification approach based on Random Search is hybridized with an intensification approach based on Hill Climbing. This methodology is applied to a university course timetabling with student sectioning benchmark as a proof of concept. When tested on the International Timetabling Competition 2019 dataset, the empirical results align with theoretical expectations and outperform the individual building block elements at a faster pace, finding 80% more feasible candidate solutions. Beyond the specific experiment, these findings are significant for balancing search algorithms within Operations Research in general and contribute to other optimization tasks."
-  citation: "<em>15th&nbsp;Conference on the Practice and Theory of Automated Timetabling&nbsp;(<a href='https://patatconference.org/patat2026'>PATAT'2026</a>), </em>, August 25-28, 2026, University of Nottingham, UK. Accepted for Publication."
+  citation: "<em>15th&nbsp;Conference on the Practice and Theory of Automated Timetabling&nbsp;(<a href='https://patatconference.org/patat2026'>PATAT'2026</a>),</em> August 25-28, 2026, University of Nottingham, UK. Accepted for Publication."
   type: "conference"
   year: 2026
   month: 8
   index: ["EI"]
-  tags: ["RLS", "scheduling"]
+  tags: ["RLS", "local_search", "scheduling"]
+- key: "WALW2026STS4C2WAMSPEFTKTS"
+  title: "Solving the <a href='https://optimize.esa.int/challenge/spoc-4-keplerian-tomato-traveling-salesperson/About'>SpOC&nbsp;4 Challenge&nbsp;2</a> with a Multi-Step Permutation Encoding for the Keplerian Traveling Salesperson"
+  authors: ["weise_thomas", "abdipoor_sina", "li_mingxuan", "wu_zhize"]
+  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(<a href='https://gecco-2026.sigevo.org'>GECCO'2026</a>) Companion,</em> July 13-17, 2026, San José, Costa Rica. New York, NY, USA:&nbsp;ACM. Accepted for Publication."
+  doi: "10.1145/3795101.3815557"
+  isbn: "979-8-4007-2488-6"
+  type: "conference"
+  year: 2026
+  month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: [ "EI" ]
+  tags: [ "combinatorial_optimization", "space", "spoc4", "moptipy", "python" ]
+  slides: ["/talks/gecco2026_spoc4_keplerian_tsp.pdf"]
+  video: ["/talks/gecco2026_spoc4_keplerian_tsp_video.m4v"]
+  poster: ["/talks/gecco2026_spoc4_keplerian_tsp_poster.pdf"]
+- key: "LWAW2026S4C1BPEAC3SAFTLTA"
+  title: "SpOC&nbsp;4 <a href='https://optimize.esa.int/challenge/spoc-4-luna-tomato-logistics/About'>Challenges&nbsp;1 Beginner</a>:&nbsp;Permutation Encodings and <a href='https://optimize.esa.int/challenge/spoc-4-luna-tomato-advertising/p/tie-breaker'>Challenge&nbsp;3</a>:&nbsp;Simulated Annealing for the Luna Tomato Advertising"
+  authors: ["li_mingxuan", "weise_thomas", "abdipoor_sina", "wu_zhize"]
+  citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(<a href='https://gecco-2026.sigevo.org'>GECCO'2026</a>) Companion,</em> July 13-17, 2026, San José, Costa Rica. New York, NY, USA:&nbsp;ACM. Accepted for Publication."
+  doi: "10.1145/3795101.3815558"
+  isbn: "979-8-4007-2488-6"
+  type: "conference"
+  year: 2026
+  month: 7
+  ccf: "C"
+  caai: "C"
+  thcpl: "B"
+  index: [ "EI" ]
+  tags: [ "combinatorial_optimization", "space", "spoc4", "moptipy", "python" ]
 - key: "ZWWW2026WFFAFTSIFGLS"
   authors: ["zeng_jiazheng", "weise_thomas", "wu_zhize", "wagner_markus"]
   title: "When Frequency Fitness Assignment Fails: Trapped States in Frequency-Guided Local Search"
-  abstract: "Frequency Fitness Assignment (FFA) offers an alternative take on metaheuristic optimization. Here, the encounter frequencies of objective values are used to make the selection decisions. This leads to a variety of interesting algorithm features, such as an invariance under all injective transformations of the objective function value and a very strong focus on exploration of the search space. In this article, for the first time, we discover a condition under which purely FFA-guided search can actually get stuck, even on
-a problem as simple as OneMax. To tackle this issue, we suggest hybrid approaches combining objective-guided and FFA-guided search. We propose using crossover for solution transfer between the two component algorithms of the hybrids. Our experiments show that (1) the original FFA allows us to solve problems like Trap, TwoMax, and Jump in (experimentally observed) polynomial time; (2) the suggested hybrids address FFA's shortcomings and are occasionally orders of magnitude faster; and (3) we report several new best-known solutions for the NP-hard low-autocorrelation binary sequences problem."
   citation: "<em>Genetic and Evolutionary Computation Conference&nbsp;(<a href='https://gecco-2026.sigevo.org'>GECCO'2026</a>),</em> July 13-17, 2026, San José, Costa Rica. New York, NY, USA:&nbsp;ACM. Accepted for Publication."
   doi: "10.1145/3795095.3805098"
   isbn: "979-8-4007-2487-9"
@@ -103,7 +131,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324219"]
   dblp: "https://dblp.org/rec/conf/ijcci/ZhaoWBTLT024.html"
-  tags: ["2DBPP", "BPP", "FFA", "RLS", "FRLS", "combinatorial optimization", "local_search", "packing", "bin_packing", "moptipy", "python"]
+  tags: ["2DBPP", "BPP", "FFA", "RLS", "FRLS", "combinatorial_optimization", "local_search", "packing", "bin_packing", "moptipy", "python"]
 - key: "CWTW2024FFAOWBFGSORLSOTQAP"
   authors: ["chen_jiayang", "wu_zhize", "thomson_sarah_louise", "weise_thomas"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization Without Bias for Good Solution Outperforms Randomized Local Search on the Quadratic Assignment Problem"
@@ -118,7 +146,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324662"]
   dblp: "https://dblp.org/rec/conf/ijcci/ChenWT024.html"
-  tags: ["FFA", "QAP", "RLS", "FRLS", "combinatorial optimization", "local_search", "moptipy", "python"]
+  tags: ["FFA", "QAP", "RLS", "FRLS", "combinatorial_optimization", "local_search", "moptipy", "python"]
 - key: "LWTWW2024GSIWIFFTTSP"
   authors: ["liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas"]
   title: "Generating Small Instances with Interesting Features for the Traveling Salesperson Problem"
@@ -133,7 +161,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13324196"]
   dblp: "https://dblp.org/rec/conf/ijcci/LiangWT0024.html"
-  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "combinatorial optimization", "moptipy", "python"]
+  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "combinatorial_optimization", "moptipy", "python"]
 - key: "XWvdBW2024RLSVNVFFAOTTTP"
   authors: ["cao_xiang", "wu_zhize", "van_den_berg_daan", "weise_thomas", "moptipy", "python"]
   title: "Randomized Local Search vs. NSGA-II vs. Frequency Fitness Assignment on The Traveling Tournament Problem"
@@ -148,7 +176,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.13329107"]
   dblp: "https://dblp.org/rec/conf/ijcci/XiangWB024.html"
-  tags: ["TTP", "logistics", "RLS", "FRLS", "FFA", "local_search", "combinatorial optimization", "NSGA-II", "MOP", "moptipy", "python"]
+  tags: ["TTP", "logistics", "RLS", "FRLS", "FFA", "local_search", "combinatorial_optimization", "NSGA-II", "MOP", "moptipy", "python"]
 - key: "TOvdBLW2024ESTAEFFFA"
   authors: ["thomson_sarah_louise", "ochoa_gabriela", "van_den_berg_daan", "liang_tianyu", "weise_thomas"]
   title: "Entropy, Search Trajectories, and Explainability for Frequency Fitness Assignment"
@@ -165,7 +193,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   data: ["https://doi.org/10.5281/zenodo.11488348"]
   supplement: ["https://doi.org/10.5281/zenodo.10987573"]
   dblp: "https://dblp.org/rec/conf/ppsn/ThomsonOBLW24.html"
-  tags: ["QAP", "RLS", "FRLS", "FFA", "SA", "local_search", "combinatorial optimization", "moptipy", "python", "SA"]
+  tags: ["QAP", "RLS", "FRLS", "FFA", "SA", "local_search", "combinatorial_optimization", "moptipy", "python", "SA"]
 - key: "LWLvdBTW2024ATTSPWFFAAHA"
   authors: ["liang_tianyu", "wu_zhize", "lassig_jorg", "van_den_berg_daan", "thomson_sarah_louise", "weise_thomas"]
   title: "Addressing the Traveling Salesperson Problem with Frequency Fitness Assignment and Hybrid Algorithms"
@@ -182,7 +210,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   if: 2.5
   data: ["https://doi.org/10.5281/zenodo.10217879"]
   dblp: "https://dblp.org/rec/journals/soco/LiangWLBTW24.html"
-  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "SA", "combinatorial optimization", "moptipy", "python"]
+  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "SA", "combinatorial_optimization", "moptipy", "python"]
 - key: "WSCTXZWTCW2024SGCNWSAFSBAR"
   authors: ["wu_zhize", "sun_pengpeng", "chen_xin", "tang_keke", "xu_tong", "zou_le", "wang_xiaofeng", "tan_ming", "cheng_fan", "weise_thomas"]
   title: "SelfGCN:&nbsp;Graph Convolution Network With Self-Attention for Skeleton-Based Action Recognition"
@@ -219,7 +247,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.10901807"]
   dblp: "https://dblp.org/rec/conf/gecco/ZhaoLWBT024.html"
-  tags: ["2DBPP", "BPP", "RLS", "combinatorial optimization", "packing", "bin_packing", "local_search", "moptipy", "python"]
+  tags: ["2DBPP", "BPP", "RLS", "combinatorial_optimization", "packing", "bin_packing", "local_search", "moptipy", "python"]
 - key: "VHvEJWvdB2024TTPRFVCF"
   authors: ["verduin_kristian", "horn_ruben", "van_eck_okke", "jansen_reitze", "weise_thomas", "van_den_berg_daan"]
   title: "The Traveling Tournament Problem:&nbsp;Rows-First versus Columns-First"
@@ -233,7 +261,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   month: 4
   rg: "380307727"
   dblp: "https://dblp.org/rec/conf/iceis/VerduinHEJ0B24.html"
-  tags: ["TTP", "logistics", "GAs", "combinatorial optimization"]
+  tags: ["TTP", "logistics", "GAs", "combinatorial_optimization"]
 - key: "WWLCL2023FFAOWBFGSCBE"
   authors: ["weise_thomas", "wu_zhize", "li_xinlu", "chen_yan", "lassig_jorg"]
   title: "Frequency Fitness Assignment:&nbsp;Optimization without Bias for Good Solutions can be Efficient"
@@ -315,7 +343,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   month: 4
   data: ["https://github.com/kristianverduin/Violation-Experiment"]
   code: ["https://github.com/kristianverduin/Violation-Experiment"]
-  tags: ["TTP", "logistics", "GAs", "combinatorial optimization"]
+  tags: ["TTP", "logistics", "GAs", "combinatorial_optimization"]
 - key: "CJWKWWTXLZ2022LALAFOGCISSNFRSI"
   authors: ["chen_yan", "jiang_wenxiang", "wang_mengyuan", "kang_menglei", "weise_thomas", "wang_xiaofeng", "tan_ming", "xu_lixiang", "zhang_chen"]
   title: "LightFGCNet:&nbsp;A Lightweight and Focusing on Global Context Information Semantic Segmentation Network for Remote Sensing Imagery"
@@ -346,7 +374,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   index: ["EI"]
   data: ["https://doi.org/10.5281/zenodo.6784555"]
   dblp: "https://dblp.org/rec/conf/ssci/LiangWLBW22.html"
-  tags: ["TSP", "logistics", "FFA", "combinatorial optimization", "local_search", "RLS", "moptipy", "python"]
+  tags: ["TSP", "logistics", "FFA", "combinatorial_optimization", "local_search", "RLS", "moptipy", "python"]
 - key: "DXWW2022CSASIICGEFC"
   authors: ["ding_jianwen", "xu_jia", "weise_thomas", "wang_huan"]
   title: "Community Services and Social Involvement in COVID-19 Governance:&nbsp;Evidence from China"
@@ -373,7 +401,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   cms: "T2"
   rg: "356190941"
   dblp:  "https://dblp.org/rec/journals/jco/RaayatpanahKWP22.html"
-  tags: ["subgraph_selection", "combinatorial optimization"]
+  tags: ["subgraph_selection", "combinatorial_optimization"]
 - key: "LWW2022DOPPEIFASABD"
   authors: ["liu_zhiyang", "weise_thomas", "wu_zhize"]
   title: "Detection of Personal Protective Equipment in Factories:&nbsp;A Survey and Benchmark Dataset"
@@ -687,7 +715,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   code: ["https://github.com/optimizationBenchmarking/tspSuite"]
   rg: "334144299"
   dblp: "https://dblp.org/rec/journals/ijcini/0001JQL19.html"
-  tags: ["bab", "combinatorial optimization", "TSP", "logistics", "EAs", "recombination", "TSPSuite", "Java"]
+  tags: ["bab", "combinatorial_optimization", "TSP", "logistics", "EAs", "recombination", "TSPSuite", "Java"]
 - key: "WWLC2019IIIOADTM"
   authors: ["weise_thomas", "wu_yuezhong", "liu_weichen", "chiong_raymond"]
   title: "Implementation Issues in Optimization Algorithms:&nbsp;Do they matter?"
@@ -795,7 +823,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   thcpl: "B"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/gecco/Ullrich0AL18.html"
-  tags: ["benchmarking", "combinatorial optimization", "TSP", "logistics", "MaxSat"]
+  tags: ["benchmarking", "combinatorial_optimization", "TSP", "logistics", "MaxSat"]
 - key: "QWL2018OABMASOTTSP"
   authors: ["qi_qi", "weise_thomas", "li_bin"]
   title: "Optimization Algorithm Behavior Modeling:&nbsp;A Study on the Traveling Salesman Problem"
@@ -863,7 +891,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   year: 2016
   month: 12
   dblp: "https://dblp.org/rec/conf/cocoa/AwasthiLWK16.html"
-  tags: ["combinatorial optimization", "scheduling"]
+  tags: ["combinatorial_optimization", "scheduling"]
 - key: "WWCTL2016GVLSTIOPSOEAP"
   authors: ["weise_thomas", "wu_yuezhong", "chiong_raymond", "tang_ke", "lassig_jorg"]
   title: "Global versus Local Search:&nbsp;The Impact of Population Sizes on Evolutionary Algorithm Performance"
@@ -922,7 +950,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   month: 5
   issn: "2639-3867"
   dblp: "https://dblp.org/rec/conf/ipps/AwasthiLLW16.html"
-  tags: ["combinatorial optimization", "scheduling"]
+  tags: ["combinatorial_optimization", "scheduling"]
 - key: "SWCC2015HPWEPIFSTVRPWTW"
   authors: ["shi_wei", "weise_thomas", "chiong_raymond", "catay_bulent"]
   title: "Hybrid PACO with Enhanced Pheromone Initialization for Solving the Vehicle Routing Problem with Time Windows"
@@ -935,7 +963,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   issn: "2770-0097"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/ssci/ShiWCC15.html"
-  tags: ["VRP", "ACO", "logistics", "combinatorial optimization"]
+  tags: ["VRP", "ACO", "logistics", "combinatorial_optimization"]
 - key: "GYWL2015AELSHWRWFTUSCP"
   authors: ["gao_chao", "yao_xin", "weise_thomas", "li_jinlong"]
   title: "An Efficient Local Search Heuristic with Row Weighting for the Unicost Set Covering Problem"
@@ -1060,7 +1088,7 @@ a problem as simple as OneMax. To tackle this issue, we suggest hybrid approache
   issn: "2770-0097"
   index: ["EI"]
   dblp: "https://dblp.org/rec/conf/cipls/AwasthiLKW14.html"
-  tags: ["scheduling", "combinatorial optimization"]
+  tags: ["scheduling", "combinatorial_optimization"]
 - key: "GWL2014IT3FNLSBRFMFTSCP"
   authors: ["gao_chao", "weise_thomas", "li_jinlong"]
   title: "Improve the 3-flip Neighborhood Local Search by Random Flat Move for the Set Covering Problem"

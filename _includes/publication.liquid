@@ -175,6 +175,26 @@
             {%- assign block = block | append: '[<a href="' | append: theslides | append: '">slides</a>]' -%}
         {%- endfor -%}
     {%- endif -%}
+    {%- if thepaper.video -%}
+        {%- for thevideo in thepaper.video -%}
+            {%- if block_empty -%}
+                {%- assign block_empty = false -%}
+            {%- else -%}
+                {%- assign block = block | append: ", " -%}
+            {%- endif -%}
+            {%- assign block = block | append: '[<a href="' | append: thevideo | append: '">video</a>]' -%}
+        {%- endfor -%}
+    {%- endif -%}
+    {%- if thepaper.poster -%}
+        {%- for theposter in thepaper.poster -%}
+            {%- if block_empty -%}
+                {%- assign block_empty = false -%}
+            {%- else -%}
+                {%- assign block = block | append: ", " -%}
+            {%- endif -%}
+            {%- assign block = block | append: '[<a href="' | append: theposter | append: '">poster</a>]' -%}
+        {%- endfor -%}
+    {%- endif -%}
     {%- if thepaper.code -%}
         {%- for thecode in thepaper.code -%}
             {%- if block_empty -%}
