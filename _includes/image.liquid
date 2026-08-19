@@ -1,0 +1,13 @@
+{%- assign caption=include.caption | default: "" -%}
+{%- assign caption=caption | strip | normalize_whitespace -%}
+{%- assign use_width=include.use_width | default: "100%" -%}
+{%- assign use_width=use_width | strip -%}
+{%- assign id=include.id | default: "" -%}
+<figure class="imgFig"{%- if label != "" %} id="{{- label -}}"{%- endif -%}>
+    <img class="imgFigImg" src="{{- include.src -}}"{%- if caption != "" %} alt="{{- caption -}}"{%- endif -%}{%- if use_width!="" %} style="width={{- use_width -}}"{%- endif -%}>
+    {%- if caption != "" -%}
+        <figcaption class="imgCapt">
+            {%- include image_link.liquid id=id img_put_as_label=true -%}&nbsp;{{- caption -}}
+        </figcaption>
+    {%- endif -%}
+</figure>

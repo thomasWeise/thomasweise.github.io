@@ -1,0 +1,28 @@
+{%- assign text=include.text | default: "" -%}
+{%- assign caption=include.caption | default: "" -%}
+{%- assign caption=caption | strip | normalize_whitespace -%}
+{%- assign id=include.id | default: "" -%}
+{%- assign text=text | strip | newline_to_br | replace: "<br />", "<br>" | replace: "<br/>", "<br>" | strip_newlines | normalize_whitespace | replace: "<br> ", "<br>" -%}
+{%- for indent in (1..20) -%}
+    {%- assign repl=indent | times: 2.4 | append: "em" -%}
+    {%- assign repl='<span style="display:inline-block;width:' | append: repl | append: '">&nbsp;</span>' -%}
+    {%- assign search="@" | append: indent | append: ": " -%}
+    {%- assign text=text | replace: search, repl -%}
+    {%- assign search="@" | append: indent | append: ":" -%}
+    {%- assign text=text | replace: search, repl -%}
+{%- endfor -%}
+{%- assign text=text | replace: "@[", '<span class="algoKw">' | replace: "@]", "</span>" -%}
+{%- assign lines=text | split: "<br>" -%}
+{%- capture fulltext -%}
+{%- for line in lines -%}<span class="algoN"></span><span class="algoC">{{ line | strip }}</span>
+{% endfor -%}
+{%- endcapture -%}
+{%- assign def_algo_lst=id | split: "äöü@" -%}
+{%- assign algo_lst=page.algo_lst | default: def_algo_lst -%}
+<figure class="algoFig"{%- if label != "" %} id="{{- label -}}"{%- endif -%}>
+    {%- if caption != "" -%}
+        <figcaption class="algCapt">
+            {%- include algorithm_link.liquid id=id algo_put_as_label=true -%}&nbsp;{{- caption -}}
+        </figcaption>
+    {%- endif -%}
+<pre class="algorithm">{{- fulltext | strip -}}</pre></figure>

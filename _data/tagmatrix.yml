@@ -1,0 +1,143 @@
+aco:
+  url: "/tags/aco"
+  name: "ACO"
+  full: "Ant Colony Optimization"
+ai:
+  url: "/tags/ai"
+  name: "AI"
+  full: "Artificial Intelligence"
+aitoa:
+  url: "/aitoa"
+aitoacode:
+  url: "/aitoa-code"
+  name: "aitoa-code"
+algorithmsynthesis:
+  url: "/research/areas/gp#algorithm-synthesis"
+  name: "algorithm synthesis"
+bash:
+  url: "/tags/bash"
+  name: "Bash"
+benchmarking:
+  url: "/research/areas/benchmarking"
+bab:
+  url: "/tags/bab"
+  name: "B&amp;B"
+  full: "Branch and Bound"
+bpp:
+  name: "BPP"
+  full: "Bin Packing Problem"
+carp:
+  url: "/research/areas/logistics#arc-routing-problems"
+  name: "CARP"
+  full: "Capacitated Arc Routing Problem"
+ci:
+  name: "CI"
+  full: "Computational Intelligence"
+databases:
+  url: "/databases"
+distributedsystems:
+  url: "/research/areas/distributed-systems"
+  name: "distributed systems"
+eas:
+  url: "/tags/eas"
+  name: "EAs"
+  full: "Evolutionary Algorithms"
+ec:
+  url: "/tags/ec"
+  name: "EC"
+  full: "Evolutionary Computation"
+edas:
+  url: "/tags/edas"
+  name: "EDAs"
+  full: "Estimation of Distribution Algorithm"
+ffa:
+  url: "/research/areas/ffa"
+  name: "FFA"
+  full: "Frequency Fitness Assignment"
+frls:
+  url: "/tags/frls"
+  name: "FRLS"
+  full: "Randomized Local Search with Frequency Fitness Assignment"
+gas:
+  url: "/tags/gas"
+  name: "GAs"
+  full: "Genetic Algorithms"
+gp:
+  url: "/research/areas/gp"
+  name: "GP"
+  full: "Genetic Programming"
+linux:
+  url: "/tags/linux"
+  name: "Linux"
+logistics:
+  url: "/research/areas/logistics"
+metaheuristics:
+  url: "/tags/metaheuristics"
+moptipy:
+  url: "/moptipy"
+localsearch:
+  url: "/tags/local_search"
+  name: "local search"
+mas:
+  url: "/tags/mas"
+  name: "MAs"
+  full: "Memetic Algorithms"
+optimization:
+  url: "/tags/optimization"
+optimizationbenchmarking:
+  url: "https://optimizationbenchmarking.github.io"
+  name: "optimizationBenchmarking"
+or:
+  url: "/tags/or"
+  name: "OR"
+  full: "Operations Research"
+packing:
+  url: "/research/areas/packing"
+pso:
+  url: "/tags/pso"
+  name: "PSO"
+  full: "Particle Swarm Optimization"
+python:
+  url: "/programmingWithPython"
+  name: "Python"
+qap:
+  url: "/research/areas/logistics/quadratic-assignment-problem(qap)"
+  name: "QAP"
+  full: "Quadratic Assignment Problem"
+rls:
+  url: "/tags/rls"
+  name: "RLS"
+  full: "Randomized Local Search"
+scheduling:
+  url: "/research/areas/scheduling"
+sa:
+  url: "/tags/sa"
+  name: "SA"
+  full: "Simulated Annealing"
+si:
+  url: "/tags/si"
+  name: "SI"
+  full: "Swarm Inteligence"
+tabusearch:
+  url: "/tags/ts"
+  name: "Tabu Search"
+teaching:
+  url: "/research/areas/teaching"
+tsp:
+  url: "/research/areas/tsp"
+  name: "TSP"
+  full: "Traveling Salesperson Problem"
+tspsuite:
+  url: "https://github.com/optimizationBenchmarking/tspSuite"
+  name: "TSP&nbsp;Suite"
+ttp:
+  url: "/research/areas/logistics#traveling-tournament-problemttp"
+  name: "TTP"
+  full: "Traveling Tournament Problem"
+vrp:
+  url: "/research/areas/logistics#vehicle-routing-problemsvrps"
+  name: "VRP"
+  full: "Vehicle Routing Problem"
+webservices:
+  url: "/research/areas/distributed-systems#web-services"
+  name: "Web Services"

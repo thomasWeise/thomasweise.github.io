@@ -1,0 +1,27 @@
+$lang-color: mix($text-color, $background-color, 80%);
+$lang-link: mix($link-color, $background-color, 70%);
+$lang-link-hover: mix($link-color-hover, $background-color, 70%);
+$lang-link-visited: mix($link-color-visited, $background-color, 70%);
+
+.langwrp {
+    color: $lang-color;
+    font-size: 95%;
+}
+
+.langlnk {
+    &:hover {
+        color: $lang-link-hover !important;
+    }
+    &:focus {
+        color: $lang-link-hover !important;
+    }
+    &:link {
+        color: $lang-link !important;
+    }
+    &:visited {
+        color: $lang-link-visited !important;
+    }
+    &:active {
+        color: $lang-link-hover !important;
+    }
+}

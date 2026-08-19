@@ -1,0 +1,60 @@
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{%- if page.layout == "tags" -%}
+  {%- assign base_tag = include.base_tag | default: "h3" -%}
+{%- else -%}
+  {%- assign base_tag = include.base_tag | default: "h2" -%}
+{%- endif -%}
+{%- assign base_tag_open="<" | append: base_tag -%}
+{%- assign base_tag_close="</"  | append: base_tag | append: ">" -%}
+
+<div class="{{ include.type | default: 'list' }}__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{%- endif -%}>
+    {%- if include.type == "grid" and teaser -%}
+      <div class="archive__item-teaser">
+        <img src="{{ teaser | relative_url }}" alt="">
+      </div>
+    {%- endif -%}
+    {{- base_tag_open }} class="archive__item-title no_toc" itemprop="headline">
+      {%- if post.link -%}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {%- else -%}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      {%- endif -%}
+    {{- base_tag_close -}}
+    {%- include page__meta.html type=include.type -%}
+    {%- if post.excerpt -%}
+      {%- assign use_excerpt = post.excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip -%}
+      {%- assign use_excerpt = use_excerpt | strip | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | replace: "\n\n\n", "\n\n" | strip | remove: '<p>' | remove: '</p>' | strip -%}
+      {%- assign use_excerpt = use_excerpt | markdownify | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | strip | normalize_whitespace | strip -%}
+      {%- for hx in (1..5) -%}
+        {%- assign splitA = "<h" | append: hx -%}
+        {%- assign splitB = "</h" | append: hx | append: ">" -%}
+        {%- assign parts = use_excerpt | split: splitA -%}
+        {%- assign use_excerpt = "" -%}
+        {%- for part in parts -%}
+          {%- assign sub_parts = part | split: splitB -%}
+          {%- if forloop.first -%}
+            {%- assign use_excerpt = use_excerpt | append: sub_parts[0] -%}
+          {%- else -%}
+            {%- assign use_excerpt = use_excerpt | append: sub_parts[1] -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+      {%- assign use_excerpt = use_excerpt | strip | normalize_whitespace | strip | normalize_whitespace | strip -%}
+      {%- if use_excerpt != "" -%}
+          <p class="archive__item-excerpt" itemprop="description">{{- use_excerpt -}}</p>
+      {%- endif -%}
+    {%- endif -%}
+  </article>
+</div>

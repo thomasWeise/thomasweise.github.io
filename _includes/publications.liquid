@@ -1,0 +1,14 @@
+{%- if include.papers.size > 0 -%}
+    {%- assign pubsshort = include.shorter | default: false -%}
+    {%- capture pubtext -%}
+        {%- for paper in include.papers -%}
+            {%- include publication.liquid paper=paper short=pubsshort -%}
+        {%- endfor -%}
+    {%- endcapture -%}
+    {%- assign pubtext=pubtext | strip -%}
+    {%- if pubtext != "" -%}
+    <ul class="publist">
+        {{- pubtext | remove: '<p>' | remove: '</p>' | strip | normalize_whitespace | replace: " ,", "," -}}
+    </ul>
+    {%- endif -%}
+{%- endif -%}
