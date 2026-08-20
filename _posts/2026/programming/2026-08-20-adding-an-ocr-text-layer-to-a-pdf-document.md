@@ -9,12 +9,10 @@ toc: false
 Sometimes we have a PDF document which is entirely composed of images with text.
 The text in these images cannot be selected or searched.
 This is often the case if you have scanned documents and merged them into a PDF.
-
 Also, quite often, we find some old research paper online as PDF, where the text looks more or less good and is rendered with fonts, but it can neither be selected nor searched, because the font shape and characters do not match.
-Quite annoying.
-
-What we want in both cases is to add an invisble layer of real text over the original PDF.
-This text should then be search- and copy-able.
+What we want in both cases is to add an invisible layer of real text over the original PDF.
+This text should then be search-, select-, and copy-able.
+The script [`pdfAddOcrLayer.sh`](https://thomasweise.github.io/scripts/linux/pdfAddOcrLayer.sh) can create such a layer for you.
 
 This can be done with a combination of [Tesseract](https://tesseractocr.org), [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF), [Ghostscript](https://www.ghostscript.com), and [qpdf](https://github.com/qpdf/qpdf).
 The idea is that we first take the original PDF document and convert it to a series of images and then apply optical character recognition&nbsp;(OCR) to these images.
