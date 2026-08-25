@@ -1,0 +1,88 @@
+$algo-base-color: rgb(230, 230, 255);
+$algo-background-color: mix($algo-base-color, $background-color, 80%);
+$algo-line-number-color: mix($algo-base-color, $text-color, 60%);
+$algo-line-number-sep-color: mix($algo-base-color, $text-color, 60%);
+$algo-text-color: mix($algo-base-color, $text-color, 20%);
+$algo-font: "KaTeX_Main";
+
+
+.algoFig {
+    border: 1px solid $algo-line-number-sep-color;
+    padding: 4px;
+    display: table;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 100%;
+
+    .algorithm {
+        width: 100%;
+        font-family: $sans-serif;
+        text-align: left;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        overflow-x: auto;
+        display: grid;
+        align-items: start;
+        grid-template-columns: min-content 1fr;
+        background: $algo-background-color;
+        margin-bottom: 0pt;
+        margin-top: 0.33em;
+
+        .algoC {
+            padding-left: calc(2em + 5px);
+            text-indent: -2em;
+            padding-top: 2px;
+            min-width: 15em;
+            overflow-wrap: anywhere;
+            white-space: pre-wrap;
+            font-family: $algo-font;
+        }
+
+        .algoN {
+            counter-increment: algostep;
+            word-break: keep-all;
+            margin: 0;
+            padding-left: 15px;
+            padding-right: 5px;
+            overflow: clip;
+            position: relative;
+            text-align: right;
+            color: $algo-line-number-color;
+            border-right: 1px solid $algo-line-number-sep-color;
+            align-self: stretch;
+
+            &:after {
+                position: absolute;
+                right: 5px;
+                content: "\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳\a↳";
+                white-space: pre;
+                color: $algo-line-number-color;
+            }
+
+            &:before {
+                content: counter(algostep);
+            }
+        }
+
+        .algoKw {
+            font-weight: bold;
+        }
+
+        &:before {
+            counter-reset: algostep;
+        }
+    }
+
+    .algoCapt {
+        font-style: italic;
+        text-align: center;
+        display: table-caption;
+        caption-side: top;
+    }
+
+    .algoNum {
+        font-weight: bold;
+    }
+}

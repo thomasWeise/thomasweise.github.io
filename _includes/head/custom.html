@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/assets/ai/academicons.min.css">
+{%- assign use_math = page.use_math | default: false -%}
+{%- assign use_algorithm = page.algorithms | default: false -%}
+{%- if use_math or use_algorithm -%}
+<link rel="stylesheet" href="/assets/katex/katex.min.css">
+<script defer src="/assets/katex/katex.min.js"></script>
+<script defer src="/assets/katex/contrib/auto-render.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ]{%- if use_algorithm -%},
+          ignoredTags: ["script", "noscript", "style", "code", "textarea", "option"]{%- endif -%}
+        });
+    });
+</script>
+<style>
+    .katex { font-size: 1.1em; }
+</style>
+{%- assign fonts = "KaTeX_Main-Regular,KaTeX_Main-Italic" | split: "," -%}
+{%- for font in fonts -%}
+    <link rel="preload" href="assets/katex/fonts/{{- font -}}.woff2" as="font" type="font/woff2">
+{%- endfor -%}
+{%- endif -%}
