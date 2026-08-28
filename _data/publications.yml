@@ -1,7 +1,7 @@
 - key: "LWADGY2026IHLSWLRSFUCTWSS"
   authors: ["li_mingxuan", "weise_thomas", "abdipoor_sina", "dorville_jourdan", "goh_say_leng", "yaakob_razali", "abdullah_salwani"]
   title: "Integrative Hybrid Local Search with Luby's Restart Strategy for University Course Timetabling with Student Sectioning"
-  citation: "<em>15th&nbsp;Conference on the Practice and Theory of Automated Timetabling&nbsp;(<a href='https://patatconference.org/patat2026'>PATAT'2026</a>),</em> August 25-28, 2026, University of Nottingham, UK. UK/Belgium:&nbsp;EURO Working Group on Automated Timetabling&nbsp;(EWG-PATAT), part of Association of European Operational Research Societies:&nbsp;Association of European Operational Research Societies&nbsp;(<a href='https://www.euro-online.org'>EURO</a>)."
+  citation: "<em>15th&nbsp;Conference on the Practice and Theory of Automated Timetabling&nbsp;(<a href='https://patatconference.org/patat2026'>PATAT'2026</a>),</em> August 25-28, 2026, University of Nottingham, UK. UK/Belgium:&nbsp;EURO Working Group on Automated Timetabling&nbsp;(EWG-PATAT), part of Fribourg, Switzerland:&nbsp;Association of European Operational Research Societies&nbsp;(<a href='https://www.euro-online.org'>EURO</a>)."
   type: "conference"
   year: 2026
   month: 8
@@ -26,6 +26,7 @@
   video: ["/talks/gecco2026_spoc4_keplerian_tsp_video.m4v"]
   poster: ["/talks/gecco2026_spoc4_keplerian_tsp_poster.pdf"]
   url: ["/assets/papers/WALW2026STS4C2WAMSPEFTKTS.pdf"]
+  dblp: "https://dblp.org/rec/conf/gecco/WeiseALW26.html"
 - key: "LWAW2026S4C1BPEAC3SAFTLTA"
   title: "SpOC&nbsp;4 <a href='https://optimize.esa.int/challenge/spoc-4-luna-tomato-logistics/About'>Challenges&nbsp;1 Beginner</a>:&nbsp;Permutation Encodings and <a href='https://optimize.esa.int/challenge/spoc-4-luna-tomato-advertising/p/tie-breaker'>Challenge&nbsp;3</a>:&nbsp;Simulated Annealing for the Luna Tomato Advertising"
   authors: ["li_mingxuan", "weise_thomas", "abdipoor_sina", "wu_zhize"]
@@ -41,6 +42,7 @@
   index: [ "EI" ]
   url: ["/assets/papers/LWAW2026S4C1BPEAC3SAFTLTA.pdf"]
   tags: [ "combinatorial_optimization", "space", "spoc4", "moptipy", "python", "or" ]
+  dblp: "https://dblp.org/rec/conf/gecco/LiWAW26.html"
 - key: "ZWWW2026WFFAFTSIFGLS"
   authors: ["zeng_jiazheng", "weise_thomas", "wu_zhize", "wagner_markus"]
   editors: ["trujillo_leonardo", "hu_ting"]
@@ -58,6 +60,7 @@
   data: ["https://doi.org/10.5281/zenodo.18333914"]
   url: ["/assets/papers/ZWWW2026WFFAFTSIFGLS.pdf"]
   tags: ["FFA", "(1+1)EA", "local_search", "discrete_optimization", "bit_strings", "onemax", "twomax", "trap", "jump", "leadingones", "nqueens", "plateau", "ising1d", "ising2d", "wmodel", "labs", "moptipy", "python"]
+  dblp: "https://dblp.org/rec/conf/gecco/ZengWWW26.html"
 - key: "RWJFO2026SOFCAND"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "elias_jocelyne", "martignon_fabio", "pimpinella_andrea"]
   title: "Scalable Optimization for Congestion-Aware NFV Deployment"
@@ -72,6 +75,7 @@
   index: ["SCIE", "EI"]
   doi: "10.1016/j.comnet.2026.112216"
   tags: ["mixed_integer", "nonlinear_programming", "distributed_systems", "VNF", "or"]
+  dblp: "https://dblp.org/rec/journals/cn/RaayatpanahWEMP26.html"
 - key: "RWEMP2025AMILPAFCAOND"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "elias_jocelyne", "martignon_fabio", "pimpinella_andrea"]
   title: "A&nbsp;Mixed-Integer Linear Programming Approach for Congestion-Aware Optimized NFV Deployment"
