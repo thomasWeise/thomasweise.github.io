@@ -612,7 +612,8 @@ wu_zhize:
 wu_zijun:
   name: "Zijun WU"
   name_cn: "吴自军"
-  url_cn: "https://faculty.hfut.edu.cn/wuzijun/zh_CN"
+  url: "https://faculty.hfut.edu.cn/wuzijun/en"
+  url_cn: "https://faculty.hfut.edu.cn/wuzijun"
 xu_dan:
   name: "Dan XU"
   name_cn: "许丹"

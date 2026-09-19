@@ -1882,7 +1882,7 @@
 - key: "WNSRG2008ATMFMOERANFL"
   authors: ["weise_thomas", "niemczyk_stefan", "skubch_hendrik", "reichle_roland", "geihs_kurt"]
   title: "A&nbsp;Tunable Model for Multi-Objective, Epistatic, Rugged, and Neutral Fitness Landscapes"
-  citation: "<em>10th&nbsp;Annual Conference on Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2008),</em> pages&nbsp;795&ndash;802, July 12-16, 2008, Atlanta, GA, USA. New York, NY, USA:&nbsp;ACM Press"
+  citation: "<em>10th&nbsp;Annual Conference on Genetic and Evolutionary Computation Conference&nbsp;(GECCO'2008),</em> pages&nbsp;795&ndash;802, July 12-16, 2008, Atlanta, GA, USA, pages&nbsp;795&ndash;802. New York, NY, USA:&nbsp;ACM Press"
   isbn: "978-1-60558-130-9"
   doi: "10.1145/1389095.1389252"
   type: "conference"
