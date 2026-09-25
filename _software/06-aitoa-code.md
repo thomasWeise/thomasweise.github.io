@@ -16,7 +16,7 @@ Check [moptipy](/moptipy) for a similar package for Python.**
 In this repository, we provide example source codes for the book "[An Introduction to Optimization Algorithms](/aitoa)".
 With the book, we try to develop a readable and accessible introduction in optimization, optimization algorithms, and, in particular, metaheuristics.
 It is an attempt to make a new version of <a href="/research/publications#W2009GOEB">Global Optimization Algorithms &mdash; Theory and Application</a> with a Java code base backing it and based on an experiment.
-The code is designed as a versatile and general implementation of these algorithms in Java and provides one example application: the Job Shop Scheduling Problem&nbsp;(JSSP).
+The code is designed as a versatile and general implementation of these algorithms in Java and provides one example application: the Job Shop Scheduling Problem&nbsp;({% include taglink.liquid tag="JSSP" %}).
 
 The [book](/aitoa) is available in the following formats:
 

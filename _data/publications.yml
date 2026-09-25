@@ -320,7 +320,7 @@
   caai: "C"
   thcpl: "B"
   index: ["EI"]
-  code: ["https://github.com/thomasWeise/moptipy"]
+  code: ["/moptipy"]
   dblp: "https://dblp.org/rec/conf/gecco/0001W23a.html"
   tags: ["benchmarking", "moptipy", "replicable_experiments", "optimization", "python"]
 - key: "WKCJWWTXLZZ2023ALCCVPAMFSSORSI"
@@ -721,7 +721,7 @@
   if: 1.0
   index: ["EI"]
   issn: "1557-3958"
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   rg: "334144299"
   dblp: "https://dblp.org/rec/journals/ijcini/0001JQL19.html"
   tags: ["bab", "combinatorial_optimization", "TSP", "logistics", "EAs", "recombination", "TSPSuite", "Java", "or"]
@@ -872,7 +872,7 @@
   caai: "C"
   thcpl: "B"
   index: ["EI"]
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   dblp: "https://dblp.org/rec/conf/gecco/LiuWWQ17.html"
   tags: ["TSP", "TSPSuite", "logistics", "local_search", "recombination", "or"]
 - key: "QWL2017MOARBAIA"
@@ -918,7 +918,7 @@
   index: ["SCI", "EI"]
   tags: ["TSPSuite", "TSP", "logistics", "EAs", "benchmarking", "local_search", "or"]
   issn: "0925-5001"
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   rg: "294425002"
   dblp: "https://dblp.org/rec/journals/jgo/WeiseWCTL16.html"
 - key: "WWL2016HDLSAWEOAECBPOTTSP"
@@ -934,7 +934,7 @@
   caai: "C"
   thcpl: "B"
   index: ["EI"]
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   dblp: "https://dblp.org/rec/conf/gecco/WuWL16.html"
   tags: ["TSPSuite", "TSP", "logistics", "local_search", "recombination", "or"]
 - key: "WWWXC2016HECMFTTSP"
@@ -946,7 +946,7 @@
   year: 2016
   month: 6
   issn: "1546-1955"
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   tags: ["TSPSuite", "TSP", "logistics", "local_search", "recombination", "or"]
 - key: "ALLW2016GBPAFSADD"
   authors: ["awasthi_abhishek", "lassig_jorg", "leuschner_jens", "weise_thomas"]
@@ -1002,7 +1002,7 @@
   month: 9
   issn: "2150-3443"
   index: ["EI"]
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   dblp: "https://dblp.org/rec/conf/bic-ta/XuWWLC15.html"
   tags: ["TSP", "TSPSuite", "logistics", "tabu_search", "local_search", "or"]
 - key: "LWWC2015HECMFTTSP"
@@ -1016,7 +1016,7 @@
   month: 9
   issn: "2150-3443"
   index: ["EI"]
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   dblp: "https://dblp.org/rec/conf/bic-ta/LiuWWC15.html"
   tags: ["TSP", "TSPSuite", "logistics", "local_search", "or"]
 - key: "WWC2015LSFTTSPACS"
@@ -1029,7 +1029,7 @@
   year: 2015
   month: 6
   index: ["EI"]
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   rg: "282652534"
   dblp: "https://dblp.org/rec/conf/IEEEicci/WuWC15.html"
   tags: ["TSP", "TSPSuite", "logistics", "local_search", "benchmarking", "or"]
@@ -1081,7 +1081,7 @@
   month: 12
   issn: "2770-0097"
   index: ["EI"]
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   rg: "291831120"
   dblp: "https://dblp.org/rec/conf/cipls/JiangWLCA14.html"
   tags: ["TSP", "TSPSuite", "logistics", "local_search", "bab", "EAs", "MAs", "or"]
@@ -1123,7 +1123,7 @@
   if: 11.2
   index: ["SCIE", "EI"]
   issn: "1556-603X"
-  code: ["https://github.com/optimizationBenchmarking/tspSuite"]
+  code: ["/tspSuite"]
   rg: "263894831"
   dblp: "https://dblp.org/rec/journals/cim/WeiseCLTTCMY14.html"
   tags: ["TSP", "TSPSuite", "logistics", "local_search", "EAs", "MAs", "ACO", "EDAs", "FFA", "or"]

@@ -128,7 +128,7 @@ tsp:
   name: "TSP"
   full: "Traveling Salesperson Problem"
 tspsuite:
-  url: "https://github.com/optimizationBenchmarking/tspSuite"
+  url: "https://github.com/thomasWeise/tspSuite"
   name: "TSP&nbsp;Suite"
 ttp:
   url: "/research/areas/logistics#traveling-tournament-problemttp"
