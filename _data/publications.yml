@@ -61,7 +61,7 @@
   url: ["/assets/papers/ZWWW2026WFFAFTSIFGLS.pdf"]
   tags: ["FFA", "(1+1)EA", "local_search", "discrete_optimization", "bit_strings", "onemax", "twomax", "trap", "jump", "leadingones", "nqueens", "plateau", "ising1d", "ising2d", "wmodel", "labs", "moptipy", "python"]
   dblp: "https://dblp.org/rec/conf/gecco/ZengWWW26.html"
-- key: "LZTWW2026ETPOFFAWAGFSSIFTTSP"
+- key: "LWTWW2026ETPOFFAWAGFSSIFTTSP"
   authors: [ "liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas" ]
   title: "Exploring the Performance of Frequency Fitness Assignment with a Generator for Small-Scale Instances for the Traveling Salesperson Problem"
   type: "chapter"
