@@ -61,6 +61,19 @@
   url: ["/assets/papers/ZWWW2026WFFAFTSIFGLS.pdf"]
   tags: ["FFA", "(1+1)EA", "local_search", "discrete_optimization", "bit_strings", "onemax", "twomax", "trap", "jump", "leadingones", "nqueens", "plateau", "ising1d", "ising2d", "wmodel", "labs", "moptipy", "python"]
   dblp: "https://dblp.org/rec/conf/gecco/ZengWWW26.html"
+- key: "LZTWW2026ETPOFFAWAGFSSIFTTSP"
+  authors: [ "liang_tianyu", "wu_zhize", "thurer_matthias", "wagner_markus", "weise_thomas" ]
+  title: "Exploring the Performance of Frequency Fitness Assignment with a Generator for Small-Scale Instances for the Traveling Salesperson Problem"
+  type: "chapter"
+  editors: ["van_stein_niki", "marcelloni_francesco", "madani_kurosh", "filipe_joaquim"]
+  citation: "<em>16th&nbsp;International Joint Conference on Computational Intelligence&nbsp;(IJCCI'2024), November 20-22, 2024, Porto, Portugal, Revised Selected Papers,</em> volume&nbsp;1284 of Studies in Computational Intelligence&nbsp;(SCI), Cham, Switzerland:&nbsp;Springer, chapter&nbsp;1, pages&nbsp;3&ndash;28."
+  year: 2026
+  month: 7
+  issn: "1860-949X"
+  isbn: "978-3-032-22632-7"
+  doi: "10.1007/978-3-032-22633-4_1"
+  data: ["https://doi.org/10.5281/zenodo.13324196"]
+  tags: ["TSP", "logistics", "RLS", "FFA", "local_search", "combinatorial_optimization", "moptipy", "python", "or"]
 - key: "RWJFO2026SOFCAND"
   authors: ["raayatpanah_mohammad_ali", "weise_thomas", "elias_jocelyne", "martignon_fabio", "pimpinella_andrea"]
   title: "Scalable Optimization for Congestion-Aware NFV Deployment"
