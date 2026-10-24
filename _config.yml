@@ -25,10 +25,12 @@ author:
   name: "Thomas Weise (汤卫思)"
   avatar: /assets/images/avatar.png
   bio: "A professor at <a href='https://www.hfuu.edu.cn/english'>Hefei University</a>."
-  location: "Hefei, Anhui, China"
   email: "tweise@hfuu.edu.cn"
   github: "thomasWeise"
   links:
+    - url: "https://www.hefei.gov.cn/english"
+      label: "Hefei, Anhui, China"
+      icon: "fas fa-fw fa-location-dot icon-pad-right"
     - url: "https://orcid.org/0000-0002-9687-8509"
       label: "ORCID"
       icon: "ai ai-orcid ai-fw icon-pad-right"
