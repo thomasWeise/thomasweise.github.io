@@ -24,8 +24,8 @@ liquid:
 author:
   name: "Thomas Weise (汤卫思)"
   avatar: /assets/images/avatar.png
-  bio: "A professor at Hefei University."
-  location: "<a href='https://www.hefei.gov.cn/english'>Hefei, Anhui, China</a>"
+  bio: "A professor at <a href='https://www.hfuu.edu.cn/english'>Hefei University</a>."
+  location: "Hefei, Anhui, China"
   email: "tweise@hfuu.edu.cn"
   github: "thomasWeise"
   links:
