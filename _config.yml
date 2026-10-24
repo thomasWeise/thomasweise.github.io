@@ -25,9 +25,7 @@ author:
   name: "Thomas Weise (汤卫思)"
   avatar: /assets/images/avatar.png
   bio: "A professor at <a href='https://www.hfuu.edu.cn/english'>Hefei University</a>."
-  location:
-    label: "Hefei, Anhui, China"
-    url: "https://www.hefei.gov.cn/english"
+  location: "Hefei, Anhui, China"
   email: "tweise@hfuu.edu.cn"
   github: "thomasWeise"
   links:
