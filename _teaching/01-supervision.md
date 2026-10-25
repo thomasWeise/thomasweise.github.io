@@ -13,6 +13,10 @@ Here you can find a list of these students, together with the papers we publishe
 ## Current Students at Hefei University&nbsp;(<span lang="zh-Hans">合肥大学</span>)
 ### Master's Students at Hefei University
 
+#### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Ms. {% include person.liquid person="zhao_yuanyuan" no_links=true %}
+- Supervisor: {% include person.liquid person="weise_thomas" %}
+- Duration: 2026-2029
+
 #### {% assign student = student | plus: 1 -%}{{- student -}}.&nbsp;Ms. {% include person.liquid person="ding_yunfei" no_links=true %}
 - Topic: Material Flow Control
 - Supervisor: {% include person.liquid person="weise_thomas" %}
