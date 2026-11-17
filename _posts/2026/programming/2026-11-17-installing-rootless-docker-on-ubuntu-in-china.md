@@ -6,9 +6,10 @@ tags: ["linux", "bash", "docker"]
 toc: false
 ---
 
-Recently, I wanted to install [Docker](https://www.docker.com) to run some processes isolated from my [Ubuntu](https://ubuntu.com) 26.04.1&nbsp;LTS {% include taglink.liquid tag="linux" -%} system.
+Recently, I wanted to install [Docker](https://www.docker.com) to run some processes isolated from my [Ubuntu](https://ubuntu.com) 26.04.1&nbsp;LTS {% include taglink.liquid tag="linux" %} system.
+Here you can find the necessary commands that I used to do this in [*rootless mode*](https://docs.docker.com/engine/security/rootless) along with instructions how to use the domestic Chinese package repository and registry mirrors.
 
-I have no background in security, but it seemed a good idea to install it in [*rootless mode*](https://docs.docker.com/engine/security/rootless).
+I have no background in security, [*rootless mode*](https://docs.docker.com/engine/security/rootless) seems to be a good idea.
 This means that the Docker daemon and containers run as non-root users.
 If some process inside goes haywire and captures the container or even the daemon, at least it won't have root privileges.
 It can see and do what the normal user can see or do on my system, but it cannot really install packages or modify other protected parts of the system configuration.
