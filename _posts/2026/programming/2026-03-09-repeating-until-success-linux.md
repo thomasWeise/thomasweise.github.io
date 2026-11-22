@@ -25,7 +25,7 @@ It has three parameters:
    If you provide something, say `"/tmp/log"`, then the stdout and stderr of the first attempt to run the command goes to `"/tmp/log1.txt"`, for the second attempt, it goes `"/tmp/log2.txt"`, and so on.
 3. A delay between attempts.
    By default, it waits for 30&nbsp;seconds.
-   However, you can also specify a value such as `30m` for 30&nbsp;minuts.
+   However, you can also specify a value such as `30m` for 30&nbsp;minutes.
 
 Thus, you could try something like `tryForever.sh "wget https://thomasweise.github.io" "/tmp/log"` and it would try to download the website until it succeeds.
 Obviously, this script will loop forever for commands that cannot succeed.
