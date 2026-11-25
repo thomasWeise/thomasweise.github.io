@@ -2,9 +2,20 @@
 {%- assign caption=caption | strip | normalize_whitespace -%}
 {%- assign use_width=include.use_width | default: "100%" -%}
 {%- assign use_width=use_width | strip -%}
+{%- assign style="" -%}
+{%- if use_width!="" -%}
+    {%- assign style = "width=" | append: use_width -%}
+{%- endif -%}
 {%- assign id=include.id | default: "" -%}
+{%- assign border=include.border | default: "" -%}
+{%- if border != "" -%}
+    {%- if style!="" -%}
+        {%- assign style=style | append: ";" -%}
+    {%- endif -%}
+    {%- assign style=style | append: "border:2px solid black;border-radius:8px" -%}
+{%- endif -%}
 <figure class="imgFig"{%- if label != "" %} id="{{- label -}}"{%- endif -%}>
-    <img class="imgFigImg" src="{{- include.src -}}"{%- if caption != "" %} alt="{{- caption -}}"{%- endif -%}{%- if use_width!="" %} style="width={{- use_width -}}"{%- endif -%}>
+    <img class="imgFigImg" src="{{- include.src -}}"{%- if caption != "" %} alt="{{- caption -}}"{%- endif -%}{%- if style!="" %} style="{{- style -}}"{%- endif -%}>
     {%- if caption != "" -%}
         <figcaption class="imgCapt">
             {%- include image_link.liquid id=id img_put_as_label=true -%}&nbsp;{{- caption -}}
